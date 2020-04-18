@@ -1,0 +1,99 @@
+{{- define "main" -}}
+
+{{- if .Resources.GetMatch "cover-image" -}}
+<section class="relative block" style="height: 500px;">
+  <div
+    class="absolute top-0 w-full h-full bg-center bg-cover"
+    style='background-image: url({{ (.Resources.GetMatch "cover-image").Permalink }});'
+  >
+    <span
+      id="blackOverlay"
+      class="w-full h-full absolute opacity-50 bg-black"
+    ></span>
+  </div>
+  <div
+    class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+    style="height: 70px; transform: translateZ(0px);"
+  >
+    <svg
+      class="absolute bottom-0 overflow-hidden"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+      version="1.1"
+      viewBox="0 0 2560 100"
+      x="0"
+      y="0"
+    >
+      <polygon
+        class="text-gray-300 fill-current"
+        points="2560 0 2560 100 0 100"
+      ></polygon>
+    </svg>
+  </div>
+</section>
+{{- end -}}
+<section class="relative py-16 bg-gray-300">
+  <div class="container mx-auto px-4">
+    <div
+      class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg {{ if .Resources.GetMatch "cover-image" }}-mt-64{{ end }}"
+    >
+      <div class="px-6">
+        <div class="text-center mt-12">
+          <h1
+            class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
+          >
+            {{ .Title }}
+          </h1>
+          <div
+            class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold"
+          >
+            <i
+              class="far fa-calendar-alt mr-2 text-lg text-gray-500"
+            ></i>
+            <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="Date de publication">
+              {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }} à {{ .PublishDate.Format "15:04" }}
+            </time>
+            {{ if ne .PublishDate .Lastmod }}
+            <br>
+            <i
+              class="far fa-calendar-edit mr-2 mt-2 text-lg text-gray-500"
+            ></i>
+            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="Dernière mise à jour du contenu">
+              {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }} à {{ .Lastmod.Format "15:04" }}
+            </time>
+            {{ end }}
+          </div>
+          {{- if .Params.auteurs -}}
+          {{- $len := (len .Params.auteurs) -}}
+          <div class="mb-2 text-gray-700 mt-10">
+            <i class="far {{if gt (len .Params.auteurs) 1}}fa-users{{ else }}fa-user{{ end }} mr-2 text-lg text-gray-500"></i>
+            par&nbsp;
+            {{- range $index, $element := .Params.auteurs -}}
+            {{- with $.Site.GetPage "taxonomyTerm" (printf "auteurs/%s" (urlize $element)) -}}
+            {{- if and (gt $index 0) (eq (add $index 1) $len) -}}&nbsp;et&nbsp;{{- else if gt $index 0 -}},&nbsp;{{- end -}}
+            <a class="text-base leading-6 font-semibold text-teal-600 hover:text-teal-500 transition ease-in-out duration-150" href="{{ .Permalink }}">{{ .Params.name }}</a>
+            {{- end -}}
+            {{- end -}}
+          </div>
+          {{- end -}}
+          {{- if (and (index .Aliases 0) .Params.publication_id) -}}
+          {{- $aliasAbsoluteUrl := (index .Aliases 0) | absURL -}}
+          <div class="mb-2 text-gray-700">
+            <i class="far fa-link mr-2 text-lg text-gray-500"></i>
+            Référence et lien court: <a href="{{ $aliasAbsoluteUrl }}" class="text-base leading-6 font-semibold text-teal-600 hover:text-teal-500 transition ease-in-out duration-150">{{ .Params.publication_id }}</a>
+          </div>
+          {{- end -}}
+        </div>
+        <div class="mt-10 py-10 border-t border-gray-300 text-center">
+          <div class="flex flex-wrap justify-center">
+            <div class="w-full lg:w-9/12 px-4 readable">
+              {{ .Content | emojify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- end -}}
