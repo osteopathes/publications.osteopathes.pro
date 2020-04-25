@@ -20,7 +20,7 @@ export function remove_google_tag_manager (uatag) {
     `_gac_gtag_${uatag.replace(/-/g, '_')}`,
     `_dc_gtm_${uatag.replace(/-/g, '_')}`
   ].map((name) => {
-    CookieMgmt.delete_cookie(name)
+    delete_cookie(name)
   })
 }
 
