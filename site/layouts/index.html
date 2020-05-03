@@ -14,7 +14,7 @@
       </p>
     </div>
     <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-      {{- $paginator := .Paginate (where $.Site.RegularPages.ByPublishDate "Section" "in" (slice "actualites" "articles" "dossiers")) 9 -}}
+      {{- $paginator := .Paginate (where $.Site.RegularPages.ByPublishDate.Reverse "Section" "in" (slice "actualites" "articles" "dossiers")) 9 -}}
       {{- range $paginator.Pages -}}
         {{- .Render "home-vertical-card" -}}
       {{- end -}}

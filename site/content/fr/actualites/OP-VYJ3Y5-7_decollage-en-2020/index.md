@@ -1,6 +1,6 @@
 ---
 title: '3, 2, 1, Décollage !'
-date: 2020-04-13T08:20:21Z
+date: 2020-04-25T08:20:21Z
 draft: false
 slug: 3-2-1-decollage
 resources:
@@ -39,7 +39,7 @@ publications, sous divers formats:
 
 2019 fut l'année de la refonte complète de la [démographie des ostéopathes](https://www.osteopathes.pro/fr/cartographie) pour 2020 et les années futures.
 Si cela vous intéresse, vous pouvez découvrir notre dossier complet
-sur la [démographie des ostéopthes]({{< ref "/dossiers/demographie/OP-D5FRWL-1_osteopathes" >}})
+sur la [démographie des ostéopathes]({{< ref "/dossiers/demographie/OP-D5FRWL-1_osteopathes" >}})
 et nos [analyses pour l'année 2020]({{< ref "/dossiers/demographie/OP-HG1A50-4_osteopathes-maj-2020" >}}).
 
 

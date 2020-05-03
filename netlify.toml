@@ -7,8 +7,12 @@
   command = "npm run build"
   publish = "dist"
 
+[build.processing.images]
+  compress = true
+
 [context.deploy-preview]
   command = "npm run build:preview"
 
 [context.production.environment]
   HUGO_ENV = "production"
+  DEPLOY_PRIME_URL = "https://publications.osteopathes.pro/"

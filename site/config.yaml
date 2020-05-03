@@ -38,7 +38,7 @@ languages:
     permalinks:
       actualites: /fr/:sections/:year/:month/:slug
       articles: /fr/:sections/:year/:month/:slug
-      dossiers: /fr/:sections/:title
+      dossiers: /fr/:sections/:slug
 
     taxonomies:
       auteur: "auteurs"
