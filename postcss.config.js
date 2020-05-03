@@ -29,7 +29,7 @@ module.exports = ctx => ({
         extensions: ['html', 'md']
       }],
       fontFace: false,
-      whitelistPatterns: [/^cc-.*$/],
+      whitelistPatterns: [/^cc-.*$/, /^readable.*$/],
       whitelist: [],
     } : false,
     autoprefixer: {},
