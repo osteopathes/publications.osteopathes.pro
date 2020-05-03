@@ -112,7 +112,7 @@ This is an <abbr title="abbreviation">abbr</abbr> text.
 
 ## Images
 
-![Image alt text](http://placekitten.com/480/480 "Some image caption")
+![Image alt text](https://placekitten.com/480/480 "Some image caption")
 
 <img alt="some cat" src="http://placekitten.com/120/120" class="float-right">
 With some text after the image. We expect the image to be surrounded by

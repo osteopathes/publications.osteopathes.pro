@@ -2,7 +2,7 @@
 title: 'Démographie des ostéopathes'
 date: 2020-04-18T09:00:00Z
 draft: false
-slug: osteopathes
+slug: demographie-osteopathes
 resources:
   - name: cover-image
     src: courbes-bleues.jpg
