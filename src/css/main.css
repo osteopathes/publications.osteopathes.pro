@@ -17,6 +17,7 @@
   height: 25rem;
 }
 
+/* purgecss start ignore */
 .readable {
   text-rendering: optimizeLegibility !important;
   @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased text-justify;
@@ -265,6 +266,7 @@
 .footnotes {
   @apply my-10;
 }
+/* purgecss end ignore */
 
 /* Buttons */
 
