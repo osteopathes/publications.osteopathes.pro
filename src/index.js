@@ -56,7 +56,7 @@ window.addEventListener('load', function () {
     content: {
       message: 'Ce site utilise des cookies nécessaires à son fonctionnement ' +
       "ainsi que des cookies optionnels pour l'analyse d'audience et la personnalisation " +
-      '(du site, du contenu, des publicités). Si vous souhaitez ' +
+      '(du site, du contenu, des publicités, de l\'aide). Si vous souhaitez ' +
       "obtenir plus d'informations et gérer vos préférences, consultez notre ",
       dismiss: "C'est noté !",
       deny: 'Refuser',

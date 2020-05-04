@@ -20,7 +20,7 @@
 /*! purgecss start ignore */
 .readable {
   text-rendering: optimizeLegibility !important;
-  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased text-justify;
+  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased text-left;
 }
 
 .readable-title {
