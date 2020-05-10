@@ -1,8 +1,8 @@
 ---
-title: 'Arnaques et escroqueries'
+title: 'Arnaques et escroqueries contre les ostéopathes'
 date: 2020-05-10T08:20:21Z
 draft: false
-slug: arnaques-et-escroqueries
+slug: arnaques-et-escroqueries-contre-osteopathes
 
 resources:
   - name: cover-image
@@ -18,10 +18,10 @@ auteurs:
 ---
 
 Nous répertorions dans ce dossier les arnaques et escroqueries les plus
-courante pratiquées envers les ostéopathes.
+courantes pratiquées envers les ostéopathes.
 
 Nous rappelons également quelques bonnes habitudes et conseils pour éviter
-de tomber dans les pièges.
+de tomber dans leurs pièges.
 
 N'hésitez pas à nos contacter si vous remarquez de nouvelles stratégies pour
 que nous les ajoutions à la liste.
