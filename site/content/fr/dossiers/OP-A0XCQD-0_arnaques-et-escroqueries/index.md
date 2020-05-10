@@ -1,8 +1,8 @@
 ---
-title: 'Arnaques et escroqueries contre les ostéopathes'
+title: 'Arnaques et escroqueries: comment les reconnaître et réagir'
 date: 2020-05-10T08:20:21Z
 draft: false
-slug: arnaques-et-escroqueries-contre-osteopathes
+slug: arnaques-et-escroqueries-comment-les-reconnaitre-et-reagir
 
 resources:
   - name: cover-image
