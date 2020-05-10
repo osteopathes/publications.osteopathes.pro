@@ -88,7 +88,11 @@
   {{- end -}}
   {{- end -}}
   {{- end }}
-  "description": "{{ .Description }}"
+  {{- if .Description -}}
+  "description": "{{ .Description | plainify | htmlUnescape | replaceRE "\\s+" " " }}"
+  {{- else if .Summary -}}
+  "description": "{{ .Summary | plainify | htmlUnescape | replaceRE "\\s+" " " }}"
+  {{- end -}}
 }
 </script>
 {{- end }}

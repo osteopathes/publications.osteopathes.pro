@@ -1,0 +1,39 @@
+{{- if .IsHome -}}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="Publications concernant l'ostéopathie, la recherche clinique, le numérique, les nouvelles technologies et les actualités du site ostéopathes.pro">
+
+  <meta property="twitter:url" content="{{ .Permalink }}">
+  <meta property="twitter:title" content="{{ .Title }}">
+  <meta property="twitter:description" content="Publications concernant l'ostéopathie, la recherche clinique, le numérique, les nouvelles technologies et les actualités du site ostéopathes.pro">
+  <meta property="twitter:card" content="summary">
+
+{{- else if .IsPage -}}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ .Title }}">
+  {{- if .Description -}}
+  <meta property="og:description" content="{{ .Description | plainify | htmlUnescape | replaceRE "\\s+" " " }}">
+  {{- else if .Summary -}}
+  <meta property="og:description" content="{{ .Summary | plainify | htmlUnescape | replaceRE "\\s+" " " }}">
+  {{- end -}}
+  {{- if .Resources.GetMatch "cover-image" -}}
+  <meta property="og:image" content="{{- (.Resources.GetMatch "cover-image").Permalink -}}">
+  {{- end -}}
+
+  <meta property="twitter:url" content="{{ .Permalink }}">
+  <meta property="twitter:title" content="{{ .Title }}">
+  {{- if .Description -}}
+  <meta property="twitter:description" content="{{ .Description | plainify | htmlUnescape | replaceRE "\\s+" " " }}">
+  {{- else if .Summary -}}
+  <meta property="twitter:description" content="{{ .Summary | plainify | htmlUnescape | replaceRE "\\s+" " " }}">
+  {{- end -}}
+  {{- if .Resources.GetMatch "cover-image" -}}
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="{{- (.Resources.GetMatch "cover-image").Permalink -}}">
+  {{- else -}}
+  <meta property="twitter:card" content="summary">
+  {{- end -}}
+
+{{- end }}
