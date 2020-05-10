@@ -2,7 +2,7 @@
 title: 'Arnaques et escroqueries'
 date: 2020-05-10T08:20:21Z
 draft: false
-slug: arnaques-et-escroqueries-aux-osteopathes
+slug: arnaques-et-escroqueries
 
 resources:
   - name: cover-image

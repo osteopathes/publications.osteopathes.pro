@@ -1,6 +1,6 @@
 ---
 title: 'Mentions Légales'
-date: 2019-11-29T20:36:21Z
+date: 2019-04-05T20:36:21Z
 draft: false
 ---
 
