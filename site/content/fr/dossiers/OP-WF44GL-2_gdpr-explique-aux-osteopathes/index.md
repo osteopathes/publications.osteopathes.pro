@@ -1,7 +1,7 @@
 ---
 title: 'Le RGPD expliqué aux ostéopathes'
 date: 2020-05-20T08:20:21Z
-draft: true
+draft: false
 slug: le-rgpd-explique-aux-osteopathes
 
 resources:

@@ -134,7 +134,8 @@ On y retrouve donc:
  - **Registre d'accessibilité**: c'est gratuit et il n'est pas nécessaire
    de recourir à une agence externe.
  - **Mise en conformité avec le RGPD (GDPR en anglais) ou avec la CNIL**: là
-   aussi, il n'y a rien de payant.
+   aussi, il n'y a rien de payant. N'hésitez pas à lire
+   [notre dossier GDPR pour les ostéos]({{< ref "/dossiers/OP-WF44GL-2_gdpr-explique-aux-osteopathes" >}})
 
 Puis on y trouve des arnaques liées à votre activité libérale:
 
