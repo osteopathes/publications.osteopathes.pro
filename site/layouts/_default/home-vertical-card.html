@@ -46,7 +46,11 @@
             &middot;
           </span>
           <span>
-            {{ .ReadingTime }} minute(s)
+            {{- if eq .ReadingTime 1 -}}
+            {{ .ReadingTime }} minute
+            {{- else -}}
+            {{ .ReadingTime }} minutes
+            {{- end -}}
           </span>
         </div>
       </div>

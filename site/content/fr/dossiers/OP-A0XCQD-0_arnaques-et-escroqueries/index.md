@@ -17,10 +17,13 @@ auteurs:
 
 ---
 
-Ce dossier nous sert à répertorier les arnaques et escroqueries les plus
+Nous répertorions dans ce dossier les arnaques et escroqueries les plus
 courante pratiquées envers les ostéopathes.
 
-N'hésitez pas à nos contacter si vous remarquez de nouvelles techniques pour
+Nous rappelons également quelques bonnes habitudes et conseils pour éviter
+de tomber dans les pièges.
+
+N'hésitez pas à nos contacter si vous remarquez de nouvelles stratégies pour
 que nous les ajoutions à la liste.
 
 <!--more-->
@@ -123,17 +126,21 @@ Les mêmes règles de prudence s'appliquent et peuvent vous permettre d'analyser
 
 ## Types d'arnaques
 
-Les arnaques les plus courantes sont souvent associées à des changements de législation.
+Les arnaques les plus courantes sont souvent associées à des changements de
+législation ou à l'actualité.
 
 On y retrouve donc:
 
- - Registre d'accessibilité
- - Mise en conformité avec la loi européene RGPD / GDPR ou pour la CNIL.
+ - **Registre d'accessibilité**: c'est gratuit et il n'est pas nécessaire
+   de recourir à une agence externe.
+ - **Mise en conformité avec le RGPD (GDPR en anglais) ou avec la CNIL**: là
+   aussi, il n'y a rien de payant.
 
 Puis on y trouve des arnaques liées à votre activité libérale:
 
- - Faux annuaires (type pages jaunes)
- - Fausses inscriptions dans divers registres (qui semblent officiels, type INSEE)
+ - Faux annuaires (type pages jaunes) avec frais exorbitants, souvent gratuits
+   les premiers mois
+ - Fausses inscriptions dans divers registres (qui semble officiels, type INSEE)
  - Faux courrier d'instances gouvernementales (faux courrier URSSAF)
 
 Certaines situation ne sont pas des arnaques à proprement parler mais nécessiteront
@@ -173,11 +180,11 @@ ils pourront vous renseigner.
 
 ## Une dernière chose
 Évidemment, il est conseillé de ne pas donner suite à ce type de sollicitations.
-S'il s'agit d'une communication officielle, vous recevrez sûrement des relances
+S'il s'agit d'une communication officielle importante, vous recevrez sûrement des relances
 et des courriers avec accusé de réception.
 
 N'oubliez pas de nous envoyer vos cas douteux et nous les ajouterons à la liste.
 
-Soyez prudent-e-s et n’hésitez pas à nous contacter ou à contacter une
+Soyez prudent-e-s et n’hésitez pas à [nous contacter](mailto:bonjour@osteopathes.pro) ou à contacter une
 <abbr title="Associations Socio-Professionnelles">ASP</abbr>
 si vous avez des doutes ou des questions.
