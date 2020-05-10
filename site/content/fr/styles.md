@@ -114,14 +114,14 @@ This is an <abbr title="abbreviation">abbr</abbr> text.
 
 ![Image alt text](https://placekitten.com/480/480 "Some image caption")
 
-<img alt="some cat" src="http://placekitten.com/120/120" class="float-right">
+<img alt="some cat" src="https://placekitten.com/120/120" class="float-right">
 With some text after the image. We expect the image to be surrounded by
 this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Aliquam ultricies est ut mauris pharetra posuere. Suspendisse consequat
 ante nec egestas dapibus. Ut velit magna, rutrum quis malesuada sed,
 faucibus a mi. Donec mollis volutpat ipsum sit amet viverra.
 
-<img alt="some cat" src="http://placekitten.com/120/120" class="float-left"> Aliquam erat volutpat. Quisque eget tempus eros, ac porttitor urna. Praesent ligula nunc, cursus ut nisl et, molestie faucibus ligula. Duis vel urna a eros accumsan mattis. Nam fermentum porta mauris, at mattis orci gravida dictum.
+<img alt="some cat" src="https://placekitten.com/120/120" class="float-left"> Aliquam erat volutpat. Quisque eget tempus eros, ac porttitor urna. Praesent ligula nunc, cursus ut nisl et, molestie faucibus ligula. Duis vel urna a eros accumsan mattis. Nam fermentum porta mauris, at mattis orci gravida dictum.
 
 Aliquam dictum libero vel augue vehicula, et lobortis justo commodo. Vivamus fringilla laoreet arcu in tempor. Aliquam pellentesque diam et rhoncus dictum. Nam vitae aliquam dui. Donec blandit interdum leo. Ut arcu augue, tristique id nisi a, tempus placerat dui. Maecenas cursus dignissim mauris, at gravida sem dapibus non. Nunc pharetra sed lacus ac dictum.
 
