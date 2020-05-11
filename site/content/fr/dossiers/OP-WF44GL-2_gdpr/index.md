@@ -56,8 +56,9 @@ sont nécessaires à notre pratique et il n’est donc pas nécessaire de demand
 une autorisation explicite au patient.
 
 Par contre, si vous souhaitez **partager des dossiers patients avec
-d’autres praticien-ne-s**, faire des statistique, ou **toute autre utilisation
-qui sort du simple cadre de la consultation**, il vous faudra demander
+d’autres praticien-ne-s**, faire des statistique, **envoyer des emails ou des
+SMS au sujet de votre cabinet** ou toute autre utilisation
+qui sort du simple cadre de la consultation, il vous faudra demander
 une autorisation explicite et éclairée du patient (dans l’idéal
 sous forme écrite). **Autre point important** sur lequel le texte insiste:
 il est aussi simple de retirer que de donner son consentement et ce retrait
