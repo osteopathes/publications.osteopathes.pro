@@ -22,7 +22,9 @@
   <meta name="theme-color" content="#38B2AC">
   <meta name="msapplication-TileColor" content="#38B2AC">
   <meta name="msapplication-TileImage" content="/imgs/favicons/mstile-144x144.png">
-  {{- partial "site-schema.html" . -}}
+  <script type="application/ld+json">
+  {{- partial "site-schema.html" . | safeJS -}}
+  </script>
   {{- partial "social-meta.html" . -}}
 </head>
 <body class="bg-gray-50 font-sans leading-normal tracking-normal">

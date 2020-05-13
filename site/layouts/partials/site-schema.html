@@ -1,5 +1,4 @@
 {{- if .IsHome -}}
-<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "WebSite",
@@ -24,7 +23,6 @@
   {{- end }}
   "name": "{{ .Site.Title }}"
 }
-</script>
 {{/*
   "potentialAction": {
     "@type": "SearchAction",
@@ -32,7 +30,6 @@
     "query-input": "required"
   } */}}
 {{- else if .IsPage -}}
-<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
@@ -94,5 +91,4 @@
   "description": "{{ .Summary | plainify | htmlUnescape | replaceRE "\\s+" " " }}"
   {{- end -}}
 }
-</script>
 {{- end }}

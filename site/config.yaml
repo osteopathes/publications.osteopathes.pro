@@ -5,7 +5,7 @@ languageCode: "fr"
 copyright: "Cette œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International. https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 author:
-  name: "Auteurs d'Ostéopathes.pro"
+  name: "Auteurs d'ostéopathes.pro"
 
 markup:
   goldmark:
@@ -31,13 +31,13 @@ frontmatter:
 params:
   description: "Articles et dossiers sur l'ostéopathie en général et les nouveautés du site osteopathes.pro."
   editeur:
-    name: "Osteopathes.pro"
+    name: "osteopathes.pro"
 
 languages:
   fr:
     contentDir: content/fr
     languageName: Français
-    title: "Ostéopathes.pro – Publications"
+    title: "osteopathes.pro – Publications"
     weight: 1
 
     permalinks:

@@ -138,7 +138,7 @@ Attention aussi à l’utilisation de smartphones: si vos données de cabinet
 sont dessus, il faut aussi penser à protéger votre smartphone pour ne pas
 qu’il fuite de données privées en cas de perte ou de vol.
 
-### Quid du partage avec des replaçant-e-s et du stockage en ligne
+### Quid du partage avec des remplaçant-e-s et du stockage en ligne
 Dans le cadre des communications en ligne, les dossiers patients sont
 normalement soumis, comme tout secret professionel, à une obligation de
 secret. C’est pourquoi la transmission de données personnelles doit toujours
@@ -158,7 +158,7 @@ Si vous êtes dans un cabinet pluri-praticien-e-s, ils vous faudra afficher
 et préciser aux patient-e-s que leur dossier peut être partagé avec
 d’autres praticien-ne-s, leur format (papier/informatique) et qu’ils/elles
 peuvent s’y opposer. Évidemment, dans ce cas, il vous faudra prévoir
-un casier ou un dossier auquel vous êtes le/la seul-e à avoir accès.
+un casier ou un dossier auquel vous êtes le seul ou la seule à avoir accès.
 
 ## Conclusion
 L’arrivée du RGPD est un changement majeur pour de nombreuses organisations

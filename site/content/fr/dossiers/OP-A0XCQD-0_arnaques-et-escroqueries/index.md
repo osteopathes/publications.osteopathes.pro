@@ -190,7 +190,7 @@ Malheureusement, c'est souvent dans ce cas qu'il faut être le plus ferme et ne
 pas se laisser faire. Certaines sociétés iront très loin en terme d'intimidation
 et de pression pour vous extorquer de l'argent. Là aussi, le maître mot est le calme
 et la prudence. Demandez une plaquette, un document commercial ou une
-carte de visite et dites que c'est vous qui les recontacterez si vous êtes intéressé-e.
+carte de visite et dites que c'est vous qui les recontacterez si cela vous intéresse.
 
 Surtout, ne prenez aucune décision si vous sentez qu'on vous force la main. Certaines
 sociétés peuvent vous envoyer plusieurs personnes pour être en supériorité
@@ -204,6 +204,7 @@ sûrement des relances et des courriers avec accusé de réception.
 
 N'oubliez pas de nous envoyer vos cas douteux et nous les ajouterons à notre liste.
 
-Soyez prudent-e-s et n’hésitez pas à [nous contacter](mailto:bonjour@osteopathes.pro)
+Soyez prudents et prudentes et n’hésitez pas à
+[nous contacter](mailto:bonjour@osteopathes.pro)
 ou à contacter une <abbr title="Associations Socio-Professionnelles">ASP</abbr>
 si vous avez des doutes ou des questions.
