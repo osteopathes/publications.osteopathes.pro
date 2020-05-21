@@ -3,7 +3,7 @@ title: 'Mise à jour 2020 – Démographie des ostéopathes'
 date: 2020-04-18T10:00:00Z
 lastmod: 2020-05-09T22:00:00Z
 draft: false
-slug: demographie-ostéopathes-en-2020
+slug: demographie-osteopathes-en-2020
 resources:
   - name: cover-image
     src: courbes-bleues.jpg
