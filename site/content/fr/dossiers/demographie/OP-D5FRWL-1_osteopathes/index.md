@@ -18,8 +18,8 @@ auteurs:
 
 ---
 
-En 2019 nous avons commencé à publier une démographie des ostéopathes
-en France d'après le web.
+En 2019 nous avons commencé à publier une carte de la démographie des ostéopathes en
+France d'après le web.
 Dès la première année, nous avons reçu un nombre croissant de visites et nous
 avons décidé de poursuivre en publiant les données démographiques actualisées
 chaque année.
@@ -29,18 +29,18 @@ démographiques au fil des ans.
 
 <!--more-->
 
+> Si vous ne la connaissez pas déjà, découvrez notre carte interactive de la
+> [démographie des ostéopathes en France](https://www.osteopathes.pro/fr/cartographie) dès maintenant.
+
 ## Comment recenser tous les ostéopathes ?
 Cette question s'est rapidement posée lorsque nous avons entrepris ce projet.
 Le plus simple aurait était de récupérer les données ADELI mais après de multiples
 tentatives infructueuses et des discussion avec d'autres confrères,
 nous avons découvert que le répertoire n'est pas exact non plus.
 
-> **Note**: Le répertoire ADELI est le répertoire dans lequel doivent s'enregistrer
-tous les ostéopathes souhaitant exercer.
-
-En effet, le répertoire ADELI exige que les nouveaux praticiens s'y enregistrent
-mais les personnes qui changent d'activité ou partent en retraite par exemple
-ne sont jamais supprimées du registre.
+Ce répertoire est obligatoire pour tout ostéopathe souhaitant exercer.
+Malheureusement, les personnes qui changent d'activité ou qui partent en retraite
+par exemple, ne sont jamais supprimées du registre.
 
 En attendant de pouvoir récupérer les données du registre ADELI, nous avons pris
 le parti d'utiliser les données publiques d'Internet pour faire une estimation
@@ -57,6 +57,13 @@ Il nous a fallu cependant nettoyer les données de plusieurs façons:
  - supprimer au maximum les doublons pour éviter les double-comptages
  - exclure les ostéopathes non-exclusifs en croisant avec la base publique
    des professionnels de santé et s'ils acceptaient la carte vitale
+
+Il reste bien entendu des défauts:
+
+ - certains cabinets pluri-praticiens ne nous permettent pas de savoir
+   exactement combien de personnes y exercent.
+ - les délais entre la réalité et la mise à jour d'Internet peuvent mettre
+   plusieurs mois à être pris en compte
 
 ## Rendre les données utilisables par tous
 Ce premier dataset étant obtenu, il a fallu les rendre visibles et utilisables
@@ -77,8 +84,8 @@ trouverez qu'il est possible d'activer une zone d'effet de 5km, 10km, 15km ou
 20km au niveau des communes pour avoir une visualisation plus précise.
 
 ## Première mise en ligne et retours
-Cette première version fut mise en ligne le 18 mars 2019 et fut publiquement
-diffusée à partir du 4 avril 2019.
+Cette première version de la carte démographique fut mise en ligne le
+18 mars 2019 et fut publiquement diffusée à partir du 4 avril 2019.
 
 De nombreuses personnes nous ont fait des retours que nous avons souhaité
 améliorer pour 2020:
@@ -101,5 +108,5 @@ Pour les prochaines années, nous pourrons ajouter assez facilement de nouvelles
 données annuelles et de nouvelles sources. Bien entendu, n'hésitez pas à nous
 contacter et à vos faire vos retours pour que la cartographie s'améliore.
 
-> Analyses annuelles
+> **Analyses annuelles**
 >  - [Démographie des ostéopathes 2020]({{< ref "/dossiers/demographie/OP-HG1A50-4_osteopathes-maj-2020" >}})

@@ -20,7 +20,7 @@
 /*! purgecss start ignore */
 .readable {
   text-rendering: optimizeLegibility !important;
-  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased text-left;
+  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased;
 }
 
 .readable-title {
@@ -45,17 +45,24 @@
   @apply my-3;
 }
 
-.readable a {
+.readable a,
+.prose a {
   @apply cursor-pointer p-0 border-b border-gray-400 font-medium;
   box-shadow: 0 -3px 0 theme('colors.gray.400') inset;
 }
 
-.readable a.unstyle {
+.prose a[rel*="external"]::after {
+  content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%239fa6b2'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+}
+
+.readable a.unstyle,
+.prose a.unstyle {
   @apply p-0 border-0 font-normal;
   box-shadow: none;
 }
 
-.readable a:hover {
+.readable a:hover,
+.prose a:hover {
   @apply border-teal-400 text-teal-600;
   box-shadow: 0 -3px 0 theme('colors.teal.400') inset;
 }
@@ -64,16 +71,21 @@
   box-shadow: none;
 }
 
-.readable sup.footnote-ref a:before {
-  content: "[note:";
+.readable a.footnote-ref:before,
+.prose a.footnote-ref:before {
+  content: "[";
 }
 
-.readable sup.footnote-ref a:after {
+
+.readable a.footnote-ref:after,
+.prose a.footnote-ref:after {
   content: "]";
 }
 
-.readable sup.footnote-ref a {
-  @apply ml-1 pb-0 border-b-2 my-1;
+.readable a.footnote-ref,
+.prose a.footnote-ref {
+  @apply ml-1 pb-0 border-b my-1;
+  box-shadow: none;
 }
 
 .readable em {
@@ -92,7 +104,9 @@
   @apply text-sm;
 }
 
-.readable abbr {
+.readable abbr[title],
+.prose abbr[title],
+abbr[title] {
   @apply no-underline border-b border-dotted;
   cursor: help;
 }

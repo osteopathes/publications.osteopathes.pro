@@ -1,11 +1,5 @@
 const path = require('path')
 
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[\w-/.:]+(?<!:)/g) || []
-  }
-}
-
 module.exports = ctx => ({
   plugins: {
     "postcss-import": {},
@@ -18,20 +12,6 @@ module.exports = ctx => ({
         "focus-within-pseudo-class": false
       }
     },
-    '@fullhuman/postcss-purgecss': ctx.env === 'production' ? {
-      content: [
-        'site/layouts/**/*.html',
-        'site/content/**/*.md',
-      ],
-      extractors: [
-      {
-        extractor: TailwindExtractor,
-        extensions: ['html', 'md']
-      }],
-      fontFace: false,
-      whitelistPatterns: [/^cc-.*$/, /^readable.*$/],
-      whitelist: [],
-    } : false,
     autoprefixer: {},
   }
 })
