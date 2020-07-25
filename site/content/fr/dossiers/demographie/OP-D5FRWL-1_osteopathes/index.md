@@ -1,6 +1,7 @@
 ---
 title: 'Démographie des ostéopathes'
 date: 2020-04-18T09:00:00Z
+lastmod: 2020-06-13T11:14:13Z
 draft: false
 slug: demographie-osteopathes
 resources:
@@ -36,6 +37,10 @@ nous avons découvert que le répertoire n'est pas exact non plus.
 
 > **Note**: Le répertoire ADELI est le répertoire dans lequel doivent s'enregistrer
 tous les ostéopathes souhaitant exercer.
+
+En effet, le répertoire ADELI exige que les nouveaux praticiens s'y enregistrent
+mais les personnes qui changent d'activité ou partent en retraite par exemple
+ne sont jamais supprimées du registre.
 
 En attendant de pouvoir récupérer les données du registre ADELI, nous avons pris
 le parti d'utiliser les données publiques d'Internet pour faire une estimation

@@ -99,7 +99,7 @@ var tablesList = document.querySelectorAll("table")
 tablesList.forEach(function(tableItem) {
   var parent = tableItem.parentNode
   var wrapper = document.createElement("div")
-  wrapper.className = "overflow-scroll"
+  wrapper.className = "overflow-scroll align-middle inline-block min-w-full shadow sm:rounded-lg border-b border-gray-200"
   parent.insertBefore(wrapper, tableItem)
   wrapper.appendChild(tableItem)
 })

@@ -34,11 +34,11 @@ function check_op_id_validity(opid) {
   var ckval = opid.replace(/^OP-[0-9A-Za-z]{6}-/, "")
   var cksum = calculate_checksum(value)
 
-  return cksum === ckval
+  return cksum === parseInt(ckval)
 }
 
 var opid = generate_op_id(6)
 
-console.log("Osteopathes.pro publication ID: " + opid)
-console.log("Check publication ID validity: " + check_op_id_validity(opid))
+console.log(`Osteopathes.pro publication ID: ${opid}`)
+console.log(`Check publication ID validity: ${check_op_id_validity(opid)}`)
 
