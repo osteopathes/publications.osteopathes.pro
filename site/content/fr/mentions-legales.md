@@ -47,6 +47,10 @@ Le contenu mis à disposition sur le site est fourni à titre informatif. L’ex
 
 Il appartient à l’internaute d’utiliser ces informations avec discernement et esprit critique. La responsabilité de osteopathes.pro ne saurait être engagée du fait aux informations, opinions et recommandations formulées disponibles sur le site, et ce, quelles que soit leur nature.
 
+Les conseils fournis sur ce site ne sauraient se substituer à la consultation
+d'un expert ou d'une experte. Nous ne pourrons être tenus responsable d'aucun
+litige lié aux informations données sur ce site.
+
 Les commentaires et messages publiés engagent uniquement la responsabilité de leurs auteurs respectifs.
 
 ## Licences, droits de reproduction

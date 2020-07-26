@@ -1,5 +1,17 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
+class TailwindExtractor {
+  static extract(content) {
+    // Capture as liberally as possible, including things like `h-(screen-1.5)`
+    const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || []
+
+    // Capture classes within other delimiters like .block(class="w-1/2") in Pug
+    const innerMatches = content.match(/[^<>"'`\s.()]*[^<>"'`\s.():]/g) || []
+
+    return broadMatches.concat(innerMatches)
+  }
+}
+
 module.exports = {
   theme: {
     extend: {
@@ -381,10 +393,58 @@ module.exports = {
           "900": "#1F2933"
         }
       }
+    },
+    typography: {
+      default: {
+        css: {
+          a: {
+            color: defaultTheme.colors.gray[700],
+            textDecoration: '',
+            '&:hover': {
+              color: defaultTheme.colors.teal[600],
+            },
+          },
+          blockquote: {
+            fontWeight: '500',
+            fontStyle: 'italic',
+            color: defaultTheme.colors.gray[900],
+            borderLeftWidth: '0.25rem',
+            borderLeftColor: defaultTheme.colors.teal[300],
+            quotes: '',
+          },
+          'blockquote p:first-of-type::before': {
+            content: '',
+          },
+          'blockquote p:last-of-type::after': {
+            content: '',
+          },
+        }
+      }
+    }
+  },
+  purge: {
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      'site/layouts/**/*.html',
+      'site/content/**/*.md',
+    ],
+    options: {
+      extractors: [
+        {
+          extractor: TailwindExtractor.extract,
+          extensions: ['html', 'md']
+        },
+      ],
+      defaultExtractor: TailwindExtractor.extract,
+      fontFace: false,
+      whitelistPatterns: [/^cc-.*/, /readable.*/, /prose.*/],
+      whitelistPatternsChildren: [/readable/, /prose/],
+      whitelist: ['abbr'],
     }
   },
   variants: {},
   plugins: [
     require('@tailwindcss/ui')(),
+    require('@tailwindcss/typography'),
   ],
 }

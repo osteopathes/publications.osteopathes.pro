@@ -38,7 +38,7 @@ ou de médecins.
 Cette année, en janvier 2020 donc, nous avons recensé 25&nbsp;120 ostéopathes
 soit **6,9% de plus** (1&nbsp;636). La
 [<abbr title="Compagnie des Experts Judiciaires Ostéopathes Exclusifs">CEJOE</abbr>
-a publié la démographie pour décembre 2019](https://cejoe.org/demographie-des-porteurs-du-titre-dosteopathe-demographie-des-experts-judiciaires-osteopathes-analyse-et-perspectives-decembre-2019/) et annonçait 33&nbsp188 porteurs
+a publié la démographie pour décembre 2019](https://cejoe.org/demographie-des-porteurs-du-titre-dosteopathe-demographie-des-experts-judiciaires-osteopathes-analyse-et-perspectives-decembre-2019/) et annonçait 33&nbsp;188 porteurs
 du titre d'ostéopathe dans le répertoire ADELI, ce qui ramène notre différence
 à 8&nbsp;068 ostéopathes. Comme en janvier 2019, notre différence peut
 s'expliquer par le fait que nous excluons les cabinets de médecins ou
@@ -49,6 +49,9 @@ La croissance des professionnels entre 2019 et 2020 dans le fichier ADELI est de
 5,112%. La notre s'élève à 6,9%, probablement par notre plus faible nombre de
 praticiens ce qui donne un rapport absolu plus élevé de croissance.
 
+Découvrez ces chiffres sur notre
+[carte interactive de la démographie des ostéopathes](https://www.osteopathes.pro/fr/cartographie) dès maintenant !
+
 ## Plans pour la suite de l'année
 D'ici la fin de l'année nous espérons pouvoir ajouter le répertoire ADELI et
 faire du recoupement d'informations pour améliorer leur fiabilité.
@@ -57,12 +60,14 @@ Nous réfléchissons également à rajouter d'autres professions pour rendre la
 cartographie la plus réaliste possible par rapport au terrain.
 
 ## Modifications de l'article
-> Modification 2020/05/03: Grâce à certains et certaines d'entre vous, nous avons pu
-> améliorer notre détection de doublons et avons ainsi pu améliorer la précision.
+
+> **Modification 2020/05/03**: Grâce à certains et certaines d'entre vous,
+> nous avons pu améliorer notre détection de doublons et avons ainsi pu
+> améliorer la précision.
 > Les nouveaux chiffres pour le nombre d'ostéopathes en 2019 est passé de
 > 27&nbsp;679 à 23&nbsp;484 (4&nbsp;195) et en 2020 de 29&nbsp;810 à
 > 25&nbsp;120 (-4&nbsp;690). Ce changements ont été reflétés dans l'article
 > ci-dessous.
 
-> Modification 2020/05/09: La CEJOE a publié les statistiques de décembre 2019
+> **Modification 2020/05/09**: La CEJOE a publié les statistiques de décembre 2019
 > le 5 mai 2020 et nous avons mis à jour notre article en conséquence.

@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  {{/*- if getenv "CONTEXT" -}}
   <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+  {{- end -*/}}
   <title>{{ $.Site.Title }} – Publications d'Osteopathes.pro</title>
   <link rel="canonical" href="{{ .Permalink }}">
   {{- if .OutputFormats.Get "RSS" -}}<link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{- end -}}

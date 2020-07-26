@@ -15,6 +15,8 @@ aliases:
 auteurs:
   - klemen-sever
 
+legal_warning: true
+
 ---
 
 Nous répertorions dans ce dossier les arnaques et escroqueries les plus
@@ -35,13 +37,6 @@ que nous les ajoutions à la liste.
 
 Il faut donc se méfier lorsque c'est le cas et prendre votre temps,
 cela pourrait vous éviter beaucoup de soucis et de frais ultérieurs.
-
-**Attention**: ceci est un ensemble de conseils mais il ne sauraient se
-substituer à la consultation d'un expert ou d'une experte. Nous
-ne pourrons être tenus responsable d'aucun litige lié aux conseils donnés
-dans le présent article. Vous pouvez contacter les
-<abbr title="Associations Socio-Professionnelles">ASP</abbr>
-pour leur demander conseil et expertise.
 
 ### Que faire si j'ai déjà signé ou accepté oralement un contrat ?
 Sachez que la nouvelle loi Hamon amène le délai de rétractation pour la

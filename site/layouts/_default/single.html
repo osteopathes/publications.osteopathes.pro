@@ -51,14 +51,14 @@
               class="far fa-calendar-alt mr-2 text-lg text-gray-500"
             ></i>
             <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="Date de publication">
-              {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }} à {{ .PublishDate.Format "15:04" }}
+              Publié le {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }} à {{ .PublishDate.Format "15:04" }}
             </time>
             {{ if ne .PublishDate .Lastmod }}
-            <br>
+            <br class="inline md:hidden">
             <i
-              class="far fa-calendar-edit mr-2 mt-2 text-lg text-gray-500"
+              class="far fa-calendar-edit ml-2 mr-2 text-lg text-gray-500"
             ></i>
-            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="Dernière mise à jour du contenu">
+            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="Dernière mise à jour du contenu">Dernière mise à jour le
               {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }} à {{ .Lastmod.Format "15:04" }}
             </time>
             {{ end }}
@@ -84,11 +84,20 @@
           </div>
           {{- end -}}
         </div>
-        <div class="mt-10 py-10 border-t border-gray-300 text-center">
+        <div class="mt-10 py-10 border-t border-gray-300">
           <div class="flex flex-wrap justify-center">
-            <div class="w-full lg:w-9/12 px-4 readable">
+            <div class="w-full lg:w-9/12 px-4 prose max-w-none font-readable">
               {{ .Content | emojify }}
             </div>
+            {{- if .Params.legal_warning -}}
+              <div class="bg-blue-100 px-4 py-5 rounded border border-blue-200 sm:px-6 prose max-w-none font-readable mt-10">
+                <strong>Attention</strong>: les conseils fournis dans cet article
+                ne sauraient se substituer à la consultation d'experts. Nous ne
+                pourrons être tenus responsable d'aucun litige lié aux
+                informations données dans le présent document.
+                Pensez à consulter nos <a href="{{ "/mentions-legales" | relURL }}">mentions légales</a>.
+            </div>
+            {{- end -}}
           </div>
         </div>
       </div>

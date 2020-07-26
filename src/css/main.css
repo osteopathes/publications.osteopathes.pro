@@ -20,7 +20,7 @@
 /*! purgecss start ignore */
 .readable {
   text-rendering: optimizeLegibility !important;
-  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased text-left;
+  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased;
 }
 
 .readable-title {
@@ -45,17 +45,24 @@
   @apply my-3;
 }
 
-.readable a {
+.readable a,
+.prose a {
   @apply cursor-pointer p-0 border-b border-gray-400 font-medium;
   box-shadow: 0 -3px 0 theme('colors.gray.400') inset;
 }
 
-.readable a.unstyle {
+.prose a[rel*="external"]::after {
+  content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%239fa6b2'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+}
+
+.readable a.unstyle,
+.prose a.unstyle {
   @apply p-0 border-0 font-normal;
   box-shadow: none;
 }
 
-.readable a:hover {
+.readable a:hover,
+.prose a:hover {
   @apply border-teal-400 text-teal-600;
   box-shadow: 0 -3px 0 theme('colors.teal.400') inset;
 }
@@ -64,16 +71,21 @@
   box-shadow: none;
 }
 
-.readable sup.footnote-ref a:before {
-  content: "[note:";
+.readable a.footnote-ref:before,
+.prose a.footnote-ref:before {
+  content: "[";
 }
 
-.readable sup.footnote-ref a:after {
+
+.readable a.footnote-ref:after,
+.prose a.footnote-ref:after {
   content: "]";
 }
 
-.readable sup.footnote-ref a {
-  @apply ml-1 pb-0 border-b-2 my-1;
+.readable a.footnote-ref,
+.prose a.footnote-ref {
+  @apply ml-1 pb-0 border-b my-1;
+  box-shadow: none;
 }
 
 .readable em {
@@ -92,7 +104,9 @@
   @apply text-sm;
 }
 
-.readable abbr {
+.readable abbr[title],
+.prose abbr[title],
+abbr[title] {
   @apply no-underline border-b border-dotted;
   cursor: help;
 }
@@ -179,40 +193,33 @@
 }
 
 .readable table {
-  @apply table-auto p-0 border-separate text-left;
+  @apply table-auto min-w-full;
   border-spacing: 0;
 }
 
-.readable table thead {
-  @apply text-center;
+.readable table thead tr th {
+  @apply px-6 py-3 border-b border-gray-200 bg-gray-100 text-left text-base leading-4 font-bold text-gray-500 tracking-wider
 }
 
 .readable table tbody td {
-  @apply p-1;
-}
-
-@screen md {
-  .readable table tbody td {
-    @apply p-3;
-  }
+  @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900;
 }
 
 .readable table tr th,
 .readable table tr td {
-  @apply border-r border-b border-gray-500;
-}
-
-.readable table tr th:first-child,
-.readable table tr td:first-child {
-  @apply border-l border-gray-500;
-}
-
-.readable table tr th {
-  @apply border-t border-gray-500 bg-gray-400 font-bold p-2;
+  @apply whitespace-no-wrap leading-5 text-gray-900;
 }
 
 .readable table tr:nth-child(even) {
-  @apply bg-gray-300;
+  @apply bg-white;
+}
+
+.readable table tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+.readable table tr:only-child th:only-child {
+  @apply rounded-t;
 }
 
 .readable table tr:first-child th:first-child {
@@ -223,8 +230,8 @@
   @apply rounded-tr;
 }
 
-.readable table tr:only-child th:only-child {
-  @apply rounded-t;
+.readable table tr:only-child td:only-child {
+  @apply rounded-b;
 }
 
 .readable table tr:last-child td:first-child {
@@ -233,10 +240,6 @@
 
 .readable table tr:last-child td:last-child {
   @apply rounded-br;
-}
-
-.readable table tr:only-child td:only-child {
-  @apply rounded-b;
 }
 
 .readable code {
