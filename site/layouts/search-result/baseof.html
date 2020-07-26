@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
-  <title>{{ $.Site.Title }} – Publications d'Osteopathes.pro</title>
+  <title>{{ $.Site.Title }} – Publications osteopathes.pro</title>
   {{- $stylesheet := .Site.Data.webpack.main -}}
   {{- with $stylesheet.css -}}
     <link href="{{ relURL . }}" rel="stylesheet">
@@ -15,8 +15,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicons/favicon-16x16.png">
   <link rel="mask-icon" href="/imgs/favicons/safari-pinned-tab.svg" color="#727cf5">
   <link rel="shortcut icon" href="/favicon.ico">
-  <meta name="apple-mobile-web-app-title" content="Publications Osteopathes.pro">
-  <meta name="application-name" content="Publications Osteopathes.pro">
+  <meta name="apple-mobile-web-app-title" content="Publications osteopathes.pro">
+  <meta name="application-name" content="Publications osteopathes.pro">
   <meta name="theme-color" content="#38B2AC">
   <meta name="msapplication-TileColor" content="#38B2AC">
   <meta name="msapplication-TileImage" content="/imgs/favicons/mstile-144x144.png">
