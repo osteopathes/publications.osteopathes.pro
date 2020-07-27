@@ -65,7 +65,7 @@ On y retrouve donc:
  - **Registre d'accessibilité**: c'est gratuit et il n'est pas nécessaire
    de recourir à une agence externe.
  - **Mise en conformité avec le RGPD (GDPR en anglais) ou avec la CNIL**: là
-   aussi, il n'y a rien de payant.
+   aussi, il n'y a rien de payant. Consultez notre [dossier RGPD pour ostéos]({{< ref "/dossiers/OP-WF44GL-2_rgpd" >}}) à ce sujet.
  - **COVID-19**: des entreprises essaieront de vous vendre des
    certifications ou des attestation de toutes sortes en lien avec la crise sanitaire.
 
