@@ -1,7 +1,7 @@
 ---
 title: 'Le RGPD expliqué aux ostéopathes'
 date: 2020-05-21T09:30:45Z
-lastmod: 2020-07-25T23:30:00Z
+lastmod: 2020-09-09T07:30:00Z
 draft: false
 slug: le-rgpd-explique-aux-osteopathes
 
@@ -47,7 +47,8 @@ l'utilisation et le traitement des données personnelles, dont les données des 
 font partie. En soit, c'est une règlementation très louable car elle permet
 à chacun de mieux gérer où et comment ses données personnelles seront utilisées.
 Elle protège les individus de nombreuses dérives liées à l'utilisation abusive
-de ces données: publicité ciblée en ligne, profilage client…
+de ces données: publicité ciblée en ligne, profilage client, revente de
+données personnelles, …
 Cette règlementation s'applique aussi bien aux grands groupes qu'aux petites
 structures, d’où une application très variable suivant le contexte.
 La sécurité exigée d'une grande entreprise ne sera donc pas la même que celle
@@ -106,7 +107,8 @@ manquement au RGPD de ses prestataires externes qui doivent fournir des
 garanties suffisantes (pensez ici: logiciel de gestion
 de cabinet, agenda externalisé, partage de cabinet/assistanat…). **Il vous
 faudra donc vous munir d'un document dans lequel vous devrez indiquer les mesures
-prises par vous et vos prestataires pour protéger les données de vos patient-e-s**.
+prises par vous et vos prestataires pour protéger les données de vos patient-e-s**
+(voir plus loin pour des modèles de documents).
 
 Concrètement, cela se traduit par les exigences suivantes (donné à
 titre indicatif, la liste n’est pas exhaustive):
@@ -121,13 +123,20 @@ titre indicatif, la liste n’est pas exhaustive):
    d'accès, de suppression ou de modification des données les concernant
    (un affichage dans la salle d’attente suffit), et comment les exercer.
 
+Un derner point, que l'on ne vous souhaite jamais de rencontrer: en cas de vol
+des données personnelles que vous stockez, c'est désormais à vous, ostéopathe
+(car vous êtes le responsable de traitement) de notifier la CNIL pour
+violation de données personnelles dans les 72 heures. Plus de détails sur le
+[site de la CNIL](https://notifications.cnil.fr/notifications/).
 
 ### Vous stockez vos dossiers patients sur papier
 **Vous devez préciser dans vos registres comment sont protégés vos documents**:
 votre secrétaire, collègue de maison de santé ou personne chargée du
 nettoyage ne doit pas pouvoir y accéder facilement. Un tiroir fermant à
 clé peut suffire si le reste de votre cabinet est suffisamment sécurisé.
-Vous pouvez y ajouter un destructeur de documents pour les dossiers que vous jetez.
+Vous pouvez y ajouter un destructeur de documents pour les dossiers que vous
+jetez au bout de la période maximale de rétention (voir la présentation
+ci-dessous pour les durées conseillées).
 
 ### Vous stockez vos dossiers patients sur support informatique
 **Vous devez connaître un minimum où et comment sont stockés vos dossiers,
@@ -200,7 +209,7 @@ d’autres thérapeutes et qu’ils ou elles peuvent s’y opposer.
 Évidemment, dans ce cas, il vous faudra prévoir
 un casier ou un dossier auquel vous êtes le seul ou la seule à avoir accès.
 
-## Nos ateliers et documents-types pour ostéopathes
+## Nos ateliers et modèles de documents RGPD pour ostéopathes
 
 Nous effectuons régulièrement des ateliers RGPD à destination des ostéopathes,
 renseignez-vous via nos comptes de réseaux sociaux ou par email.
@@ -246,4 +255,6 @@ Nous vous conseillons les ressources suivantes pour en savoir plus:
 
 ### Modifications de l'article
 > **Modification 2020/07/25**: Ajout des liens vers les fichiers des ateliers RGPD
-> pour ostéopathes et documents-types
+> pour ostéopathes et documents-types.
+> **Modification 2020/09/09**: Ajout des mentions en cas de violation de
+> données personnelles (et lien vers la page de la CNIL).
