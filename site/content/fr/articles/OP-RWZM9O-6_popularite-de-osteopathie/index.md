@@ -1,8 +1,8 @@
 ---
-title: 'Arnaques et escroqueries: comment les reconnaître et réagir'
+title: "La popularité de l'ostéopathie sur internet"
 date: 2020-10-05T08:20:21Z
 draft: true
-slug: arnaques-et-escroqueries-comment-les-reconnaitre-et-reagir
+slug: popularite-de-osteopathie-sur-internet
 
 resources:
 - name: cover-image
@@ -21,7 +21,7 @@ legal_warning: true
 
 ---
 
-Recemment avec Klemen, on s'est demandé si nos patients choissisaient des horaires particuliers pour nous appeler. JE
+Recemment avec Klemen, on s'est demandé si nos patients choissisaient des horaires particuliers pour nous appeler. Je
 pense qu'on a tous eu le cas de la pluie d'appels le lundi matin se poursuivant par un petit silence l'après-midi. Rien
 de
 bien
@@ -56,6 +56,8 @@ autres valeurs sont mise à l'échelle. C'est pourquoi la majorité des graphes 
 19,3.
 
 ## Observation des résultats
+
+Pour visualiser toutes ces données, on va utiliser pas mal de graphes dans cet article. Ceux-ci sont intéractifs, vous pouvez donc faire glisser votre souris dessus pour voir les valeurs plus en détail 😉.
 
 ### Quels sont les horaires les plus recherchés ?
 
@@ -153,6 +155,33 @@ Chez les médecins, on voit clairement un mois de janvier prédominant. On voit 
 la rentrée scolaire au mois de septembre. Le mois de mai est celui qui dispose du moins de recherches.
 
 ## Discussion
+
+- pk 8-9h et pk en début de semaine ?
+-> ouverture des cabinets le matin, impossibilité de contacter plus tard dans la journée, avoir un rdv rapidement,
+-> le blues du lundi ? conséquence du week-end ?
+
+- que peut on dire que la prévalence du mois d'aout.
+-> les vacances sont propices aux blessures/douleurs ? Préparation/bilan pour la rentrée ? Les médecins plus en
+septembre pr certificat/vaccins ?
+
+- medecins inverses de l'osteo ? gros pic en décembre, plus faible en aout..
+- Les ponts, chute de la recherche ? Les fêtes et ponts crée des trous dans les graphes toute profession confondues sauf
+pr le smédecins en fin d'année.
+
+> Conseil pour les jeunes installant, être disponible de 8h à 10h du lundi au mercredi.Etre présent en aout.
+
+On peut tout d'abord s'intéresser à la question des horaires. Pourquoi cherche-t-on essentiellement des thérapeutes
+entre 8h et 9h.
+
+
+## Pour résumer
+
+Pour notre profession, il semblerait que nos patients nous recherchent le plus vers 8-9h, en début de semaine, autour de
+la rentrée et en début d'année. Pour les médecins, les périodes sont sensiblement similaires même si les courbes semblent plus marquées. On notera toutefois quelques différence comme le mois de décembre, qui est un mois assez recherché pour les médecins, surtout auour de la période de Noël.
+
+Pour les jeunes ostéopathes, on ne peut que vous conseiller :
+- d'etre disponible de 8h à 10h
+- d'éviter de partir en vacances au mois d'août/septembre.
 
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
