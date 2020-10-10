@@ -1,0 +1,2 @@
+{{ $script := $.Page.Resources.GetMatch (.Get 0)}}
+<script type="text/javascript">{{ $script.Content | safeJS }}</script>
