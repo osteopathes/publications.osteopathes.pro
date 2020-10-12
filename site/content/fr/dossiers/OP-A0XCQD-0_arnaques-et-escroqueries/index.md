@@ -1,6 +1,7 @@
 ---
 title: 'Arnaques et escroqueries: comment les reconnaître et réagir'
 date: 2020-05-10T08:20:21Z
+lastmod: 2020-10-13T00:30:00Z
 draft: false
 slug: arnaques-et-escroqueries-comment-les-reconnaitre-et-reagir
 
@@ -67,7 +68,10 @@ On y retrouve donc:
  - **Mise en conformité avec le RGPD (GDPR en anglais) ou avec la CNIL**: là
    aussi, il n'y a rien de payant. Consultez notre [dossier RGPD pour ostéos]({{< ref "/dossiers/OP-WF44GL-2_rgpd" >}}) à ce sujet.
  - **COVID-19**: des entreprises essaieront de vous vendre des
-   certifications ou des attestation de toutes sortes en lien avec la crise sanitaire.
+   certifications de toutes sortes en lien avec la crise sanitaire. Dernièrement,
+   certaines arnaques tentent de vous faire croire que vous avez été un cas
+   contact pour vous envoyer un kit à domicile, qui est bien entendu payant
+   et pour lequel elle vous demanderont votre numéro de carte bancaire.
 
 Puis on y trouve des arnaques liées à votre activité libérale:
 
@@ -203,3 +207,7 @@ Soyez prudents et prudentes et n’hésitez pas à
 [nous contacter](mailto:bonjour@osteopathes.pro)
 ou à contacter une <abbr title="Associations Socio-Professionnelles">ASP</abbr>
 si vous avez des doutes ou des questions.
+
+### Modifications de l'article
+> **Modification 2020/10/13**: Ajout d'une mention des arnaques de type "kit
+> de dépistage pour cas-contact COVID 19"
