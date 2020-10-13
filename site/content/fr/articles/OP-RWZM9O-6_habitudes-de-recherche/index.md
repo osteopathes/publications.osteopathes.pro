@@ -76,7 +76,7 @@ To be continued...
 ### Quels sont les horaires les plus recherchés ?
 
 
-<div id="linechart-7d-osteo" style="height:500px"></div>
+<div id="linechart-7d-phys"></div>
 
 Sur ce graphique, on peut voir les données sur 7 jours avec le mot clé "osteopathe". On remarque tout de suite
 différents pics qui se répètent tout au long de la semaine. Ces pics de recherches se situent à 9h, chaque jour de la
@@ -87,7 +87,7 @@ Le pic le plus fort est le lundi. Cela reste stable pendant les 3 jours suivant 
 
 On s'est demandé si c'est la même chose pour les professions de santé. On a rajouté les mots clés "kiné" et "medecin".
 
-<div id="linechart-7d-all" style="height:500px"></div>
+<div id="linechart-7d-med" style="height:500px"></div>
 
 On remarque le même schéma avec des pics situés aux mêmes crénaux horaires. On peut noter toutefois la présence d'un
 second pic plus marqué pour les médecins et kinés à 14h avec une baisse sur les coups de midi.
@@ -105,14 +105,14 @@ On peut confirmer la présence d'une hausse des recherches, tous thérapeutes co
 Sur les graphiques précédents, on peut voir que le lundi est le jour où le pic est le plus important. Regardons les
 données sur 90 jours pour voir si cela se confirme.
 
-<div id="linechart-90d-osteo" style="height:500px"></div>
+<div id="linechart-90d-phys"></div>
 
 On peut voir que les pics de recherches se situent essentiellement de lundi en concurrence avec le mardi et le mercredi.
 Le samedi et le dimanche restent les jours les moins recherchés.
 
 Est-ce valable pour les autres professions ?
 
-<div id="linechart-90d-all" style="height:500px"></div>
+<div id="linechart-90d-med"></div>
 
 C'est encore plus vrai pour les médecins et les kinés où le lundi semble être en tête. La tendance semble être la même
 pour les autres professions allant jusqu'à suivre les changements des jours. Si la recherche augmente le mardi par
@@ -129,7 +129,7 @@ semaines les recherches restent importantes pour diminuer à partir de jeudi.
 
 On va maintenant prendre des périodes plus larges pour observer la popularité au fil des mois.
 
-<div id="linechart-5y-all" style="height:500px"></div>
+<div id="linechart-5y-phys"></div>
 
 Dès que l'on regarde ce graphique, on remarque tout de suite le gouffre qu'a laissé le COVID19 au mois de Mars-Avril et
 ce toutes professions confondues. Nous allons faire abstraction de mars et avril 2020 pour la suite.
@@ -142,7 +142,7 @@ Zoomons un peu plus sur nous, les médecins ont beaucoup trop de recherches et a
 aussi
 pour prendre une période hors covid, de janvier 2015 à janvier 2020.
 
-<div id="linechart-5y-osteo-nocovid" style="height:500px"></div>
+<div id="linechart-5y-med" style="height:500px"></div>
 
 Nos pics de recherches si situent plus en août-septembre et février-mars. Les pics inférieurs se situent plutôt en
 décembre et en mai-juin.
@@ -198,5 +198,30 @@ Pour les jeunes ostéopathes, on ne peut que vous conseiller :
 - d'éviter de partir en vacances au mois d'août/septembre.
 
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
+<script data-require="d3@3.5.3" data-semver="3.5.3" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+
+
+<style>
+    .chart {
+      font: 10px sans-serif;
+    }
+    
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .x.axis path {
+      display: none;
+    }
+    
+    .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 1.5px;
+    }
+  </style>
 {{< js "script.js" >}}
