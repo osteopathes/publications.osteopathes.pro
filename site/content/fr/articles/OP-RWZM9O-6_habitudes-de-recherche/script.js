@@ -7,16 +7,14 @@ function getDateFormat(date, mode) {
       month: "numeric",
       hour: "numeric"
     })
-  }
-  else if (mode == "days") {
+  } else if (mode == "days") {
     return date.toLocaleString("fr-FR", {
       weekday: "short",
       day: "numeric",
       month: "numeric",
       year: "numeric"
     })
-  }
-  else {
+  } else {
     return date.toLocaleString("fr-FR", {
       month: "numeric",
       day: "numeric",
@@ -47,21 +45,246 @@ function yearFormat(date) {
 
   })
 }
-function convert_data(data) {
-  let d = [];
+function convert_data(data, isDateObj) {
+  const d = []
   for (let i = 1; i < data.length; i++) {
-    let line = {};
+    const line = {}
     for (let y = 0; y < data[0].length; y++) {
       if (y == 0) {
-        line[data[0][y]] = new Date(data[i][y]);
-      }
-      else {
-        line[data[0][y]] = data[i][y];
+        if (isDateObj) {
+          line[data[0][y]] = new Date(data[i][y])
+        } else {
+          line[data[0][y]] = data[i][y]
+        }
+      } else {
+        line[data[0][y]] = data[i][y]
       }
     }
-    d.push(line);
+    d.push(line)
   }
-  return d;
+  return d
+}
+function convert_data_to_bar(data) {
+  // [[A0,B0,C0], [A1, B1; C1]] => [{name: B0, values(x: 0, y:B1)}]
+
+  const dt = []
+  var headers = []
+  for (let i = 1; i < data[0].length; i++) {
+    // titles
+    const obj = {
+      name: data[0][i],
+      values: []
+    }
+    const values = []
+    for (let y = 1; y < data.length; y++) {
+      const item = {}
+      item.x = y - 1
+      item.y = data[y][i]
+      values.push(item)
+    }
+    obj.values = values
+    dt.push(obj)
+  }
+  for (let i = 1; i < data.length; i++) {
+    headers.push(data[i][0])
+  }
+  return { headers: headers, data: dt }
+
+}
+function createBarChart(_selector, _data, _chartSize) {
+  const chartSize = {
+    width: _chartSize.width - _chartSize.ml - _chartSize.mr,
+    height: _chartSize.height - _chartSize.mt - _chartSize.mb,
+    mb: _chartSize.mb,
+    mt: _chartSize.mt,
+    mr: _chartSize.mr,
+    ml: _chartSize.ml
+  }
+  const selector = "#" + _selector
+  const uniqueID = _selector + "-"
+
+  var stack = d3.layout.stack()
+    .values(function (d) { return d.values })
+
+  var dt = convert_data_to_bar(_data)
+  var n = dt.data.length // number of layers
+  var m = dt.headers.length// number of samples per layer
+  var data = stack(dt.data)
+
+  var color = d3.scale.category10()
+
+  var mx = m
+  var my = d3.max(data, function (d) {
+    return d3.max(d.values, function (d) {
+      console.log(d)
+      return d.y0 + d.y
+    })
+  })
+  var mz = d3.max(data, function (d) {
+    return d3.max(d.values, function (d) {
+      return d.y
+    })
+  })
+  var x = function (d) { return d.x * chartSize.width / mx }
+  var y0 = function (d) {
+    console.log(my)
+    return chartSize.height - d.y0 * chartSize.height / my
+  }
+  var y1 = function (d) { return chartSize.height - (d.y + d.y0) * chartSize.height / my }
+  var y2 = function (d) { return d.y * chartSize.height / mz } // or `my` to not rescale
+
+  var linearScale = d3.scale.linear()
+    .domain([0, 6])
+    .range([0, chartSize.width - chartSize.mr]);
+
+
+  var vis = d3.select(selector)
+    .append("svg:svg")
+    .attr("class", "chart")
+    .attr("viewBox", [0, 0, chartSize.width + chartSize.mr + chartSize.ml, chartSize.height + chartSize.mt + chartSize.mb])
+
+
+  var legend = vis.selectAll("g")
+    .data(data)
+    .enter()
+    .append("g")
+    .attr("class", "legend")
+
+  legend.append("rect")
+    .attr("x", chartSize.width - 20)
+    .attr("y", function (d, i) {
+      return i * 20
+    })
+    .attr("width", 10)
+    .attr("height", 10)
+    .style("fill", function (d, i) {
+      return color(i)
+    })
+
+  legend.append("text")
+    .attr("x", chartSize.width - 8)
+    .attr("y", function (d, i) {
+      return (i * 20) + 9
+    })
+    .text(function (d) {
+      return d.name
+    })
+
+  var layers = vis.selectAll("g.layer")
+    .data(data)
+    .enter().append("svg:g")
+    .style("fill", function (d, i) { return color(i / (n - 1)) })
+    .attr("class", "layer")
+
+  var bars = layers.selectAll("g.bar")
+    .data(function (d) {
+      // console.log(d);
+      return d.values
+    })
+    .enter()
+    .append("svg:g")
+    .attr("class", "bar")
+    .attr("transform", function (d) {
+      return "translate(" + x(d) + "," + chartSize.mt + ")"
+    })
+
+  var bar_rect = bars.append("svg:rect")
+    .attr("width", x({ x: 0.9 }))
+    .attr("x", 0)
+    .attr("y", chartSize.height)
+    .attr("height", 0)
+
+  bar_rect.transition()
+    .delay(function (d, i) {
+      return i * 10
+    })
+    .attr("y", y1)
+    .attr("height", function (d) { return y0(d) - y1(d) })
+
+  var labels = vis.selectAll("text.label")
+    .data(dt.headers)
+    .enter().append("svg:text")
+    .attr("class", "label")
+    .attr("x", function (d, i) {
+      return i * chartSize.width / mx
+    })
+    .attr("y", chartSize.height + chartSize.mt + 10)
+    .attr("dx", x({ x: 0.45 }))
+    .attr("dy", ".71em")
+    .attr("text-anchor", "middle")
+    .text(function (d, i) { return d })
+
+  vis.append("svg:line")
+    .attr("class", "line")
+    .attr("x1", 0)
+    .attr("x2", chartSize.width - x({ x: 0.1 }))
+    .attr("y1", chartSize.height + chartSize.mt)
+    .attr("y2", chartSize.height + chartSize.mt)
+
+  function transitionGroup() {
+    var group = d3.selectAll(selector)
+
+    group.select("#" + uniqueID + "group")
+      .attr("class", "first active")
+
+    group.select("#" + uniqueID + "stack")
+      .attr("class", "last")
+
+    group.selectAll("g.layer rect")
+      .transition()
+      .duration(500)
+      .delay(function (d, i) { return (i % m) * 10 })
+      .attr("x", function (d, i) { return x({ x: 0.9 * ~~(i / m) / n }) })
+      .attr("width", x({ x: 0.9 / n }))
+      .each("end", transitionEnd)
+
+    function transitionEnd() {
+      d3.select(this)
+        .transition()
+        .duration(500)
+        .attr("y", function (d) { return chartSize.height - y2(d) })
+        .attr("height", y2)
+    }
+  }
+
+  function transitionStack() {
+    var stack = d3.select(selector)
+
+    stack.select("#" + uniqueID + "group")
+      .attr("class", "first")
+
+    stack.select("#" + uniqueID + "stack")
+      .attr("class", "last active")
+
+    stack.selectAll("g.layer rect")
+      .transition()
+      .duration(500)
+      .delay(function (d, i) { return (i % m) * 10 })
+      .attr("y", y1)
+      .attr("height", function (d) { return y0(d) - y1(d) })
+      .each("end", transitionEnd)
+
+    function transitionEnd() {
+      d3.select(this)
+        .transition()
+        .duration(500)
+        .attr("x", 0)
+        .attr("width", x({ x: 0.9 }))
+    }
+
+
+  }
+
+  window.addEventListener(uniqueID + "click", function (e) {
+    console.log(e.detail.value)
+    if (e.detail.value) {
+      transitionStack()
+    } else {
+      transitionGroup()
+    }
+  })
+
+  transitionGroup();
 }
 
 /*
@@ -73,10 +296,10 @@ function convert_data(data) {
   chartSize: the size of the chart in obj format with params: width height, mt,mr,mb,ml
 */
 function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisName, yAxisName, _chartSize) {
-  var data = convert_data(_data);
-  let selector = "#" + _selector;
-  let uniqueClass = _selector + "-";
-  let chartSize = {
+  var data = convert_data(_data, true)
+  const selector = "#" + _selector
+  const uniqueClass = _selector + "-"
+  const chartSize = {
     width: _chartSize.width - _chartSize.ml - _chartSize.mr,
     height: _chartSize.height - _chartSize.mt - _chartSize.mb,
     mb: _chartSize.mb,
@@ -87,45 +310,46 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
 
 
   var x = d3.time.scale()
-    .range([0, chartSize.width]);
+    .range([0, chartSize.width])
 
   var y = d3.scale.linear()
-    .range([chartSize.height, 0]);
+    .range([chartSize.height, 0])
 
-  var color = d3.scale.category10();
+  var color = d3.scale.category10()
 
-  //Gestion de l'axe du bas en visuel
+  // Gestion de l'axe du bas en visuel
   var xAxis = d3.svg.axis()
     .scale(x)
     .tickFormat(dateFormat)
-    .orient("bottom");
+    .orient("bottom")
 
   if (hoverFormatType == "hours") {
-    xAxis.ticks(d3.time.day, 1);
+    xAxis.ticks(d3.time.day, 1)
   }
 
   var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left");
+    .orient("left")
 
   var line = d3.svg.line()
     .interpolate("basis")
     .x(function (d) {
-      return x(d.date);
+      return x(d.date)
     })
     .y(function (d) {
-      return y(d.popularity);
-    });
+      return y(d.popularity)
+    })
+
 
   var svg = d3.select(selector).append("svg")
     .attr("class", "chart")
-    .attr('viewBox', '0 0 ' + (chartSize.width + chartSize.ml + chartSize.mr) + ' ' + (chartSize.height + chartSize.mt + chartSize.mb))
+    .attr("viewBox", "0 0 " + (chartSize.width + chartSize.ml + chartSize.mr) + " " + (chartSize.height + chartSize.mt + chartSize.mb))
     .append("g")
-    .attr("transform", "translate(" + chartSize.ml + "," + chartSize.mt + ")");
+    .attr("transform", "translate(" + chartSize.ml + "," + chartSize.mt + ")")
 
   color.domain(d3.keys(data[0]).filter(function (key) {
-    return key !== "date";
-  }));
+    return key !== "date"
+  }))
 
   var practitioners = color.domain().map(function (name) {
     return {
@@ -134,59 +358,59 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
         return {
           date: d.date,
           popularity: +d[name]
-        };
+        }
       })
-    };
-  });
+    }
+  })
 
 
   x.domain(d3.extent(data, function (d) {
-    return d.date;
-  }));
+    return d.date
+  }))
 
   y.domain([
     d3.min(practitioners, function (c) {
       return d3.min(c.values, function (v) {
-        return v.popularity;
-      });
+        return v.popularity
+      })
     }),
     d3.max(practitioners, function (c) {
       return d3.max(c.values, function (v) {
-        return v.popularity;
-      });
+        return v.popularity
+      })
     })
-  ]);
+  ])
 
-  var legend = svg.selectAll('g')
+  var legend = svg.selectAll("g")
     .data(practitioners)
     .enter()
-    .append('g')
-    .attr('class', 'legend');
+    .append("g")
+    .attr("class", "legend")
 
-  legend.append('rect')
-    .attr('x', chartSize.width - 20)
-    .attr('y', function (d, i) {
-      return i * 20;
+  legend.append("rect")
+    .attr("x", chartSize.width - 20)
+    .attr("y", function (d, i) {
+      return i * 20
     })
-    .attr('width', 10)
-    .attr('height', 10)
-    .style('fill', function (d) {
-      return color(d.name);
-    });
+    .attr("width", 10)
+    .attr("height", 10)
+    .style("fill", function (d) {
+      return color(d.name)
+    })
 
-  legend.append('text')
-    .attr('x', chartSize.width - 8)
-    .attr('y', function (d, i) {
-      return (i * 20) + 9;
+  legend.append("text")
+    .attr("x", chartSize.width - 8)
+    .attr("y", function (d, i) {
+      return (i * 20) + 9
     })
     .text(function (d) {
-      return d.name;
-    });
+      return d.name
+    })
 
   svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + chartSize.height + ")")
-    .call(xAxis);
+    .call(xAxis)
 
   svg.append("g")
     .attr("class", "y axis")
@@ -196,50 +420,50 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
     .attr("y", 6)
     .attr("dy", ".71em")
     .style("text-anchor", "end")
-    .text(yAxisName);
+    .text(yAxisName)
 
   var practitioner = svg.selectAll(".practitioner")
     .data(practitioners)
     .enter().append("g")
-    .attr("class", "practitioner");
+    .attr("class", "practitioner")
 
   practitioner.append("path")
     .attr("class", uniqueClass + "line line")
     .attr("d", function (d) {
-      return line(d.values);
+      return line(d.values)
     })
     .style("stroke", function (d) {
-      return color(d.name);
-    });
+      return color(d.name)
+    })
 
   practitioner.append("text")
     .datum(function (d) {
       return {
         name: d.name,
         value: d.values[d.values.length - 1]
-      };
+      }
     })
     .attr("transform", function (d) {
-      return "translate(" + x(d.value.date) + "," + y(d.value.popularity) + ")";
+      return "translate(" + x(d.value.date) + "," + y(d.value.popularity) + ")"
     })
     .attr("x", 3)
     .attr("dy", ".35em")
     .text(function (d) {
-      return d.name;
-    });
+      return d.name
+    })
 
   var mouseG = svg.append("g")
-    .attr("class", uniqueClass + "mouse-over-effects");
+    .attr("class", uniqueClass + "mouse-over-effects")
 
   mouseG.append("path") // this is the black vertical line to follow mouse
     .attr("class", uniqueClass + "mouse-line")
     .style("stroke", "black")
     .style("stroke-width", "1px")
-    .style("opapractitioner", "0");
+    .style("opapractitioner", "0")
 
-  var lines = document.getElementsByClassName(uniqueClass + "line");
+  var lines = document.getElementsByClassName(uniqueClass + "line")
 
-  //On ajoute le texte flottant pour la date
+  // On ajoute le texte flottant pour la date
   mouseG.append("text").attr("class", uniqueClass + "line-hover-date")
     .attr("text-anchor", "middle")
     .attr("font-size", 12)
@@ -247,68 +471,67 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
   mouseG.select(uniqueClass + "line-hover-date")
     .append("text")
     .attr("text-anchor", "middle")
-    .attr("font-size", 12);
+    .attr("font-size", 12)
 
 
   var mousePerLine = mouseG.selectAll("." + uniqueClass + "mouse-per-line")
     .data(practitioners)
     .enter()
     .append("g")
-    .attr("class", uniqueClass + "mouse-per-line");
+    .attr("class", uniqueClass + "mouse-per-line")
 
   mousePerLine.append("circle")
     .attr("r", 7)
     .style("stroke", function (d) {
-      return color(d.name);
+      return color(d.name)
     })
     .style("fill", "none")
     .style("stroke-width", "2px")
-    .style("opapractitioner", "0");
+    .style("opapractitioner", "0")
 
   mousePerLine.append("text")
-    .attr("transform", "translate(10,3)");
+    .attr("transform", "translate(10,3)")
 
-  mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
-    .attr('width', chartSize.width) // can't catch mouse events on a g element
-    .attr('height', chartSize.height)
-    .attr('fill', 'none')
-    .attr('pointer-events', 'all')
-    .on('mouseout', function () { // on mouse out hide line, circles and text
+  mouseG.append("svg:rect") // append a rect to catch mouse movements on canvas
+    .attr("width", chartSize.width) // can't catch mouse events on a g element
+    .attr("height", chartSize.height)
+    .attr("fill", "none")
+    .attr("pointer-events", "all")
+    .on("mouseout", function () { // on mouse out hide line, circles and text
       d3.select("." + uniqueClass + "mouse-line")
-        .style("opapractitioner", "0");
+        .style("opapractitioner", "0")
       d3.selectAll("." + uniqueClass + "mouse-per-line" + " circle")
-        .style("opapractitioner", "0");
+        .style("opapractitioner", "0")
       d3.selectAll(".mouse-per-line text")
-        .style("opapractitioner", "0");
+        .style("opapractitioner", "0")
     })
-    .on('mouseover', function () { // on mouse in show line, circles and text
+    .on("mouseover", function () { // on mouse in show line, circles and text
       d3.select("." + uniqueClass + "mouse-line")
-        .style("opapractitioner", "1");
+        .style("opapractitioner", "1")
       d3.selectAll("." + uniqueClass + "mouse-per-line" + " circle")
-        .style("opapractitioner", "1");
+        .style("opapractitioner", "1")
       d3.selectAll(".mouse-per-line text")
-        .style("opapractitioner", "1");
+        .style("opapractitioner", "1")
     })
-    .on('mousemove', mousemove)// mouse moving over canvas
+    .on("mousemove", mousemove)// mouse moving over canvas
 
 
-  let bisectDate = d3.bisector(d => d.date).left;
+  const bisectDate = d3.bisector((d) => d.date).left
 
   function mousemove() {
-
-    var mouse = d3.mouse(this);
+    var mouse = d3.mouse(this)
     d3.select("." + uniqueClass + "mouse-line")
       .attr("d", function () {
-        var d = "M" + mouse[0] + "," + chartSize.height;
-        d += " " + mouse[0] + "," + 0;
-        return d;
-      });
+        var d = "M" + mouse[0] + "," + chartSize.height
+        d += " " + mouse[0] + "," + 0
+        return d
+      })
 
-    var x0 = x.invert(mouse[0]);
-    let idx = bisectDate(data, x0, 1);
-    let d0 = data[idx - 1];
-    let d1 = data[idx];
-    let d = x0 - d0.date > d1.date - x0 ? d1 : d0;
+    var x0 = x.invert(mouse[0])
+    const idx = bisectDate(data, x0, 1)
+    const d0 = data[idx - 1]
+    const d1 = data[idx]
+    const d = x0 - d0.date > d1.date - x0 ? d1 : d0
 
     d3.select("." + uniqueClass + "line-hover-date")
       .attr("transform",
@@ -317,41 +540,41 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
 
     d3.selectAll("." + uniqueClass + "mouse-per-line")
       .attr("transform", function (d, i) {
-        var beginning = 0;
-        var end = lines[i].getTotalLength();
-        var target = null;
+        var beginning = 0
+        var end = lines[i].getTotalLength()
+        var target = null
 
         while (true) {
-          target = Math.floor((beginning + end) / 2);
-          pos = lines[i].getPointAtLength(target);
+          target = Math.floor((beginning + end) / 2)
+          pos = lines[i].getPointAtLength(target)
           if ((target === end || target === beginning) && pos.x !== mouse[0]) {
-            break;
+            break
           }
-          if (pos.x > mouse[0]) end = target;
-          else if (pos.x < mouse[0]) beginning = target;
-          else break; //position found
+          if (pos.x > mouse[0]) end = target
+          else if (pos.x < mouse[0]) beginning = target
+          else break // position found
         }
 
-        d3.select(this).select('text')
-          .text(y.invert(pos.y).toFixed(2));
+        d3.select(this).select("text")
+          .text(y.invert(pos.y).toFixed(2))
 
-        return "translate(" + mouse[0] + "," + pos.y + ")";
-      });
+        return "translate(" + mouse[0] + "," + pos.y + ")"
+      })
   }
-
 }
 
 
-let chartSize = {
+const chartSize = {
   width: 900,
   height: 500,
-  mt: 20,
-  mr: 80,
+  mt: 50,
+  mr: 50,
   mb: 50,
   ml: 50
 }
-let article_data = {
-  sevenD_phys: [[
+
+const article_data = {
+  days7_phys: [[
     "date",
     "ostéopathe",
     "kiné"
@@ -1196,7 +1419,7 @@ let article_data = {
     23.0,
     15.0
   ]],
-  sevenD_med: [
+  days7_med: [
     [
       "date",
       "medecin"
@@ -1873,7 +2096,7 @@ let article_data = {
       "2020-10-11T13:00:00",
       34.0
     ]],
-  ninetyD_phys: [[
+  days90_phys: [[
     "date",
     "ostéopathe",
     "kiné"
@@ -2328,7 +2551,7 @@ let article_data = {
     74.0,
     53.0
   ]],
-  ninetyD_med: [[
+  days90_med: [[
     "date",
     "medecin"
   ],
@@ -2692,7 +2915,7 @@ let article_data = {
     "2020-10-08",
     62.0
   ]],
-  fiveY_phys: [
+  years5_phys: [
     [
       "date",
       "ostéopathe",
@@ -4003,7 +4226,7 @@ let article_data = {
       96.0,
       80.0
     ]],
-  fiveY_med:
+  years5_med:
     [
       [
         "date",
@@ -5053,16 +5276,54 @@ let article_data = {
         "2020-10-04",
         77.0
       ]
+    ],
+  days7_grouped_phys: [
+    ["Jour", "ostéopathe", "kiné"],
+    [
+      "Lundi",
+      1121.0,
+      875.0
+    ],
+    [
+      "Mardi",
+      1002.0,
+      844.0
+    ],
+    [
+      "Mercredi",
+      985.0,
+      807.0
+    ],
+    [
+      "Jeudi",
+      990.0,
+      806.0
+    ],
+    [
+      "Vendredi",
+      951.0,
+      723.0
+    ],
+    [
+      "Samedi",
+      680.0,
+      399.0
+    ],
+    [
+      "Dimanche",
+      580.0,
+      364.0
     ]
-
+  ]
 }
 
-createLineChart("linechart-7d-phys", article_data.sevenD_phys, hourFormat, "hours", "Heures", "Popularité", chartSize);
-createLineChart("linechart-7d-med", article_data.sevenD_med, hourFormat, "hours", "Heures", "Popularité", chartSize);
 
-createLineChart("linechart-90d-phys", article_data.ninetyD_phys, dayFormat, "days", "Jours", "Popularité", chartSize);
-createLineChart("linechart-90d-med", article_data.ninetyD_med, dayFormat, "days", "Jours", "Popularité", chartSize);
+createLineChart("linechart-7d-phys", article_data.days7_phys, hourFormat, "hours", "Heures", "Popularité", chartSize)
+createLineChart("linechart-7d-med", article_data.days7_med, hourFormat, "hours", "Heures", "Popularité", chartSize)
 
-createLineChart("linechart-5y-phys", article_data.fiveY_phys, yearFormat, "", "Date", "Popularité", chartSize);
-createLineChart("linechart-5y-med", article_data.fiveY_med, yearFormat, "", "Date", "Popularité", chartSize);
+createLineChart("linechart-90d-phys", article_data.days90_phys, dayFormat, "days", "Jours", "Popularité", chartSize)
+createLineChart("linechart-90d-med", article_data.days90_med, dayFormat, "days", "Jours", "Popularité", chartSize)
 
+createLineChart("linechart-5y-phys", article_data.years5_phys, yearFormat, "", "Date", "Popularité", chartSize)
+createLineChart("linechart-5y-med", article_data.years5_med, yearFormat, "", "Date", "Popularité", chartSize)
+createBarChart("barchart-7d-phys", article_data.days7_grouped_phys, chartSize)
