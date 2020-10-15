@@ -77,6 +77,7 @@ To be continued...
 
 
 <div id="linechart-7d-phys"></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour les mots "ostéopathe" et "kiné" sur 7 jours</div>
 
 Sur ce graphique, on peut voir les données sur 7 jours avec le mot clé "osteopathe". On remarque tout de suite
 différents pics qui se répètent tout au long de la semaine. Ces pics de recherches se situent à 9h, chaque jour de la
@@ -88,6 +89,7 @@ Le pic le plus fort est le lundi. Cela reste stable pendant les 3 jours suivant 
 On s'est demandé si c'est la même chose pour les professions de santé. On a rajouté les mots clés "kiné" et "medecin".
 
 <div id="linechart-7d-med"></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour le mot "medecin" sur 7 jours</div>
 
 On remarque le même schéma avec des pics situés aux mêmes crénaux horaires. On peut noter toutefois la présence d'un
 second pic plus marqué pour les médecins et kinés à 14h avec une baisse sur les coups de midi.
@@ -97,7 +99,7 @@ Pour être certains que nos yeux ne nous jouent pas des tours, on a rassemblé t
 pour obtenir les heures où les mots clés sont les plus recherchés.
 
 <div class="justify-center mb-2">
-<div x-data="{ on: false }" role="checkbox" tabindex="0" @click="on = !on; $dispatch('barchart-7d-phys-click', {value: on})" @keydown.space.prevent="on = !on" :aria-checked="on.toString()" aria-checked="true" :class="{ 'bg-gray-200': !on, 'bg-indigo-600': on }" class="relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out bg-indigo-600 border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:shadow-outline">
+<div x-data="{ on: false }" role="checkbox" tabindex="0" @click="on = !on; $dispatch('barchart-7d-phys-click', {value: on})" @keydown.space.prevent="on = !on" :aria-checked="on.toString()" aria-checked="true" :class="{ 'bg-gray-200': !on, 'bg-teal-600': on }" class="relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out bg-teal-600 border-2 border-teal-600 rounded-full cursor-pointer w-11 focus:outline-none focus:shadow-outline">
     <span aria-hidden="true" :class="{ 'translate-x-5': on, 'translate-x-0': !on }" class="relative inline-block w-5 h-5 transition duration-200 ease-in-out transform translate-x-5 bg-white rounded-full shadow">
       <span :class="{ 'opacity-0 ease-out duration-100': on, 'opacity-100 ease-in duration-200': !on }" class="absolute inset-0 flex items-center justify-center w-full h-full transition-opacity duration-100 ease-out opacity-0">
         <svg class="w-3 h-3 text-gray-400" fill="none" viewBox="0 0 12 12">
@@ -105,15 +107,16 @@ pour obtenir les heures où les mots clés sont les plus recherchés.
         </svg>
       </span>
       <span :class="{ 'opacity-100 ease-in duration-200': on, 'opacity-0 ease-out duration-100': !on }" class="absolute inset-0 flex items-center justify-center w-full h-full transition-opacity duration-200 ease-in opacity-100">
-        <svg class="w-3 h-3 text-indigo-600" fill="currentColor" viewBox="0 0 12 12">
+        <svg class="w-3 h-3 text-teal-600" fill="currentColor" viewBox="0 0 12 12">
           <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z"></path>
         </svg>
       </span>
     </span>
   </div>
-  <div class="inline-flex self-center"> empiler </div>
+  <div class="inline-flex ml-2 font-semibold">Empiler </div>
 </div>
 <div id="barchart-7d-phys"></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour les mots "ostéopathe" et "kiné" en fonction des heures(sur 7 jours)</div>
 
 On peut confirmer la présence d'une hausse des recherches, tous thérapeutes confondus, entre 8h et 10h.
 
@@ -123,6 +126,7 @@ Sur les graphiques précédents, on peut voir que le lundi est le jour où le pi
 données sur 90 jours pour voir si cela se confirme.
 
 <div id="linechart-90d-phys"></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour les mots "ostéopathe" et "kiné" sur 90 jours</div>
 
 On peut voir que les pics de recherches se situent essentiellement de lundi en concurrence avec le mardi et le mercredi.
 Le samedi et le dimanche restent les jours les moins recherchés.
@@ -130,14 +134,32 @@ Le samedi et le dimanche restent les jours les moins recherchés.
 Est-ce valable pour les autres professions ?
 
 <div id="linechart-90d-med"></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour le mot "medecin" sur 90 jours</div>
 
 C'est encore plus vrai pour les médecins et les kinés où le lundi semble être en tête. La tendance semble être la même
 pour les autres professions allant jusqu'à suivre les changements des jours. Si la recherche augmente le mardi par
 exemple, cette augmentation est parfois visible dans les autres professions également.
 
 Voyons si les données regroupées donne le même résultat.
-
-<div id="barchart-90d-all" style="height:500px"></div>
+<div class="justify-center mb-2">
+  <div x-data="{ on: false }" role="checkbox" tabindex="0" @click="on = !on; $dispatch('barchart-90d-phys-click', {value: on})" @keydown.space.prevent="on = !on" :aria-checked="on.toString()" aria-checked="true" :class="{ 'bg-gray-200': !on, 'bg-teal-600': on }" class="relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out bg-teal-600 border-2 border-teal-500 rounded-full cursor-pointer w-11 focus:outline-none focus:shadow-outline">
+      <span aria-hidden="true" :class="{ 'translate-x-5': on, 'translate-x-0': !on }" class="relative inline-block w-5 h-5 transition duration-200 ease-in-out transform translate-x-5 bg-white rounded-full shadow">
+        <span :class="{ 'opacity-0 ease-out duration-100': on, 'opacity-100 ease-in duration-200': !on }" class="absolute inset-0 flex items-center justify-center w-full h-full transition-opacity duration-100 ease-out opacity-0">
+          <svg class="w-3 h-3 text-gray-400" fill="none" viewBox="0 0 12 12">
+            <path d="M4 8l2-2m0 0l2-2M6 6L4 4m2 2l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </span>
+        <span :class="{ 'opacity-100 ease-in duration-200': on, 'opacity-0 ease-out duration-100': !on }" class="absolute inset-0 flex items-center justify-center w-full h-full transition-opacity duration-200 ease-in opacity-100">
+          <svg class="w-3 h-3 text-teal-600" fill="currentColor" viewBox="0 0 12 12">
+            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z"></path>
+          </svg>
+        </span>
+      </span>
+    </div>
+  <div class="inline-flex ml-2 font-semibold"> Empiler </div>
+</div>
+<div id="barchart-90d-phys" ></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour les mots "ostéopathe" et "kiné" en fonction des jours (sur 84 jours)</div>
 
 Le lundi se confirme en tête des jours où les requêtes sont les plus importantes pour nos mots clés. Jusqu'en milieu de
 semaines les recherches restent importantes pour diminuer à partir de jeudi.
@@ -147,6 +169,7 @@ semaines les recherches restent importantes pour diminuer à partir de jeudi.
 On va maintenant prendre des périodes plus larges pour observer la popularité au fil des mois.
 
 <div id="linechart-5y-phys"></div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour les mots "ostéopathe" et "kiné" sur 5 ans (2015-2020)</div>
 
 Dès que l'on regarde ce graphique, on remarque tout de suite le gouffre qu'a laissé le COVID19 au mois de Mars-Avril et
 ce toutes professions confondues. Nous allons faire abstraction de mars et avril 2020 pour la suite.
@@ -159,14 +182,15 @@ Zoomons un peu plus sur nous, les médecins ont beaucoup trop de recherches et a
 aussi
 pour prendre une période hors covid, de janvier 2015 à janvier 2020.
 
-<div id="linechart-5y-med" style="height:500px"></div>
+<div id="linechart-5y-med"</div>
+<div class="font-bold text-center underline text-md">Quantité de recherches pour le mot "medecin" sur 5 ans (2015-2020)</div>
 
 Nos pics de recherches si situent plus en août-septembre et février-mars. Les pics inférieurs se situent plutôt en
 décembre et en mai-juin.
 
 Regardons les données en les rassemblants par mois.
 
-<div id="barchart-5y-osteo-nocovid" style="height:500px"></div>
+<div id="barchart-5y-osteo-nocovid"</div>
 
 Ici les mois de juillet à septembre semblent s'en sortir le mieux. On remarque que mars semble également sortir du lot
 en
@@ -216,7 +240,18 @@ Pour les jeunes ostéopathes, on ne peut que vous conseiller :
 
 
 <!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
-<script data-require="d3@3.5.3" data-semver="3.5.3" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+<!-- <script data-require="d3@3.5.3" data-semver="3.5.3" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script> -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3-scale.v3.min.js"></script>
+<script src="https://d3js.org/d3-time.v2.min.js"></script>
+<script src="https://d3js.org/d3-time-format.v3.min.js"></script>
+<script src="https://d3js.org/d3-color.v2.min.js"></script>
+<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-selection@2"></script>
+<script src="https://d3js.org/d3-transition.v2.min.js"></script>
+
+
+
 
 
 <style>
