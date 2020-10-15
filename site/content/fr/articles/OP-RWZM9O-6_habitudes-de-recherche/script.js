@@ -1,3 +1,7 @@
+const teal = "#3EBD93"
+const indigo = "#4055A8"
+const red = "#E66A6A"
+
 
 function getDateFormat(date, mode) {
   if (mode == "hours") {
@@ -91,7 +95,25 @@ function convert_data_to_bar(data) {
   return { headers: headers, data: dt }
 
 }
-function createBarChart(_selector, _data, _chartSize) {
+
+function getDataLegend(data) {
+  let headers = []
+  for (let i = 1; i < data[0].length; i++) {
+    headers.push(data[0][i])
+  }
+  return headers
+}
+
+function getDataXLegend(data) {
+  let headers = []
+  for (let i = 1; i < data.length; i++) {
+    headers.push(data[i][0])
+  }
+  return headers
+}
+
+
+function createBarChart(_selector, _data, _chartSize, colors) {
   const chartSize = {
     width: _chartSize.width - _chartSize.ml - _chartSize.mr,
     height: _chartSize.height - _chartSize.mt - _chartSize.mb,
@@ -103,49 +125,74 @@ function createBarChart(_selector, _data, _chartSize) {
   const selector = "#" + _selector
   const uniqueID = _selector + "-"
 
-  var stack = d3.layout.stack()
-    .values(function (d) { return d.values })
+  let actors = getDataLegend(_data);
+  let xLegend = getDataXLegend(_data);
+  let data = convert_data(_data);
+  var stack = d3.stack()
+    .keys(actors)
+    .order(d3.stackOrderNone)
+    .offset(d3.stackOffsetNone)
 
-  var dt = convert_data_to_bar(_data)
-  var n = dt.data.length // number of layers
-  var m = dt.headers.length// number of samples per layer
-  var data = stack(dt.data)
+  var series = stack(data)
+  var n = actors.length // number of layers
+  var m = series[0].length// number of samples per layer
 
-  var color = d3.scale.category10()
+  var color = d3.scaleOrdinal(colors);
 
   var mx = m
-  var my = d3.max(data, function (d) {
-    return d3.max(d.values, function (d) {
-      console.log(d)
-      return d.y0 + d.y
+  var my = d3.max(series, function (d) {
+    return d3.max(d, function (d) {
+      return d[0] + d[1]
     })
   })
-  var mz = d3.max(data, function (d) {
-    return d3.max(d.values, function (d) {
-      return d.y
+  var mz = d3.max(series, function (d) {
+    return d3.max(d, function (d) {
+      return d[0]
     })
   })
-  var x = function (d) { return d.x * chartSize.width / mx }
-  var y0 = function (d) {
-    console.log(my)
-    return chartSize.height - d.y0 * chartSize.height / my
+
+  var x = function (i) {
+    return i * chartSize.width / mx
   }
-  var y1 = function (d) { return chartSize.height - (d.y + d.y0) * chartSize.height / my }
-  var y2 = function (d) { return d.y * chartSize.height / mz } // or `my` to not rescale
+  var y0 = function (d) {
+    return chartSize.height - chartSize.mt - (d[1]) * (chartSize.height / my)
+  }
+  //From exemple in https://strongriley.github.io/d3/ex/stack.html, not used in v4 because of data type
+  // var y1 = function (d) { return chartSize.height - ((d[0] + d[1]) * (chartSize.height / my)) }
+  // var y2 = function (d) { return d[0] * chartSize.height / mz } // or `my` to not rescale
 
-  var linearScale = d3.scale.linear()
-    .domain([0, 6])
-    .range([0, chartSize.width - chartSize.mr]);
-
-
+  var barHeight = function (d, maxValue) {
+    let ratio = chartSize.height / maxValue
+    let dist = (d[1] - d[0]) * ratio
+    return dist
+  }
   var vis = d3.select(selector)
     .append("svg:svg")
     .attr("class", "chart")
     .attr("viewBox", [0, 0, chartSize.width + chartSize.mr + chartSize.ml, chartSize.height + chartSize.mt + chartSize.mb])
+    .append("g")
+    .attr("transform", "translate(" + chartSize.ml + "," + chartSize.mt + ")")
 
+  var groupYScale = d3.scaleLinear()
+    .range([chartSize.height, 0])
+    .domain([0, 100])
 
-  var legend = vis.selectAll("g")
-    .data(data)
+  var yAxis = d3.axisLeft()
+    .scale(groupYScale)
+    .ticks(10)
+
+  vis.append("g")
+    .attr("class", "y axis")
+    .call(yAxis)
+    .append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 6)
+    .attr("dy", ".71em")
+    .style("text-anchor", "end")
+    .text("Recherches")
+
+  var legend = vis.selectAll("svg")
+    .data(actors)
     .enter()
     .append("g")
     .attr("class", "legend")
@@ -167,49 +214,52 @@ function createBarChart(_selector, _data, _chartSize) {
       return (i * 20) + 9
     })
     .text(function (d) {
-      return d.name
+      return d
     })
 
   var layers = vis.selectAll("g.layer")
-    .data(data)
+    .data(series)
     .enter().append("svg:g")
     .style("fill", function (d, i) { return color(i / (n - 1)) })
     .attr("class", "layer")
 
   var bars = layers.selectAll("g.bar")
     .data(function (d) {
-      // console.log(d);
-      return d.values
+      return d
     })
     .enter()
     .append("svg:g")
     .attr("class", "bar")
-    .attr("transform", function (d) {
-      return "translate(" + x(d) + "," + chartSize.mt + ")"
+    .attr("transform", function (d, i) {
+      return "translate(" + x(i) + "," + chartSize.mt + ")"
     })
 
   var bar_rect = bars.append("svg:rect")
-    .attr("width", x({ x: 0.9 }))
+    .attr("width", x(0.9))
     .attr("x", 0)
-    .attr("y", chartSize.height)
+    .attr("y", chartSize.height - chartSize.mt)
     .attr("height", 0)
 
-  bar_rect.transition()
-    .delay(function (d, i) {
-      return i * 10
+  bar_rect.on("mouseover", function () { tooltip.style("display", null); })
+    .on("mouseout", function () { tooltip.style("display", "none"); })
+    .on("mousemove", function (event, d) {
+      mouse = d3.pointer(event, this)
+      var xPosition = event.offsetX - chartSize.ml + 10
+      var yPosition = event.offsetY - chartSize.mt - 15
+      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+      tooltip.select("text").text(d[1] - d[0]);
     })
-    .attr("y", y1)
-    .attr("height", function (d) { return y0(d) - y1(d) })
+
 
   var labels = vis.selectAll("text.label")
-    .data(dt.headers)
+    .data(xLegend)
     .enter().append("svg:text")
     .attr("class", "label")
     .attr("x", function (d, i) {
       return i * chartSize.width / mx
     })
-    .attr("y", chartSize.height + chartSize.mt + 10)
-    .attr("dx", x({ x: 0.45 }))
+    .attr("y", chartSize.height + 10)
+    .attr("dx", x(0.45))
     .attr("dy", ".71em")
     .attr("text-anchor", "middle")
     .text(function (d, i) { return d })
@@ -217,9 +267,26 @@ function createBarChart(_selector, _data, _chartSize) {
   vis.append("svg:line")
     .attr("class", "line")
     .attr("x1", 0)
-    .attr("x2", chartSize.width - x({ x: 0.1 }))
-    .attr("y1", chartSize.height + chartSize.mt)
-    .attr("y2", chartSize.height + chartSize.mt)
+    .attr("x2", chartSize.width - x(0.1))
+    .attr("y1", chartSize.height)
+    .attr("y2", chartSize.height)
+
+  var tooltip = vis.append("g")
+    .attr("class", "tooltip")
+    .style("display", "none");
+
+  tooltip.append("rect")
+    .attr("width", 30)
+    .attr("height", 20)
+    .attr("fill", "white")
+    .style("opacity", 0.5);
+
+  tooltip.append("text")
+    .attr("x", 15)
+    .attr("dy", "1.2em")
+    .style("text-anchor", "middle")
+    .attr("font-size", "12px")
+    .attr("font-weight", "bold");
 
   function transitionGroup() {
     var group = d3.selectAll(selector)
@@ -234,16 +301,25 @@ function createBarChart(_selector, _data, _chartSize) {
       .transition()
       .duration(500)
       .delay(function (d, i) { return (i % m) * 10 })
-      .attr("x", function (d, i) { return x({ x: 0.9 * ~~(i / m) / n }) })
-      .attr("width", x({ x: 0.9 / n }))
-      .each("end", transitionEnd)
+      .attr("x", function (d, i) {
+        return x(0.9 * ~~(i / m) / n)
+      })
+      .attr("width", x(0.9 / n))
+      .on("end", transitionEnd)
+
+    group.selectAll(".y.axis")
+      .transition()
+      .duration(1000)
+      .call(yAxis.scale(groupYScale))
 
     function transitionEnd() {
       d3.select(this)
         .transition()
         .duration(500)
-        .attr("y", function (d) { return chartSize.height - y2(d) })
-        .attr("height", y2)
+        .attr("y", function (d) { return chartSize.height - chartSize.mt - barHeight(d, mz) })
+        .attr("height", function (d) {
+          return barHeight(d, mz)
+        })
     }
   }
 
@@ -260,23 +336,35 @@ function createBarChart(_selector, _data, _chartSize) {
       .transition()
       .duration(500)
       .delay(function (d, i) { return (i % m) * 10 })
-      .attr("y", y1)
-      .attr("height", function (d) { return y0(d) - y1(d) })
-      .each("end", transitionEnd)
+      .attr("y", function (d) {
+        return y0(d)
+      })
+      .attr("height", function (d) { return barHeight(d, my) })
+      .on("end", transitionEnd)
+
+    let stackYScale = d3.scaleLinear()
+      .range([chartSize.height, 0])
+      .domain([0, 200])
+
+    stack.selectAll(".y.axis")
+      .transition()
+      .duration(1000)
+      .call(yAxis.scale(stackYScale))
+
+
 
     function transitionEnd() {
       d3.select(this)
         .transition()
         .duration(500)
         .attr("x", 0)
-        .attr("width", x({ x: 0.9 }))
+        .attr("width", x(0.9))
     }
 
 
   }
 
   window.addEventListener(uniqueID + "click", function (e) {
-    console.log(e.detail.value)
     if (e.detail.value) {
       transitionStack()
     } else {
@@ -284,7 +372,8 @@ function createBarChart(_selector, _data, _chartSize) {
     }
   })
 
-  transitionGroup();
+  //Setting the type of display we want at first
+  transitionGroup()
 }
 
 /*
@@ -295,7 +384,7 @@ function createBarChart(_selector, _data, _chartSize) {
   dateFormatType: display hours, days or simple date => "hours", "days", nul
   chartSize: the size of the chart in obj format with params: width height, mt,mr,mb,ml
 */
-function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisName, yAxisName, _chartSize) {
+function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisName, yAxisName, _chartSize, colors) {
   var data = convert_data(_data, true)
   const selector = "#" + _selector
   const uniqueClass = _selector + "-"
@@ -309,30 +398,28 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
   }
 
 
-  var x = d3.time.scale()
+  var x = d3.scaleTime()
     .range([0, chartSize.width])
 
-  var y = d3.scale.linear()
+  var y = d3.scaleLinear()
     .range([chartSize.height, 0])
 
-  var color = d3.scale.category10()
+  var color = d3.scaleOrdinal(colors);
 
   // Gestion de l'axe du bas en visuel
-  var xAxis = d3.svg.axis()
+  var xAxis = d3.axisBottom()
     .scale(x)
     .tickFormat(dateFormat)
-    .orient("bottom")
+
 
   if (hoverFormatType == "hours") {
-    xAxis.ticks(d3.time.day, 1)
+    xAxis.ticks(d3.timeDay, 1)
   }
 
-  var yAxis = d3.svg.axis()
+  var yAxis = d3.axisLeft()
     .scale(y)
-    .orient("left")
 
-  var line = d3.svg.line()
-    .interpolate("basis")
+  var line = d3.line()
     .x(function (d) {
       return x(d.date)
     })
@@ -513,13 +600,13 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
       d3.selectAll(".mouse-per-line text")
         .style("opapractitioner", "1")
     })
-    .on("mousemove", mousemove)// mouse moving over canvas
+    .on("mousemove", (event) => mousemove(event))// mouse moving over canvas
 
 
   const bisectDate = d3.bisector((d) => d.date).left
 
-  function mousemove() {
-    var mouse = d3.mouse(this)
+  function mousemove(event) {
+    var mouse = d3.pointer(event);
     d3.select("." + uniqueClass + "mouse-line")
       .attr("d", function () {
         var d = "M" + mouse[0] + "," + chartSize.height
@@ -5277,53 +5364,177 @@ const article_data = {
         77.0
       ]
     ],
-  days7_grouped_phys: [
+  hours7_grouped_phys: [
+    ["Heure", "ostéopathe", "kiné"],
+    [
+      "00:00",
+      172.0,
+      120.0
+    ],
+    [
+      "01:00",
+      179.0,
+      119.0
+    ],
+    [
+      "02:00",
+      168.0,
+      120.0
+    ],
+    [
+      "03:00",
+      180.0,
+      126.0
+    ],
+    [
+      "04:00",
+      223.0,
+      98.0
+    ],
+    [
+      "05:00",
+      233.0,
+      96.0
+    ],
+    [
+      "06:00",
+      246.0,
+      106.0
+    ],
+    [
+      "07:00",
+      288.0,
+      151.0
+    ],
+    [
+      "08:00",
+      425.0,
+      259.0
+    ],
+    [
+      "09:00",
+      462.0,
+      350.0
+    ],
+    [
+      "10:00",
+      407.0,
+      349.0
+    ],
+    [
+      "11:00",
+      361.0,
+      333.0
+    ],
+    [
+      "12:00",
+      296.0,
+      252.0
+    ],
+    [
+      "13:00",
+      302.0,
+      255.0
+    ],
+    [
+      "14:00",
+      313.0,
+      301.0
+    ],
+    [
+      "15:00",
+      304.0,
+      307.0
+    ],
+    [
+      "16:00",
+      293.0,
+      295.0
+    ],
+    [
+      "17:00",
+      286.0,
+      271.0
+    ],
+    [
+      "18:00",
+      231.0,
+      212.0
+    ],
+    [
+      "19:00",
+      188.0,
+      155.0
+    ],
+    [
+      "20:00",
+      177.0,
+      132.0
+    ],
+    [
+      "21:00",
+      193.0,
+      134.0
+    ],
+    [
+      "22:00",
+      190.0,
+      142.0
+    ],
+    [
+      "23:00",
+      192.0,
+      135.0
+    ]],
+  days90_grouped_phys: [
     ["Jour", "ostéopathe", "kiné"],
     [
       "Lundi",
-      1121.0,
-      875.0
+      1110.0,
+      776.0
     ],
     [
       "Mardi",
-      1002.0,
-      844.0
+      920.0,
+      679.0
     ],
     [
       "Mercredi",
-      985.0,
-      807.0
+      924.0,
+      721.0
     ],
     [
       "Jeudi",
-      990.0,
-      806.0
+      920.0,
+      671.0
     ],
     [
       "Vendredi",
-      951.0,
-      723.0
+      763.0,
+      563.0
     ],
     [
       "Samedi",
-      680.0,
-      399.0
+      571.0,
+      286.0
     ],
     [
       "Dimanche",
-      580.0,
-      364.0
+      537.0,
+      292.0
     ]
   ]
 }
 
 
-createLineChart("linechart-7d-phys", article_data.days7_phys, hourFormat, "hours", "Heures", "Popularité", chartSize)
-createLineChart("linechart-7d-med", article_data.days7_med, hourFormat, "hours", "Heures", "Popularité", chartSize)
 
-createLineChart("linechart-90d-phys", article_data.days90_phys, dayFormat, "days", "Jours", "Popularité", chartSize)
-createLineChart("linechart-90d-med", article_data.days90_med, dayFormat, "days", "Jours", "Popularité", chartSize)
+createLineChart("linechart-7d-phys", article_data.days7_phys, hourFormat, "hours", "Heures", "Popularité", chartSize, [teal, red, indigo])
+createLineChart("linechart-7d-med", article_data.days7_med, hourFormat, "hours", "Heures", "Popularité", chartSize, [indigo])
 
-createLineChart("linechart-5y-phys", article_data.years5_phys, yearFormat, "", "Date", "Popularité", chartSize)
-createLineChart("linechart-5y-med", article_data.years5_med, yearFormat, "", "Date", "Popularité", chartSize)
-createBarChart("barchart-7d-phys", article_data.days7_grouped_phys, chartSize)
+createLineChart("linechart-90d-phys", article_data.days90_phys, dayFormat, "days", "Jours", "Popularité", chartSize, [teal, red, indigo])
+createLineChart("linechart-90d-med", article_data.days90_med, dayFormat, "days", "Jours", "Popularité", chartSize, [indigo])
+
+createLineChart("linechart-5y-phys", article_data.years5_phys, yearFormat, "", "Date", "Popularité", chartSize, [teal, red, indigo])
+createLineChart("linechart-5y-med", article_data.years5_med, yearFormat, "", "Date", "Popularité", chartSize, [indigo])
+createBarChart("barchart-7d-phys", article_data.hours7_grouped_phys, chartSize, [teal, red, indigo])
+createBarChart("barchart-90d-phys", article_data.days90_grouped_phys, chartSize, [teal, red, indigo])
