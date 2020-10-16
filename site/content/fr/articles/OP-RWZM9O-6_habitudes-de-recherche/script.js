@@ -68,33 +68,6 @@ function convert_data(data, isDateObj) {
   }
   return d
 }
-function convert_data_to_bar(data) {
-  // [[A0,B0,C0], [A1, B1; C1]] => [{name: B0, values(x: 0, y:B1)}]
-
-  const dt = []
-  var headers = []
-  for (let i = 1; i < data[0].length; i++) {
-    // titles
-    const obj = {
-      name: data[0][i],
-      values: []
-    }
-    const values = []
-    for (let y = 1; y < data.length; y++) {
-      const item = {}
-      item.x = y - 1
-      item.y = data[y][i]
-      values.push(item)
-    }
-    obj.values = values
-    dt.push(obj)
-  }
-  for (let i = 1; i < data.length; i++) {
-    headers.push(data[i][0])
-  }
-  return { headers: headers, data: dt }
-
-}
 
 function getDataLegend(data) {
   let headers = []
@@ -140,29 +113,21 @@ function createBarChart(_selector, _data, _chartSize, colors) {
   var color = d3.scaleOrdinal(colors);
 
   var mx = m
-  var my = d3.max(series, function (d) {
-    return d3.max(d, function (d) {
-      return d[0] + d[1]
-    })
-  })
-  var mz = d3.max(series, function (d) {
-    return d3.max(d, function (d) {
-      return d[0]
-    })
-  })
+  var my = 200
+  var mz = 100
 
   var x = function (i) {
     return i * chartSize.width / mx
   }
   var y0 = function (d) {
-    return chartSize.height - chartSize.mt - (d[1]) * (chartSize.height / my)
+    return chartSize.height - chartSize.mt - (d[1]) * ((chartSize.height) / my)
   }
   //From exemple in https://strongriley.github.io/d3/ex/stack.html, not used in v4 because of data type
   // var y1 = function (d) { return chartSize.height - ((d[0] + d[1]) * (chartSize.height / my)) }
   // var y2 = function (d) { return d[0] * chartSize.height / mz } // or `my` to not rescale
 
   var barHeight = function (d, maxValue) {
-    let ratio = chartSize.height / maxValue
+    let ratio = (chartSize.height) / maxValue
     let dist = (d[1] - d[0]) * ratio
     return dist
   }
@@ -170,7 +135,8 @@ function createBarChart(_selector, _data, _chartSize, colors) {
     .append("svg:svg")
     .attr("class", "chart")
     .attr("viewBox", [0, 0, chartSize.width + chartSize.mr + chartSize.ml, chartSize.height + chartSize.mt + chartSize.mb])
-    .append("g")
+
+  var graphContainer = vis.append("g")
     .attr("transform", "translate(" + chartSize.ml + "," + chartSize.mt + ")")
 
   var groupYScale = d3.scaleLinear()
@@ -181,7 +147,7 @@ function createBarChart(_selector, _data, _chartSize, colors) {
     .scale(groupYScale)
     .ticks(10)
 
-  vis.append("g")
+  graphContainer.append("g")
     .attr("class", "y axis")
     .call(yAxis)
     .append("text")
@@ -217,11 +183,14 @@ function createBarChart(_selector, _data, _chartSize, colors) {
       return d
     })
 
-  var layers = vis.selectAll("g.layer")
+  var layers = graphContainer.selectAll("g.layer")
     .data(series)
     .enter().append("svg:g")
     .style("fill", function (d, i) { return color(i / (n - 1)) })
     .attr("class", "layer")
+
+
+
 
   var bars = layers.selectAll("g.bar")
     .data(function (d) {
@@ -234,6 +203,7 @@ function createBarChart(_selector, _data, _chartSize, colors) {
       return "translate(" + x(i) + "," + chartSize.mt + ")"
     })
 
+
   var bar_rect = bars.append("svg:rect")
     .attr("width", x(0.9))
     .attr("x", 0)
@@ -243,15 +213,16 @@ function createBarChart(_selector, _data, _chartSize, colors) {
   bar_rect.on("mouseover", function () { tooltip.style("display", null); })
     .on("mouseout", function () { tooltip.style("display", "none"); })
     .on("mousemove", function (event, d) {
+      let value = (d[1] - d[0]).toFixed(1)
       mouse = d3.pointer(event, this)
       var xPosition = event.offsetX - chartSize.ml + 10
       var yPosition = event.offsetY - chartSize.mt - 15
       tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-      tooltip.select("text").text(d[1] - d[0]);
+      tooltip.select("text").text(value);
     })
 
 
-  var labels = vis.selectAll("text.label")
+  var labels = graphContainer.selectAll("text.label")
     .data(xLegend)
     .enter().append("svg:text")
     .attr("class", "label")
@@ -264,7 +235,7 @@ function createBarChart(_selector, _data, _chartSize, colors) {
     .attr("text-anchor", "middle")
     .text(function (d, i) { return d })
 
-  vis.append("svg:line")
+  graphContainer.append("svg:line")
     .attr("class", "line")
     .attr("x1", 0)
     .attr("x2", chartSize.width - x(0.1))
@@ -316,7 +287,9 @@ function createBarChart(_selector, _data, _chartSize, colors) {
       d3.select(this)
         .transition()
         .duration(500)
-        .attr("y", function (d) { return chartSize.height - chartSize.mt - barHeight(d, mz) })
+        .attr("y", function (d) {
+          return chartSize.height - chartSize.mt - barHeight(d, mz)
+        })
         .attr("height", function (d) {
           return barHeight(d, mz)
         })
@@ -324,34 +297,35 @@ function createBarChart(_selector, _data, _chartSize, colors) {
   }
 
   function transitionStack() {
-    var stack = d3.select(selector)
+    if (n > 1) {
 
-    stack.select("#" + uniqueID + "group")
-      .attr("class", "first")
+      var stack = d3.select(selector)
 
-    stack.select("#" + uniqueID + "stack")
-      .attr("class", "last active")
+      stack.select("#" + uniqueID + "group")
+        .attr("class", "first")
 
-    stack.selectAll("g.layer rect")
-      .transition()
-      .duration(500)
-      .delay(function (d, i) { return (i % m) * 10 })
-      .attr("y", function (d) {
-        return y0(d)
-      })
-      .attr("height", function (d) { return barHeight(d, my) })
-      .on("end", transitionEnd)
+      stack.select("#" + uniqueID + "stack")
+        .attr("class", "last active")
 
-    let stackYScale = d3.scaleLinear()
-      .range([chartSize.height, 0])
-      .domain([0, 200])
+      stack.selectAll("g.layer rect")
+        .transition()
+        .duration(500)
+        .delay(function (d, i) { return (i % m) * 10 })
+        .attr("y", function (d) {
+          return y0(d)
+        })
+        .attr("height", function (d) { return barHeight(d, my) })
+        .on("end", transitionEnd)
 
-    stack.selectAll(".y.axis")
-      .transition()
-      .duration(1000)
-      .call(yAxis.scale(stackYScale))
+      let stackYScale = d3.scaleLinear()
+        .range([chartSize.height, 0])
+        .domain([0, 200])
 
-
+      stack.selectAll(".y.axis")
+        .transition()
+        .duration(1000)
+        .call(yAxis.scale(stackYScale))
+    }
 
     function transitionEnd() {
       d3.select(this)
@@ -360,8 +334,6 @@ function createBarChart(_selector, _data, _chartSize, colors) {
         .attr("x", 0)
         .attr("width", x(0.9))
     }
-
-
   }
 
   window.addEventListener(uniqueID + "click", function (e) {
@@ -419,6 +391,7 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
   var yAxis = d3.axisLeft()
     .scale(y)
 
+
   var line = d3.line()
     .x(function (d) {
       return x(d.date)
@@ -431,7 +404,8 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
   var svg = d3.select(selector).append("svg")
     .attr("class", "chart")
     .attr("viewBox", "0 0 " + (chartSize.width + chartSize.ml + chartSize.mr) + " " + (chartSize.height + chartSize.mt + chartSize.mb))
-    .append("g")
+
+  var graphContainer = svg.append("g")
     .attr("transform", "translate(" + chartSize.ml + "," + chartSize.mt + ")")
 
   color.domain(d3.keys(data[0]).filter(function (key) {
@@ -468,7 +442,7 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
     })
   ])
 
-  var legend = svg.selectAll("g")
+  var legend = svg.selectAll("svg")
     .data(practitioners)
     .enter()
     .append("g")
@@ -494,12 +468,12 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
       return d.name
     })
 
-  svg.append("g")
+  graphContainer.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + chartSize.height + ")")
     .call(xAxis)
 
-  svg.append("g")
+  graphContainer.append("g")
     .attr("class", "y axis")
     .call(yAxis)
     .append("text")
@@ -509,7 +483,7 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
     .style("text-anchor", "end")
     .text(yAxisName)
 
-  var practitioner = svg.selectAll(".practitioner")
+  var practitioner = graphContainer.selectAll(".practitioner")
     .data(practitioners)
     .enter().append("g")
     .attr("class", "practitioner")
@@ -539,7 +513,7 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
       return d.name
     })
 
-  var mouseG = svg.append("g")
+  var mouseG = graphContainer.append("g")
     .attr("class", uniqueClass + "mouse-over-effects")
 
   mouseG.append("path") // this is the black vertical line to follow mouse
@@ -5368,162 +5342,399 @@ const article_data = {
     ["Heure", "ostéopathe", "kiné"],
     [
       "00:00",
-      172.0,
-      120.0
+      24.57142857142857,
+      17.142857142857142
     ],
     [
       "01:00",
-      179.0,
-      119.0
+      25.571428571428573,
+      17.0
     ],
     [
       "02:00",
-      168.0,
-      120.0
+      24.000000000000004,
+      17.142857142857142
     ],
     [
       "03:00",
-      180.0,
-      126.0
+      25.71428571428571,
+      18.0
     ],
     [
       "04:00",
-      223.0,
-      98.0
+      31.857142857142858,
+      14.000000000000002
     ],
     [
       "05:00",
-      233.0,
-      96.0
+      33.285714285714285,
+      13.714285714285714
     ],
     [
       "06:00",
-      246.0,
-      106.0
+      35.14285714285714,
+      15.142857142857144
     ],
     [
       "07:00",
-      288.0,
-      151.0
+      41.142857142857146,
+      21.571428571428573
     ],
     [
       "08:00",
-      425.0,
-      259.0
+      60.71428571428571,
+      37.0
     ],
     [
       "09:00",
-      462.0,
-      350.0
+      66.0,
+      50.0
     ],
     [
       "10:00",
-      407.0,
-      349.0
+      58.142857142857146,
+      49.85714285714286
     ],
     [
       "11:00",
-      361.0,
-      333.0
+      51.57142857142858,
+      47.57142857142857
     ],
     [
       "12:00",
-      296.0,
-      252.0
+      42.285714285714285,
+      36.0
     ],
     [
       "13:00",
-      302.0,
-      255.0
+      43.14285714285714,
+      36.42857142857143
     ],
     [
       "14:00",
-      313.0,
-      301.0
+      44.71428571428572,
+      42.99999999999999
     ],
     [
       "15:00",
-      304.0,
-      307.0
+      43.42857142857143,
+      43.85714285714286
     ],
     [
       "16:00",
-      293.0,
-      295.0
+      41.85714285714286,
+      42.142857142857146
     ],
     [
       "17:00",
-      286.0,
-      271.0
+      40.857142857142854,
+      38.714285714285715
     ],
     [
       "18:00",
-      231.0,
-      212.0
+      33.0,
+      30.285714285714285
     ],
     [
       "19:00",
-      188.0,
-      155.0
+      26.85714285714286,
+      22.142857142857142
     ],
     [
       "20:00",
-      177.0,
-      132.0
+      25.285714285714285,
+      18.857142857142858
     ],
     [
       "21:00",
-      193.0,
-      134.0
+      27.571428571428573,
+      19.142857142857142
     ],
     [
       "22:00",
-      190.0,
-      142.0
+      27.142857142857142,
+      20.285714285714285
     ],
     [
       "23:00",
-      192.0,
-      135.0
+      27.428571428571427,
+      19.285714285714285
+    ]],
+  hours7_grouped_med: [
+    ["Heure", "medecin"], [
+      "00:00",
+      30.0
+    ],
+    [
+      "01:00",
+      32.42857142857143
+    ],
+    [
+      "02:00",
+      38.14285714285714
+    ],
+    [
+      "03:00",
+      43.0
+    ],
+    [
+      "04:00",
+      46.71428571428571
+    ],
+    [
+      "05:00",
+      43.57142857142857
+    ],
+    [
+      "06:00",
+      44.42857142857143
+    ],
+    [
+      "07:00",
+      53.14285714285714
+    ],
+    [
+      "08:00",
+      72.14285714285714
+    ],
+    [
+      "09:00",
+      69.14285714285714
+    ],
+    [
+      "10:00",
+      62.85714285714286
+    ],
+    [
+      "11:00",
+      55.285714285714285
+    ],
+    [
+      "12:00",
+      47.857142857142854
+    ],
+    [
+      "13:00",
+      48.857142857142854
+    ],
+    [
+      "14:00",
+      50.57142857142858
+    ],
+    [
+      "15:00",
+      49.14285714285714
+    ],
+    [
+      "16:00",
+      46.00000000000001
+    ],
+    [
+      "17:00",
+      42.0
+    ],
+    [
+      "18:00",
+      36.57142857142857
+    ],
+    [
+      "19:00",
+      32.0
+    ],
+    [
+      "20:00",
+      29.428571428571434
+    ],
+    [
+      "21:00",
+      29.428571428571423
+    ],
+    [
+      "22:00",
+      30.0
+    ],
+    [
+      "23:00",
+      30.714285714285715
     ]],
   days90_grouped_phys: [
     ["Jour", "ostéopathe", "kiné"],
     [
       "Lundi",
-      1110.0,
-      776.0
+      85.99999999999999,
+      59.333333333333336
     ],
     [
       "Mardi",
-      920.0,
-      679.0
+      71.5,
+      51.083333333333336
     ],
     [
       "Mercredi",
-      924.0,
-      721.0
+      71.83333333333333,
+      54.416666666666664
     ],
     [
       "Jeudi",
-      920.0,
-      671.0
+      70.5,
+      51.49999999999999
     ],
     [
       "Vendredi",
-      763.0,
-      563.0
+      63.58333333333334,
+      46.91666666666667
     ],
     [
       "Samedi",
-      571.0,
-      286.0
+      44.916666666666664,
+      22.083333333333336
     ],
     [
       "Dimanche",
-      537.0,
-      292.0
+      41.416666666666664,
+      22.5
     ]
-  ]
+  ],
+  days90_grouped_med: [
+    ["Jours", "medecin"],
+    [
+      "Lundi",
+      78.58333333333334
+    ],
+    [
+      "Mardi",
+      67.16666666666667
+    ],
+    [
+      "Mercredi",
+      67.33333333333333
+    ],
+    [
+      "Jeudi",
+      66.58333333333333
+    ],
+    [
+      "Vendredi",
+      63.50000000000001
+    ],
+    [
+      "Samedi",
+      49.66666666666667
+    ],
+    [
+      "Dimanche",
+      44.91666666666667
+    ]],
+  years10_grouped_phys_nocovid: [
+    ["Mois", "ostéopathe", "kiné"], [
+      "Janvier",
+      45.77777777777778,
+      58.666666666666664
+    ],
+    [
+      "Février",
+      48.777777777777786,
+      57.777777777777786
+    ],
+    [
+      "Mars",
+      50.111111111111114,
+      58.55555555555556
+    ],
+    [
+      "Avril",
+      48.44444444444444,
+      53.44444444444444
+    ],
+    [
+      "Mai",
+      46.66666666666667,
+      50.88888888888889
+    ],
+    [
+      "Juin",
+      45.77777777777778,
+      55.0
+    ],
+    [
+      "Juillet",
+      50.888888888888886,
+      49.55555555555556
+    ],
+    [
+      "Aout",
+      57.33333333333333,
+      47.666666666666664
+    ],
+    [
+      "Septembre",
+      55.55555555555556,
+      57.88888888888889
+    ],
+    [
+      "Octobre",
+      54.44444444444444,
+      56.44444444444444
+    ],
+    [
+      "Novembre",
+      53.22222222222222,
+      58.44444444444445
+    ],
+    [
+      "Décembre",
+      48.55555555555556,
+      52.333333333333336
+    ]],
+  years10_grouped_med_nocovid: [
+    ["Mois", "medecin"], [
+      "Janvier",
+      66.33333333333333
+    ],
+    [
+      "Février",
+      66.0
+    ],
+    [
+      "Mars",
+      61.111111111111114
+    ],
+    [
+      "Avril",
+      58.44444444444444
+    ],
+    [
+      "Mai",
+      55.44444444444444
+    ],
+    [
+      "Juin",
+      57.55555555555556
+    ],
+    [
+      "Juillet",
+      60.0
+    ],
+    [
+      "Aout",
+      63.77777777777778
+    ],
+    [
+      "Septembre",
+      69.88888888888889
+    ],
+    [
+      "Octobre",
+      66.22222222222223
+    ],
+    [
+      "Novembre",
+      64.11111111111111
+    ],
+    [
+      "Décembre",
+      67.22222222222223
+    ]]
 }
 
 
@@ -5536,5 +5747,16 @@ createLineChart("linechart-90d-med", article_data.days90_med, dayFormat, "days",
 
 createLineChart("linechart-5y-phys", article_data.years5_phys, yearFormat, "", "Date", "Popularité", chartSize, [teal, red, indigo])
 createLineChart("linechart-5y-med", article_data.years5_med, yearFormat, "", "Date", "Popularité", chartSize, [indigo])
+
+
+
+
 createBarChart("barchart-7d-phys", article_data.hours7_grouped_phys, chartSize, [teal, red, indigo])
+createBarChart("barchart-7d-med", article_data.hours7_grouped_med, chartSize, [indigo])
+
 createBarChart("barchart-90d-phys", article_data.days90_grouped_phys, chartSize, [teal, red, indigo])
+createBarChart("barchart-90d-med", article_data.days90_grouped_med, chartSize, [indigo])
+
+
+createBarChart("barchart-10y-phys-nocovid", article_data.years10_grouped_phys_nocovid, chartSize, [teal, red, indigo])
+createBarChart("barchart-10y-med-nocovid", article_data.years10_grouped_med_nocovid, chartSize, [indigo])
