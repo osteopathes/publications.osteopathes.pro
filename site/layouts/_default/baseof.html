@@ -1,17 +1,21 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   {{/*- if getenv "CONTEXT" -}}
-  <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+  <base
+    href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
   {{- end -*/}}
   <title>{{ $.Site.Title }} – Publications osteopathes.pro</title>
   <link rel="canonical" href="{{ .Permalink }}">
-  {{- if .OutputFormats.Get "RSS" -}}<link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{- end -}}
+  {{- if .OutputFormats.Get "RSS" -}}
+  <link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml"
+    title="{{ .Title }}" />{{- end -}}
   {{- $stylesheet := .Site.Data.webpack.main -}}
   {{- with $stylesheet.css -}}
-    <link href="{{ relURL . }}" rel="stylesheet">
+  <link href="{{ relURL . }}" rel="stylesheet">
   {{- end -}}
   <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicons/favicon-32x32.png">
@@ -28,16 +32,19 @@
   {{- partial "site-schema.html" . | safeJS -}}
   </script>
   {{- partial "social-meta.html" . -}}
+  <script async defer data-domain="osteopathes.pro" src="https://plausible.io/js/plausible.js"></script>
 </head>
-<body class="bg-gray-50 font-sans leading-normal tracking-normal">
+
+<body class="font-sans leading-normal tracking-normal bg-gray-50">
   {{- block "header" . -}}{{- partial "header" . -}}{{- end -}}
   <main>
-  {{- block "main" . -}}{{- end -}}
+    {{- block "main" . -}}{{- end -}}
   </main>
   {{- block "footer" . -}}{{- partial "footer" . -}}{{- end -}}
   {{- $script := .Site.Data.webpack.main -}}
   {{- with $script.js -}}
-    <script src="{{ relURL . }}"></script>
+  <script src="{{ relURL . }}"></script>
   {{- end -}}
 </body>
+
 </html>

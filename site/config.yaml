@@ -12,6 +12,11 @@ markup:
     renderer:
       unsafe: true
 
+  tableOfContents:
+    endLevel: 3
+    startLevel: 2
+    ordered: false
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
@@ -49,4 +54,3 @@ languages:
       auteur: "auteurs"
       label: "labels"
       catégorie: "catégories"
-
