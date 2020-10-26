@@ -3,16 +3,16 @@
 {{ $searchablePages := where .Site.RegularPages "Section" "in" (slice "actualites" "articles" "dossiers") }}
 
 {{ range $index, $page := $searchablePages }}
-  {{ .Scratch.Set "pageData" "" }}
-  {{ .Scratch.Set "pageContent" "" }}
-  {{ .Scratch.Set "pageURL" "" }}
+{{ .Scratch.Set "pageData" "" }}
+{{ .Scratch.Set "pageContent" "" }}
+{{ .Scratch.Set "pageURL" "" }}
 
-  {{ if gt (len $page.Content) 0 }}
-    {{ .Scratch.Set "pageContent" $page.Plain }}
-    {{ .Scratch.Set "pageURL" $page.Permalink }}
-    {{ .Scratch.Set "pageData" (dict "id" $index "title" $page.Title "url" (.Scratch.Get "pageURL") "content" (.Scratch.Get "pageContent") "tag" (.Scratch.Get "pageTag")) }}
-    {{ $.Scratch.Add "index" (.Scratch.Get "pageData") }}
-  {{ end }}
+{{ if gt (len $page.Content) 0 }}
+{{ .Scratch.Set "pageContent" $page.Plain }}
+{{ .Scratch.Set "pageURL" $page.Permalink }}
+{{ .Scratch.Set "pageData" (dict "id" $index "title" $page.Title "url" (.Scratch.Get "pageURL") "content" (.Scratch.Get "pageContent") "tag" (.Scratch.Get "pageTag")) }}
+{{ $.Scratch.Add "index" (.Scratch.Get "pageData") }}
+{{ end }}
 {{ end }}
 
 {{ $.Scratch.Get "index" | jsonify */}}

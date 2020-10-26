@@ -296,14 +296,14 @@ Nous n'avons fait qu'effleurer les observations possibles avec cet outil.
 À l'avenir, il serait en effet possible d'observer de nouvelles tendances encore
 inconnues, par exemple en utilisant des termes liés à une pathologie spécifique.
 
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="https://d3js.org/d3-scale.v3.min.js"></script>
-<script src="https://d3js.org/d3-time.v2.min.js"></script>
-<script src="https://d3js.org/d3-time-format.v3.min.js"></script>
-<script src="https://d3js.org/d3-color.v2.min.js"></script>
-<script src="https://d3js.org/d3-collection.v1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/d3-selection@2"></script>
-<script src="https://d3js.org/d3-transition.v2.min.js"></script>
+<script src="https://unpkg.com/d3@6.2.0/dist/d3.min.js"></script>
+<script src="https://unpkg.com/d3-scale@3.2.3/dist/d3-scale.min.js"></script>
+<script src="https://unpkg.com/d3-time@2.0.0/dist/d3-time.min.js"></script>
+<script src="https://unpkg.com/d3-time-format@3.0.0/dist/d3-time-format.min.js"></script>
+<script src="https://unpkg.com/d3-color@2.0.0/dist/d3-color.min.js"></script>
+<script src="https://unpkg.com/d3-collection@1.0.7/dist/d3-collection.min.js"></script>
+<script src="https://unpkg.com/d3-selection@2.0.0/dist/d3-selection.min.js"></script>
+<script src="https://unpkg.com/d3-transition@2.0.0/dist/d3-transition.min.js"></script>
 
 <style>
   .chart {
