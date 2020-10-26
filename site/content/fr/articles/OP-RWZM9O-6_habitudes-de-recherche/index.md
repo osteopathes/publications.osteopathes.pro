@@ -245,9 +245,10 @@ sont «&nbsp;temporal pattern&nbsp;», «&nbsp;seasonal&nbsp;» et «&nbsp;incre
 
 Nous avons pu trouver des études au sujet des observations suivantes:
 
- - une **majorité de congés maladie sont posés le lundi** d'après l'analyse des données
-   d'entreprises privées par Mercer, dont une analyse des causes potentielles[^2]
- - les **douleurs de dos matinales sont fréquentes** (ou souvent aggravées le matin au réveil)[^3]
+ - **presque un tiers (30%) des congés maladie sont posés le lundi** d'après
+   l'analyse des données d'entreprises privées par Mercer[^2]
+ - les **douleurs de dos surivennent le plus souvent le matin entre 7h00 et 10h00**
+   pour 35.2% des participants d'une étude sur le sujet.[^3]
  - de nombreuses études semblent étayer le fait que **les troubles
    cardio-vasculaires** (<abbr title="Accident Vasculaire Cérébral">AVC</abbr>s,
    infarctus du myocarde) sont **plus fréquents le lundi**[^4]
@@ -263,6 +264,7 @@ Nous avons pu trouver des études au sujet des observations suivantes:
       - Steffens D, Ferreira ML, Latimer J, et al. What triggers an episode of acute low back pain? A case-crossover study. Arthritis Care Res (Hoboken). 2015 Mar;67(3):403–10. https://doi.org/10.1002/acr.22533
 
 [^4]: - Witte, D., Grobbee, D., Bots, M. et al. A Meta-analysis of excess cardiac mortality on Monday. Eur J Epidemiol 20, 401–406 (2005). https://doi.org/10.1007/s10654-004-8783-6
+      - Barnett AG, Dobson AJ, Excess in cardiovascular events on Mondays: a meta-analysis and prospective studyJournal of Epidemiology & Community Health 2005;59:109-114. https://doi.org/10.1136/jech.2003.019489
       - Robert W. Peters, Steve McQuillan, Susan Kaye Resnick, and Michael R. Gold. Increased Monday Incidence of Life-Threatening Ventricular Arrhythmias. Circulation. 1996;94:1346–1349 https://doi.org/10.1161/01.CIR.94.6.1346
       - Turin T, C, Kita Y, Murakami Y, Rumana N, Sugihara H, Morita Y, Hirose K, Okayama A, Nakamura Y, Ueshima H: Increase of Stroke Incidence after Weekend Regardless of Traditional Risk Factors: Takashima Stroke Registry, Japan; 1988–2003. Cerebrovasc Dis 2007;24:328-337. https://doi.org/10.1159/000106978
       - Arntz, Hans-Richard; Müller-Nordhorn, Jaqueline MD; Willich, Stefan N. MD Cold Monday mornings prove dangerous: epidemiology of sudden cardiac death. Current Opinion in Critical Care: June 2001 - Volume 7 - Issue 3 - p 139-144
@@ -282,7 +284,7 @@ générales sur les recherches de la population française et des effets périod
 (hebdomadaires, annuels) plus subtils au niveau des douleurs et autres motifs
 de consultation.
 
-## Une découverte heureuse
+## Une heureuses découverte
 Si notre but initial était d'extraire des informations sur les périodes
 les plus propices au développement d'un cabinet d'ostéopathie, nous avons
 découvert des informations bien plus intéressantes sur la périodicité
