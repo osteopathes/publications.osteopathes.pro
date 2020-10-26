@@ -6,8 +6,7 @@ const AssetsPlugin = require("assets-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: path.join(__dirname, "src", "index.js"),
-    // search: path.join(__dirname, "src", "search.js")
+    main: path.join(__dirname, "src", "index.js")
   },
 
   output: {
@@ -21,13 +20,13 @@ module.exports = {
         loader: "file-loader?name=/[name]-[hash].[ext]"
       },
 
-      {test: /\.json$/, loader: "json-loader"},
+      { test: /\.json$/, loader: "json-loader" },
 
       {
         test: /\.js?$/,
         loader: "babel-loader",
         exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        query: { cacheDirectory: true }
       },
 
       {
