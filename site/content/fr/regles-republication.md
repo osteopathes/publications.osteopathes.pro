@@ -40,7 +40,7 @@ Cela signifie que vous pouvez publier gratuitement nos articles en ligne ou les 
    ni intégrer l’ensemble du contenu de notre site dans le vôtre.**
  - **Si l'accès à votre site possède des espaces payants/sur abonnement,
    vous ne pouvez pas republier nos articles.**
- - **Si votre site est doté d'un paywall, les republications – dans leur intégralité –
+ - **Si votre site est doté d'un paywall**, les republications – dans leur intégralité –
    doivent impérativement être proposées sur la partie en accès libre de votre site.
 
 ## Cas particuliers
@@ -52,14 +52,13 @@ Cela signifie que vous pouvez publier gratuitement nos articles en ligne ou les 
    un lien vers l'URL de l'article.
  - **Traductions**: les traductions sont techniquement considérées comme un
    dérivé en vertu de notre licence Creative Commons et exigent l'approbation
-   de l'auteur. De nombreux auteurs donneront leur approbation de bonne foi et
-   peuvent être contactés via leur page de profil ou en nous contactant directement
-   sur publications [arobase] osteopathes.pro
+   de ayants droits. Contactez nous sur publications [arobase] osteopathes.pro
  - **Modifications**: si vous souhaitez effectuer des changements dans le texte,
    vous devrez le faire avec l'accord de l'auteur avant la publication.
    De nombreux auteurs donneront leur approbation de bonne foi et
    peuvent être contactés via leur page de profil ou en nous contactant directement
-   sur publications [arobase] osteopathes.pro
+   sur publications [arobase] osteopathes.pro. Il vous faudra également
+   l'approbation des ayants droits.
  - **Connexions autorisées / formulaires de cession de droits d'auteur**:
    ne sont pas obligatoires, à condition que vous suiviez ces règles.
  - **Impression**: les articles peuvent être publiés selon ces mêmes règles,

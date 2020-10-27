@@ -268,29 +268,29 @@ Nous avons pu trouver des études au sujet des observations suivantes:
 [^2]: - Mercer · Marsh (2014) [Baromètre prévoyance](https://www.mercer.fr/content/dam/mercer/attachments/europe/France/2014_11_BPM_VF.pdf)
       - BBC (2009) [Monday 'most common for sickness'](http://news.bbc.co.uk/2/hi/health/8347332.stm)
 
-[^3]: - Harvey Moldofsky, Sleep and pain, Sleep Medicine Reviews, Volume 5, Issue 5, 2001, Pages 385-396, ISSN 1087-0792, https://doi.org/10.1053/smrv.2001.0179.
+[^3]: - Moldofsky H. Sleep and pain, Sleep Medicine Reviews, Volume 5, Issue 5, 2001, Pages 385-396, ISSN 1087-0792, https://doi.org/10.1053/smrv.2001.0179.
       - Steffens D, Ferreira ML, Latimer J, et al. What triggers an episode of acute low back pain? A case-crossover study. Arthritis Care Res (Hoboken). 2015 Mar;67(3):403–10. https://doi.org/10.1002/acr.22533
 [^4]: - Lovegrove MT, Jelinek GA, Gibson NP, Jacobs IG. Analysis of 22,655 presentations with back pain to Perth emergency departments over five years. Int J Emerg Med. 2011;4:59. Published 2011 Sep 17. https://doi.org/10.1186/1865-1380-4-59
 
-[^5]: - Telfer, S., Woodburn, J. Let me Google that for you: a time series analysis of seasonality in internet search trends for terms related to foot and ankle pain. J Foot Ankle Res 8, 27 (2015). https://doi.org/10.1186/s13047-015-0074-9
-      - Jespersen E, Holst R, Franz C, et al Seasonal variation in musculoskeletal extremity injuries in school children aged 6–12 followed prospectively over 2.5 years: a cohort studyBMJ Open 2014;4:e004165. https://doi.org/10.1136/bmjopen-2013-004165
+[^5]: - Telfer S, Woodburn J. Let me Google that for you: a time series analysis of seasonality in internet search trends for terms related to foot and ankle pain. J Foot Ankle Res 8, 27 (2015). https://doi.org/10.1186/s13047-015-0074-9
+      - Jespersen E, Holst R, Franz C, et al. Seasonal variation in musculoskeletal extremity injuries in school children aged 6–12 followed prospectively over 2.5 years: a cohort studyBMJ Open 2014;4:e004165. https://doi.org/10.1136/bmjopen-2013-004165
 
-[^6]: - Karin Abeler, Trond Sand, Oddgeir Friborg & Svein Bergvik (2020) Seasonality in pain, sleep and mental distress in patients with chronic musculoskeletal pain at latitude 69° N, Chronobiology International, https://doi.org/10.1080/07420528.2020.1764011
-      - Ryoichi INABA, Seyed Mohammad MIRBOD, Subjective Musculoskeletal Symptoms in Winter and Summer among Indoor Working Construction Electricians, Industrial Health, 2010, Volume 48, Issue 1, Pages 29-37, Released February 16, 2010, Online ISSN 1880-8026, Print ISSN 0019-8366, https://doi.org/10.2486/indhealth.48.29
-      - Piedrahı́ta, Hugo & Punnett, Laura & Shahnavaz, Houshang. (2004). Musculoskeletal symptoms in cold exposed and non-cold exposed workers. International Journal of Industrial Ergonomics. 34. 271-278. https://doi.org/10.1016/j.ergon.2004.04.008.
+[^6]: - Abeler K, Sand T, Friborg O & Bergvik S. Seasonality in pain, sleep and mental distress in patients with chronic musculoskeletal pain at latitude 69° N, Chronobiology International (2020), https://doi.org/10.1080/07420528.2020.1764011
+      - Inaba R., Mirbod SM. Subjective Musculoskeletal Symptoms in Winter and Summer among Indoor Working Construction Electricians, Industrial Health, 2010, Volume 48, Issue 1, Pages 29-37, Released February 16, 2010, Online ISSN 1880-8026, Print ISSN 0019-8366, https://doi.org/10.2486/indhealth.48.29
+      - Piedrahı́ta H, Punnett L, Shahnavaz H. Musculoskeletal symptoms in cold exposed and non-cold exposed workers. International Journal of Industrial Ergonomics. 2004. 34. 271-278. https://doi.org/10.1016/j.ergon.2004.04.008.
 
-[^7]: - Witte, D., Grobbee, D., Bots, M. et al. A Meta-analysis of excess cardiac mortality on Monday. Eur J Epidemiol 20, 401–406 (2005). https://doi.org/10.1007/s10654-004-8783-6
+[^7]: - Witte D, Grobbee D, Bots M et al. A Meta-analysis of excess cardiac mortality on Monday. Eur J Epidemiol 20, 401–406 (2005). https://doi.org/10.1007/s10654-004-8783-6
       - Barnett AG, Dobson AJ, Excess in cardiovascular events on Mondays: a meta-analysis and prospective studyJournal of Epidemiology & Community Health 2005;59:109-114. https://doi.org/10.1136/jech.2003.019489
       - Robert W. Peters, Steve McQuillan, Susan Kaye Resnick, and Michael R. Gold. Increased Monday Incidence of Life-Threatening Ventricular Arrhythmias. Circulation. 1996;94:1346–1349 https://doi.org/10.1161/01.CIR.94.6.1346
       - Turin T, C, Kita Y, Murakami Y, Rumana N, Sugihara H, Morita Y, Hirose K, Okayama A, Nakamura Y, Ueshima H: Increase of Stroke Incidence after Weekend Regardless of Traditional Risk Factors: Takashima Stroke Registry, Japan; 1988–2003. Cerebrovasc Dis 2007;24:328-337. https://doi.org/10.1159/000106978
-      - Arntz, Hans-Richard; Müller-Nordhorn, Jaqueline MD; Willich, Stefan N. MD Cold Monday mornings prove dangerous: epidemiology of sudden cardiac death. Current Opinion in Critical Care: June 2001 - Volume 7 - Issue 3 - p 139-144
-      - Folyovich A , Béres-Molnár K A , Gimesi-Országh J , Katona L , Biczó D , Vörös K , Gőbl G , Ajtay A , Bereczki D . Is stroke indeed a "Monday morning disease"? Ideggyogy Sz. 2018 May 30;71(5-06):161-168. English. doi: 10.18071/isz.71.0161. PMID: 29889458. https://doi.org/10.18071/isz.71.0161
-      - Witte, Daniel & Grobbee, Diederick & Bots, Michiel & Hoes, Arno. (2005). Excess cardiac mortality on Monday: The importance of gender, age and hospitalisation. European journal of epidemiology. 20. 395-9. https://doi.org/10.1007/s10654-004-6594-4
+      - Arntz HR, Müller-Nordhorn J MD, Willich S N MD, Cold Monday mornings prove dangerous: epidemiology of sudden cardiac death. Current Opinion in Critical Care: June 2001 - Volume 7 - Issue 3 - p 139-144
+      - Folyovich A, Béres-Molnár K A, Gimesi-Országh J, Katona L, Biczó D, Vörös K, Gőbl G, Ajtay A, Bereczki D. Is stroke indeed a "Monday morning disease"? Ideggyogy Sz. 2018 May 30;71(5-06):161-168. English. doi: 10.18071/isz.71.0161. PMID: 29889458. https://doi.org/10.18071/isz.71.0161
+      - Witte D, Grobbee D, Bots M, Hoes A. Excess cardiac mortality on Monday: The importance of gender, age and hospitalisation. European journal of epidemiology. 2005. 20. 395-9. https://doi.org/10.1007/s10654-004-6594-4
       - Jakovljević D. Day of the Week and Ischemic Stroke – Is It Monday High or Sunday Low? Stroke. 2004;35:2089–2093 https://doi.org/10.1161/01.STR.0000137763.88044.28
-      - S N Willich, H Löwel, M Lewis, A Hörmann, H R Arntz, and U Keil. Weekly variation of acute myocardial infarction. Increased Monday risk in the working population. Circulation. 1994;90:87–93 https://doi.org/10.1161/01.CIR.90.1.87
+      - Willich S N, Löwel H, Lewis M, Hörmann A, Arntz H R, Keil U. Weekly variation of acute myocardial infarction. Increased Monday risk in the working population. Circulation. 1994;90:87–93 https://doi.org/10.1161/01.CIR.90.1.87
 
 [^8]: - Baldwin HJ, Marashi-Pour S, Chen HY, Kaldor J, Sutherland K, Levesque JF. Is the weekend effect really ubiquitous? A retrospective clinical cohort analysis of 30-day mortality by day of week and time of day using linked population data from New South Wales, Australia. BMJ Open. 2018 Apr 12;8(4):e016943. https://doi.org/10.1136/bmjopen-2017-016943 . Erratum in: BMJ Open. 2018 May 14;8(5):e016943corr1. PMID: 29654003; PMCID: PMC5898331.
-      - Saposnik G., Baibergenova A., Bayer N., and Hachinski V. Weekends: A Dangerous Time for Having a Stroke?Stroke. 2007;38:1211–1215 https://doi.org/10.1161/01.STR.0000259622.78616.ea
+      - Saposnik G, Baibergenova A, Bayer N, Hachinski V. Weekends: A Dangerous Time for Having a Stroke?Stroke. 2007;38:1211–1215 https://doi.org/10.1161/01.STR.0000259622.78616.ea
 
 On peut donc voir qu'il y a des similitudes entre ces observations très
 générales sur les recherches de la population française et des effets périodiques
@@ -311,15 +311,6 @@ sont plus prononcés et, de fait, mieux étudiés que les phénomènes saisonnie
 Nous n'avons fait qu'effleurer les possibilités d'analyses que peut nous offrir cet outil.
 À l'avenir, il serait en effet possible d'observer de nouvelles tendances encore
 inconnues, par exemple en utilisant des termes liés à une pathologie spécifique.
-
-<script src="https://unpkg.com/d3@6.2.0/dist/d3.min.js"></script>
-<script src="https://unpkg.com/d3-scale@3.2.3/dist/d3-scale.min.js"></script>
-<script src="https://unpkg.com/d3-time@2.0.0/dist/d3-time.min.js"></script>
-<script src="https://unpkg.com/d3-time-format@3.0.0/dist/d3-time-format.min.js"></script>
-<script src="https://unpkg.com/d3-color@2.0.0/dist/d3-color.min.js"></script>
-<script src="https://unpkg.com/d3-collection@1.0.7/dist/d3-collection.min.js"></script>
-<script src="https://unpkg.com/d3-selection@2.0.0/dist/d3-selection.min.js"></script>
-<script src="https://unpkg.com/d3-transition@2.0.0/dist/d3-transition.min.js"></script>
 
 <style>
   .chart {
@@ -343,4 +334,5 @@ inconnues, par exemple en utilisant des termes liés à une pathologie spécifiq
     stroke-width: 1.5px;
   }
 </style>
+{{< importjs "d3" >}}
 {{< js "script.js" >}}
