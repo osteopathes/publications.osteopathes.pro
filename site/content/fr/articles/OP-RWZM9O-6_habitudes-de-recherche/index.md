@@ -1,5 +1,5 @@
 ---
-title: "Ostéopathie en ligne: que nous apprennent les habitudes de recherche ?"
+title: "Ostéopathie en ligne: que nous apprennent les habitudes de recherche?"
 date: 2020-10-24T09:26:21Z
 draft: true
 slug: osteopathie-en-ligne-que-nous-apprennent-les-habitudes-de-recherche
