@@ -1,273 +1,133 @@
 /*
   Partials and vendors here
   */
-@import "cookieconsent/build/cookieconsent.min.css";
 @import 'imports/tailwind.css';
 @import 'imports/fontawesome.css';
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
-/*
- Customizations go here
-*/
+body {
+  scroll-behavior: smooth;
+}
 
 .header-img-background {
-  @apply align-middle bg-center bg-cover w-full;
+  @apply w-full align-middle bg-center bg-cover;
   height: 25rem;
 }
 
 /*! purgecss start ignore */
-.readable {
-  text-rendering: optimizeLegibility !important;
-  @apply font-readable text-base text-gray-700 select-auto leading-relaxed tracking-wide subpixel-antialiased antialiased;
-}
-
-.readable-title {
-  @apply max-w-6xl px-8 py-8;
-}
-
-@screen lg {
-  .readable-title {
-    @apply mt-0 pb-20 px-0 pt-0;
-  }
-}
-
-.readable-content {
-  @apply max-w-6xl px-8 mx-auto py-10;
-}
-
-.readable-content .readable-title {
-  @apply py-0 px-0;
-}
-
-.readable p {
-  @apply my-3;
-}
-
-.readable a,
 .prose a {
-  @apply cursor-pointer p-0 border-b border-gray-400 font-medium;
-  box-shadow: 0 -3px 0 theme('colors.gray.400') inset;
+  @apply p-0 font-medium border-b border-gray-300 cursor-pointer;
+  box-shadow: 0 -2px 0 theme('colors.gray.300') inset;
 }
 
 .prose a[rel*="external"]::after {
   content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%239fa6b2'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
 }
 
-.readable a.unstyle,
 .prose a.unstyle {
-  @apply p-0 border-0 font-normal;
-  box-shadow: none;
+  @apply p-0 font-normal border-0 shadow-none;
 }
 
-.readable a:hover,
 .prose a:hover {
-  @apply border-teal-400 text-teal-600;
-  box-shadow: 0 -3px 0 theme('colors.teal.400') inset;
+  @apply text-teal-600 border-teal-400;
+  box-shadow: 0 -2px 0 theme('colors.teal.400') inset;
 }
 
-.readable a.unstyle:hover {
-  box-shadow: none;
+.prose a.unstyle:hover {
+  @apply shadow-none;
 }
 
-.readable a.footnote-ref:before,
-.prose a.footnote-ref:before {
-  content: "[";
-}
-
-
-.readable a.footnote-ref:after,
-.prose a.footnote-ref:after {
-  content: "]";
-}
-
-.readable a.footnote-ref,
-.prose a.footnote-ref {
-  @apply ml-1 pb-0 border-b my-1;
-  box-shadow: none;
-}
-
-.readable em {
-  @apply italic;
-}
-
-.readable strong {
-  @apply font-bold;
-}
-
-.readable del {
-  @apply line-through;
-}
-
-.readable small {
-  @apply text-sm;
-}
-
-.readable abbr[title],
 .prose abbr[title],
 abbr[title] {
   @apply no-underline border-b border-dotted;
   cursor: help;
 }
 
-.readable h1 {
-  @apply text-4xl font-medium text-teal-600 py-4 text-left;
+.prose table {
+  @apply mt-0 mb-0;
 }
 
-.readable h2 {
-  @apply text-3xl font-medium pt-10 pb-3 text-left;
+.prose table thead tr th {
+  @apply px-6 py-3 bg-gray-100 text-base leading-4 font-bold text-gray-500 tracking-wider
 }
 
-.readable h3 {
-  @apply text-2xl font-medium pt-8 pb-3 text-left;
+.prose table thead th:first-child {
+  @apply pl-6;
 }
 
-.readable h4 {
-  @apply text-xl font-medium pt-3 pb-2 text-left;
+.prose table thead th:last-child {
+  @apply pr-6;
 }
 
-.readable h5 {
-  @apply text-lg font-semibold py-2 text-left;
-}
-
-.readable h6 {
-  @apply text-base font-bold py-1 text-left;
-}
-
-@screen lg {
-  .readable h1 {
-    @apply text-5xl text-teal-600 text-left pb-4;
-  }
-
-  .readable h2 {
-    @apply text-4xl font-medium text-left pt-10 pb-3;
-  }
-
-  .readable h3 {
-    @apply text-3xl font-medium text-left pt-5 pb-3;
-  }
-
-  .readable h4 {
-    @apply text-2xl font-medium text-left py-2;
-  }
-
-  .readable h5 {
-    @apply text-xl font-semibold text-left py-1;
-  }
-
-  .readable h6 {
-    @apply text-lg font-bold text-left py-0;
-  }
-}
-
-.readable blockquote {
-  @apply pl-3 border-l-4 border-teal-600 italic;
-}
-
-.readable dl,
-.readable ul,
-.readable ol {
-  @apply pl-3 py-3;
-}
-
-.readable dl dt {
-  @apply font-bold;
-}
-
-.readable dl dd {
-  @apply pl-3;
-}
-
-.readable ol li {
-  @apply list-decimal ml-5 mb-2;
-}
-
-.readable ul li {
-  @apply list-disc ml-5 mb-2;
-}
-
-.readable hr {
-  @apply border-t border-gray-500;
-  box-shadow: 0px 1px #f7fafc;
-}
-
-.readable table {
-  @apply table-auto min-w-full;
-  border-spacing: 0;
-}
-
-.readable table thead tr th {
+/*.prose table thead tr th {
   @apply px-6 py-3 border-b border-gray-200 bg-gray-100 text-left text-base leading-4 font-bold text-gray-500 tracking-wider
-}
+} */
 
-.readable table tbody td {
-  @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900;
-}
+/*.prose table tbody td {
+  @apply px-6 py-4 text-sm leading-5 text-gray-900 whitespace-no-wrap;
+} */
 
-.readable table tr th,
-.readable table tr td {
-  @apply whitespace-no-wrap leading-5 text-gray-900;
-}
+/*.prose table tr th,
+.prose table tr td {
+  @apply leading-5 text-gray-900 whitespace-no-wrap;
+} */
 
-.readable table tr:nth-child(even) {
+/*.prose table tr:nth-child(even) {
   @apply bg-white;
-}
+} */
 
-.readable table tr:nth-child(even) {
+/*.prose table tr:nth-child(even) {
   @apply bg-gray-50;
-}
+} */
 
-.readable table tr:only-child th:only-child {
+/*.prose table tr:only-child th:only-child {
   @apply rounded-t;
-}
+} */
 
-.readable table tr:first-child th:first-child {
+/*.prose table tr:first-child th:first-child {
   @apply rounded-tl;
-}
+} */
 
-.readable table tr:first-child th:last-child {
+/*.prose table tr:first-child th:last-child {
   @apply rounded-tr;
-}
+} */
 
-.readable table tr:only-child td:only-child {
+/*.prose table tr:only-child td:only-child {
   @apply rounded-b;
-}
+} */
 
-.readable table tr:last-child td:first-child {
+/*.prose table tr:last-child td:first-child {
   @apply rounded-bl;
-}
+} */
 
-.readable table tr:last-child td:last-child {
+/*.prose table tr:last-child td:last-child {
   @apply rounded-br;
+} */
+
+.prose img {
+  @apply h-auto max-w-full m-3 text-center bg-gray-100 border border-gray-400 rounded;
 }
 
-.readable code {
-  @apply p-1 shadow-inner rounded bg-gray-800 text-gray-200 overflow-scroll;
-}
-
-.readable pre {
-  @apply block mb-3 p-1 shadow-inner rounded bg-gray-800 text-gray-200 overflow-scroll;
-}
-
-.readable img {
-  @apply h-auto max-w-full m-3 text-center border border-gray-400 bg-gray-100 rounded;
-}
-
-.readable img.unstyle {
-  @apply h-auto max-w-full m-0 text-center border-0 bg-transparent rounded-none;
-}
-
-.readable ::selection {
-  @apply bg-purple-vivid-200;
-}
-
-.readable ::-moz-selection {
-  @apply bg-purple-vivid-200;
+.prose img.unstyle {
+  @apply h-auto max-w-full m-0 text-center bg-transparent border-0 rounded-none;
 }
 
 .footnotes {
   @apply my-10;
+}
+
+a[href^="#fn:"]::before, a[href^="#fnref:"]::before {
+  content: "[";
+}
+
+a[href^="#fn:"]::after, a[href^="#fnref:"]::after {
+  content: "]";
+}
+
+a.footnote-ref {
+  @apply pb-0 my-1 ml-1 border-b shadow-none;
 }
 /*! purgecss end ignore */
 
@@ -276,7 +136,7 @@ abbr[title] {
 a.btn,
 button.btn,
 input.btn {
-    @apply inline-block py-2 px-3 border-2 text-white cursor-pointer rounded;
+    @apply inline-block px-3 py-2 text-white border-2 rounded cursor-pointer;
     box-shadow: none;
 }
 
@@ -304,21 +164,20 @@ input.btn-success {
 a.btn-success:hover,
 button.btn-success:hover,
 input.btn-success:hover {
-    @apply bg-white text-teal-500;
+    @apply text-teal-500 bg-white;
     box-shadow: none;
 }
 
 a.btn-success-outline,
 button.btn-success-outline,
 input.btn-success-outline {
-    @apply bg-white border-teal-500 text-teal-500;
+    @apply text-teal-500 bg-white border-teal-500;
     box-shadow: none;
 }
 
 a.btn-success-outline:hover,
 button.btn-success-outline:hover,
 input.btn-success-outline:hover {
-    @apply bg-teal-500 text-white;
+    @apply text-white bg-teal-500;
     box-shadow: none;
 }
-
