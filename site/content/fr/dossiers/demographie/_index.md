@@ -1,5 +1,6 @@
 ---
 title: 'Démographie des ostéopathes'
+url: "/fr/dossiers/demographie/"
 ---
 
 En 2019 nous avons commencé à publier une démographie des ostéopathes

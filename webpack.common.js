@@ -24,7 +24,7 @@ module.exports = {
       { test: /\.json$/, loader: "json-loader" },
 
       {
-        test: /\.js?$/,
+        test: /\.js$/,
         loader: "babel-loader",
         exclude: /node_modules/,
         query: { cacheDirectory: true }
@@ -55,6 +55,7 @@ module.exports = {
         to: "fonts/",
         flatten: true
       }
-    ])
+    ]),
+
   ]
 };

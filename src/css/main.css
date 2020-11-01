@@ -2,7 +2,6 @@
   Partials and vendors here
   */
 @import 'imports/tailwind.css';
-@import 'imports/fontawesome.css';
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');

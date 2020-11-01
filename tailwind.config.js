@@ -1,18 +1,10 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
-class TailwindExtractor {
-  static extract(content) {
-    // Capture as liberally as possible, including things like `h-(screen-1.5)`
-    const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || []
-
-    // Capture classes within other delimiters like .block(class="w-1/2") in Pug
-    const innerMatches = content.match(/[^<>"'`\s.()]*[^<>"'`\s.():]/g) || []
-
-    return broadMatches.concat(innerMatches)
-  }
-}
-
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -424,22 +416,13 @@ module.exports = {
   },
   purge: {
     enabled: process.env.NODE_ENV === 'production',
+    preserveHtmlElements: true,
     content: [
       'site/layouts/**/*.html',
       'site/content/**/*.md',
     ],
     options: {
-      extractors: [
-        {
-          extractor: TailwindExtractor.extract,
-          extensions: ['html', 'md']
-        },
-      ],
-      defaultExtractor: TailwindExtractor.extract,
       fontFace: false,
-      whitelistPatterns: [/^cc-.*/, /readable.*/, /prose.*/],
-      whitelistPatternsChildren: [/readable/, /prose/],
-      whitelist: ['abbr'],
     }
   },
   variants: {},

@@ -59,11 +59,11 @@ This is a paragraph so we can see how the alignment is done.
 
 ## Tabular data
 
-| Tables        | Are           | Cool  | And | Awesome |
-| ------------- |:-------------:| -----:| --- | ------- |
+| Tables        |      Are      |  Cool | And | Awesome |
+| ------------- | :-----------: | ----: | --- | ------- |
 | col 3 is      | right-aligned | $1600 | who | knows   |
-| col 2 is      | centered      |   $12 |     | empty   |
-| zebra stripes | are neat      |    $1 |  1  | again   |
+| col 2 is      |   centered    |   $12 |     | empty   |
+| zebra stripes |   are neat    |    $1 | 1   | again   |
 
 ## Code
 
