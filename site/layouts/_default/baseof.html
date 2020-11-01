@@ -13,6 +13,8 @@
   {{- if .OutputFormats.Get "RSS" -}}
   <link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml"
     title="{{ .Title }}" />{{- end -}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   {{- $stylesheet := .Site.Data.webpack.main -}}
   {{- with $stylesheet.css -}}
   <link href="{{ relURL . }}" rel="stylesheet">
