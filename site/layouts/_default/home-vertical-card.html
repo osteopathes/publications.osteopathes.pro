@@ -1,7 +1,13 @@
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
   <div class="flex-shrink-0">
     {{- if .Resources.GetMatch "cover-image" -}}
-    <img src="{{- (.Resources.GetMatch "cover-image").Permalink -}}" class="object-cover w-full h-48">
+    {{- $original := (.Resources.GetMatch "cover-image") -}}
+    {{- .Scratch.Set "image" ($original.Resize "512x") -}}
+    {{ $image := .Scratch.Get "image" }}
+    <picture>
+      <source srcset="{{ $image.Permalink }}.webp" type="image/webp">
+      <img loading="lazy" src="{{ $image.Permalink }}" class="object-cover w-full h-48">
+    </picture>
     {{- end -}}
   </div>
   <div class="flex flex-col justify-between flex-1 p-6 bg-white">
@@ -27,7 +33,11 @@
         {{- range first 1 .Params.auteurs -}}
         {{- with $.Site.GetPage "taxonomyTerm" (printf "auteurs/%s" (urlize .)) -}}
         <a href="{{ .Permalink }}">
-          <img class="w-10 h-10 rounded-full" src="{{ .Params.avatar_url }}" alt="{{ .Params.name }}" />
+          <picture>
+            <source srcset="{{ .Params.avatar_url }}.webp" type="image/webp">
+            <img loading="lazy" class="w-10 h-10 rounded-full" src="{{ .Params.avatar_url }}"
+              alt="{{ .Params.name }}" />
+          </picture>
         </a>
       </div>
       <div class="ml-3">

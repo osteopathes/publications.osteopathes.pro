@@ -3,8 +3,13 @@
     <div class="relative flex items-center justify-between h-16">
       <div class="flex items-center px-2 lg:px-0">
         <div class="flex-shrink-0 text-white">
-          <a href="{{ .Site.Home.Permalink }}"><img class="block w-8 h-8 rounded-full"
-              src="/imgs/logos/osteopathes.pro-logo.png" alt="Logo osteopathes.pro" /></a>
+          <a href="{{ .Site.Home.Permalink }}">
+            <picture>
+              <source srcset="/imgs/logos/osteopathes.pro-logo.png.webp" type="image/webp">
+              <img class="block w-8 h-8 rounded-full" src="/imgs/logos/osteopathes.pro-logo.png"
+                alt="Logo osteopathes.pro" />
+            </picture>
+          </a>
         </div>
         <div class="hidden lg:block lg:ml-6">
           <div class="flex">

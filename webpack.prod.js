@@ -23,6 +23,7 @@ module.exports = merge(common, {
       }),
 
       new OptimizeCSSAssetsPlugin({}),
+
     ]
   }
 });

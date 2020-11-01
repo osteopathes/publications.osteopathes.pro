@@ -416,7 +416,7 @@ module.exports = {
   },
   purge: {
     enabled: process.env.NODE_ENV === 'production',
-    preserveHtmlElements: false,
+    preserveHtmlElements: true,
     content: [
       'site/layouts/**/*.html',
       'site/content/**/*.md',
