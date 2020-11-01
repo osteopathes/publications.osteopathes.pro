@@ -17,6 +17,7 @@ auteurs:
   - klemen-sever
 
 legal_warning: true
+toc: true
 
 ---
 
