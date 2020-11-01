@@ -55,6 +55,7 @@ module.exports = {
         to: "fonts/",
         flatten: true
       }
-    ])
+    ]),
+
   ]
 };
