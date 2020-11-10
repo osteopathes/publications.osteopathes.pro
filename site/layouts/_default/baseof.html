@@ -8,7 +8,9 @@
   <base
     href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
   {{- end -*/}}
-  <title>{{ $.Site.Title }} – Publications osteopathes.pro</title>
+  <title>{{- block "title" . -}}
+    {{ .Title }} | {{ $.Site.Title }}
+    {{- end -}}</title>
   <link rel="canonical" href="{{ .Permalink }}">
   {{- if .OutputFormats.Get "RSS" -}}
   <link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml"
@@ -36,7 +38,8 @@
   {{- partial "site-schema.html" . | safeJS -}}
   </script>
   {{- partial "social-meta.html" . -}}
-  <script async defer data-domain="publications.osteopathes.pro" src="https://stats.osteopathes.pro/js/index.js"></script>
+  <script async defer data-domain="publications.osteopathes.pro"
+    src="https://stats.osteopathes.pro/js/index.js"></script>
 </head>
 
 <body class="font-sans leading-normal tracking-normal bg-gray-50">

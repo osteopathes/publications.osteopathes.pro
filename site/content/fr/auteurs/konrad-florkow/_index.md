@@ -1,5 +1,6 @@
 ---
 name: 'Konrad Florkow'
+title: 'Konrad Florkow'
 avatar_url: '/imgs/avatars/konrad-florkow.png'
 background_image_url: '/imgs/backgrounds/starry_mountains.jpg'
 social:
