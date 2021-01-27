@@ -175,13 +175,15 @@ function createBarChart(_selector, _data, _chartSize, colors) {
     })
 
   legend.append("text")
-    .attr("x", chartSize.width - 8)
+    .attr("x", chartSize.width - 6)
     .attr("y", function (d, i) {
       return (i * 20) + 9
     })
     .text(function (d) {
       return d
     })
+    .attr("class", "font-sans")
+    .style("font-size","0.71em")
 
   var layers = graphContainer.selectAll("g.layer")
     .data(series)
@@ -226,12 +228,14 @@ function createBarChart(_selector, _data, _chartSize, colors) {
     .data(xLegend)
     .enter().append("svg:text")
     .attr("class", "label")
+    .attr("class", "font-sans")
     .attr("x", function (d, i) {
       return i * chartSize.width / mx
     })
     .attr("y", chartSize.height + 10)
     .attr("dx", x(0.45))
     .attr("dy", ".71em")
+    .style("font-size","0.71em")
     .attr("text-anchor", "middle")
     .text(function (d, i) { return d })
 
@@ -460,13 +464,15 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
     })
 
   legend.append("text")
-    .attr("x", chartSize.width - 8)
+    .attr("x", chartSize.width - 6)
     .attr("y", function (d, i) {
       return (i * 20) + 9
     })
     .text(function (d) {
       return d.name
     })
+    .attr("class", "font-sans")
+    .style("font-size","0.71em")
 
   graphContainer.append("g")
     .attr("class", "x axis")
@@ -512,6 +518,8 @@ function createLineChart(_selector, _data, dateFormat, hoverFormatType, xAxisNam
     .text(function (d) {
       return d.name
     })
+    .attr("class", "font-sans")
+    .style("font-size","0.71em")
 
   var mouseG = graphContainer.append("g")
     .attr("class", uniqueClass + "mouse-over-effects")
