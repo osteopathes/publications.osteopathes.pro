@@ -96,7 +96,7 @@
               {{ .Summary | emojify }}
             </div>
             {{ if and (gt .WordCount 400 ) (.Params.toc) }}
-            <aside class="block w-full p-4 lg:p-8 prise lg:w-9/12 max-w-none">
+            <aside class="block w-full p-4 prose lg:p-8 lg:w-9/12 max-w-none">
               <div x-data="{ open: true }" @keydown.window.escape="open = false" @click.away="open = false"
                 class="relative block w-full text-left">
                 <div>
@@ -114,7 +114,7 @@
                     </button>
                   </span>
                 </div>
-                <div class="prose font-readable" x-show="open" x-transition:enter="transition ease-out duration-100"
+                <div class="prose font-readable max-w-none" x-show="open" x-transition:enter="transition ease-out duration-100"
                   x-transition:enter-start="transform opacity-0 scale-95"
                   x-transition:enter-end="transform opacity-100 scale-100"
                   x-transition:leave="transition ease-in duration-75"
