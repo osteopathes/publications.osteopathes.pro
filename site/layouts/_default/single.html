@@ -96,13 +96,13 @@
               {{ .Summary | emojify }}
             </div>
             {{ if and (gt .WordCount 400 ) (.Params.toc) }}
-            <aside class="block w-full p-4 lg:p-8 prise lg:w-9/12 max-w-none">
+            <aside class="block w-full p-4 prose lg:p-8 lg:w-9/12 max-w-none">
               <div x-data="{ open: true }" @keydown.window.escape="open = false" @click.away="open = false"
                 class="relative block w-full text-left">
                 <div>
                   <span class="rounded-md shadow-sm">
                     <button @click="open = !open" type="button"
-                      class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800"
+                      class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue active:bg-gray-50 active:text-gray-800"
                       id="options-menu" aria-haspopup="true" x-bind:aria-expanded="open">
                       Sommaire
                       <svg class="w-5 h-5 ml-2 -mr-1" x-description="Heroicon name: chevron-down"
@@ -114,7 +114,7 @@
                     </button>
                   </span>
                 </div>
-                <div class="prose font-readable" x-show="open" x-transition:enter="transition ease-out duration-100"
+                <div class="prose font-readable max-w-none" x-show="open" x-transition:enter="transition ease-out duration-100"
                   x-transition:enter-start="transform opacity-0 scale-95"
                   x-transition:enter-end="transform opacity-100 scale-100"
                   x-transition:leave="transition ease-in duration-75"
@@ -126,10 +126,19 @@
               </div>
             </aside>
             {{ end }}
+          {{ $body := replace .Content .Summary "" }}
+            {{- if (isset .Params "container_css") -}}
+            <div class="{{ .Params.container_css }}">
+              {{ $body | emojify }}
+              {{- if .Params.add_closing_div -}}
+              </div>
+              {{- end -}}
+            </div>
+            {{- else -}}
             <div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
-              {{ $body := replace .Content .Summary "" }}
               {{ $body | emojify }}
             </div>
+            {{- end -}}
             {{- if .Params.legal_warning -}}
             <div
               class="px-4 py-5 mt-10 prose bg-blue-100 border border-blue-200 rounded sm:px-6 max-w-none font-readable">
