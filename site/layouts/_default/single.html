@@ -97,8 +97,7 @@
             </div>
             {{ if and (gt .WordCount 400 ) (.Params.toc) }}
             <aside class="block w-full p-4 prose lg:p-8 lg:w-9/12 max-w-none">
-              <div x-data="{ open: true }" @keydown.window.escape="open = false" @click.away="open = false"
-                class="relative block w-full text-left">
+              <div x-data="{ open: true }" @keydown.window.escape="open = false" class="relative block w-full text-left">
                 <div>
                   <span class="rounded-md shadow-sm">
                     <button @click="open = !open" type="button"

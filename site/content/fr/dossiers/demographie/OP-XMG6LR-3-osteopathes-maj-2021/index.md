@@ -2,7 +2,7 @@
 title: 'Mise à jour 2021 – Démographie des ostéopathes'
 date: 2021-03-20T19:00:00Z
 lastmod: 2021-03-20T19:00:00Z
-draft: true
+draft: false
 slug: demographie-osteopathes-en-2021
 resources:
   - name: cover-image
@@ -23,7 +23,7 @@ add_closing_div: true
 ---
 
 Comme chaque année depuis 2019, lorsqu'arrive le mois de janvier, nous nous attelons
-à l'étude de la démographie des ostéopathes français·es.
+à l'étude de la démographie des ostéopathes français·e·s.
 
 Pour la première fois, nous avons eu la joie de pouvoir accéder au registre
 <abbr title="Automatisation DEs LIstes">ADELI</abbr>, ce qui nous a permis de procéder
