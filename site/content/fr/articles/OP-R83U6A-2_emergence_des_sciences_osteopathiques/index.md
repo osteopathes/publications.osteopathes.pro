@@ -1,8 +1,8 @@
 ---
 title: "L’émergence des sciences ostéopathiques"
 subtitle: "Pour un contournement des obstacles"
-date: 2021-03-21T17:31:03Z
-draft: true
+date: 2021-03-27T15:45:26Z
+draft: false
 slug: emergence-des-sciences-osteopathiques
 
 resources:
