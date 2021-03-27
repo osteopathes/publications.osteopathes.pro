@@ -28,6 +28,11 @@
           <h1 class="mb-2 text-4xl font-semibold leading-normal text-gray-800">
             {{ .Title }}
           </h1>
+          {{ if .Params.subtitle }}
+          <h2 class="mb-2 text-xl font-semibold leading-normal text-gray-600">
+            {{ .Params.subtitle }}
+          </h2>
+          {{ end }}
           <div class="mt-0 mb-2 text-sm font-bold leading-normal text-gray-500">
             <svg class="inline-block w-5 h-5 mr-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd"

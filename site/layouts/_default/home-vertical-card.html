@@ -24,7 +24,7 @@
           {{ .Title | emojify }}
         </h3>
         <div class="mt-3 text-base leading-6 text-gray-500">
-          {{ .Summary | emojify }}
+          {{ .Summary | replaceRE "<a " "<span " | replaceRE "</a>" "</span>" | emojify | truncate 650 }}
         </div>
       </a>
     </div>

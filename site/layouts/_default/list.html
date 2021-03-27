@@ -25,7 +25,7 @@
           <h3 class="mt-2 text-xl font-semibold leading-7 text-gray-900">
             {{ .Title | emojify }}
           </h3>
-          {{ .Summary | replaceRE "<p>" "<p class=\"mt-3 text-base leading-6 text-gray-500\">" | safeHTML }}
+          {{ .Summary | replaceRE "<a " "<span " | replaceRE "</a>" "</span>" | replaceRE "<p>" "<p class=\"mt-3 text-base leading-6 text-gray-500\">" | safeHTML }}
         </a>
         <div class="mt-3">
           <a href="{{ .Permalink }}"
