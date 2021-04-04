@@ -7,4 +7,11 @@
 - Simulateur de colonne vertébrale
 - Encyclopédie des techniques ostéo ?
 - Traductions d'études anglaises
+
+# Articles
+- Pensée Bayésienne (Martoni)
+- Erreurs d'installation
+- [Atelier] Aide à la visualisation: Membre inférieur
+- Facturation au patient: les indispensables
 -
+
