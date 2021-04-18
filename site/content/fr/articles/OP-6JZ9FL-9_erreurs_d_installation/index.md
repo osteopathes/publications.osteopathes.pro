@@ -131,9 +131,9 @@ Les réponses que nous eu décrivent souvent plusieurs élements. Nous avons don
 - communication inter-professionnelle (avec les médecins, kinés, infirmières, etc)
 - marketing (communication pour être visible à destination des patients)
 ### Cabinet
-- Local (loyer, achat, achat patientèles)
+- Local (location, achat, rachat patientèles)
 - lieu d'implentation (étude de marché, densité démographique)
-- type de cabinet (seul, pluridisciplinaire, chez soi)
+- type de cabinet (seul, pluridisciplinaire, cabinet à domicile)
 - equipements (table, isolation, parking)
 - services (banque, internet)
 ### Connaissances
@@ -146,39 +146,38 @@ En classant chacune des réponses avec les thèmes associés, nous avons pu cré
   <canvas id="js-polar-chart" class="object-cover " aria-label="Un graphe représentant les proportions des thèmes dans les réponses." role="img"></canvas>
 </div>
 
-## Se parler est un des principal problème
+## Communiquer est un des principale difficulté
 
-Un quart des réponses portent sur des erreurs liées à la communication, qu'elle soit inter-professionnelle (avec les médecins, kinés, etc) ou intra-professionnelle (avec nos semblables). Il est vrai que les formations dans la santé ne disposent pas toujours de chapitre sur la communication et parler aux autres peut devenir difficile. Néanmoins, se présenter auprès des autres professions de santé est important, que ce soit pour le bien du patient que pour celui de votre compte en banque. En effet, ce réseau sera un de vos premiers bouche à oreille.
+Un quart des réponses portent sur des erreurs liées à la communication, qu'elle soit inter-professionnelle (avec les médecins, kinés, etc) ou intra-professionnelle (avec nos semblables). Se présenter auprès des autres professions de santé est important, que ce soit pour le bien du patient que pour celui de votre compte en banque. En effet, ce réseau sera un de vos premiers bouche à oreille.
 
-Ce discours est essentiellement ce que notre école nous inculquait. Pourtant, nous avons eu assez peu d'informations sur comment bien communiquer. Sur le terrain, nous pouvons être confronté à des bonnes ou des mauvaises surprises. 
+Ce discours est essentiellement ce que notre école nous inculquait. Pourtant, peu de temps a été consacré sur la communication avec les autres professionels. Sur le terrain, nous pouvons être confronté à des bonnes ou des mauvaises surprises. 
 
- <p class="p-4 bg-gray-200 rounded-lg" > Pour ma part, j'ai contacté mes collègues par téléphone. Plusieurs m'ont invité dans leur cabinet pour faire connaissance, d'autres m'ont juste dit: "Ok super !". Certains n'ont jamais répondu et n'ont jamais rappelé.
- Avec du recul, j'aurais peut-être du envoyer des lettres. En ayant reçu une l'année dernière, j'étais content que cette personne prenne le temps de m'informer. Mais aurais-je pu rencontrer certains d'entre eux avec une lettre ? </p>
-
-Avec le temps, nous remarquons que nous avons de plus en plus tendance à nous voir comme concurrent plutôt que comme collègue. Cela peut expliquer les accueils désagréables et indirectement des présentations plus rare. C'est une sensation qui nous inquiète mais nous espèrons nous tromper.
+ <p class="p-4 text-blue-800 bg-blue-100 rounded-lg" >Avec le temps, nous remarquons que nous avons de plus en plus tendance à nous voir comme concurrent plutôt que comme collègue. Cela peut expliquer les accueils désagréables et indirectement des présentations plus rare.</p>
 
 ## Pour le lieu, la démographie n'est pas l'unique critère !
 
-Sans surprise, 50% des erreurs liées à la localisation du cabinet impliquent de près ou de loin un excès démographique. Loin d'être l'unique problème, les 50% restant sont tout aussi important.
-Il s'agit principalement de : 
+Sans surprise, 50% des erreurs liées à la localisation du cabinet impliquent de près ou de loin un excès démographique. les 50 % restant évoquent:
 - la distance entre le cabinet et le domicile
 - un mauvais choix de région/départements
 - un mauvais choix dans le type de ville
 - un cabinet dans une zone peu passante
-- pouvoir d'achat de la population
+- le pouvoir d'achat de la population
 
 Pour ce dernier, d'après COEJOE, les classes populaires ou aisées consultent au même rythme et de la même façon.?
+
+<p class="p-4 text-blue-800 bg-blue-100 rounded-lg" >Le lieu du cabinet doit remplir plusieurs critères mais plus important encore, il doit vous plaire. Ce sera votre lieu de travail, l'endroit ou vous passerez l'essentiel de votre temps.</p>
+
 
 ## Etre visible c'est forcément mieux ?
 
 15% des réponses portent sur la visibilité ou sur la communication a but marketing.
 
 On retrouve:
-- la non présentation dans les commerces du quartier
-- ne pas avoir fait de référencement web
-- ne pas avoir amélioré la visibilité extérieur du cabinet
-- non participation à des évènements locaux
-- absence de partenariats
+- la présentation dans les commerces du quartier
+- le référencement web
+- la visibilité extérieur du cabinet
+- la participation à des évènements locaux
+- les partenariats
 
 
 C'est un sujet sensible car en France, la communication pour les professionels de la santé est très règlementée.
@@ -198,9 +197,7 @@ C'est un sujet sensible car en France, la communication pour les professionels d
   </div>
 </div>
 
-Actuellement, nous ne sommes pas soumis à ces limitations. Cependant, le code de déontologie nous permet d'éviter des dérives. Nous n'attendons pas la même chose d'un professionel de la santé ou du soin que d'un marchand.
-
-"Ne pas inonder le quartier de cartes de visites" n'est pas en soi une erreur. C'est un respect de ses collègues et de sa profession. Il faut faire une distinction entre publicité aggressive et information. Informer de votre présence auprès des autres professionnels de votre rue, c'est un peu se présenter à vos voisins, une façon de mettre un visage sur un nom. Ils n'auront pas besoin de vos cartes de visites pour parler de vous.
+Actuellement, nous ne sommes pas soumis à ces limitations. Cependant, le code de déontologie nous permet d'éviter des dérives. Nous n'attendons pas la même chose d'un professionel de la santé ou du soin que d'un commerçant.
 
 Mais il est vrai que d'un point de vue purement marketing, plus les gens vous voient, plus ils ont de chance de venir vous voir. Une installation dans une rue passante vous octroira de facto une plus grande visibilité. Il y a également des chances que ce soit également plus pratique de venir vous voir, profitant également de cet instant pour faire quelques courses.
 
@@ -220,7 +217,8 @@ Voici un petit comparatif de ces deux types de cabinet:
 |  	| Coût du cabinet parfois inférieur 	|
 |  	|  	|
 
- <p class="p-4 bg-gray-200 rounded-lg" > Partageant actuellement mon cabinet avec des infirmières, j'en suis très satisfait. Nous nous entendons bien et cela permet de réduire les coûts. Pourtant, mon expérience avec les cabinets pluridisciplinaires n'a pas été très agréable avec mon 1er cabinet où un des praticiens était aussi propriétaire. Une mauvaise expérience.</p>
+<p class="p-4 text-blue-800 bg-blue-100 rounded-lg" >Nous n'avons eu que des cabinets pluridisciplinaires et il y a eu une mauvaise et bonne expérience.</p>
+
 
 ## Choisir les outils essentiels à toute activité
 
@@ -232,7 +230,7 @@ Pour rappel vous avez besoin:
 - d'une assurance pour le local
 - d'un comptable ou d'un outil de gestion comptable
 - d'un service de facturation
-- d'un abonement de téléphone
+- d'un abonnement de téléphone
 
 Il s'agit du strict minimum pour débuter une activité professionnelle, indépendamment que vous soyez ostéopathe ou pas. Cela s'applique à toute société.
 
@@ -241,7 +239,10 @@ Quelques notions à avoir en tête:
 - vous n'êtes pas obligé de choisir l'assurance qui vient vous démarcher à l'école
 - Google Sheet ou Excel ne sont pas des outils de gestion comptable
 - une note d'honoraire est en réalité une facture et suit les mêmes règles que celle-ci[^2]
-- un abonement de téléphone simple fait souvent l'affaire, l'important c'est d'avoir du réseau pour pouvoir communiquer
+- un abonnement de téléphone simple fait souvent l'affaire, l'important c'est d'avoir du réseau pour pouvoir communiquer
+
+ <p class="p-4 text-blue-800 bg-blue-100 rounded-lg" >Il vaut mieux privilégier la simplicité. Vous aurez toujours l'occasion de changer par la suite.
+ Si vous vous hésitez entre les statuts juridiques, vous pouvez faire quelques simulations chez imi.care ou sur notre simulateur.</p>
 
 ## Attention aux arnaques
 Toutes les entreprises sont soumises à des propositions de services plus ou moins alléchantes. Il faut toujours faire attention lorsque l'on vous démarche et ne jamais prendre de décision à chaud. Les spécialistes dans ce domaine sont les créateurs de site web, particulièrement insistants.
@@ -254,3 +255,17 @@ Nous avons rédigés un <a>article sur ce sujet</a> qui vous détails les arnaqu
 
 {{< importjs "chartjs" >}}
 {{< js "script.js" >}}
+
+
+
+## Nothing to declare
+Un quart des réponses portent sur des erreurs liées à la communication, qu'elle soit inter-professionnelle (avec les médecins, kinés, etc) ou intra-professionnelle (avec nos semblables). Il est vrai que les formations dans la santé ne disposent pas toujours de chapitre sur la communication et parler aux autres peut devenir difficile. Néanmoins, se présenter auprès des autres professions de santé est important, que ce soit pour le bien du patient que pour celui de votre compte en banque. En effet, ce réseau sera un de vos premiers bouche à oreille.
+
+Ce discours est essentiellement ce que notre école nous inculquait. Pourtant, nous avons eu assez peu d'informations sur comment bien communiquer. Sur le terrain, nous pouvons être confronté à des bonnes ou des mauvaises surprises. 
+
+ <p class="p-4 text-blue-800 bg-blue-100 rounded-lg" >Avec le temps, nous remarquons que nous avons de plus en plus tendance à nous voir comme concurrent plutôt que comme collègue. Cela peut expliquer les accueils désagréables et indirectement des présentations plus rare.</p>
+
+ <p class="p-4 bg-gray-200 rounded-lg" > Pour ma part, j'ai contacté mes collègues par téléphone. Plusieurs m'ont invité dans leur cabinet pour faire connaissance, d'autres m'ont juste dit: "Ok super !". Certains n'ont jamais répondu et n'ont jamais rappelé.
+ Avec du recul, j'aurais peut-être du envoyer des lettres. En ayant reçu une l'année dernière, j'étais content que cette personne prenne le temps de m'informer. Mais aurais-je pu rencontrer certains d'entre eux avec une lettre ? </p>
+ 
+"Ne pas inonder le quartier de cartes de visites" n'est pas en soi une erreur. C'est un respect de ses collègues et de sa profession. Il faut faire une distinction entre publicité aggressive et information. Informer de votre présence auprès des autres professionnels de votre rue, c'est un peu se présenter à vos voisins, une façon de mettre un visage sur un nom. Ils n'auront pas besoin de vos cartes de visites pour parler de vous.
