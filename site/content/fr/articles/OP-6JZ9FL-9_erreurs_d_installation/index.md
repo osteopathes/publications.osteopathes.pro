@@ -1,7 +1,7 @@
 ---
 title: "Les erreurs à éviter pour une installation réussie"
-date: 2021-04-27T14:09:26Z
-draft: true
+date: 2021-08-01T23:14:26Z
+draft: false
 slug: erreurs-a-eviter-pour-une-installation-reussie
 
 resources:
