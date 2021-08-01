@@ -5,7 +5,7 @@ import "./css/main.css"
 /*
  * Footnotes
  */
-const footnotes = document.querySelector('.footnotes');
+const footnotes = document.querySelector(".footnotes")
 
 // Only run this code if there are footnotes on the page.
 if (footnotes) {
@@ -16,47 +16,47 @@ if (footnotes) {
    * @param {String} attribute - Attribute to set.
    * @param {String} value - Value for the attribute.
    */
-  const setAttributeValue = ({ selector, attribute, value }) => {
+  const setAttributeValue = ({selector, attribute, value}) => {
     if (!selector || !attribute || !value) {
-      return;
+      return
     }
 
-    const items = document.querySelectorAll(selector);
+    const items = document.querySelectorAll(selector)
 
     if (!items.length) {
-      return;
+      return
     }
 
     for (const item of items) {
-      item.setAttribute(attribute, value);
+      item.setAttribute(attribute, value)
     }
-  };
-  const title = 'Notes';
-  const id = 'footnotes-label';
+  }
+  const title = "Notes"
+  const id = "footnotes-label"
 
   // Create an <h2> element and add it to the beginning of the .footnotes element.
-  const element = document.createElement('h2');
-  const text = document.createTextNode(title);
+  const element = document.createElement("h2")
+  const text = document.createTextNode(title)
 
-  element.appendChild(text);
-  element.classList.add('text-3xl', 'font-extrabold', 'leading-8', 'tracking-tight', 'text-center', 'sm:text-4xl', 'sm:leading-10')
-  element.id = id;
+  element.appendChild(text)
+  element.classList.add("text-3xl", "font-extrabold", "leading-8", "tracking-tight", "text-center", "sm:text-4xl", "sm:leading-10")
+  element.id = id
 
-  footnotes.insertBefore(element, footnotes.firstChild);
+  footnotes.insertBefore(element, footnotes.firstChild)
 
   // Use the footnotes title to describe each reference.
   setAttributeValue({
-    selector: 'a.footnote-ref',
-    attribute: 'aria-describedby',
+    selector: "a.footnote-ref",
+    attribute: "aria-describedby",
     value: id
-  });
+  })
 
   // Add a 'Retour au contenu' label to each back-to-content link.
   setAttributeValue({
-    selector: '.footnote-backref',
-    attribute: 'aria-label',
-    value: 'Retour au contenu'
-  });
+    selector: ".footnote-backref",
+    attribute: "aria-label",
+    value: "Retour au contenu"
+  })
 }
 
 /*
@@ -75,12 +75,13 @@ if (footnotes) {
 
 // Wrap tables into overflow-able div
 const tablesList = document.querySelectorAll("table")
-tablesList.forEach(function (tableItem) {
-  const parent = tableItem.parentNode
-  const wrapper = document.createElement("div")
-  wrapper.className = "inline-block min-w-full overflow-scroll align-middle border-b border-gray-200 shadow sm:rounded-lg"
-  parent.insertBefore(wrapper, tableItem)
-  wrapper.appendChild(tableItem)
+tablesList.forEach(function(tableItem) {
+  tableItem.className = "min-w-full overflow-scroll"
+  // const parent = tableItem.parentNode
+  // const wrapper = document.createElement("div")
+  // wrapper.className = "inline-block min-w-full overflow-scroll align-middle"
+  // parent.insertBefore(wrapper, tableItem)
+  // wrapper.appendChild(tableItem)
 })
 
 /*
@@ -95,7 +96,7 @@ var progress = document.querySelector("#progress")
 var scroll
 var scrollpos = window.scrollY
 if (progress !== null) {
-  document.addEventListener("scroll", function () {
+  document.addEventListener("scroll", function() {
     /* Refresh scroll % width */
     scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100
     progress.style.setProperty("--scroll", scroll + "%")
@@ -118,30 +119,30 @@ if (progress !== null) {
 })()
 
 function scrollTo() {
-  let links = document.getElementsByTagName('a');
+  const links = document.getElementsByTagName("a")
   for (let i = 0; i < links.length; i++) {
-    let link = links[i];
-    if ((link.href && link.href.indexOf('#') != -1) && ((link.pathname == location.pathname) || ('/' + link.pathname == location.pathname)) && (link.search == location.search)) {
-      link.onclick = scrollAnchors;
+    const link = links[i]
+    if ((link.href && link.href.indexOf("#") != -1) && ((link.pathname == location.pathname) || ("/" + link.pathname == location.pathname)) && (link.search == location.search)) {
+      link.onclick = scrollAnchors
     }
   }
 }
 
 function scrollAnchors(e, respond = null) {
-  const distanceToTop = (el) => Math.floor(el.getBoundingClientRect().top);
+  const distanceToTop = (el) => Math.floor(el.getBoundingClientRect().top)
   e.preventDefault()
-  let targetID = (respond) ? respond.getAttribute('href') : this.getAttribute('href');
+  let targetID = (respond) ? respond.getAttribute("href") : this.getAttribute("href")
   targetID = targetID.replace(":", "\\:")
-  const targetAnchor = document.querySelector(targetID);
+  const targetAnchor = document.querySelector(targetID)
   if (!targetAnchor) return
-  const originalTop = distanceToTop(targetAnchor);
-  window.scrollBy({ top: originalTop, left: 0, behavior: 'smooth' });
-  const checkIfDone = setInterval(function () {
-    const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
+  const originalTop = distanceToTop(targetAnchor)
+  window.scrollBy({top: originalTop, left: 0, behavior: "smooth"})
+  const checkIfDone = setInterval(function() {
+    const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2
     if (distanceToTop(targetAnchor) === 0 || atBottom) {
-      targetAnchor.tabIndex = '-1'
+      targetAnchor.tabIndex = "-1"
       targetAnchor.focus()
-      window.history.pushState('', '', targetID)
+      window.history.pushState("", "", targetID)
       clearInterval(checkIfDone)
     }
   }, 100)
