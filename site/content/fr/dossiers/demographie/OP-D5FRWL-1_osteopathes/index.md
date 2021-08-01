@@ -110,3 +110,4 @@ contacter et à continuer à nous faire vos retours pour que la cartographie s�
 
 > **Analyses annuelles**
 >  - [Démographie des ostéopathes 2020]({{< ref "/dossiers/demographie/OP-HG1A50-4_osteopathes-maj-2020" >}})
+>  - [Démographie des ostéopathes 2021]({{< ref "/dossiers/demographie/OP-XMG6LR-3_osteopathes-maj-2021" >}})

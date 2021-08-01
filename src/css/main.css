@@ -44,6 +44,8 @@ abbr[title] {
   cursor: help;
 }
 
+/*
+
 .prose table {
   @apply mt-0 mb-0;
 }
@@ -60,7 +62,7 @@ abbr[title] {
   @apply pr-6;
 }
 
-/*.prose table thead tr th {
+/* .prose table thead tr th {
   @apply px-6 py-3 border-b border-gray-200 bg-gray-100 text-left text-base leading-4 font-bold text-gray-500 tracking-wider
 } */
 
