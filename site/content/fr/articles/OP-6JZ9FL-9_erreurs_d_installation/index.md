@@ -1,6 +1,6 @@
 ---
 title: "Les erreurs à éviter pour une installation réussie"
-date: 2021-08-01T23:14:26Z
+date: 2021-08-01T21:14:26Z
 draft: false
 slug: erreurs-a-eviter-pour-une-installation-reussie
 
@@ -131,7 +131,8 @@ d'un·e autre ostéopathe à proximité. Les autres réponses incluent:
  - un cabinet situé dans une zone trop peu passante,
  - un territoire où la population a un faible pouvoir d'achat.
 
-Pour ce dernier point, notons que d'après le [sondage IFOP de 2016](https://osteofrance.com/actualites/news/2016/09/sondage-ifop-la-notoriete-et-limage-des-osteopathes),
+Pour ce dernier point, notons que d'après un [sondage IFOP de 2016](https://osteofrance.com/actualites/news/2016/09/sondage-ifop-la-notoriete-et-limage-des-osteopathes)
+et un [sondage ODOXA en 2019](http://www.upo-federation-osteopathie.fr/2019/10/26/les-francais-plebiscitent-losteopathie/),
 toutes les classes de population consultent en proportion similaires hormis les classes les plus modestes.
 
 Il est également intéressant de noter que la démographie n'est
