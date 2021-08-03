@@ -82,6 +82,9 @@ classées par catégorie, chaque réponse pouvant appartenir à plusieurs catég
   <canvas id="js-polar-chart-md" aria-label="Un graphe représentant les proportions des catégories des réponses." role="img"></canvas>
 </div>
 
+Pour lire les réponses brutes que nous avons reçues et trouvées instructives,
+nous vous invitons à [consulter le spreadsheet contenant les données brutes ainsi que la répartition entre les différentes catégories](https://docs.google.com/spreadsheets/d/1UsNF6GeBIe1_qSgMJU5oz8iNzkFlvb1GX9PcVJTo2q0/edit?usp=sharing).
+
 ## Deux catégories regroupent plus de deux tiers des erreurs
 Après analyse des résultats du sondage, deux catégories de réponses sont arrivées
 en tête: les erreurs de **localisation** (en orange) et les erreurs de **communication** (en bleu et vert).
