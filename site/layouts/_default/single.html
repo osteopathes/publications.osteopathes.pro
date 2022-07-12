@@ -1,0 +1,163 @@
+{{- define "title" -}}
+{{ .Title }} | {{ .Site.Title }}
+{{- end -}}
+
+{{- define "main" -}}
+
+{{- if .Resources.GetMatch "cover-image" -}}
+<section class="relative block" style="height: 500px;">
+  <div class="absolute top-0 w-full h-full bg-center bg-cover"
+    style='background-image: url({{ (.Resources.GetMatch "cover-image").Permalink }});'>
+    <span id="blackOverlay" class="absolute w-full h-full bg-black opacity-50"></span>
+  </div>
+  <div class="absolute bottom-0 left-0 right-0 top-auto w-full overflow-hidden pointer-events-none"
+    style="height: 70px; transform: translateZ(0px);">
+    <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+      version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+      <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+    </svg>
+  </div>
+</section>
+{{- end -}}
+<section class="relative py-16 bg-gray-300">
+  <div class="container px-4 mx-auto">
+    <div
+      class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg {{ if .Resources.GetMatch "cover-image" }}-mt-64{{ end }}">
+      <div class="px-6">
+        <div class="mt-12 text-center">
+          <h1 class="mb-2 text-4xl font-semibold leading-normal text-gray-800">
+            {{ .Title }}
+          </h1>
+          {{ if .Params.subtitle }}
+          <h2 class="mb-2 text-xl font-semibold leading-normal text-gray-600">
+            {{ .Params.subtitle }}
+          </h2>
+          {{ end }}
+          <div class="mt-0 mb-2 text-sm font-bold leading-normal text-gray-500">
+            <svg class="inline-block w-5 h-5 mr-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                clip-rule="evenodd" />
+            </svg>
+            <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"
+              title="Date de publication">
+              Publié le {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }}
+              {{ .PublishDate.Year }} à {{ .PublishDate.Format "15:04" }}
+            </time>
+            {{ if ne .PublishDate .Lastmod }}
+            <br class="inline md:hidden">
+            <svg class="inline-block w-5 h-5 mx-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
+              <path fill-rule="evenodd"
+                d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                clip-rule="evenodd" />
+            </svg>
+            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"
+              title="Dernière mise à jour du contenu">Dernière mise à jour le
+              {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }} à
+              {{ .Lastmod.Format "15:04" }}
+            </time>
+            {{ end }}
+          </div>
+          {{- if .Params.auteurs -}}
+          {{- $len := (len .Params.auteurs) -}}
+          <div class="mt-10 mb-2 text-gray-700">
+            {{ if gt (len .Params.auteurs) 1 }}
+            <svg class="inline-block w-5 h-5 mr-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+            </svg>
+            {{ else }}
+            <svg class="inline-block w-5 h-5 mr-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+            </svg>
+            {{ end }}
+            par&nbsp;
+            {{- range $index, $element := .Params.auteurs -}}
+            {{- with $.Site.GetPage "taxonomyTerm" (printf "auteurs/%s" (urlize $element)) -}}
+            {{- if and (gt $index 0) (eq (add $index 1) $len) -}}&nbsp;et&nbsp;{{- else if gt $index 0 -}},&nbsp;{{- end -}}
+            <a class="text-base font-semibold leading-6 text-teal-600 transition duration-150 ease-in-out hover:text-teal-500"
+              href="{{ .Permalink }}">{{ .Params.name }}</a>
+            {{- end -}}
+            {{- end -}}
+          </div>
+          {{- end -}}
+          {{- if (and (index .Aliases 0) .Params.publication_id) -}}
+          {{- $aliasAbsoluteUrl := (index .Aliases 0) | absURL -}}
+          <div class="mb-2 text-gray-700">
+            <svg class="inline-block w-5 h-5 mr-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                clip-rule="evenodd" />
+            </svg>
+            Référence et lien court: <a href="{{ $aliasAbsoluteUrl }}"
+              class="text-base font-semibold leading-6 text-teal-600 transition duration-150 ease-in-out hover:text-teal-500">{{ .Params.publication_id }}</a>
+          </div>
+          {{- end -}}
+        </div>
+        <div class="py-10 mt-10 border-t border-gray-300">
+          <div class="flex flex-wrap justify-center">
+            <div class="w-full px-4 prose lg:w-9/12 max-w-none font-readable">
+              {{ .Summary | emojify }}
+            </div>
+            {{ if and (gt .WordCount 400 ) (.Params.toc) }}
+            <aside class="block w-full p-4 prose lg:p-8 lg:w-9/12 max-w-none">
+              <div x-data="{ open: true }" @keydown.window.escape="open = false" class="relative block w-full text-left">
+                <div>
+                  <span class="rounded-md shadow-sm">
+                    <button @click="open = !open" type="button"
+                      class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue active:bg-gray-50 active:text-gray-800"
+                      id="options-menu" aria-haspopup="true" x-bind:aria-expanded="open">
+                      Sommaire
+                      <svg class="w-5 h-5 ml-2 -mr-1" x-description="Heroicon name: chevron-down"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                    </button>
+                  </span>
+                </div>
+                <div class="prose font-readable max-w-none" x-show="open" x-transition:enter="transition ease-out duration-100"
+                  x-transition:enter-start="transform opacity-0 scale-95"
+                  x-transition:enter-end="transform opacity-100 scale-100"
+                  x-transition:leave="transition ease-in duration-75"
+                  x-transition:leave-start="transform opacity-100 scale-100"
+                  x-transition:leave-end="transform opacity-0 scale-95"
+                  class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg" style="display: none;">
+                  {{ .TableOfContents }}
+                </div>
+              </div>
+            </aside>
+            {{ end }}
+          {{ $body := replace .Content .Summary "" }}
+            {{- if (isset .Params "container_css") -}}
+            <div class="{{ .Params.container_css }}">
+              {{ $body | emojify }}
+              {{- if .Params.add_closing_div -}}
+              </div>
+              {{- end -}}
+            </div>
+            {{- else -}}
+            <div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
+              {{ $body | emojify }}
+            </div>
+            {{- end -}}
+            {{- if .Params.legal_warning -}}
+            <div
+              class="px-4 py-5 mt-10 prose bg-blue-100 border border-blue-200 rounded sm:px-6 max-w-none font-readable">
+              <strong>Attention</strong>: les conseils fournis dans cet article
+              ne sauraient se substituer à la consultation d'experts. Nous ne
+              pourrons être tenus responsable d'aucun litige lié aux
+              informations données dans le présent document.
+              Pensez à consulter nos <a href="{{ "/mentions-legales" | relURL }}">mentions légales</a>.
+            </div>
+            {{- end -}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- end -}}

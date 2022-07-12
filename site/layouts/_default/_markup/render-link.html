@@ -1,0 +1,4 @@
+<a href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}"
+    {{ end }}{{ if gt (len (findRE "^https?://(([a-z0-9]+[.])*osteopathes[.]pro).*" .Destination)) 0 }}rel="internal"
+    {{ else if strings.HasPrefix .Destination "http" }} rel="noopener nofollow noreferrer external"
+    {{ end }}>{{ .Text | safeHTML }}</a>

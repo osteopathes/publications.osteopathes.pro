@@ -1,0 +1,78 @@
+DefaultContentLanguage: fr
+baseURL: http://localhost:3000/
+defaultContentLanguageInSubdir: true
+languageCode: "fr"
+copyright: "Cette œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0). https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr"
+
+author:
+  name: "Auteurs d'ostéopathes.pro"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  tableOfContents:
+    endLevel: 3
+    startLevel: 2
+    ordered: false
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds: ["RSS", "taxonomyTerm"]
+# enableGitInfo: true
+
+frontmatter:
+  date:
+    - publishDate
+    - date
+    - :fileModTime
+  publishDate:
+    - publishDate
+    - date
+    - :fileModTime
+
+params:
+  description: "Articles et dossiers sur l'ostéopathie ainsi que les actualités d'osteopathes.pro: démographie ostéopathes, ateliers rgpd etc."
+  editeur:
+    name: "osteopathes.pro"
+
+languages:
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    title: "Publications osteopathes.pro"
+    weight: 1
+
+    permalinks:
+      actualites: /fr/:sections/:year/:month/:slug
+      articles: /fr/:sections/:year/:month/:slug
+      dossiers: /fr/:sections/:slug
+
+    taxonomies:
+      auteur: "auteurs"
+      label: "labels"
+      catégorie: "catégories"
+
+imaging:
+  # Default resample filter used for resizing. Default is Box,
+  # a simple and fast averaging filter appropriate for downscaling.
+  # See https://github.com/disintegration/imaging
+  resampleFilter: "lanczos"
+
+  # Default JPEG quality setting. Default is 75.
+  quality: 90
+
+  # Anchor used when cropping pictures.
+  # Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+  # Smart Cropping is content aware and tries to find the best crop for each image.
+  # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  anchor: "smart"
+
+  # Default background color.
+  # Hugo will preserve transparency for target formats that supports it,
+  # but will fall back to this color for JPEG.
+  # Expects a standard HEX color string with 3 or 6 digits.
+  # See https://www.google.com/search?q=color+picker
+  bgColor: "#ffffff"

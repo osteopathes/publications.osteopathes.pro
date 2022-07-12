@@ -1,0 +1,146 @@
+{{- $paginator := .Paginator -}}
+
+{{/* Number of links either side of the current page. */}}
+{{- $adjacent_links := 2 -}}
+
+{{/* $max_links = ($adjacent_links * 2) + 1 */}}
+{{- $max_links := (add (mul $adjacent_links 2) 1) -}}
+
+{{/* $lower_limit = $adjacent_links + 1 */}}
+{{- $lower_limit := (add $adjacent_links 1) -}}
+
+{{/* $upper_limit = $paginator.TotalPages - $adjacent_links */}}
+{{- $upper_limit := (sub $paginator.TotalPages $adjacent_links) -}}
+
+{{/* If there's more than one page. */}}
+{{- if gt $paginator.TotalPages 1 -}}
+
+<div class="flex items-center justify-between px-4 mt-10 border-t border-gray-200 sm:px-0">
+
+  {{/*  First page. */}}
+  {{- if ne $paginator.PageNumber 1 -}}
+  <div class="hidden w-0 md:flex md:flex-1">
+    <a href="{{ $paginator.First.URL }}"
+      class="inline-flex items-center pt-4 pr-1 -mt-px text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-t-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-400">
+      <svg class="w-5 h-5 mr-3 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd"
+          d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+          clip-rule="evenodd" />
+      </svg>
+      Début
+    </a>
+  </div>
+  {{- end -}}
+
+  {{/*  Previous page. */}}
+  {{- if $paginator.HasPrev -}}
+  <div class="flex flex-1 w-0">
+    <a href="{{ $paginator.Prev.URL }}"
+      class="inline-flex items-center pt-4 pr-1 -mt-px text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-t-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-400">
+      <svg class="w-5 h-5 mr-3 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd"
+          d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+          clip-rule="evenodd" />
+      </svg>
+      Précédent
+    </a>
+  </div>
+  {{- end -}}
+
+  {{/*  Page numbers. */}}
+  {{- range $paginator.Pagers -}}
+  <div class="hidden md:flex">
+
+    {{- $.Scratch.Set "page_number_flag" false -}}
+
+
+    {{/*  Advanced page numbers. */}}
+    {{- if gt $paginator.TotalPages $max_links -}}
+
+
+    {{/*  Lower limit pages. */}}
+    {{/*  If the user is on a page which is in the lower limit.  */}}
+    {{- if le $paginator.PageNumber $lower_limit -}}
+
+    {{/*  If the current loop page is less than max_links. */}}
+    {{- if le .PageNumber $max_links -}}
+    {{- $.Scratch.Set "page_number_flag" true -}}
+    {{- end -}}
+
+
+    {{/*  Upper limit pages. */}}
+    {{/*  If the user is on a page which is in the upper limit. */}}
+    {{- else if ge $paginator.PageNumber $upper_limit -}}
+
+    {{/*  If the current loop page is greater than total pages minus $max_links */}}
+    {{- if gt .PageNumber (sub $paginator.TotalPages $max_links) -}}
+    {{- $.Scratch.Set "page_number_flag" true -}}
+    {{- end -}}
+
+
+    {{/*  Middle pages. */}}
+    {{- else -}}
+
+    {{- if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) -}}
+    {{- $.Scratch.Set "page_number_flag" true -}}
+    {{- end -}}
+
+    {{- end -}}
+
+
+    {{/*  Simple page numbers. */}}
+    {{- else -}}
+
+    {{- $.Scratch.Set "page_number_flag" true -}}
+
+    {{- end -}}
+
+    {{/*  Output page numbers. */}}
+    {{- if eq ($.Scratch.Get "page_number_flag") true -}}
+    {{- if eq . $paginator -}}
+    <a href="{{ .URL }}"
+      class="inline-flex items-center px-4 pt-4 -mt-px text-sm font-medium leading-5 text-teal-600 transition duration-150 ease-in-out border-t-2 border-teal-500 focus:outline-none focus:text-teal-800 focus:border-teal-700">
+      {{ .PageNumber }}
+    </a>
+    {{- else -}}
+    <a href="{{ .URL }}"
+      class="inline-flex items-center px-4 pt-4 -mt-px text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-t-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-400">
+      {{ .PageNumber }}
+    </a>
+    {{- end -}}
+    {{- end -}}
+  </div>
+  {{- end -}}
+
+  {{/*  Next page. */}}
+  {{- if $paginator.HasNext -}}
+  <div class="flex justify-end flex-1 w-0">
+    <a href="{{ $paginator.Next.URL }}"
+      class="inline-flex items-center pt-4 pl-1 -mt-px text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-t-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-400">
+      Suivant
+      <svg class="w-5 h-5 ml-3 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd"
+          d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+          clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+  {{- end -}}
+
+  {{/*  Last page. */}}
+  {{- if ne $paginator.PageNumber $paginator.TotalPages -}}
+  <div class="justify-end hidden w-0 md:flex md:flex-1">
+    <a href="{{ $paginator.Last.URL }}"
+      class="inline-flex items-center pt-4 pl-1 -mt-px text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-t-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-400">
+      Fin
+      <svg class="w-5 h-5 ml-3 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd"
+          d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+          clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+  {{- end -}}
+
+</div>
+{{- end -}}

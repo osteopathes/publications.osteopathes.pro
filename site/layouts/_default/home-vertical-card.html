@@ -1,0 +1,69 @@
+<div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+  <div class="flex-shrink-0">
+    {{- if .Resources.GetMatch "cover-image" -}}
+    {{- $original := (.Resources.GetMatch "cover-image") -}}
+    {{- .Scratch.Set "image" ($original.Resize "512x") -}}
+    {{ $image := .Scratch.Get "image" }}
+    <picture>
+      <source srcset="{{ $image.Permalink }}.webp" type="image/webp">
+      <img loading="lazy" src="{{ $image.Permalink }}" class="object-cover w-full h-48">
+    </picture>
+    {{- end -}}
+  </div>
+  <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+    <div class="flex-1">
+      <p class="text-sm font-medium leading-5 text-teal-600">
+        {{- with .Site.GetPage .Section -}}
+        <a href="{{ .Permalink }}" class="uppercase hover:underline">
+          {{ .Title }}
+        </a>
+        {{- end -}}
+      </p>
+      <a href="{{ .Permalink }}" class="block">
+        <h3 class="mt-2 text-xl font-semibold leading-7 text-gray-900">
+          {{ .Title | emojify }}
+        </h3>
+        <div class="mt-3 text-base leading-6 text-gray-500">
+          {{ .Summary | replaceRE "<a " "<span " | replaceRE "</a>" "</span>" | emojify | truncate 650 }}
+        </div>
+      </a>
+    </div>
+    <div class="flex items-center mt-6">
+      <div class="flex-shrink-0">
+        {{- range first 1 .Params.auteurs -}}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "auteurs/%s" (urlize .)) -}}
+        <a href="{{ .Permalink }}">
+          <picture>
+            <source srcset="{{ .Params.avatar_url }}.webp" type="image/webp">
+            <img loading="lazy" class="w-10 h-10 rounded-full" src="{{ .Params.avatar_url }}"
+              alt="{{ .Params.name }}" />
+          </picture>
+        </a>
+      </div>
+      <div class="ml-3">
+        <p class="text-sm font-medium leading-5 text-gray-900">
+          <a href="{{ .Permalink }}" class="hover:underline">
+            {{- .Params.name -}}
+          </a>
+        </p>
+        {{- end -}}
+        {{- end -}}
+        <div class="flex text-sm leading-5 text-gray-500">
+          <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+            {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }}
+          </time>
+          <span class="mx-1">
+            &middot;
+          </span>
+          <span>
+            {{- if eq .ReadingTime 1 -}}
+            {{ .ReadingTime }} minute
+            {{- else -}}
+            {{ .ReadingTime }} minutes
+            {{- end -}}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
