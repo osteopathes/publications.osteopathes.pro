@@ -1,8 +1,8 @@
 [build.environment]
-  YARN_VERSION = "1.22.4"
-  NODE_VERSION = "12.19.0"
-  NPM_VERSION = "6.14.7"
-  HUGO_VERSION = "0.76.5"
+  YARN_VERSION = "1.22.19"
+  NODE_VERSION = "16.14.0"
+  NPM_VERSION = "8.3.1"
+  HUGO_VERSION = "0.77.0"
 
 [build]
   command = "npm run build"
