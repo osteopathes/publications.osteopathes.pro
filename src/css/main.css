@@ -108,7 +108,7 @@ abbr[title] {
 } */
 
 .prose img {
-  @apply h-auto max-w-full m-3 text-center bg-gray-100 border border-gray-400 rounded;
+  @apply h-auto max-w-full m-0 text-center bg-gray-100 border border-gray-400 rounded md:m-3;
 }
 
 .prose img.unstyle {
