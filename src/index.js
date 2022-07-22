@@ -1,6 +1,10 @@
-import "alpinejs"
+import Alpine from "alpinejs"
 
 import "./css/main.css"
+
+window.Alpine = Alpine
+
+Alpine.start()
 
 /*
  * Footnotes
@@ -27,6 +31,7 @@ if (footnotes) {
       return
     }
 
+    // eslint-disable-next-line no-unused-vars
     for (const item of items) {
       item.setAttribute(attribute, value)
     }
@@ -39,7 +44,15 @@ if (footnotes) {
   const text = document.createTextNode(title)
 
   element.appendChild(text)
-  element.classList.add("text-3xl", "font-extrabold", "leading-8", "tracking-tight", "text-center", "sm:text-4xl", "sm:leading-10")
+  element.classList.add(
+    "text-3xl",
+    "font-extrabold",
+    "leading-8",
+    "tracking-tight",
+    "text-center",
+    "sm:text-4xl",
+    "sm:leading-10"
+  )
   element.id = id
 
   footnotes.insertBefore(element, footnotes.firstChild)
@@ -64,11 +77,17 @@ if (footnotes) {
  */
 (() => {
   const toc = document.getElementById("TableOfContents")
-  if (!toc) { return }
+  if (!toc) {
+    return
+  }
   const ul = toc.querySelector("ul")
-  if (ul.childElementCount !== 1) { return }
+  if (ul.childElementCount !== 1) {
+    return
+  }
   const li = ul.firstElementChild
-  if (li.tagName !== "LI") { return }
+  if (li.tagName !== "LI") {
+    return
+  }
   // remove <ul><li></li></ul> where <ul> only contains one <li>
   ul.outerHTML = li.innerHTML
 })()
@@ -88,17 +107,17 @@ tablesList.forEach(function(tableItem) {
  * Reading progress bar
  */
 // Source: https://alligator.io/js/progress-bar-javascript-css-variables/
-var h = document.documentElement
-var b = document.body
-var st = "scrollTop"
-var sh = "scrollHeight"
-var progress = document.querySelector("#progress")
-var scroll
-var scrollpos = window.scrollY
+const h = document.documentElement
+const b = document.body
+const st = "scrollTop"
+const sh = "scrollHeight"
+const progress = document.querySelector("#progress")
+let scroll
+let scrollpos = window.scrollY
 if (progress !== null) {
   document.addEventListener("scroll", function() {
     /* Refresh scroll % width */
-    scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100
+    scroll = ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100
     progress.style.setProperty("--scroll", scroll + "%")
     /* Apply classes for slide in bar */
     scrollpos = window.scrollY
@@ -122,7 +141,13 @@ function scrollTo() {
   const links = document.getElementsByTagName("a")
   for (let i = 0; i < links.length; i++) {
     const link = links[i]
-    if ((link.href && link.href.indexOf("#") != -1) && ((link.pathname == location.pathname) || ("/" + link.pathname == location.pathname)) && (link.search == location.search)) {
+    if (
+      link.href &&
+      link.href.indexOf("#") !== -1 &&
+      (link.pathname === location.pathname ||
+        "/" + link.pathname === location.pathname) &&
+      link.search === location.search
+    ) {
       link.onclick = scrollAnchors
     }
   }
@@ -131,14 +156,17 @@ function scrollTo() {
 function scrollAnchors(e, respond = null) {
   const distanceToTop = (el) => Math.floor(el.getBoundingClientRect().top)
   e.preventDefault()
-  let targetID = (respond) ? respond.getAttribute("href") : this.getAttribute("href")
+  let targetID = respond
+    ? respond.getAttribute("href")
+    : this.getAttribute("href")
   targetID = targetID.replace(":", "\\:")
   const targetAnchor = document.querySelector(targetID)
   if (!targetAnchor) return
   const originalTop = distanceToTop(targetAnchor)
   window.scrollBy({top: originalTop, left: 0, behavior: "smooth"})
   const checkIfDone = setInterval(function() {
-    const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2
+    const atBottom =
+      window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2
     if (distanceToTop(targetAnchor) === 0 || atBottom) {
       targetAnchor.tabIndex = "-1"
       targetAnchor.focus()
@@ -149,4 +177,4 @@ function scrollAnchors(e, respond = null) {
 }
 
 // Say hello
-console.log("🦊 Bonjour!")
+// console.log("🦊 Bonjour!")
