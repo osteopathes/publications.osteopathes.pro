@@ -17,9 +17,3 @@
 [context.production.environment]
   HUGO_ENV = "production"
   DEPLOY_PRIME_URL = "https://publications.osteopathes.pro/"
-
-[[redirects]]
-  from = "/fr/jeux/cas-cliniques/01-fan-de-yoga"
-  to = "/fr/jeux/cas-cliniques/01-fan-de-yoga/"
-  status = 301
-  force = true
