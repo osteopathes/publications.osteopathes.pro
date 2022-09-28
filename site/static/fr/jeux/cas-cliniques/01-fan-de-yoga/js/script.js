@@ -651,11 +651,12 @@ monogatari.script({
       }
     },
     "centered Vous réferrez Mme Rolland chez son médecin. Celui-ci effectue un examen clinique et une radiographie qui révèle une fracture tassement en T7/T8.",
+    "show scene #5a476c with fadeIn",
     "centered Vous avez eu la bonne conduite à tenir dans ce cas. Malheureusement vous n'avez pas suspecté la bonne chose.",
     "centered Fin",
     "show scene #377dff with fadeIn",
-    "centered osteopathes.pro",
     "centered Suivez nous sur les réseaux et créez un compte pour être prévenu·e des prochains épisodes 😉",
+    "centered osteopathes.pro – Logiciels et jeux pour ostéopathes.",
     "end"
   ],
   viviane_treatment_referral_fracture: [
@@ -671,11 +672,12 @@ monogatari.script({
       }
     },
     "centered Vous réferrez Mme Rolland chez son médecin. Celui-ci effectue un examen clinique et une radiographie qui révèle une fracture tassement en T7/T8.",
+    "show scene #1a7e00 with fadeIn",
     "centered Félicitations, vous avez trouvé un drapeau rouge !",
     "centered Fin",
     "show scene #377dff with fadeIn",
-    "centered osteopathes.pro",
     "centered Suivez nous sur les réseaux et créez un compte pour être prévenu·e des prochains épisodes 😉",
+    "centered osteopathes.pro – Logiciels et jeux pour ostéopathes.",
     "end"
   ],
   viviane_treatment_arthritis: [
@@ -691,21 +693,23 @@ monogatari.script({
       }
     },
     "centered Vous réferrez Mme Rolland chez son médecin. Celui-ci effectue un examen clinique et une radiographie qui révèle une fracture tassement en T7/T8.",
+    "show scene #5a476c with fadeIn",
     "centered Vous avez eu la bonne conduite à tenir dans ce cas. Malheureusement vous n'avez pas suspecté la bonne chose.",
     "centered Fin",
     "show scene #377dff with fadeIn",
-    "centered osteopathes.pro",
     "centered Suivez nous sur les réseaux et créez un compte pour être prévenu·e des prochains épisodes 😉",
+    "centered osteopathes.pro – Logiciels et jeux pour ostéopathes.",
     "end"
   ],
   viviane_failed: [
     "show scene #010101 with fadeIn",
     "centered Malheureusement Mme Rolland, ne supportant plus les douleurs suite à votre intervention consulte en urgence le lendemain et une radiographie révèle une fracture tassement en T7/T8.",
+    "show scene #c10210 with fadeIn",
     "centered Vous n'avez pas eu la bonne conduite à tenir. Analysez mieux les indices.",
     "centered Fin",
     "show scene #377dff with fadeIn",
-    "centered osteopathes.pro",
     "centered Suivez nous sur les réseaux et créez un compte pour être prévenu·e des prochains épisodes 😉",
+    "centered osteopathes.pro – Logiciels et jeux pour ostéopathes.",
     "end"
   ]
 })
