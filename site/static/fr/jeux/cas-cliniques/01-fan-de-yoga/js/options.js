@@ -18,7 +18,7 @@ monogatari.settings({
   Name: "Cas Clinique – Fan de Yoga",
 
   // The version of your game in semantic versioning (https://semver.org/).
-  Version: "0.1.0",
+  Version: "0.1.1",
 
   // Initial Label *
   Label: "init",
@@ -84,7 +84,7 @@ monogatari.settings({
   // to portrait or landscape, a warning message will be displayed so the
   // player rotates its device.
   // Possible values: any, portrait or landscape.
-  Orientation: "landscape",
+  Orientation: "any",
 
   // Allow players to skip through the game. Similar to the auto play feature,
   // skipping will allow players to go through the game really fast.
