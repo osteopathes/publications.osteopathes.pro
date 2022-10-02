@@ -2,31 +2,32 @@
 
 function sendEvent(name, opts) {
   try {
-    window.plausible(name, opts)
+    window.plausible(name, opts);
   } catch (error) {}
 }
 
 // Define the messages used in the game.
-monogatari.action("message").messages({})
+monogatari.action("message").messages({});
 
 // Define the notifications used in the game
-monogatari.action("notification").notifications({})
+monogatari.action("notification").notifications({});
 
 // Define the Particles JS Configurations used in the game
-monogatari.action("particles").particles({})
+monogatari.action("particles").particles({});
 
 // Define the canvas objects used in the game
-monogatari.action("canvas").objects({})
+monogatari.action("canvas").objects({});
 
 // Credits of the people involved in the creation of this awesome game
 monogatari.configuration("credits", {
   Créateurs: {
     "Code, Développement et mise en scène": "Klemen SEVER",
     "Dessin de la patiente et vérification des notions clinique":
-      "Laurent MARC"
+      "Laurent MARC",
   },
   Remerciements: {
-    Support: ["Konrad FLORKOW"]
+    Support: ["Konrad FLORKOW"],
+    "Beta Testeurs·Testeuses": ["Corentin CLEMENT"],
   },
   Sources: {
     "Article dont est issu le cas clinique":
