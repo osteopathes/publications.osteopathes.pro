@@ -13,6 +13,6 @@ biography: |
   il profite de la création de
   <a href="https://www.42.fr" rel="noreferrer nofollow">42</a>
   (une école d'informatique un peu folle sur Paris) pour se former en
-  informatique. Depuis, il allie ces deux facettes sur Paris.
+  informatique. Depuis, il allie ces deux facettes aux alentours de Meaux.
 
 ---
