@@ -1,6 +1,6 @@
 ---
 title: "Quelle place pour l’ostéopathie dans le système de santé français? Introduction à son évaluation médico-économique."
-date: 2022-10-30T11:44:21Z
+date: 2022-11-16T09:44:21Z
 draft: false
 slug: quelle-place-pour-l-osteopathie-dans-le-systeme-de-sante-francais-introduction-a-son-evaluation-medico-economique
 
