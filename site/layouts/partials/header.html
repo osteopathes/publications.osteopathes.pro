@@ -19,6 +19,8 @@
             <a href="{{ .Permalink }}"
               class="px-3 py-2 ml-4 text-sm font-medium leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">{{ .Title }}</a>
             {{- end -}}
+            <a href="https://www.osteopathes.pro/"
+              class="px-3 py-2 ml-4 text-sm font-medium leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Retour au site principal</a>
           </div>
         </div>
       </div>
@@ -57,11 +59,13 @@
   <div :class="{'block': open, 'hidden': !open}" class="hidden lg:hidden">
     <div class="px-2 pt-2 pb-3">
       <a href="{{ .Site.Home.Permalink }}"
-        class="block px-3 py-2 text-base font-medium text-white transition duration-150 ease-in-out bg-gray-900 rounded-md focus:outline-none focus:text-white focus:bg-gray-700">Accueil</a>
+        class="block px-3 py-2 text-base font-medium text-white transition duration-150 ease-in-out rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Accueil</a>
       {{- range .Site.Sections -}}
       <a href="{{ .Permalink }}"
         class="block px-3 py-2 mt-1 text-base font-medium text-gray-300 transition duration-150 ease-in-out rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">{{ .Title }}</a>
       {{- end -}}
+      <a href="https://www.osteopathes.pro/"
+        class="block px-3 py-2 mt-1 text-base font-medium text-gray-300 transition duration-150 ease-in-out rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Retour au site principal</a>
     </div>
   </div>
 </nav>
