@@ -38,7 +38,9 @@
   {{- partial "site-schema.html" . | safeJS -}}
   </script>
   {{- partial "social-meta.html" . -}}
-  <script async defer data-domain="publications.osteopathes.pro" src="https://stats.osteopathes.pro/js/index.outbound-links.js"></script>
+  <script async defer data-domain="publications.osteopathes.pro"
+  data-api="https://www.osteopathes.pro/analytics/api/event"
+  src="https://www.osteopathes.pro/analytics/js/script.outbound-links.js"></script>
 </head>
 
 <body class="font-sans leading-normal tracking-normal bg-gray-50">
