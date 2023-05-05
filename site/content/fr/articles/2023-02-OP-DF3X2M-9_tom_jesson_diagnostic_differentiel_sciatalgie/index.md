@@ -22,7 +22,7 @@ toc: false
 
 Après le succès du premier *zine* (une BD en ligne à
 imprimer soi-même) sur la différenciation entre
-[douleur référée, douleur radiculaire et radiculopathie]({{< ref "/articles/OP-Q1EP4Y-7_tom_jesson_douleur-referee-douleur-radiculaire-et-radiculopathie" >}}),
+[douleur référée, douleur radiculaire et radiculopathie]({{< ref "/articles/2022-09-OP-Q1EP4Y-7_tom_jesson_douleur-referee-douleur-radiculaire-et-radiculopathie" >}}),
 publié par [Tom Jesson](https://tomjesson.com/) en septembre 2022,
 il décide de créer un nouveau zine sur
 **le diagnostic différentiel de la douleur radiculaire
