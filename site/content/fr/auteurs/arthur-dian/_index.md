@@ -8,9 +8,7 @@ social:
 location: 'Paris, France'
 professional_titles: 'Ostéopathe D.O. depuis 2022'
 biography: |
-  Ostéopathe issu du <a href="https://www.ceesoparis.com/"
-  rel="noreferrer nofollow" title="Centre International D'Ostéopathie">CEESO
-  Paris</a> et membre du GEMPPI (Groupe d'Etude des Mouvements
+  Ostéopathe et membre du GEMPPI (Groupe d'Etude des Mouvements
   de Pensée en vue de la Protection de l'Individu).
   Passionné par la prise en charge de la douleur, la santé mentale
   et l'étude des dérives sectaires.
