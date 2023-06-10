@@ -1,11 +1,11 @@
 ---
-title: "Le rapport IGAS de 2021 sur l'ostéopathie: un constat réaliste et préoccupant – Première partie"
-date: 2023-06-10T18:20:21Z
+title: "L'IGAS fait un constat détaillé et préoccupant de l'ostéopathie"
+date: 2023-06-12T10:00:00Z
 draft: false
-slug: le-rapport-igas-2021-sur-l-osteopathie-un-constat-realiste-et-preoccupant-partie-1
+slug: rapport-igas-2021-sur-l-osteopathie-un-constat-détaillé-et-preoccupant
 resources:
   - name: cover-image
-    src: rapport-igas-evaluation-procedure-agrement-capacites-accueil-etablissements-formation-osteopathe-et-evolutions.png
+    src: rapport-igas-2022-osteopathie-partie-1-constat.png
 
 publication_id: OP-IV5ESF-9
 aliases:
@@ -13,6 +13,8 @@ aliases:
 
 auteurs:
   - pierre-adrien-liot
+
+toc: true
 
 ---
 
@@ -35,7 +37,6 @@ de Prévoyance et d'Assurance Vieillesse* (CIPAV) des professions libérales et 
 Cet article détaillera les éléments clés du constat présenté par l'administration.
 
 <!--more-->
-
 ## L’administration prend position en faveur d’une évolution de l’ostéopathie
 > La situation créée par la loi de 2002 n’est plus tenable
 > en l’état.
@@ -274,7 +275,7 @@ survenance d'événements graves.
 
 En effet, au Royaume-Uni, le *National Council for Osteopathic
 Research* (NCOR) a recensé en 2017 un total de 184 ostéopathes
-faisant l'objet d'une plainte, soit **3,5 % des ostéopathes anglais**.
+faisant l'objet d'une plainte, soit **3,5 % des ostéopathes anglais·es**.
 Les principaux motifs de plainte sont liés aux soins dispensés
 et au comportement du praticien.
 
@@ -288,9 +289,9 @@ un faible risque assurantiel. Cependant, il est difficile
 d'obtenir une image précise des accidents causés par ces pratiques,
 car **il n'existe pas de suivi organisé de la sinistralité
 ostéopathique ou chiropratique en France**. En effet, étant
-donné qu'ils ne sont pas considérés comme des professionnels
-de santé, l'*Office National d'Indemnisation des Accidents
-Médicaux* (ONIAM) ne couvre pas ces accidents.
+donné qu'ils et elles ne sont pas considérés comme des
+professionnel·le·s de santé, l'*Office National d'Indemnisation
+des Accidents Médicaux* (ONIAM) ne couvre pas ces accidents.
 
 ## Conclusion
 Le rapport de l'IGAS dresse un portrait global et relativement
@@ -306,10 +307,12 @@ au ministère de la Santé afin d'initier les réformes nécessaires.
 
 Suite à la publication de ce rapport, l'ensemble des
 organisations professionnelles ont communiqué leur position à ce sujet:
-- la communication du [*Syndicat Français des Ostéopathes* (SFDO)](https://www.osteopathe-syndicat.fr/une-mission-igas-formule-26-recommandations-sur-la-procedure-d-agrement-et-des-capacites-d-accueil-des-etablissements)
 - la communication d'[*Ostéopathes de France* (ODF)](https://osteofrance.com/actualites/news/2023/05/rapport-de-ligas-de-reels-motifs-despoir-pour-notre-profession)
+- la communication du [*Syndicat Français des Ostéopathes* (SFDO)](https://www.osteopathe-syndicat.fr/une-mission-igas-formule-26-recommandations-sur-la-procedure-d-agrement-et-des-capacites-d-accueil-des-etablissements)
 - la communication du [*Registre des Ostéopathes de France* (ROF)](https://www.osteopathie.org/571-communique-de-presse.html)
 - la communication de l'[*Association Française d'Ostéopathie* (AFO)](ttps://www.afosteo.org/actualites/publication-du-rapport-de-ligas-sur-la-formation-en-osteopathie/)
+- la communication de la [*Fédération des étudiant·e·s en ostéopathie* (FédEO)](https://www.instagram.com/p/CtOi_oPxJCH/)
+- le résumé sur [le portail vie-publique.fr du gouvernement](https://www.vie-publique.fr/en-bref/289582-osteopathie-une-place-ambigue-dans-le-systeme-de-soins)
 
 Nous détaillerons ces propositions dans les deux autres articles
-suivants de ce [dossier dédié au rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}).
+suivants de ce [dossier dédié au rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}) qui arriverons dans la semaine.
