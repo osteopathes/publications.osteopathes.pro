@@ -117,7 +117,7 @@ cotisant·e·s à la CIPAV s'élève à **15 043**. Parmi ces
 professionnel·le·s, 3&nbsp;953, soit 23,6%, sont des
 micro-entrepreneurs·ses (anciennement auto-entrepreneurs·ses).
 
-On observe une forte féminisation avec prêt de 8&nbsp;320 ostéopathes
+On observe une forte féminisation avec près de 8&nbsp;320 ostéopathes
 femmes pour environ 6&nbsp;723 ostéopathes hommes cotisants à la CIPAV.
 
 ![Répartition des ostéopathes affiliés à la CIPAV selon le sexe et la classe d'âge en 2022](./repartition-osteopathes-affilies-cipav-selon-sexe-et-classe-age-2022.png)
