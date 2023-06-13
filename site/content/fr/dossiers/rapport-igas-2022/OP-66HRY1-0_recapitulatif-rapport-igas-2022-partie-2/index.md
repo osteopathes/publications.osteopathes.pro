@@ -252,7 +252,7 @@ incidence directe sur sa qualité.
 
 **Comment ?**
 
-Modification de l’Art.18 du décret d'agrément afin d’avoir de préciser
+Modification de l’Art.18 du décret d'agrément afin de préciser
 l’enseignement pratique en clinique interne.
 
 [Retour au sommaire ⬆️]({{< relref "#sommaire" >}})
@@ -475,7 +475,7 @@ formation, dans laquelle les volumes horaires des unités d'enseignement
 seront redistribués afin d'intégrer des enseignements d'initiation
 à la recherche, sans prolonger la durée de la formation. Ces enseignements
 nécessiteront le soutien de l'université et permettront aux étudiants
-de comprendre et d'utiliser les biostatistiques, d'acquérir des
+de comprendre et d'utiliser les statistiques, d'acquérir des
 connaissances sur les méthodes d'élaboration des protocoles d'enquête,
 de collecte et d'analyse des données, ainsi que de développer un esprit
 critique lors de la lecture d'articles scientifiques.
