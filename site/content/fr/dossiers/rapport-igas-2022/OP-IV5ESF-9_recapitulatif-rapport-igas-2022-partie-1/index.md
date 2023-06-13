@@ -312,7 +312,10 @@ organisations professionnelles ont communiqué leur position à ce sujet:
 - la communication du [*Registre des Ostéopathes de France* (ROF)](https://www.osteopathie.org/571-communique-de-presse.html)
 - la communication de l'[*Association Française d'Ostéopathie* (AFO)](ttps://www.afosteo.org/actualites/publication-du-rapport-de-ligas-sur-la-formation-en-osteopathie/)
 - la communication de la [*Fédération des étudiant·e·s en ostéopathie* (FédEO)](https://www.instagram.com/p/CtOi_oPxJCH/)
-- le résumé sur [le portail vie-publique.fr du gouvernement](https://www.vie-publique.fr/en-bref/289582-osteopathie-une-place-ambigue-dans-le-systeme-de-soins)
 
 Nous détaillerons ces propositions dans les deux autres articles
 suivants de ce [dossier dédié au rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}) qui arriverons dans la semaine.
+
+## Références
+- lien vers le [rapport de l'IGAS 2021](https://www.igas.gouv.fr/IMG/pdf/2021-095r_rapport.pdf)
+- le résumé sur [le portail vie-publique.fr du gouvernement](https://www.vie-publique.fr/en-bref/289582-osteopathie-une-place-ambigue-dans-le-systeme-de-soins)
