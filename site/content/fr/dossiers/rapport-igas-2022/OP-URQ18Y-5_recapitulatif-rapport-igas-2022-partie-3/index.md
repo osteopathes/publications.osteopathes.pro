@@ -1,8 +1,8 @@
 ---
-title: "Rapport IGAS: l'ostéopathie bientôt profession de santé ?"
+title: "Rapport IGAS: bientôt une autorité et le statut de profession de santé ?"
 date: 2023-06-14T10:00:00Z
-draft: true
-slug: rapport-igas-2021-sur-l-osteopathie-bientot-profession-de-sante
+draft: false
+slug: rapport-igas-2021-sur-l-osteopathie-bientot-une-autorite-et-le-statut-de-profession-de-sante
 resources:
   - name: cover-image
     src: rapport-igas-2022-osteopathie-partie-3-analyse.png
@@ -40,6 +40,12 @@ une attention particulière de la part des ostéopathes**:
 
 <!--more-->
 
+Cet article fait suite à deux autres articles, le [premier
+abordant le constat détaillé de la situation tel que rapporté
+par l'IGAS](({{< ref "/dossiers/rapport-igas-2022/OP-IV5ESF-9_recapitulatif-rapport-igas-2022-partie-1" >}})),
+le second [synthétisant l'ensemble des 26 recommandations
+formulées]({{< ref "/dossiers/rapport-igas-2022/OP-IV5ESF-9_recapitulatif-rapport-igas-2022-partie-2" >}}).
+
 L'IGAS constate que l'ostéopathie est devenue **la médecine
 complémentaire la plus répandue en France**, faisant partie
 intégrante des habitudes de la population. Les ostéopathes
@@ -52,8 +58,8 @@ Aujourd'hui, la place des ostéopathes dans le système de santé
 constitue un enjeu majeur de santé publique, en particulier dans
 le contexte actuel de restructuration de l'offre de soins. Bien
 que l'ostéopathie soit encadrée par des référentiels de
-compétences, l'IGAS met en garde contre les dangers potentiels
-d'une activité non contrôlée dans le système de santé, d'autant
+compétences, l'IGAS **met en garde contre les dangers potentiels
+d'une activité non contrôlée** dans le système de santé, d'autant
 plus que le champ d'exercice des ostéopathes semble s'élargir
 avec le temps.
 
@@ -70,10 +76,10 @@ l'assurance maladie, de nombreux organismes complémentaires
 d'assurance maladie (mutuelles) remboursent les consultations
 des patient·e·s, le plus souvent sous forme de forfait.
 
-Pour l'IGAS, les lacunes croissantes en professionnel·le·s de
+Pour l'IGAS, **les lacunes croissantes en professionnel·le·s de
 santé combinées à une démographie en expansion des ostéopathes
 font craindre l'émergence de pratiques déviantes qui devront
-être endiguées.
+être endiguées**.
 
 > En 2002, le législateur a fait le choix de ne pas attribuer
 > un statut de professionnel de santé aux ostéopathes et aux
@@ -107,17 +113,17 @@ Plusieurs termes sont utilisés pour décrire la pratique de l'ostéopathie, tel
 - thérapies complémentaires ou non conventionnelles
 - soins de support
 
-De plus, l'IGAS constate que la Haute Autorité de Santé (HAS)
+De plus, l'IGAS constate que **la Haute Autorité de Santé (HAS)
 n'a pas émis de recommandations générales ni de bonnes pratiques
-concernant l'ostéopathie, malgré l'article 75 de la loi de 2002
+concernant l'ostéopathie**, malgré l'article 75 de la loi de 2002
 qui lui attribue cette mission.
 
-Selon l'inspection, le manque de publications reposant sur
-des preuves scientifiques solides constitue actuellement un
+Selon l'inspection, **le manque de publications reposant sur
+des preuves scientifiques solides** constitue actuellement un
 obstacle à la définition de la place des ostéopathes dans
-le parcours de soins. L'IGAS estime que la professionnalisation
+le parcours de soins. L'IGAS estime que **la professionnalisation
 du métier d'ostéopathe doit s'accompagner d'une surveillance
-scientifique et de la production de recherches, faute de quoi
+scientifique** et de la production de recherches, faute de quoi
 aucune recommandation ni évolution technique ne peut être envisagée.
 
 De plus, l'IGAS souhaite que **l'ostéopathie s'inscrive dans une
