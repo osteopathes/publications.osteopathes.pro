@@ -69,7 +69,7 @@ de médecins ou de masseurs-kinésithérapeutes. De plus, la
 coexistence de professionnel·le·s de santé et de non-professionnel·le·s
 de santé utilisant le titre d'ostéopathe peut contribuer à la
 confusion des patient·e·s quant aux qualifications du ou de la
-professionnel·le qu'ils ou que'elles consultent.
+professionnel·le qu'ils ou qu'elles consultent.
 
 Bien que les actes d'ostéopathie ne soient pas remboursés par
 l'assurance maladie, de nombreux organismes complémentaires
