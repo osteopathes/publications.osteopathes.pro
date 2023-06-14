@@ -44,7 +44,7 @@ Cet article fait suite à deux autres articles, le [premier
 abordant le constat détaillé de la situation tel que rapporté
 par l'IGAS](({{< ref "/dossiers/rapport-igas-2022/OP-IV5ESF-9_recapitulatif-rapport-igas-2022-partie-1" >}})),
 le second [synthétisant l'ensemble des 26 recommandations
-formulées]({{< ref "/dossiers/rapport-igas-2022/OP-IV5ESF-9_recapitulatif-rapport-igas-2022-partie-2" >}}).
+formulées]({{< ref "/dossiers/rapport-igas-2022/OP-66HRY1-0_recapitulatif-rapport-igas-2022-partie-2" >}}).
 
 L'IGAS constate que l'ostéopathie est devenue **la médecine
 complémentaire la plus répandue en France**, faisant partie
