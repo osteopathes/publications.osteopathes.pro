@@ -335,7 +335,7 @@ organisations professionnelles ont communiqué leur position à ce sujet:
 - la communication d'[*Ostéopathes de France* (ODF)](https://osteofrance.com/actualites/news/2023/05/rapport-de-ligas-de-reels-motifs-despoir-pour-notre-profession)
 - la communication du [*Syndicat Français des Ostéopathes* (SFDO)](https://www.osteopathe-syndicat.fr/une-mission-igas-formule-26-recommandations-sur-la-procedure-d-agrement-et-des-capacites-d-accueil-des-etablissements)
 - la communication du [*Registre des Ostéopathes de France* (ROF)](https://www.osteopathie.org/571-communique-de-presse.html)
-- la communication de l'[*Association Française d'Ostéopathie* (AFO)](ttps://www.afosteo.org/actualites/publication-du-rapport-de-ligas-sur-la-formation-en-osteopathie/)
+- la communication de l'[*Association Française d'Ostéopathie* (AFO)](https://www.afosteo.org/actualites/publication-du-rapport-de-ligas-sur-la-formation-en-osteopathie/) ainsi que [son résumé](https://www.afosteo.org/actualites/que-retenir-du-rapport-de-ligas/)
 - la communication de la [*Fédération des étudiant·e·s en ostéopathie* (FédEO)](https://www.instagram.com/p/CtOi_oPxJCH/)
 
 Nous détaillerons ces propositions dans les deux autres articles

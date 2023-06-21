@@ -28,4 +28,7 @@ biography: |
   des ostéopathes de l'Ouest, 1er vice-président de l'UNAPL
   Normandie et représentant du SFDO Normandie.
 
+  Dans le cadre des articles publiés sur ce site,
+  l’auteur s’exprime à titre personnel.
+
 ---
