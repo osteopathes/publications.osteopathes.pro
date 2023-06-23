@@ -337,6 +337,8 @@ organisations professionnelles ont communiqué leur position à ce sujet:
 - la communication du [*Registre des Ostéopathes de France* (ROF)](https://www.osteopathie.org/571-communique-de-presse.html)
 - la communication de l'[*Association Française d'Ostéopathie* (AFO)](https://www.afosteo.org/actualites/publication-du-rapport-de-ligas-sur-la-formation-en-osteopathie/) ainsi que [son résumé](https://www.afosteo.org/actualites/que-retenir-du-rapport-de-ligas/)
 - la communication de la [*Fédération des étudiant·e·s en ostéopathie* (FédEO)](https://www.instagram.com/p/CtOi_oPxJCH/)
+- la communication de la [*Fédération Nationale de l'Enseignement Supérieur en Ostéopathie* (FNESO)](https://www.fneso.fr/formation-en-osteopathie-quen-est-il-des-agrements-provisoires/)
+- la communication de la [*Association Française de Chiropraxie* (AFC)](https://www.chiropraxie.com/blog/articles/rapport-igas-sur-la-formation-des-chiropracteurs-et-des-osteopathes-4-questions-a-audrey-yargui)
 
 Nous détaillerons ces propositions dans les deux autres articles
 suivants de ce [dossier dédié au rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}) qui arriverons dans la semaine.
