@@ -41,6 +41,8 @@ rapport en question.
 
 <div class="w-full py-4 prose max-w-none font-readable">
 
+**L'auteur de cet article écrit à titre personnel.**
+
 ## Les principales orientations des recommandations de l’IGAS
 - Définir le statut de l’ostéopathie dans le système de santé;
 - Protéger les patient·e·s en évaluant la pratique;
