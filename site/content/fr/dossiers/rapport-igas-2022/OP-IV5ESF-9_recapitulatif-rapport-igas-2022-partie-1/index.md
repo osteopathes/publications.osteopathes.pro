@@ -62,6 +62,8 @@ Cet article détaillera les éléments clés du constat présenté par l'adminis
 
 <div class="w-full py-4 prose max-w-none font-readable">
 
+**L'auteur de cet article écrit à titre personnel.**
+
 ## L’administration prend position en faveur d’une évolution de l’ostéopathie
 > La situation créée par la loi de 2002 n’est plus tenable
 > en l’état.

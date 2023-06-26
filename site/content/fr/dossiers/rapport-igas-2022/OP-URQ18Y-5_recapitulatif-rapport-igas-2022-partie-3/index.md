@@ -64,6 +64,7 @@ une attention particulière de la part des ostéopathes**:
 
 <div class="w-full py-4 prose max-w-none font-readable">
 
+**L'auteur de cet article écrit à titre personnel.**
 
 Cet article fait suite à deux autres articles, le [premier
 abordant le constat détaillé de la situation tel que rapporté
