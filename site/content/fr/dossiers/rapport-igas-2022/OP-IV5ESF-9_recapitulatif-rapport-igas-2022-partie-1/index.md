@@ -334,7 +334,7 @@ au ministère de la Santé afin d'initier les réformes nécessaires.
 
 Suite à la publication de ce rapport, l'ensemble des
 organisations professionnelles ont communiqué leur position à ce sujet:
-- la communication d'[*Ostéopathes de France* (ODF)](https://osteofrance.com/actualites/news/2023/05/rapport-de-ligas-de-reels-motifs-despoir-pour-notre-profession)
+- la communication d'[*Ostéopathes de France* (ODF)](https://osteofrance.com/actualites/news/2023/05/rapport-de-ligas-de-reels-motifs-despoir-pour-notre-profession) ainsi qu'une [communication plus détaillée](https://osteofrance.com/actualites/news/2023/06/retour-sur-la-presentation-du-rapport-de-ligas-du-27-juin-au-ministere-des-solidarites-et-de-la-sante)
 - la communication du [*Syndicat Français des Ostéopathes* (SFDO)](https://www.osteopathe-syndicat.fr/une-mission-igas-formule-26-recommandations-sur-la-procedure-d-agrement-et-des-capacites-d-accueil-des-etablissements)
 - la communication du [*Registre des Ostéopathes de France* (ROF)](https://www.osteopathie.org/571-communique-de-presse.html)
 - la communication de l'[*Association Française d'Ostéopathie* (AFO)](https://www.afosteo.org/actualites/publication-du-rapport-de-ligas-sur-la-formation-en-osteopathie/) ainsi que [son résumé](https://www.afosteo.org/actualites/que-retenir-du-rapport-de-ligas/)
