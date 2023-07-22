@@ -38,7 +38,7 @@ destination des étudiants et des ostéopathes.
 
 Marqués par le succès des articles auprès de nos lecteurs et lectrices
 (plus de 4 000 visiteurs et visiteuses uniques pour un temps moyen de lecture
-de plus de 7 minutes), nous nous avons jugé important d'obtenir leur avis
+de plus de 7 minutes), nous avons jugé important d'obtenir leur avis
 et de mesurer les dynamiques d'opinions à chaud concernant le contenu du
 rapport de l'IGAS.
 
@@ -58,13 +58,13 @@ des professionnel·le·s. La plupart des données des étudiants étant très si
 aux données des professionnel·le·s, nous présentons dans cette article
 uniquement les résultats auprès des professionnel·le·s. Nous laissons
 le soin à nos lecteurs et lectrices de faire l'exercice sur les données
-brutes données disponibles en fin d'article s'ils ou elles le souhaitent.
+brutes, disponibles en fin d'article s'ils ou elles le souhaitent.
 
 Le questionnaire a été conçu pour évaluer l'opinion générale des
 répondant·e·s concernant le rapport de l'IGAS et leur volonté ou non d'une
 réforme en profondeur de l'ostéopathie en France, à l'aide de questions à choix fermés.
 
-Ensuite, nous avons évalue les propositions de l'IGAS une par une, en offrant quatre
+Ensuite, nous avons évalué les propositions de l'IGAS une par une, en offrant quatre
 possibilités de réponses auxquelles nous avons attribué un score privé:
 - très favorable (+2),
 - plutôt favorable (+1),
