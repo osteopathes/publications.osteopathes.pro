@@ -1,6 +1,6 @@
 ---
 title: "Enquête auprès des ostéopathes et des étudiant·e·s sur le rapport IGAS"
-date: 2023-07-22T09:13:28Z
+date: 2023-07-22T08:13:28Z
 draft: false
 slug: rapport-igas-2021-sur-l-osteopathie-resultat-de-l-enquete-aupres-des-osteopathes-et-etudiant-e-s
 resources:
