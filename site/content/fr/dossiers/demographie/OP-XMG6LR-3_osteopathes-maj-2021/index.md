@@ -17,7 +17,7 @@ auteurs:
   - klemen-sever
 
 toc: true
-container_css: "w-full px-4 py-4 lg:w-9/12 max-w-none"
+container_css: "w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable"
 add_closing_div: true
 
 ---
@@ -52,7 +52,7 @@ par quelques observations et analyses.
   </div>
 </div>
 
-<div class="w-full py-4 prose max-w-none font-readable">
+<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
 
 ## Les principaux chiffres de la démographie des ostéopathes en 2021
 Avant de vous partager nos résulats, une mise en garde s'impose. En effet,
@@ -273,7 +273,7 @@ En effet, tel n'était pas le cas les années précédentes où notre source pri
   </ul>
 </div>
 
-<div class="w-full py-4 prose max-w-none font-readable">
+<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
 
 ## Comment expliquer la différence entre vos chiffres et le registre <abbr title="Automatisation DEs LIstes">ADELI</abbr> ?
 Pour pouvoir répondre à cette question, plusieurs facteurs sont à prendre en compte,

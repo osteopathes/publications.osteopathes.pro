@@ -76,3 +76,8 @@ imaging:
   # Expects a standard HEX color string with 3 or 6 digits.
   # See https://www.google.com/search?q=color+picker
   bgColor: "#ffffff"
+
+privacy:
+  youtube:
+    disable: false
+    privacyEnhanced: false

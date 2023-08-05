@@ -46,6 +46,16 @@ Pour ce faire, nous avons utilisé une méthode simple et efficace: le
 sondage en ligne. Nous avons rédigé et diffusé un sondage sur nos réseaux
 et nous allons voir ensemble les résultats obtenus.
 
+## Format podcast 🎙️
+{{< alert type="info">}}
+Cet article et ce dossier sur le rapport de l'IGAS
+sont également disponibles au format podcast.
+{{</ alert >}}
+
+Vous pouvez donc
+l'[écouter sur Spotify](https://open.spotify.com/episode/0PxKA4E9iwfoB8oPb3ZqOO)
+ou le [regarder sur YouTube](https://youtu.be/wa8vEctjXWc).
+
 ## Notre méthode
 Afin de nous assurer que seuls les ostéopathes autorisé·e·s à exercer répondaient
 à notre sondage, nous avons demandé le numéro ADELI à tous les participant·e·s,
