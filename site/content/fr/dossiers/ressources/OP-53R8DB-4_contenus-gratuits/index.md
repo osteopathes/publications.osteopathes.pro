@@ -82,6 +82,15 @@ rapidement de savoir leur nature.
   est un organisme de formation mais il propose également
   des podcasts, des conférences en replay, et d'autres
   ressources payantes et gratuites de grande qualité.
+- 🆓 [Retrain Pain (en français)](https://www.retrainpain.org/francais)
+  est un site contenant de nombreuses ressources sur la douleur
+  pour vos patient·e·s. Une ressource précieuse pour les
+  aider à mieux comprendre ce qui leur arrive.
+- 🆓 [Kinéfact](https://www.kinefact.com/liste-des-articles/)
+  est un site contenant de nombreux articles basés sur les dernières
+  connaissances scientifiques sur la kinésithérapie et la thérapie
+  manuelle. Il est tenu par des kiné qui s'attachent à fournir
+  des contenus de qualité et à étayer leurs propos par des sources fiables.
 - 🆓 [Collège de France – Psychologie Cognitive Expérimentale](https://www.college-de-france.fr/fr/chaire/stanislas-dehaene-psychologie-cognitive-experimentale-chaire-statutaire)
   un ensemble de cours complets sur le thème de la psychologie
   cognitive expérimentale, un domaine de recherche passionnant
@@ -142,7 +151,8 @@ rapidement de savoir leur nature.
   qui est un compte de Podcasts gérés par [@laurent_marc_osteo](https://www.instagram.com/laurent_marc_osteo/) et [@matthieu_gonzalesbandres](https://www.instagram.com/matthieu_gonzalesbandres/)
 - 🆓 [@thinkin_mkdeabh sur Instagram](https://www.instagram.com/thinkin_mkdeabh/)
   pour du contenu sur la thérapie manuelle en général, les céphalées et
-  de la veille scientifique.
+  de la veille scientifique. Vous pouvez également consulter son blog
+  qui est une mine d'informations précieuses et de formation gratuite.
 - 🆓 [@whereis_bryan_ sur Instagram](https://www.instagram.com/whereis_bryan_/)
   est le compte d'un kiné et formateur sur les atteintes neurologiques et
   vasculaires. Il proposer parfois des formations avec [@laurent_fabre_do](https://www.instagram.com/laurent_fabre_do/).
@@ -164,6 +174,13 @@ rapidement de savoir leur nature.
   données, sur les valeurs du patient, la science, et sa
   propre expertise clinique. Ce MOOC a lieu très régulièrement.
 ### Livres et ouvrages spécialisés
+- 🆓 [Recovery Strategies (sur le blog d'Anthony Halimi)](https://halimi-anthony-masseur-kinesitherapeute.fr/ressources/)
+  traduit en français par plusieurs kinés français
+  est un livret très complet écrit par Greg Lehman, un kinésithérapeute-chiropracteur-chercheur en biomécanique canadien. Dans ce livret, il explique le fonctionnement de la douleur et toutes
+  les ressources nécessaires pour établir un programme pour aller mieux.
+- 🆓 [Guide d'éduction à la douleur](https://www.kinefact.com/guide-edudouleur/)
+  un autre excellent ouvrage sur la douleur écrit par
+  l'équipe de [Kinefact](https://www.kinefact.com/).
 - 💰 [@pierreluclhermite sur Instagram](https://www.instagram.com/pierreluclhermite/) pour du contenu sur l'aspect juridique de
   l'ostéopathie, de la pratique clinique. Il est l'auteur de 3
   ouvrages à connaître:
