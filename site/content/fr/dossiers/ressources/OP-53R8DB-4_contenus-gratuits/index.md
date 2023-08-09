@@ -1,6 +1,6 @@
 ---
 title: 'Ma séléction des meilleures ressources en ostéopathie'
-date: 2023-08-05T13:18:45Z
+date: 2023-08-09T07:18:45Z
 draft: false
 slug: mes-meilleures-ressources-gratuites-pour-les-osteopathes-et-la-clinique
 
@@ -32,8 +32,8 @@ informé des dernières recherches, des sujets liés à la
 santé et d'approfondir mes connaissances pour la pratique clinique.
 
 L'un des critères essentiels pour figurer dans cette
-liste est la nécessité d'étayer les propos par des sources
-fiables et, si possible, des études scientifiques, ce que
+liste est la **nécessité d'étayer les propos par des sources
+fiables** et, si possible, des études scientifiques, ce que
 l'on appelle communément une approche <abbr title="Evidence Based Practice">EBP</abbr>.
 
 L'autre critère est la distance à la source. Pour la plupart
