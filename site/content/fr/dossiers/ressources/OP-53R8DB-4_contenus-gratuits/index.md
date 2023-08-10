@@ -1,6 +1,7 @@
 ---
 title: 'Ma sélection des meilleures ressources en ostéopathie'
 date: 2023-08-09T07:18:45Z
+lastmod: 2023-08-10T16:43:00Z
 draft: false
 slug: mes-meilleures-ressources-gratuites-pour-les-osteopathes-et-la-clinique
 
@@ -276,3 +277,8 @@ pour continuer de vous former (plus ou moins) gratuitement grâce
 N'hésitez pas à partager vos découvertes et vos avis
 sur les réseaux sociaux ou par email sur bonjour@osteopathes.pro
 et nous les ajouterons à cette liste.
+
+### Modifications de l’article
+> **Modification 2023/08/10** : Modification de la structure
+> de l'article et ajout de nouveaux comptes et sites suite
+> à vos suggestions. Merci à vous !
