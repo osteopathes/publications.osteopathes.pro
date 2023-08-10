@@ -173,6 +173,12 @@ rapidement de savoir leur nature.
   régulièrement mis à jour par Laurent Fabre. Ce cours aborde
   les divers aspects de la douleur et sert de fondation théorique
   solide pour la pratique clinique.
+- 💰 [Troubles Vasculaires dans le champ Musculosquelettique – Trier pour savoir quand traiter](https://physio-learning.com/course/troubles-vasculaires-dans-le-champs-musculosquelettique-trier-pour-savoir-quand-traiter/)
+  est un e-learning très complet sur l'identification des
+  pathologies vasculaires et leur prise en charge. Il est
+  réalisé par [@whereis_bryan_](https://www.instagram.com/whereis_bryan_/)
+  et [@touchofscience](https://www.instagram.com/touchofscience/)
+  avec un contenu d'une très haute qualité.
 - 💰 [La méthode 1SK](https://lapremiereseancedekine.podia.com)
   qui est une formation complète pour mieux savoir prendre
   en charge l'aspect biopsychosocial des patient·e·s. Il y a
@@ -203,8 +209,13 @@ beaucoup de comptes différents.
   produit par [orengosteo](https://www.instagram.com/orengosteo/)
   et [thepepslife](https://www.instagram.com/thepepslife/).
 - 🆓 [@causonsosteo](https://www.instagram.com/causonsosteo/)
-  qui est un compte de Podcasts gérés par [@laurent_marc_osteo](https://www.instagram.com/laurent_marc_osteo/) et [@matthieu_gonzalesbandres](https://www.instagram.com/matthieu_gonzalesbandres/), deux ostéos
-  qui sont ferrus de biomécanique et de mesures.
+  qui est un compte de Podcasts gérés par [@laurent_marc_osteo](https://www.instagram.com/laurent_marc_osteo/), [@matthieu_gonzalesbandres](https://www.instagram.com/matthieu_gonzalesbandres/) et [orengosteo](https://www.instagram.com/orengosteo/), trois ostéos
+  qui sont ferrus de biomécanique, de statistiques, de mesures
+  et de sport.
+- 🆓 [aubordduterrain.podcast](https://www.instagram.com/aubordduterrain.podcast/)
+  par le même trio que pour
+  [@causonsosteo](https://www.instagram.com/causonsosteo/)
+  mais cette fois-ci avec de personnes gravitant autour du sport.
 - 🆓 [@kinefact_](https://www.instagram.com/kinefact_/)
   est géré par plusieurs kinés français et propose du contenu
   EBP ainsi que des travaux de traduction d'œuvres anglophones
@@ -221,23 +232,41 @@ formateurs et/ou publient au sujet des dernières publications scientifiques.
   précieux est sur [Le Cranien.org](https://lecranien.org/)
 - 🆓 [@laurent_fabre_do](https://www.instagram.com/laurent_fabre_do/) est le compte
   d'un formateur en ostéo spécialisé en douleurs neurologiques
-  et sur le e-Learning "Neurosciences de la Douleur".
+  et sur le e-Learning "Neurosciences de la Douleur". Il est
+  souvent complété par [@anais_rot](https://www.instagram.com/anais_rot/)
+  pour ses formations.
 - 🆓 [@drjerrydr](https://www.instagram.com/drjerrydr/)
   est un ostéopathe et Docteur (PhD) anglais, formateur et
   très impliqué dans la recherche en ostéopathie.
 - 🆓 [@baby_caregiving](https://www.instagram.com/baby_caregiving/)
   pour du contenus sur la périnatalité créés par Agathe Wagner 👶.
+
+#### Comptes pour améliorer sa pratique clinique
+Ces comptes proposent des contenus pour améliorer sa pratique
+clinique, que ce soit en terme de prise en charge, de
+communication, de vulgarisation, etc.
+
+- 🆓 [@touchofscience](https://www.instagram.com/touchofscience/)
+  pour du contenu sur les pathologies et troubles vasculaires 🩸.
+- 🆓 [@signeladirection](https://www.instagram.com/signeladirection/)
+  si vous aimez les *memes* ainsi que les animés. Ce compte
+  propose des contenus humoristiques et sérieux
+  pour devenir chaque jour *moins nul* en pratique clinique 🦩.
 - 🆓 [@matthieu_gonzalesbandres](https://www.instagram.com/matthieu_gonzalesbandres/)
   pour du contenu orienté sport (en particulier le running) 🏃.
+- 🆓 [@laurent_marc_osteo](https://www.instagram.com/laurent_marc_osteo/)
+  pour du contenu orienté sport, biomécanique ainsi que tout ce
+  qui est mesure au cabinet (mesure de forces, de vitesses, etc.) 📐.
+- 🆓 [@arogalski_osteo](https://www.instagram.com/arogalski_osteo/)
+  pour du contenu sourcé sur l'ostéo, la santé et la thérapie
+  manuelle 📚.
 - 🆓 [@thinkin_mkdeabh](https://www.instagram.com/thinkin_mkdeabh/)
   pour du contenu sur la thérapie manuelle en général, les céphalées 🤕 et
   de la veille scientifique. Vous pouvez également consulter son blog
   qui est une mine d'informations précieuses et de formation gratuite 🥇.
-- 🆓 [@touchofscience](https://www.instagram.com/touchofscience/)
-  pour du contenu sur les pathologies et troubles vasculaires 🩸.
 - 🆓 [@whereis_bryan_](https://www.instagram.com/whereis_bryan_/)
   est le compte d'un kiné et formateur sur les atteintes neurologiques ⚡ et
-  vasculaires 🩸. Il proposer parfois des formations avec [@laurent_fabre_do](https://www.instagram.com/laurent_fabre_do/).
+  vasculaires 🩸. Il propose parfois des formations avec [@laurent_fabre_do](https://www.instagram.com/laurent_fabre_do/) et [@anais_rot](https://www.instagram.com/anais_rot/).
 - 🆓 [@remyolier](https://www.instagram.com/remyolier/)
   pour du contenu sur la relation patient <-> praticien ainsi que
   des podcasts (Trajectoires de Santé) sur la thérapie manuelle
@@ -251,22 +280,6 @@ formateurs et/ou publient au sujet des dernières publications scientifiques.
 - 🆓 [@theo_chaumeil_kine](https://www.instagram.com/theo_chaumeil_kine/)
   pour du contenu sur la verbalisation avec les patient·e·s et
   sur l'hypnose appliquée à la thérapie manuelle 🌀.
-
-#### Comptes pour améliorer sa pratique clinique 💪
-Ces comptes proposent des contenus pour améliorer sa pratique
-clinique, que ce soit en terme de prise en charge, de
-communication, de vulgarisation, etc.
-
-- 🆓 [@laurent_marc_osteo](https://www.instagram.com/laurent_marc_osteo/)
-  pour du contenu orienté sport, biomécanique ainsi que tout ce
-  qui est mesure au cabinet (mesure de forces, de vitesses, etc.) 📐.
-- 🆓 [@signeladirection](https://www.instagram.com/signeladirection/)
-  si vous aimez les *memes* ainsi que les animés. Ce compte
-  propose des contenus humoristiques et sérieux
-  pour devenir chaque jour *moins nul* en pratique clinique 🦩.
-- 🆓 [@arogalski_osteo](https://www.instagram.com/arogalski_osteo/)
-  pour du contenu sourcé sur l'ostéo, la santé et la thérapie
-  manuelle 📚.
 - 🆓 [@clea_kinepedia](https://www.instagram.com/clea_kinepedia/)
   pour des contenus orientés pédiatrie sur la thérapie manuelle 👶.
 
