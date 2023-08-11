@@ -131,10 +131,6 @@ rapidement de savoir leur nature.
   un podcast qui donne la parole à des patient·e·s et des
   professionnel·le·s de santé pour parler de santé, de
   maladie, de douleur, de soins, etc. ⛵
-- 🆓 [Le Temps d'un Lapin](https://letempsdunlapin.health.blog/)
-  créé par deux kinés qui parlent de leur pratique, de
-  la recherche, de la douleur, etc. Un podcast très
-  enrichissant et qui occupe bien pour le temps d'un lapin 🐰!
 
 ### MOOCs et formations en ligne
 > Un MOOC ou Massively Open Online Course est un cours en ligne ouvert
@@ -166,6 +162,9 @@ rapidement de savoir leur nature.
   - *La preuve médicale au XXIème siècle*
 - 💰 [Aches And Pains de Louis Gifford](https://giffordsachesandpains.com/) des ouvrages d'un kinésithérapeute anglais qui ont
   été majeurs dans l'apport de l'<abbr title="Evidence Based Practice">EBP</abbr> en kinésithérapie.
+- 💰 [Schoolapy pour l'anatomie](https://www.schoolapy.com/) pour
+  apprendre l'anatomie avec des livres, des schemas, une app, des
+  vidéos. Bref, tout ce qu'il faut pour apprendre l'anatomie.
 
 ### Cours en ligne
 - 💰 [e-learning Neurosciences de la douleur par Laurent Fabre](https://www.cfpco.fr/videopack/cd7e7afd-055f-43fe-8fb6-0f63d719f6eb/neurosciences-de-la-douleur---par-laurent-fabre?st=113b6115-cd14-4a87-abc8-ff20e4377118)
@@ -282,6 +281,9 @@ communication, de vulgarisation, etc.
   sur l'hypnose appliquée à la thérapie manuelle 🌀.
 - 🆓 [@clea_kinepedia](https://www.instagram.com/clea_kinepedia/)
   pour des contenus orientés pédiatrie sur la thérapie manuelle 👶.
+- 🆓 [@en.chair.et.en.os](https://www.instagram.com/en.chair.et.en.os/)
+  pour de l'anatomie dessinée, sur des planches, sur des murs, sur
+  des gens 🎆.
 
 Vous disposez désormais d'un ensemble de ressources précieuses
 pour continuer de vous former (plus ou moins) gratuitement grâce
