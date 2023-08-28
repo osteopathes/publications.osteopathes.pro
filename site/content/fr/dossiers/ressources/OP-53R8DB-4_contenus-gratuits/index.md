@@ -73,6 +73,11 @@ rapidement de savoir leur nature.
   contrats, de comment envisager sa pratique, le futur de
   l'ostéopathie, etc. Une mine d'or pour les nouveaux diplômés
   comme ceux qui souhaitent réfléchir à leur pratique.
+- 🆓 [Ostéopathie, Dérives et Esprit Critique](https://www.youtube.com/@o_d_e_c)
+  pour un regard critique sur l'ostéopathie, et sur certaines
+  de ses dérives. Une chaîne qui apporte un contrepoint à
+  certains discours historiques et qui permet de mieux
+  réfléchir à sa pratique.
 
 ### Blogs et sites web
 - 🆓 [Gestion de la douleur en thérapie manuelle](https://gestiondeladouleurenthrapiemanuelle.wordpress.com/)
@@ -297,3 +302,5 @@ et nous les ajouterons à cette liste.
 > **Modification 2023/08/10** : Modification de la structure
 > de l'article et ajout de nouveaux comptes et sites suite
 > à vos suggestions. Merci à vous !
+> **Modification 2023/08/28** : Ajout de comptes et de liens.
+> Merci pour vos suggestions.
