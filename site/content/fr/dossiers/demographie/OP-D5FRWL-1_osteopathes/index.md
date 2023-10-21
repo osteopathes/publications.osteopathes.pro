@@ -18,7 +18,7 @@ auteurs:
 
 ---
 
-En 2019, nous avons commencé à publier une carte de la démographie des ostéopathes en
+En 2018, nous avons commencé à publier une carte de la démographie des ostéopathes en
 France d'après le web.
 Dès la première année, nous avons reçu un nombre croissant de visites et nous
 avons décidé de poursuivre en publiant les données démographiques actualisées
