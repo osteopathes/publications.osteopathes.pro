@@ -17,12 +17,12 @@ auteurs:
   - klemen-sever
 
 toc: true
-container_css: "w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable"
+container_css: "w-full px-4 py-4 lg:w-9/12 max-w-none font-readable"
 add_closing_div: true
 
 ---
 
-Comme chaque année depuis 2019, lorsqu'arrive le mois de janvier, nous nous attelons
+Comme chaque année depuis 2018, lorsqu'arrive le mois de janvier, nous nous attelons
 à l'étude de la démographie des ostéopathes français·e·s.
 
 Pour la première fois, nous avons eu la joie de pouvoir accéder au registre
@@ -111,7 +111,7 @@ En effet, tel n'était pas le cas les années précédentes où notre source pri
             </div>
             <div class="mt-2 text-sm text-gray-700">
               <p>
-                Le répertoire ADELI publique donne uniquement la civilité, le nom, le prénom et le numéro ADELI.
+                Le répertoire ADELI public donne uniquement la civilité, le nom, le prénom et le numéro ADELI.
                 Il contient toutes les professions (dont les kinésithérapeutes et les médecins).
               </p>
             </div>
