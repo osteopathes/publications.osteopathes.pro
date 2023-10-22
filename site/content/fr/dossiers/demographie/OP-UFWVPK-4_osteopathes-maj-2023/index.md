@@ -1,6 +1,6 @@
 ---
 title: 'Démographie des ostéopathes en 2023 et perspectives économiques'
-date: 2023-10-21T08:10:15Z
+date: 2023-10-22T15:10:15Z
 draft: false
 slug: demographie-osteopathes-en-2023-et-perspectives-economiques
 resources:
