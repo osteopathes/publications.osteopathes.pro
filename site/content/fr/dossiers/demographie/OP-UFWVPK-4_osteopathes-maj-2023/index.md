@@ -64,9 +64,9 @@ Comme chaque fois que nous améliorons la précision de notre méthodologie,
 certains résultats peuvent se montrer surprenants. Nous reviendrons
 sur ces points dans la discussion plus loin dans cet article.
 
-- Sur les 39&nbsp;511 ostéopathes du registre
-  <abbr title="Automatisation DEs LIstes">ADELI</abbr> au 01/2023,
-  nous avons retrouvé **31&nbsp;254 ostéopathes sur Internet**.
+- Sur les 39&nbsp;511 ostéopathes inscrit·e·s au registre
+  <abbr title="Automatisation DEs LIstes">ADELI</abbr> en janvier 2023,
+  nous avons pu retrouver **31&nbsp;254 d'entre elles et eux en ligne**.
 - En 2022, il y avait 37&nbsp;531 ostéopathes sur le registre ADELI,
   ce qui représente une croissance de 5,3% (+1980) en un an. Cela correspond
   à notre estimation d'environ 2&nbsp;000 diplômé·e·s de plus chaque année.
@@ -495,7 +495,7 @@ l'analyse au niveau régional, sur les conseils de Pierre-Adrien LIOT.
 
 Nous avons donc effectué une mise en perspective des bénéfices, charges et
 recettes moyennes en fonction de la densité d'ostéopathes/habitant·e·s par région.
-On note que **les régions à plus fabile densité d'ostéopathes s'en sortent globalement
+On note que **les régions à plus faible densité d'ostéopathes s'en sortent globalement
 mieux au niveau bénéfices** (+10&nbsp;000€ de bénéfices entre les deux extrêmes)
 que les régions avec une densité forte, la seule exception étant la
 région des Pays de la Loire.
@@ -569,3 +569,19 @@ viabilité avant d'installer votre cabinet.
 Notre carte affiche tous les praticien·ne·s qui pratiquent
 l'ostéopathie en tant qu'activité principale, qu'ils soient
 kiné-ostéopathes, médecins-ostéopathes ou ostéopathes exclusifs.
+
+## Conclusion
+Notre analyse révèle que la démographie des ostéopathes en France
+montre une croissance constante, mais avec des disparités fortes
+entre régions.
+
+Les revenus ont su rester en majorité stables au cours du temps malgré
+une forte augmentation démographique. Cependant, les charges ont
+augmenté en 2022, ce qui a eu pour conséquence une diminution des
+bénéfices moyens.
+
+Nous espérons que ces données servirons aux ostéopathes ainsi qu'aux
+étudiant·e·s ou pour celles et ceux qui envisagent de faire des études
+d'ostéopathie. La compréhension de ces tendances est essentielle pour
+les praticien·ne·s qui cherchent à s'installer et pour les autorités
+de santé pour adapter les politiques en conséquence.
