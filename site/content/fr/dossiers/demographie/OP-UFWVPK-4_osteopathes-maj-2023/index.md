@@ -1,8 +1,8 @@
 ---
-title: 'Démographie des ostéopathes en 2023 et perspectives économiques'
+title: 'Démographie et perspectives économiques des ostéopathes en 2023'
 date: 2023-10-22T15:10:15Z
 draft: false
-slug: demographie-osteopathes-en-2023-et-perspectives-economiques
+slug: demographie-et-perspectives-economiques-des-osteopathes-en-2023
 resources:
   - name: cover-image
     src: paysage-maillage.jpg
@@ -21,12 +21,16 @@ add_closing_div: true
 
 ---
 
-Lors de chaque nouvelle édition de [la carte démographique des ostéopathes](https://www.osteopathes.pro/fr/cartographie),
-nous essayons d'améliorer la carte, sa pertinence et notre analyse. C'est donc reparti
-pour l'édition 2023 de la démographie des ostéopathes en France.
+À chaque édition de notre
+[carte démographique des ostéopathes](https://www.osteopathes.pro/fr/cartographie),
+nous nous efforçons d'améliorer la pertinence de la carte et la précision
+de notre analyse.
+Nous sommes donc heureux de vous présenter l'édition 2023 de la
+démographie des ostéopathes en France.
 
-Nous n'avons pas publié d'article en 2022 car la méthodologie n'avait pas
-changé par rapport à 2021 et nous n'avions pas de nouveautées à partager.
+Nous n'avons pas publié d'article en 2022 car notre méthodologie
+est restée la même qu'en 2021 et nous n'avions pas de nouvelles
+informations à partager.
 
 Cette année, nous avons pu améliorer la précision de notre méthodologie suite à
 la publication du [rapport de l'IGAS (lien vers notre dossier et le sondage)]({{< ref "/dossiers/rapport-igas-2022" >}})
@@ -412,6 +416,39 @@ Par exemple, entre 2022 et 2023, sur les 30 communes avec le plus d'ostéopathes
 (Paris, Lyon, Marseille, Toulouse, Bordeaux, etc.), 26 (86%) ont vu leur densité
 augmenter.
 
+### Les départs à la retraite n'expliquent pas tout
+En 2018, la <abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>
+affichait 10&nbsp;024 ostéopathes cotisant·e·s[^4].
+En 2022, ce chiffre est de 15&nbsp;043 ostéopathes, soit une augmentation
+de 5&nbsp;000 ostéopathes en 4 ans (+50%).
+
+[^4]: Chiffre de l'Observatoire de l'activité libérale du ministère de l'économie,
+      disponible en ligne à https://www.entreprises.gouv.fr/files/files/secteurs-d-activite/professions-liberales/chiffres/2018/osteopathe.pdf . Consulté
+      le 2023-10-01.
+
+Cependant, chaque année, environ 2&nbsp;000 nouveaux ostéopathes s'inscrivent
+au registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>. En 4 ans,
+cela représente environ 8&nbsp;000 nouveaux ostéopathes. Il devrait donc y avoir,
+en 2022, 10&nbsp;024 ostéopathes + 8&nbsp;000 nouveaux ostéopathes soit
+18&nbsp;024 ostéopathes. Or, la <abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>
+indique 15&nbsp;043. Où sont donc les 3&nbsp;000 ostéopathes manquant·e·s ?
+Est-ce seulement dû à des départs à la retraite ?
+
+Grâce à la pyramide des ages[^5], on peut estimer environ 400 départs à la retraite
+chaque année (en 2020, 2086 ostéopathes avaient 65ans+ et partiront en retraite
+à l'âge de 70 ans). En 4 ans, cela représente 1&nbsp;600 départs
+à la retraite. Il reste donc 1&nbsp;400 d'ostéopathes (soit 350 par an) qui
+manquent à l'appel. Cela peut être dû à un arrêt d'activité mais cela peut également
+être dû au fait que sur les 2&nbsp;000 ostéopathes s'inscrivant chaque année
+au registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>, une partie
+d'entre eux et d'entre elles est potentiellement médecin, kiné, sage-femme, etc.
+et qu'ils ne figurent pas dans les chiffres de la
+<abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>.
+
+[^5]: Pyramide des ages de l'ostéopathie en fin 2020 (page 9), disponible en ligne
+      à https://www.osteopathie.org/documents.php?url=demographierofjanvier2021_527.pdf
+      Consulté le 2023-10-01.
+
 ## Analyse économique
 Pour pousser l'exercice plus loin et suite à plusieurs demandes,
 nous avons souhaité également nous intéresser à l'aspect
@@ -420,9 +457,9 @@ nous avons souhaité également nous intéresser à l'aspect
 Le [rapport de l'IGAS de 2022]({{< ref "/dossiers/rapport-igas-2022" >}}) a
 mis en lumière le fait que la majorité des ostéopathes ont des revenus modestes.
 Les chiffres que nous avons utilisé pour la suite de cette analyse proviennent
-majoritairement de l'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>[^4] ainsi que du [rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}).
+majoritairement de l'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>[^6] ainsi que du [rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}).
 
-[^4]: L'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr> publie
+[^6]: L'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr> publie
      des [statistiques annuelles ainsi que nationales et région par région sur l'ostéopathie](https://www.unasa.fr/statistiques/).
 
 ### Évolution du chiffre d'affaires
@@ -510,21 +547,7 @@ sont plus touchées que d'autres.
 Nous avons donc calculé les modifications des bénéfices moyens
 sur l'intervalle 2017 à 2022 (pour éviter la période COVID-19).
 
-| Région | Bénéfices 2017 | Bénéfices 2022 | Variation |
-| --- | ---: | ---: | ---: |
-| Ile de France | 23&nbsp;368€ | 23&nbsp;773€ | +1,73% |
-| Centre Val de Loire | 28&nbsp;853€ | 28&nbsp;225€ | -2,18% |
-| Bourgogne Franche Comté | 31&nbsp;752€ | 30&nbsp;155€ | -5,03% |
-| Normandie | 29&nbsp;056€ | 24&nbsp;170€ | -16,82% |
-| Hauts de France | 23&nbsp;003€ | 25&nbsp;144€ | +9,31% |
-| Grand Est | 29&nbsp;933€ | 25&nbsp;284€ | -15,53% |
-| Pays de la Loire | 30&nbsp;428€ | 25&nbsp;516€ | -16,14% |
-| Bretagne | 27&nbsp;230€ | 21&nbsp;836€ | -19,81% |
-| Nouvelle Aquitaine | 24&nbsp;061€ | 22&nbsp;153€ | -7,93% |
-| Occitanie | 21&nbsp;737€ | 20&nbsp;051€ | -7,76% |
-| Auvergne Rhone Alpes | 26&nbsp;777€ | 23&nbsp;701€ | -11,49% |
-| Provence Alpes Cote d'azur | 20&nbsp;585€ | 20&nbsp;246€ | -1,65% |
-| **Moyenne** | 26&nbsp;398€ | 24&nbsp;187€ | -8,37% |
+[![Variations des bénéfices moyens entre 2017 et 2022](./tableau-variation-benefices-regions-2017-2022.png)](./tableau-variation-benefices-regions-2017-2022.png)
 
 La tendance baissière en 2022 est donc forte, avec certaines
 régions qui voient leurs bénéfices diminuer de plus de 15%.
