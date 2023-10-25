@@ -340,6 +340,7 @@ nous avons:
 - 15&nbsp;043 ostéopathes inscrit·e·s à la CIPAV en 2022
 - 10&nbsp;500 kiné-ostéopathes (chiffres approximatifs de l'ordre des kinésithérapeutes)
 - &nbsp;2&nbsp;281 médecins-ostéopathes (chiffres de l'ordre des médecins)
+
 Pour un total estimé en 2022 de 27&nbsp;824 ostéopathes.
 
 Sachant qu'il y a eu 1&nbsp;980 ostéopathes fraîchement inscrit·e·s en 2023,
@@ -356,8 +357,9 @@ ayant réellement arrêté leur activité.
 On peut néanmoins constater que sur les 39&nbsp;511 ostéopathes du registre
 <abbr title="Automatisation DEs LIstes">ADELI</abbr> au 01/2023, il semble
 y avoir 8&nbsp;257 ostéopathes manquant·e·s (soit 21% de différence). Ce chiffre
-est supérieur aux projections de départs à la retraite, on peut donc vraissemeblablement
-en déduire qu'un certain nombre d'ostéopathes ont arrêté leur activité.
+est supérieur aux projections de départs à la retraite (voir plus loin),
+on peut donc vraissemblablement en déduire qu'un certain nombre
+d'ostéopathes ont arrêté leur activité.
 
 Voici un tableau récapitulatif du nombre d'ostéopathes, de cabinets et du nombre de cabinets uniques (c'est à dire avec la même adresse) par région en 2023.
 
@@ -404,9 +406,10 @@ pression démographique présente sur le terrain et le ratio acceptable
 pour une installation.
 
 On remarque cependant qu'avec un ratio moyen de 2&nbsp;177 habitant·e·s/ostéopathe,
-21% des ostéopathes du registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>
-ont arrêté leur activité (qui est supérieure au nombre estimé de départs à la retraite).
-
+seuls 79% des ostéopathes du registre
+<abbr title="Automatisation DEs LIstes">ADELI</abbr> semblent encore en activité.
+Une part peut être liée aux départs à la retraite, mais une autre partie est
+probablement dûe à des arrêts anticipés d'activité.
 
 ### Une répartition inégale sur le territoire
 Comme on vient de le voir, les disparités de densité sont très élevées.
@@ -435,12 +438,13 @@ indique 15&nbsp;043. Où sont donc les 3&nbsp;000 ostéopathes manquant·e·s ?
 Est-ce seulement dû à des départs à la retraite ?
 
 Grâce à la pyramide des ages[^5], on peut estimer environ 400 départs à la retraite
-chaque année (en 2020, 2086 ostéopathes avaient 65ans+ et partiront en retraite
-à l'âge de 70 ans). En 4 ans, cela représente 1&nbsp;600 départs
-à la retraite. Il reste donc 1&nbsp;400 d'ostéopathes (soit 350 par an) qui
-manquent à l'appel. Cela peut être dû à un arrêt d'activité mais cela peut également
-être dû au fait que sur les 2&nbsp;000 ostéopathes s'inscrivant chaque année
-au registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>, une partie
+chaque année (en 2020, 2086 ostéopathes avaient 65ans+ et on suppose
+qu'ils et elles partiront en retraite à l'âge de 70 ans). En 4 ans, cela
+représente 1&nbsp;600 départs à la retraite. Il reste donc 1&nbsp;400
+ostéopathes (soit 350 par an) qui manquent à l'appel. Cela peut être dû à
+un arrêt d'activité mais cela peut également être dû au fait que sur
+les 2&nbsp;000 ostéopathes s'inscrivant chaque année au registre
+<abbr title="Automatisation DEs LIstes">ADELI</abbr>, une partie
 d'entre eux et d'entre elles est potentiellement médecin, kiné, sage-femme, etc.
 et qu'ils ne figurent pas dans les chiffres de la
 <abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>.
@@ -516,6 +520,10 @@ Le bénéfice moyen des ostéopathes est de 23&nbsp;641€ en 2022, soit
 1&nbsp;970€/mois. Les bénéfices ont été plutôt stables ces dernières
 années malgré une diminution marquée en 2023 dû à l'augmentation
 des charges.
+
+Notons également que les données de l'UNASA ne prennent pas en compte
+les micro-entrepreneurs, et qui ont généralement un revenu plus faible.
+Il est donc possible que cette moyenne soit supérieure à la réalité.
 
 [![Évolution du bénéfice moyen des ostéopathes](./benefice_moyen_national_osteopathes_2002_2022_france_unasa.png)](./benefice_moyen_national_osteopathes_2002_2022_france_unasa.png)
 
