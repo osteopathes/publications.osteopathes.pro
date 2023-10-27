@@ -491,7 +491,7 @@ Grâce au nombre d'ostéopathes par région, et en prenant
 le chiffre d'affaires moyen en 2022 (58&nbsp;448€), on peut estimer
 le montant de l'activité économique dans chaque région lié
 à l'ostéopathie en 2023. Nous remercions par ailleurs Pierre-Adrien LIOT
-pour le travail initial sur ce calcul). Le calcul est le suivant:
+pour le travail initial sur ce calcul. Le calcul est le suivant:
 ```
 nombre d'ostéopathes x chiffre d'affaires moyen 2022
 ```
