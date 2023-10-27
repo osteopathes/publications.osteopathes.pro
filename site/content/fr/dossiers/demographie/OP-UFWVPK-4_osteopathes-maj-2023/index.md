@@ -1,6 +1,7 @@
 ---
 title: 'Démographie et perspectives économiques des ostéopathes en 2023'
 date: 2023-10-22T15:10:15Z
+lastmod: 2023-10-27T08:29:37Z
 draft: false
 slug: demographie-et-perspectives-economiques-des-osteopathes-en-2023
 resources:
@@ -14,6 +15,7 @@ aliases:
 auteurs:
   - konrad-florkow
   - klemen-sever
+  - pierre-adrien-liot
 
 toc: true
 container_css: "w-full px-4 py-4 lg:w-9/12 max-w-none font-readable"
@@ -488,7 +490,8 @@ française.
 Grâce au nombre d'ostéopathes par région, et en prenant
 le chiffre d'affaires moyen en 2022 (58&nbsp;448€), on peut estimer
 le montant de l'activité économique dans chaque région lié
-à l'ostéopathie en 2023. Le calcul est le suivant:
+à l'ostéopathie en 2023. Nous remercions par ailleurs Pierre-Adrien LIOT
+pour le travail initial sur ce calcul). Le calcul est le suivant:
 ```
 nombre d'ostéopathes x chiffre d'affaires moyen 2022
 ```
@@ -522,7 +525,9 @@ années malgré une diminution marquée en 2023 dû à l'augmentation
 des charges.
 
 Notons également que les données de l'UNASA ne prennent pas en compte
-les micro-entrepreneurs, et qui ont généralement un revenu plus faible.
+les micro-entrepreneurs qui ont généralement un revenu plus faible.
+D'après le rapport IGAS citant la CIPAV, il y a 23,6% (3&nbsp;953)
+de micro-entrepreneurs parmi les ostéopathes exclusifs (15&nbsp;043).
 Il est donc possible que cette moyenne soit supérieure à la réalité.
 
 [![Évolution du bénéfice moyen des ostéopathes](./benefice_moyen_national_osteopathes_2002_2022_france_unasa.png)](./benefice_moyen_national_osteopathes_2002_2022_france_unasa.png)
@@ -535,8 +540,9 @@ En septembre 2023 a eu lieu la publication de la
 effectuée par Pierre-Adrien LIOT et Pierre-Yves POITEVIN
 pour le <abbr title="Syndicat Français Des Ostéopathes">SFDO</abbr>.
 
-Dans le prolongement de cette étude, nous avons souhaité pousser
-l'analyse au niveau régional, sur les conseils de Pierre-Adrien LIOT.
+Dans le prolongement de cette étude et d'un travail conséquent
+de récolte et de recherche au niveau régional par Pierre-Adrien LIOT,
+nous avons souhaité pousser l'analyse au niveau régional.
 
 Nous avons donc effectué une mise en perspective des bénéfices, charges et
 recettes moyennes en fonction de la densité d'ostéopathes/habitant·e·s par région.
@@ -616,3 +622,10 @@ Nous espérons que ces données servirons aux ostéopathes ainsi qu'aux
 d'ostéopathie. La compréhension de ces tendances est essentielle pour
 les praticien·ne·s qui cherchent à s'installer et pour les autorités
 de santé pour adapter les politiques en conséquence.
+
+## Modifications de l’article
+
+> **Modification 2023/10/27** : Précisions sur le nombre de micro-entrepreneurs
+> d'après les chiffres CIPAV pour la mise en perspective des chiffres UNASA.
+> Précision sur le travail initial conséquent sur le comparatif économique
+> au niveau régional par Pierre-Adrien LIOT.
