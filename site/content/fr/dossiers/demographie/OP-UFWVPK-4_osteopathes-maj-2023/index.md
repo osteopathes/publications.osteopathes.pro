@@ -1,7 +1,7 @@
 ---
 title: 'Démographie et perspectives économiques des ostéopathes en 2023'
 date: 2023-10-22T15:10:15Z
-lastmod: 2023-10-27T08:29:37Z
+lastmod: 2023-11-09T16:24:55Z
 draft: false
 slug: demographie-et-perspectives-economiques-des-osteopathes-en-2023
 resources:
@@ -550,7 +550,7 @@ On note que **les régions à plus faible densité d'ostéopathes s'en sortent g
 mieux au niveau bénéfices** (+10&nbsp;000€ de bénéfices entre les deux extrêmes)
 que les régions avec une densité forte, la seule exception étant la
 région des Pays de la Loire.
-[![Tableau de classement des régions avec les bénéfices, charges et recettes moyennes](./tableau-classement-regions-benefices-charges-recettes.png)](./tableau-classement-regions-benefices-charges-recettes.png)
+[![Tableau de classement des régions avec les bénéfices, charges totales et recettes moyennes](./tableau-classement-regions-benefices-toutes-charges-recettes.png)](./tableau-classement-regions-benefices-toutes-charges-recettes.png)
 
 Nous avons également exploré les variations de bénéfices région
 par région. Si nous avons vu qu'au niveau national les revenus
@@ -629,3 +629,7 @@ de santé pour adapter les politiques en conséquence.
 > d'après les chiffres CIPAV pour la mise en perspective des chiffres UNASA.
 > Précision sur le travail initial conséquent sur le comparatif économique
 > au niveau régional par Pierre-Adrien LIOT.
+>
+> **Modification 2023/11/09** : Mise à jour du tableau des charges
+> pour afficher *toutes* les charges et pas seulement les charges
+> externes pour une image plus réaliste de la situation.
