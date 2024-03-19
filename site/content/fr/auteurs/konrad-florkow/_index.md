@@ -5,6 +5,7 @@ avatar_url: '/imgs/avatars/konrad-florkow.png'
 background_image_url: '/imgs/backgrounds/starry_mountains.jpg'
 social:
   twitter: 'KonradFlorkow'
+  instagram: 'konrad_florkow'
 location: 'Castres, France'
 professional_titles: 'Ostéopathe D.O & Développeur informatique'
 biography: |

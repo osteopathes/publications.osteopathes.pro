@@ -19,7 +19,7 @@
     "build:hugo": "env HUGO_BASEURL=$DEPLOY_PRIME_URL hugo -d ../dist -s site -v",
     "build:hugo:preview": "env HUGO_BASEURL=$DEPLOY_PRIME_URL npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
-    "build:images": "find ./dist -type f \\( -iname \\*.jpg -o -iname \\*.jpeg -o -iname \\*.png \\) -exec sh -c \"./node_modules/.bin/imagemin {} --plugin.webp.lossless=true > {}.webp\" \\;"
+    "build:images": "find ./dist -type f \\( -iname \\*.jpg -o -iname \\*.jpeg -o -iname \\*.png \\) -exec sh -c \"./node_modules/.bin/imagemin '{}' --plugin.webp.lossless=true > '{}.webp'\" \\;"
   },
   "author": "",
   "license": "MIT",

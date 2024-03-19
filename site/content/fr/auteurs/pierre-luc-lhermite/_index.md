@@ -5,6 +5,7 @@ avatar_url: '/imgs/avatars/pierre-luc-lhermite.png'
 background_image_url: '/imgs/backgrounds/jungle_coast_landscape.jpg'
 social:
   facebook: 'pierreluc.osteopathie'
+  instagram: 'pierreluclhermite'
 location: 'Toulouse, France'
 professional_titles: 'Ostéopathe depuis 2011 et Docteur en droit (Ph. D.) depuis 2018'
 biography: |
