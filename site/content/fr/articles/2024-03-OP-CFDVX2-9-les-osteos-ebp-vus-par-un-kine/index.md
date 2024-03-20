@@ -232,7 +232,7 @@ plus capable de faire des choses malgré la douleur. Si il lui fait
 constater l’amélioration instantanée de son problème, alors les
 chances sont meilleures de l’aider à penser qu’il va aller mieux.
 
-📉 Et malheureusement, une thérapeute qui explique au patient
+📉 Et malheureusement, un thérapeute qui explique au patient
 qu’il avait une vertèbre bloquée et il vient de lui débloquer
 et qu’il ne faut surtout pas qu’il bouge après la séance vient
 très probable de créer des croyances qu’on dit de *peur-évitement*.
