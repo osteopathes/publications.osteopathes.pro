@@ -16,7 +16,7 @@ aliases:
 auteurs:
 - anthony-halimi
 
-toc: false
+toc: true
 
 ---
 
