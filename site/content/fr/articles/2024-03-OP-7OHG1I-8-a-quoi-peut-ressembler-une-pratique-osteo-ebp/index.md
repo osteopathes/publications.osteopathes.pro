@@ -1,8 +1,8 @@
 ---
-title: "À quoi peut ressembler un pratique ostéopathique EBP: un exemple concret avec la lombalgie aiguë non traumatique"
-date: 2024-03-22T00:23:00Z
+title: "À quoi peut ressembler une pratique ostéopathique EBP: un exemple concret avec la lombalgie aiguë non traumatique"
+date: 2024-03-24T23:42:00Z
 draft: false
-slug: a-quoi-peut-ressembler-une-pratique-osteo-ebp-un-exemple-concret-avec-la-lombalgie-aigue-non-traumatique
+slug: a-quoi-peut-ressembler-une-pratique-osteopathique-ebp-un-exemple-concret-avec-la-lombalgie-aigue-non-traumatique
 
 resources:
 - name: cover-image
@@ -88,8 +88,8 @@ page physiopedia que vous pouvez trouver en référence[^2].
 
 La réassurance du patient est un élément central, il est important
 de rassurer et redonner confiance à nos patient·e·s. Sans minimiser
-leur douleur ou leur ressenti il nous incombe de diminuer ou gérer
-le catastrophisme dont ils peuvent faire preuve. Le catastrophisme
+leur douleur ou leur ressenti, il nous incombe de diminuer et de gérer
+le catastrophisme dont ils et elles peuvent faire preuve. Le catastrophisme
 est l’un des principaux facteurs de chronicisation de la douleur[^3][^4].
 
 [^3]: Otero-Ketterer E, Peñacoba-Puente C, Ferreira
@@ -104,8 +104,8 @@ est l’un des principaux facteurs de chronicisation de la douleur[^3][^4].
   back pain: A cross-sectional study. Rehabilitacion
   (Madr). 2023;57(2):100750.
 
-L'éducation thérapeutique sur les phénomènes douloureux est une
-option pour rassurer nos patients[^5][^6].
+L'éducation thérapeutique sur les phénomènes douloureux est également une
+option pour rassurer nos patient·e·s[^5][^6].
 
 [^5]: Mittinty MM, Vanlint S, Stocks N, Mittinty MN,
   Moseley GL. Exploring effect of pain education on
@@ -119,8 +119,9 @@ option pour rassurer nos patients[^5][^6].
   http://www.scielo.br/scielo.php?script=sci_issues&pid=2595-3192&lng=en&nrm=isso
 
 #### Exemples de phénomènes et facteurs pouvant conduire à de la douleur aigue
-Nombre de phénomènes douloureux sont décrits dans
-« Explain Pain » de Buttler et Moseley[^7].
+Voyons sur le schema ci-dessous quelques exemples de phénomènes et de facteurs
+pouvant conduire à de la douleur. Nombre de phénomènes douloureux sont
+décrits dans « Explain Pain » de Buttler et Moseley[^7].
 
 [^7]: Noigroup [Internet]. [cité 29 mars 2023].
   Explain Pain Second Edition. Disponible sur:
@@ -143,8 +144,11 @@ activité physique, etc).[^8]
 *Figure 1: Facteurs impliqués dans la douleur par Cholewicki et al.*
 
 ### Un cluster de tests, c’est quoi et à quoi ça sert ?
+Dans l'exemple que nous verrons plus loin, je parlerai de
+plusieurs clusters. Il me semble donc important de les définir.
+
 Un cluster de tests est un ensemble de tests cliniques à effectuer
-pour répondre à un questionnement sur la probabilité qu’un patient
+pour répondre à un questionnement sur la probabilité qu’un·e patient·e
 soit atteint ou non d’un trouble ou d’une pathologie.
 
 Les clusters de tests nous permettent d’avoir des suspicions
@@ -162,25 +166,26 @@ ce modèle est d'un intérêt limité, notamment par le manque de
 reproductibilité (10 ostéopathes trouveront sur un même sujet 10 DS
 différentes), ainsi que le manque d’objectivité, effectivement notre
 palpation est extrêmement subjective et ne représente pas un moyen
-diagnostic fiable (même pour les tests segmentaires vertébraux).[^9]
+diagnostic fiable (y compris pour les tests segmentaires vertébraux).[^9]
 
 [^9]: Fryer G. Somatic dysfunction: An osteopathic
   conundrum. International Journal of Osteopathic
   Medicine. déc 2016;22:52‑63.
 
 Les tests que nous décrirons plus tard se basent généralement sur
-la reproduction de douleur chez le patient, ou sur certains facteurs
+la reproduction de douleur chez le ou la patiente, ou sur certains facteurs
 plus objectifs que notre palpation.
 
 ## La lombalgie aiguë non traumatique en pratique ostéopathique EBP
 Pour simplifier ce texte, et le raccourcir, nous partirons
-du postulat que le patient ne présente aucun reds flags[^10],
+du postulat que le patient ne présente aucun drapeaux rouges[^10],
 et que l’examen neurologique du patient est totalement négatif.
 Pour ce qui est de la théorie et de la pratique de l’examen
-neurologique je vous invite à consulter les formations de L. Fabre
+neurologique je vous invite à consulter, par exemple, les formations de L. Fabre
 sur le sujet. Néanmoins voici un algorithme fourni par Schafer *et al.*
 en 2009, qui nous permet de discriminer différents mécanismes
-neurologiques de mécanismes musculosquelettiques, traduit par L. Fabre[^11].
+neurologiques de mécanismes musculosquelettiques, traduit par L. Fabre,
+également [disponible sur son site](https://gestiondeladouleurenthrapiemanuelle.wordpress.com/)[^11].
 
 [^10]: DePalma MG. Red flags of low back pain.
   JAAPA. août 2020;33(8):8‑11.
@@ -248,7 +253,7 @@ afin de suspecter une instabilité lombaire chez le patient[^14].
   2020;50:102224.
 
 Le test de Kemp, lorsqu’il est positif localement, tendra à nous
-indiquer un syndrome facettaire. Il est impératif de performer un
+indiquer un syndrome facettaire. Il est impératif d'effectuer un
 examen neurologique et discal complet avant de suspecter un
 syndrome facettaire, d’autant plus que le test de Kemp ne dispose
 que d’une sensibilité et d’une spécificité relativement faibles[^15].
@@ -258,8 +263,8 @@ que d’une sensibilité et d’une spécificité relativement faibles[^15].
   review. J Can Chiropr Assoc. 2014 Sep;58(3):258-67.
   PMID: 25202153; PMCID: PMC4139762.
 
-![Figure 3: Kemp test en position debout par Stuber et al](./exemple-image-du-test-de-kemp.png)
-*Figure 3: Kemp test en position debout par Stuber et Al*
+![Figure 3: Kemp test en position assise par l'auteur](./exemple-test-de-kemp-assis.jpg)
+*Figure 3: Kemp test en position assise par l'auteur*
 
 ### Cluster de tests sacro-iliaques
 L'utilisation du cluster de Laslett peut nous permettre de
@@ -310,8 +315,21 @@ des fessiers[^19].
   [cité 16 mars 2024]. Disponible sur:
   https://dralisongrimaldi.com/blog/diagnosing-gluteal-tendinopathy-in-clinical-practice/
 
-![Figure 4: Cluster de Grimaldi par Dr A. Grimaldi](./batterie-tests-diagnostic-tendinopathie-gluteale.webp)
+![Figure 4: Cluster de Grimaldi d'après Dr A. Grimaldi](./cluster-grimaldi-examen-clinique-tendinopathie-gluteale.png)
 *Figure 4: Cluster de Grimaldi par Dr A. Grimaldi*
+
+{{< alert type="info">}}
+L'exemple ci-dessus est fondé sur le cas d'un patient ayant une
+tendinopathie des muscles fessiers et qui se présente pour un
+bilan de sa douleur.
+L'examen clinique nécessite une sensibilité à la palpation
+(test de palpation positif) et au moins un autre test positif parmi
+ceux qui ont démontré avoir un effet modéré à important sur
+l'augmentation de la probabilité de la condition lorsqu'ils sont
+positifs: Test SLS (Single Leg Stance) ou Test d'appui unipodal ;
+FADER-R : Flexion-Adduction-Rotation Externe-Résistée (Rotation Interne) ;
+ADD-R : Adduction - Résistée (Abduction).
+{{</ alert >}}
 
 ## Traitement
 ### Principe de prise en charge
@@ -329,7 +347,8 @@ différents principes qui seront mis en avant par le schéma suivant[^20].
 [^20]: What is Evidence-Based Practice? [Internet].
   [cité 6 mars 2024]. Disponible sur: http://accelerate.uofuhealth.utah.edu/improvement/what-is-evidence-based-practice
 
-![Figure 5: Représentation des composantes de l'EBP par Marcie H.](./evidence-based-practice.png)
+![Figure 5: Représentation des composantes de l'EBP](./schema-evidence-based-practice.jpg)
+*Figure 5: Représentation des composantes de l'EBP*
 
 Dans une pratique EBP, il ne s’agit pas d’élaborer un plan de
 traitement basé à parts égales sur ces trois piliers, mais bien de
@@ -453,9 +472,9 @@ Le schéma suivant retranscrit l’ensemble des données relatives à
 l’examen clinique évoquées précédemment sous forme d’arbre décisionnel.
 
 
-
-Figure 6: Arbre diagnostic dans le cadre de la lombalgie aigue, Q.
-André.
+![Figure 6: Arbre diagnostique dans le cadre de la lombalgie aigue](./algorithme-lombalgie-quentin-andre.svg)
+*Figure 6: Arbre diagnostique dans le cadre de la lombalgie aigue, Q.
+André.*
 
 ## Quelques liens utiles
 - Neurosciences de la douleur par L. Fabre: https://www.cfpco.fr/videopack/cd7e7afd-055f-43fe-8fb6-0f63d719f6eb/neurosciences-de-la-douleur---par-laurent-fabre?st=a2edc8ee-33cf-4542-8b28-0cefe37460cd
