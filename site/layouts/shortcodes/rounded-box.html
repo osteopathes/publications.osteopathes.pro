@@ -1,0 +1,20 @@
+{{- if not (isset .Params "container_css") -}}
+</div>
+{{- end -}}
+<div class="w-full p-4 mt-4 text-sm prose
+{{ if eq (.Get "color") "teal" -}}
+  text-teal-700 bg-teal-50
+{{- else if eq (.Get "color") "orange" -}}
+  text-orange-700 bg-orange-50
+{{- end }} rounded-lg lg:w-9/12 max-w-none font-readable
+{{- if eq (.Get "align") "right" }} text-right {{ end }}">
+  {{ if .Get "author" }}
+  <p class="bold">
+    {{ .Get "author"}}
+  </p>
+  {{ end }}
+  {{ .Inner | markdownify }}
+</div>
+{{- if not (isset .Params "container_css") -}}
+<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
+{{- end -}}
