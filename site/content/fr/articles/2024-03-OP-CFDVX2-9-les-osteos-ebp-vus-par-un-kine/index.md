@@ -8,10 +8,10 @@ resources:
 - name: cover-image
   src: osteopathe-en-train-de-lire.png
 
-publication_id: OP-CFDVX2
+publication_id: OP-CFDVX2-9
 
 aliases:
-- /ref/OP-CFDVX2
+- /ref/OP-CFDVX2-9
 
 auteurs:
 - anthony-halimi
