@@ -1,6 +1,7 @@
 ---
 title: "Réponses à l'article «Science et ostéopathie: Que reste-t-il à un ostéopathe EBP ?»"
 date: 2024-05-21T15:09:00Z
+lastmod: 2024-05-22T21:17:00Z
 draft: false
 slug: reponse-a-l-article-science-et-osteopathie-que-reste-t-il-a-un-osteopathe-ebp
 
@@ -454,6 +455,58 @@ Les protocoles ne décrivaient pas le discours donné aux personnes, difficile
 de savoir s’il s’agissait d’un vrai effet de la thérapie manuelle ou d’un effet
 lié aux suggestions de faire attention à leur corps.
 
+## Réponse reçue de la part de M Zegarra-Parodi
+M Rafael Zegarra-Parodi, ostéopathe et cofondateur de BMS
+Formation, ainsi que chercheur affilié à l’AT Still Research
+Institute à Kirksville aux États-Unis (profil ORCID: [https://orcid.org/0000-0002-2418-8592](https://orcid.org/0000-0002-2418-8592)),
+nous a contactés pour fournir les précisions suivantes:
+
+* Le principe ostéopathique d'unité Body-Mind-Spirit est un
+  héritage culturel des autochtones amérindiens et a été
+  réintroduit pour guider la prise en charge des patients
+  lors de la dernière mise à jour des principes de l’ostéopathie aux États-Unis (Rogers et al., 2002).
+* Toutefois, pour que ce principe soit utilisé de manière
+  optimale et réponde aux valeurs et attentes des patients dans
+  une approche Evidence-Based Practice (EBP) centrée sur la
+  personne, une meilleure définition et compréhension sont
+  nécessaires. Pour remédier à cela, Rafael est le premier
+  auteur de 4 articles indexés et co-auteur de 3 autres articles
+  indexés visant à enrichir la pratique ostéopathique. Ces
+  articles mettent en lumière la manière dont le principe
+  ostéopathique actuel de l’unité Body-Mind-Spirit soutient
+  des approches EBP centrées sur la personne et culturellement sensibles.
+* Cette approche vise à affiner le raisonnement clinique des
+  ostéopathes et à maîtriser les compétences professionnelles
+  spécifiques appréciées par nos patients, ne se limitant
+  pas à un cadre épistémologique unique des thérapies
+  manuelles confiné au « musculoskeletal care ».
+
+**4 articles indexés publiés en tant que premier auteur**
+1. Refining the biopsychosocial model for musculoskeletal practice by introducing religion and spirituality dimensions into the clinical scenario: https://www.sciencedirect.com/science/article/abs/pii/S1746068919300094
+2. The Native American heritage of the body-mind-spirit paradigm in osteopathic principles and practices: https://www.sciencedirect.com/science/article/abs/pii/S1746068919300793
+3. The legacy and implications of the body-mind-spirit osteopathic tenet: A discussion paper evaluating its clinical relevance in contemporary osteopathic care: https://www.sciencedirect.com/science/article/abs/pii/S1746068921000286
+4. Historical Osteopathic Principles and Practices in Contemporary Care: An Anthropological Perspective to Foster Evidence-Informed and Culturally Sensitive Patient-Centered Care: A Commentary: https://www.mdpi.com/2227-9032/11/1/10
+
+**3 articles publiés en tant que co-auteur**
+1. Relevance of historical osteopathic principles and practices in contemporary care: Another perspective from traditional/complementary and alternative medicine: https://www.journalofosteopathicmedicine.com/article/S1746-0689(22)00023-2/fulltext
+2. Exploration des modèles ostéopathiques utilisés pour interpréter les perceptions lors d’un test palpatoire fascial, viscéral ou crânien – une étude qualitative: https://www.mainslibres.ch/mains-libres/2022/mains-libres-2-22/exploration-des-modeles-osteopathiques-utilises-pour-interpreter-les-perceptions-lors-d-un-test-palpatoire-fascial-visceral-ou-cranien-une-etude-qualitative
+3. The Revisions of the First Autobiography of AT Still, the Founder of Osteopathy, as a Step towards Integration in the American Healthcare System: A Comparative and Historiographic Review: https://www.mdpi.com/2227-9032/12/2/130
+
+Pour celles et ceux qui ne maîtrisent pas l'anglais, une version
+traduite en français sous forme d’e-book de l'article publié en
+décembre 2023 dans la revue
+[scientifique Healthcare est disponible ici](https://doi.org/10.3390%2Fhealthcare11010010).
+Cet article propose une approche issue de l’anthropologie médicale
+pour décrire les principes de l’ostéopathie. Le cadre conceptuel
+Cynefin y est présenté comme un outil pour la prise de décision
+clinique, permettant une approche centrée sur la personne et
+intégrant diverses approches ostéopathiques qui ne se
+limitent pas au « musculoskeletal care ».
+
+Une vidéo est également disponible, qui résume l'article et
+sous-titrée en français:
+[https://www.youtube.com/watch?v=S5XXoar6DUE](https://www.youtube.com/watch?v=S5XXoar6DUE).
+
 ## Le mot de la fin
 Cet article fait suite à un échange entre deux personnes, Anthony et Joseph,
 les arguments avancés sont basés sur leurs réflexions et les études à leur
@@ -813,3 +866,7 @@ ses preuves et qui sera utilisé, réglementé ou non. À nous de savoir si
 l’on préfère le laisser hors champ réglementaire ou si l’on préfère
 l’encadrer et l’évaluer, comme c’est actuellement le cas.
 {{</ rounded-box >}}
+
+## Modifications de l’article
+
+> **Modification 2024/05/22** : Section corrigée sur M Zegarra-Parodi.
