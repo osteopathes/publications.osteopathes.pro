@@ -2,7 +2,7 @@
 name: 'Anthony Halimi'
 title: 'Anthony Halimi'
 avatar_url: '/imgs/avatars/anthony-halimi.jpg'
-background_image_url: '/imgs/backgrounds/single_tree_and_prairie_in_front_of_massive_mountains.jpg'
+background_image_url: '/imgs/backgrounds/single-tree-and-prairie-in-front-of-massive-mountains.jpg'
 social:
   twitter: 'thinkin_mkdeabh'
   instagram: 'thinkin_mkdeabh'

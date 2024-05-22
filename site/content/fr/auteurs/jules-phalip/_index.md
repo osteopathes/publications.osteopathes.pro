@@ -2,7 +2,7 @@
 name: "Jules Phalip"
 title: "Jules Phalip"
 avatar_url: '/imgs/avatars/jules-phalip.jpg'
-background_image_url: '/imgs/backgrounds/starry_sky.jpg'
+background_image_url: '/imgs/backgrounds/japanese-garden.jpg'
 social:
   facebook: 'jules.phalip'
 location: 'La Bourboule, France'

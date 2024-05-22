@@ -2,7 +2,7 @@
 name: "Pierre Luc L'Hermite"
 title: "Dr Pierre Luc L'Hermite"
 avatar_url: '/imgs/avatars/pierre-luc-lhermite.png'
-background_image_url: '/imgs/backgrounds/jungle_coast_landscape.jpg'
+background_image_url: '/imgs/backgrounds/jungle-coast-landscape.jpg'
 social:
   facebook: 'pierreluc.osteopathie'
   instagram: 'pierreluclhermite'

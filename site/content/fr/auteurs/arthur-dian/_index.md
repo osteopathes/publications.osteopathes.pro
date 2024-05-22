@@ -2,7 +2,7 @@
 name: "Arthur Dian"
 title: "Arthur Dian"
 avatar_url: '/imgs/avatars/arthur-dian.png'
-background_image_url: '/imgs/backgrounds/starry_sky.jpg'
+background_image_url: '/imgs/backgrounds/spring-landscape.jpg'
 social:
   facebook: '100082885502108'
 location: 'Paris, France'
