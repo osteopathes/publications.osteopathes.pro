@@ -474,34 +474,6 @@ quelques-uns des sujets évoqués dans l’article.
 Un podcast entre Anthony HALIMI et Marco GABUTTI est en cours de préparation
 sur l’abord spécifique et mécanique en thérapie manuelle.
 
-## Réponse reçue de la part de M Zegarra-Parodi
-[M Zegarra-Parodi](https://orcid.org/0000-0002-2418-8592), un chercheur cité
-par Joseph dans l'article et ayant contribué au concept de Body Mind Spirit (BMS),
-a également tenu à partager des références en réponse à l'article d'Anthony Halimi.
-
-M Zegarra-Parodi a souhaité partager son approche EBP avec un héritage
-culturel autochtone détaillé dans l'article suivant (Free Access):
-
-Zegarra-Parodi R, Baroni F, Lunghi C, Dupuis D. Historical Osteopathic
-Principles and Practices in Contemporary Care: An Anthropological
-Perspective to Foster Evidence-Informed and Culturally Sensitive
-Patient-Centered Care: A Commentary. Healthcare (Basel). 2022
-Dec 21;11(1):10. doi:
-[10.3390/healthcare11010010](https://doi.org/10.3390%2Fhealthcare11010010).
-PMID: 36611470; PMCID: PMC9818574.
-
-Cet article permet d'aborder d'autres épistémologies en santé avec rigueur
-et éthique, même si cela n'est pas évident de prime abord.
-
-Une vidéo résume l'article et a été sous-titrée en français:
-[https://www.youtube.com/watch?v=S5XXoar6DUE](https://www.youtube.com/watch?v=S5XXoar6DUE).
-
-Enfin, M Zegarra-Parodi a également partagé la référence suivante:
-Tuscano SC, Haxton J, Ciardo A, Ciullo L, Zegarra-Parodi R. The Revisions
-of the First Autobiography of AT Still, the Founder of Osteopathy, as a
-Step towards Integration in the American Healthcare System: A Comparative
-and Historiographic Review. Healthcare (Basel). 2024 Jan 6;12(2):130. doi: [10.3390/healthcare12020130](https://doi.org/10.3390/healthcare12020130). PMID: 38255019; PMCID: PMC10815194.
-
 ## Annexes
 ### Discussions écrites sur le rôle de triage
 {{< rounded-box color="teal" author="Joseph">}}
