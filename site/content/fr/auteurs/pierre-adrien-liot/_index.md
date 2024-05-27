@@ -2,7 +2,7 @@
 name: "Pierre-Adrien Liot"
 title: "Pierre-Adrien Liot"
 avatar_url: '/imgs/avatars/pierre-adrien-liot.jpg'
-background_image_url: '/imgs/backgrounds/starry_sky.jpg'
+background_image_url: '/imgs/backgrounds/starry-sky.jpg'
 social:
   facebook: 'pierreadrien.liot'
 location: 'Caen, France'

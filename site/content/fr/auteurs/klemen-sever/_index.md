@@ -2,7 +2,7 @@
 name: 'Klemen Sever'
 title: 'Klemen Sever'
 avatar_url: '/imgs/avatars/klemen-sever.png'
-background_image_url: '/imgs/backgrounds/mountain_landscape.jpg'
+background_image_url: '/imgs/backgrounds/mountain-landscape.jpg'
 social:
   twitter: 'achedeuzot'
   instagram: 'achedeuzot'
