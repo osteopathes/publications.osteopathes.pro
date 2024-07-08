@@ -2,7 +2,7 @@
 title: "Tendinopathies – Mise à jour des connaissances en 2024"
 date: 2024-07-08T10:58:43Z
 draft: false
-slug: tendinopathies–mise-a-jour-des-connaissances-en-2024
+slug: tendinopathies-mise-a-jour-des-connaissances-en-2024
 resources:
 - name: cover-image
   src: personnes-jouant-au-tennis-pour-parler-de-la-tendinopathie.jpg
