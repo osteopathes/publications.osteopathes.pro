@@ -25,8 +25,9 @@ biography: |
 
   Il est également très impliqué dans diverses organisations
   professionnelles, en tant que 1er vice-président de la société
-  des ostéopathes de l'Ouest, 1er vice-président de l'UNAPL
-  Normandie et représentant du SFDO Normandie.
+  des ostéopathes de l'Ouest, président de l'UNAPL
+  Normandie, président de la CPRPL Normandie, premier vice-président
+  de l'U2P Normandie et membre du conseil d'administration de la FédOsoli.
 
   Dans le cadre des articles publiés sur ce site,
   l’auteur s’exprime à titre personnel.
