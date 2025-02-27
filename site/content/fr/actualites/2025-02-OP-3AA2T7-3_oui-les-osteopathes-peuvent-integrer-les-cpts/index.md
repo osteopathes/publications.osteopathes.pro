@@ -32,16 +32,17 @@ défis liés à l’implication des ostéopathes dans les CPTS.
 <!--more-->
 
 {{< alert type="info">}}
-Si vous êtes membres d'une CPTS, votre témoignage et votre
-expérience nous intéresse. Si vous souhaitez intégré une CPTS
-nous pouvons vous transmettre des informations pour vous accompagner.
+Si vous êtes membre d’une CPTS, votre témoignage et votre
+expérience nous intéressent. Si vous souhaitez intégrer une
+CPTS nous pouvons vous transmettre des informations pour
+vous accompagner.
 
-Si vous avez essuyer un refus, ou si vous êtes dans une situation
-de blocage avec la CPTS de votre ville, nous pouvons peut être
+Si vous avez essuyé un refus, ou si vous êtes dans une situation
+de blocage avec la CPTS de votre ville, nous pouvons peut-être
 vous aider.
 
 Contactez-nous et expliquez-nous votre situation
-à l'adresse email **osteo.cpts@gmail.com**
+à l’adresse email **osteo.cpts@gmail.com**
 {{</alert>}}
 
 ## Un petit peu d’histoire… Pourquoi les CPTS ont-elles été créées ?
