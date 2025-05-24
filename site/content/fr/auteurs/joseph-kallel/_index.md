@@ -12,7 +12,7 @@ location: 'Paris, France'
 professional_titles: 'Ostéopathe D.O.'
 biography: |
   Joseph Kallel est ostéopathe et membre de l’association Ostéopathes
-  de France depuis 2021.
+  de France depuis 2021.<br/><br/>
 
   Exerçant à Paris, il souhaite s'impliquer dans la recherche. Il
   partage son temps entre la pratique clinique, la rédaction d'un

@@ -21,7 +21,7 @@ biography: |
   "Osteo pour tous". Il est également membre de la conférence régionale
   de santé Normandie auprès de l'ARS, membre de l'agence régionale
   pour l'amélioration des conditions de travail de Normandie, et
-  administrateur de l'URSSAF Normandie.
+  administrateur de l'URSSAF Normandie.<br/><br/>
 
   Il est également très impliqué dans diverses organisations
   professionnelles, en tant que 1er vice-président de la société
@@ -29,7 +29,7 @@ biography: |
   Normandie, président de la CPRPL Normandie, premier vice-président
   de l'U2P Normandie, premier vice-président de la maison des
   profesions libérales de Normandie et membre du conseil
-  d'administration de la FédOsoli.
+  d'administration de la FédOsoli.<br/><br/>
 
   Dans le cadre des articles publiés sur ce site,
   l’auteur s’exprime à titre personnel.
