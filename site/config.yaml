@@ -80,4 +80,4 @@ imaging:
 privacy:
   youtube:
     disable: false
-    privacyEnhanced: false
+    privacyEnhanced: true
