@@ -11,5 +11,5 @@ biography: |
   clinique tels que la thérapie cognitivo-comportementale.<br/><br/>
 
   Membre actif de COSE (Collectif des Ostéopathes Scientifiques et Éthiques),
-  c’est à titre personnel qu’il s’exprime dans les articles d’ostéopathe.pro.
+  c’est à titre personnel qu’il s’exprime dans les articles d’osteopathes.pro.
 ---

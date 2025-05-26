@@ -21,7 +21,7 @@ toc: true
 ---
 
 Comme on l'a vu avec l'article sur
-[une possible orientation de la profession vue par un kiné]({{< ref "/articles/2024-03-OP-CFDVX2-9-les-osteos-ebp-vus-par-un-kine" >}}),
+[une possible orientation de la profession vue par un kiné]({{< ref "/articles/2024-03-OP-CFDVX2-9_les-osteos-ebp-vus-par-un-kine" >}}),
 l'ostéopathie se trouve à un carrefour crucial, tiraillée entre les
 traditions de ses origines et les avancées de la science moderne.
 À une époque où la médecine évolue rapidement grâce aux progrès de
