@@ -394,7 +394,7 @@ ostéopathiques classiques montrent effectivement des limites, il existe tout
 de même des clusters de tests à utiliser afin d'augmenter notre efficacité
 diagnostique et notre compétence de triage.\
 Voir à ce sujet l’article de Quentin ANDRÉ pour aller plus loin:
-[À quoi peut ressembler une pratique ostéopathique EBP]({{< ref "/articles/2024-03-OP-7OHG1I-8-a-quoi-peut-ressembler-une-pratique-osteo-ebp" >}}).
+[À quoi peut ressembler une pratique ostéopathique EBP]({{< ref "/articles/2024-03-OP-7OHG1I-8_a-quoi-peut-ressembler-une-pratique-osteo-ebp" >}}).
 
 ### Modèle Biopsychosocial
 C’est également en rapport avec les différents points de l’

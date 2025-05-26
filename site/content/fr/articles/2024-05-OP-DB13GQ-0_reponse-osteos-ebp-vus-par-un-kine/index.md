@@ -25,7 +25,7 @@ add_closing_div: true
 ---
 
 Suite à la parution du billet de blog
-[«Science et ostéopathie: Que reste-t-il à un ostéopathe EBP ?»]({{< ref "/articles/2024-03-OP-CFDVX2-9-les-osteos-ebp-vus-par-un-kine" >}})
+[«Science et ostéopathie: Que reste-t-il à un ostéopathe EBP ?»]({{< ref "/articles/2024-03-OP-CFDVX2-9_les-osteos-ebp-vus-par-un-kine" >}})
 de nombreux partages et échanges ont eu lieu. Parmi ces échanges,
 Joseph KALLEL souhaitait apporter une critique argumentée du billet de blog.
 
