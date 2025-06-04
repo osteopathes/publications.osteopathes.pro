@@ -19,7 +19,7 @@ auteurs:
 - anthony-halimi
 
 toc: true
-container_css: "w-full p-4 lg:w-9/12 prose max-w-none font-readable"
+container_css: "w-full p-4 lg:w-9/12 prose max-w-prose font-readable"
 add_closing_div: true
 
 ---
