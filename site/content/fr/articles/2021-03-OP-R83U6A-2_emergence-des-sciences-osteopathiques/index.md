@@ -18,7 +18,7 @@ auteurs:
   - pierre-luc-lhermite
 
 toc: true
-container_css: "w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable"
+container_css: "w-full px-4 py-4 prose lg:w-9/12 max-w-prose font-readable"
 add_closing_div: true
 
 ---
@@ -51,7 +51,7 @@ s’intéresse aux intérêts que peuvent présenter les connaissances.
 
 <!--more-->
 
-<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
+<div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
 ## Partie I – Les obstacles de structure
 ### A – La structure de la science médicale et de la pratique médicale
@@ -316,4 +316,4 @@ représente en effet un tiers des composantes de la décision médicale.
   </div>
 </div>
 
-<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
+<div class="w-full px-4 py-4 prose max-w-none font-readable">

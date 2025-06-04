@@ -16,5 +16,5 @@
   {{ .Inner | markdownify }}
 </div>
 {{- if not (isset .Params "container_css") -}}
-<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-none font-readable">
+<div class="w-full px-4 py-4 prose lg:w-9/12 max-w-prose font-readable">
 {{- end -}}

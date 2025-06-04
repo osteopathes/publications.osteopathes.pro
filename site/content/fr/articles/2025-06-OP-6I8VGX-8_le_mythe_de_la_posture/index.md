@@ -17,6 +17,7 @@ auteurs:
 
 toc: true
 toc_default_closed: false
+legal_warning: true
 
 ---
 Quand avons-nous commencé à nous dire de nous tenir
