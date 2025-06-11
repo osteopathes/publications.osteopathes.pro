@@ -22,6 +22,13 @@
           </time>
         </p>
         <a href="{{ .Permalink }}" class="block">
+          {{- if .Resources.GetMatch "cover-image" -}}
+          <section class="relative block" style="height: 200px;">
+            <div class="absolute top-0 w-full h-full bg-center bg-cover"
+              style='background-image: url({{ (.Resources.GetMatch "cover-image").Permalink }});'>
+            </div>
+          </section>
+          {{- end -}}
           <h3 class="mt-2 text-xl font-semibold leading-7 text-gray-900">
             {{ .Title | emojify }}
           </h3>

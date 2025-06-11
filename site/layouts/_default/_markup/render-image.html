@@ -6,6 +6,6 @@
 </figure>
 {{ else }}
 <figure class="flex flex-col items-center justify-center">
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" />
 </figure>
 {{ end }}
