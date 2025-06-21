@@ -7,9 +7,9 @@ resources:
   - name: cover-image
     src: rapport-senat-complementaires-sante-et-osteopathie.png
 
-publication_id: OP-7U4X3W-3
+publication_id: OP-2STPHY-9
 aliases:
-  - /ref/OP-7U4X3W-3
+  - /ref/OP-2STPHY-9
 
 auteurs:
   - pierre-adrien-liot
