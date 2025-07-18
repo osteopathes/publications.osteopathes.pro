@@ -89,7 +89,7 @@ l’accompagnement d’osteopathes.pro.
 - **Âge du plus jeune répondant** : 22 ans
 - **Âge du plus âgé** : 83 ans
 
-[![Répartition des répondants par durée d'exercice](./01-depuis-combien-de-temps-etes-vous-osteopathe.svg)](./01-depuis-combien-de-temps-etes-vous-osteopathe.svg)
+[![Répartition des répondants par durée d'exercice](./01-depuis-combien-de-temps-etes-vous-osteopathe.svg "Graphique 1")](./01-depuis-combien-de-temps-etes-vous-osteopathe.svg)
 
 Les répondants sont répartis sur **95 départements**,
 y compris les **DOM-TOM**.
@@ -129,25 +129,25 @@ Enfin, la répartition des âges semble en cohérence avec la
 **démographie nationale de la profession**.
 
 ## Résultats du sondage (questions fermées)
-[![Quelle est votre sensibilité aux enjeux de l'accès aux soins en ostéopathie ?](./02-en-tant-qu-osteopathe-quelle-est-votre-sensibilite-aux-enjeux-de-l-acces-aux-soins-en-osteopathie.svg "Pour 95,7% des ostéopathes, c'est un enjeu important.")](./02-en-tant-qu-osteopathe-quelle-est-votre-sensibilite-aux-enjeux-de-l-acces-aux-soins-en-osteopathie.svg)
+[![Quelle est votre sensibilité aux enjeux de l'accès aux soins en ostéopathie ?](./02-en-tant-qu-osteopathe-quelle-est-votre-sensibilite-aux-enjeux-de-l-acces-aux-soins-en-osteopathie.svg "Graphique 2 – Pour 95,7% des ostéopathes, c'est un enjeu important.")](./02-en-tant-qu-osteopathe-quelle-est-votre-sensibilite-aux-enjeux-de-l-acces-aux-soins-en-osteopathie.svg)
 
-[![Pensez-vous que l'accès aux soins en ostéopathie constitue un enjeu de santé publique ?](./03-en-tant-qu-osteopathe-pensez-vous-que-l-acces-aux-soins-en-osteopathie-constitue-un-enjeu-de-sante-publique.svg)](./03-en-tant-qu-osteopathe-pensez-vous-que-l-acces-aux-soins-en-osteopathie-constitue-un-enjeu-de-sante-publique.svg)
+[![Pensez-vous que l'accès aux soins en ostéopathie constitue un enjeu de santé publique ?](./03-en-tant-qu-osteopathe-pensez-vous-que-l-acces-aux-soins-en-osteopathie-constitue-un-enjeu-de-sante-publique.svg "Graphique 3")](./03-en-tant-qu-osteopathe-pensez-vous-que-l-acces-aux-soins-en-osteopathie-constitue-un-enjeu-de-sante-publique.svg)
 
-[![Que pensez-vous de l'accessibilité financière des soins ostéopathiques en France ?](./04-accessibilite-financiere-des-soins-osteopathiques-prodigues-en-france.svg "Pour une majorité d'ostéopathes, le coût des soins est un frein à l'accès aux soins ostéopathiques.")](./04-accessibilite-financiere-des-soins-osteopathiques-prodigues-en-france.svg)
+[![Que pensez-vous de l'accessibilité financière des soins ostéopathiques en France ?](./04-accessibilite-financiere-des-soins-osteopathiques-prodigues-en-france.svg "Graphique 4 – Pour une majorité d'ostéopathes, le coût des soins est un frein à l'accès aux soins ostéopathiques.")](./04-accessibilite-financiere-des-soins-osteopathiques-prodigues-en-france.svg)
 
-[![Seriez-vous prêt·e à limiter votre liberté d'installation afin de favoriser une meilleure répartition des ostéopathes sur le territoire (Accès géographique aux soins)](./05-seriez-vous-pret-a-limiter-votre-liberte-d-installation-afin-de-favoriser-une-meilleure-repartition-des-osteopathes-sur-le-territoire.svg)](./05-seriez-vous-pret-a-limiter-votre-liberte-d-installation-afin-de-favoriser-une-meilleure-repartition-des-osteopathes-sur-le-territoire.svg)
+[![Seriez-vous prêt·e à limiter votre liberté d'installation afin de favoriser une meilleure répartition des ostéopathes sur le territoire (Accès géographique aux soins)](./05-seriez-vous-pret-a-limiter-votre-liberte-d-installation-afin-de-favoriser-une-meilleure-repartition-des-osteopathes-sur-le-territoire.svg "Graphique 5")](./05-seriez-vous-pret-a-limiter-votre-liberte-d-installation-afin-de-favoriser-une-meilleure-repartition-des-osteopathes-sur-le-territoire.svg)
 
-[![Seriez-vous prêt·e à encadrer votre liberté tarifaire en échange d'une convention avec des organismes publics et privés finaçant les soins des patient·e·s](./06-seriez-vous-pret-a-encadrer-votre-liberte-tarifaire-en-echange-d-une-convention-avec-des-organismes-publics-et-prives-financant-les-soins-des-patients.svg)](./06-seriez-vous-pret-a-encadrer-votre-liberte-tarifaire-en-echange-d-une-convention-avec-des-organismes-publics-et-prives-financant-les-soins-des-patients.svg)
+[![Seriez-vous prêt·e à encadrer votre liberté tarifaire en échange d'une convention avec des organismes publics et privés finaçant les soins des patient·e·s](./06-seriez-vous-pret-a-encadrer-votre-liberte-tarifaire-en-echange-d-une-convention-avec-des-organismes-publics-et-prives-financant-les-soins-des-patients.svg "Graphique 6")](./06-seriez-vous-pret-a-encadrer-votre-liberte-tarifaire-en-echange-d-une-convention-avec-des-organismes-publics-et-prives-financant-les-soins-des-patients.svg)
 
-[![Pensez-vous que l'État devrait financer l'ouverture de postes d'ostéopathes salariés dans les hôpitaux, les PMI, etc. afin d'améliorer l'accès aux soins ostéopathiques](./07-pensez-vous-que-l-etat-devrait-financer-l-ouverture-de-postes-d-osteopathes-salaries-dans-les-hopitaux-les-pmi-etc-afin-d-améliorer-l-acces-aux-soins-osteopathiques.svg)](./07-pensez-vous-que-l-etat-devrait-financer-l-ouverture-de-postes-d-osteopathes-salaries-dans-les-hopitaux-les-pmi-etc-afin-d-améliorer-l-acces-aux-soins-osteopathiques.svg)
+[![Pensez-vous que l'État devrait financer l'ouverture de postes d'ostéopathes salariés dans les hôpitaux, les PMI, etc. afin d'améliorer l'accès aux soins ostéopathiques](./07-pensez-vous-que-l-etat-devrait-financer-l-ouverture-de-postes-d-osteopathes-salaries-dans-les-hopitaux-les-pmi-etc-afin-d-améliorer-l-acces-aux-soins-osteopathiques.svg "Graphique 7")](./07-pensez-vous-que-l-etat-devrait-financer-l-ouverture-de-postes-d-osteopathes-salaries-dans-les-hopitaux-les-pmi-etc-afin-d-améliorer-l-acces-aux-soins-osteopathiques.svg)
 
-[![En tant qu'ostéopathe êtes-vous amenés à prodiguer des soins gratuitement au cabinet ?](./08-en-tant-qu-osteopathe-etes-vous-amene-a-prodiguer-des-soins-gratuitement-au-cabinet.svg)](./08-en-tant-qu-osteopathe-etes-vous-amene-a-prodiguer-des-soins-gratuitement-au-cabinet.svg)
+[![En tant qu'ostéopathe êtes-vous amenés à prodiguer des soins gratuitement au cabinet ?](./08-en-tant-qu-osteopathe-etes-vous-amene-a-prodiguer-des-soins-gratuitement-au-cabinet.svg "Graphique 8")](./08-en-tant-qu-osteopathe-etes-vous-amene-a-prodiguer-des-soins-gratuitement-au-cabinet.svg)
 
-[![En tant qu'ostéopathe, participez-vous à une activité cartiative ou financez-vous une association caritative dans le domaine de la santé ?](./09-en-tant-qu-osteopathe-participez-vous-a-une-activite-caritative-ou-financez-vous-une-association-caritative-dans-le-domaine-de-la-santé.svg)](./09-en-tant-qu-osteopathe-participez-vous-a-une-activite-caritative-ou-financez-vous-une-association-caritative-dans-le-domaine-de-la-santé.svg)
+[![En tant qu'ostéopathe, participez-vous à une activité cartiative ou financez-vous une association caritative dans le domaine de la santé ?](./09-en-tant-qu-osteopathe-participez-vous-a-une-activite-caritative-ou-financez-vous-une-association-caritative-dans-le-domaine-de-la-santé.svg "Graphique 9")](./09-en-tant-qu-osteopathe-participez-vous-a-une-activite-caritative-ou-financez-vous-une-association-caritative-dans-le-domaine-de-la-santé.svg)
 
-[![Que pensez-vous de la mise en place d'un forfait annuel de soins en ostéopathie destiné aux personnes précaires au sein de la CSS (Anciennement CMU-C) ?](./10-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-css-anciennement-cmu-c.svg)](./10-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-css-anciennement-cmu-c.svg)
+[![Que pensez-vous de la mise en place d'un forfait annuel de soins en ostéopathie destiné aux personnes précaires au sein de la CSS (Anciennement CMU-C) ?](./10-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-css-anciennement-cmu-c.svg "Graphique 10")](./10-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-css-anciennement-cmu-c.svg)
 
-[![Que pensez-vous de la mise en place d'un forfait annuel de soins en ostéopathie destiné aux personnes précaires au sein de la PUMA ?](./11-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-puma.svg)](./11-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-puma.svg)
+[![Que pensez-vous de la mise en place d'un forfait annuel de soins en ostéopathie destiné aux personnes précaires au sein de la PUMA ?](./11-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-puma.svg "Graphique 11")](./11-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-la-puma.svg)
 
 La Protection Universelle Maladie (PUMA) permet la prise en charge
 des frais de santé sans rupture de droits. Cela signifie que cette
@@ -156,17 +156,17 @@ professionnelle, familiale ou de résidence. Pour avoir droit à la
 PUMA, vous devez travailler ou résider en France de manière stable
 ou régulière.
 
-[![Que pensez-vous de la mise en place d'un forfait annuel de soins en ostéopathie destiné aux personnes précaires au sein de l'AME ?](./12-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-l-ame.svg)](./12-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-l-ame.svg)
+[![Que pensez-vous de la mise en place d'un forfait annuel de soins en ostéopathie destiné aux personnes précaires au sein de l'AME ?](./12-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-l-ame.svg "Graphique 12")](./12-que-pensez-vous-de-la-mise-en-place-d-un-forfait-annuel-de-soins-en-osteopathie-destine-aux-personnes-precaires-au-sein-de-l-ame.svg)
 
 L'Aide Médicale de l'État (AME) est un dispositif permettant aux
 étrangers en situation irrégulière de bénéficier d'un accès aux
 soins. Elle est attribuée sous conditions de résidence et de ressources.
 
-[![Pensez-vous que les complémentaires santé d'entreprise devraient systématiquement intégrer des soins en ostéopathie pour permettre une meilleure couverture santé des travailleurs ?](./13-pensez-vous-que-les-complementaires-sante-d-entreprise-devraient-systematiquement-integrer-des-soins-en-osteopathie-pour-permettre-une-meilleure-couverture-sante-des-travailleurs.svg)](./13-pensez-vous-que-les-complementaires-sante-d-entreprise-devraient-systematiquement-integrer-des-soins-en-osteopathie-pour-permettre-une-meilleure-couverture-sante-des-travailleurs.svg)
+[![Pensez-vous que les complémentaires santé d'entreprise devraient systématiquement intégrer des soins en ostéopathie pour permettre une meilleure couverture santé des travailleurs ?](./13-pensez-vous-que-les-complementaires-sante-d-entreprise-devraient-systematiquement-integrer-des-soins-en-osteopathie-pour-permettre-une-meilleure-couverture-sante-des-travailleurs.svg "Graphique 13")](./13-pensez-vous-que-les-complementaires-sante-d-entreprise-devraient-systematiquement-integrer-des-soins-en-osteopathie-pour-permettre-une-meilleure-couverture-sante-des-travailleurs.svg)
 
-[![Souhaiteriz-vous que les soins prodigués par les ostéopathes soient pris en charge par l'Assurance Maladie (CPAM) ?](./14-souhaiteriez-vous-que-les-soins-prodigues-par-les-osteopathes-soient-pris-en-charge-par-assurance-maladie-cpam.svg)](./14-souhaiteriez-vous-que-les-soins-prodigues-par-les-osteopathes-soient-pris-en-charge-par-assurance-maladie-cpam.svg)
+[![Souhaiteriz-vous que les soins prodigués par les ostéopathes soient pris en charge par l'Assurance Maladie (CPAM) ?](./14-souhaiteriez-vous-que-les-soins-prodigues-par-les-osteopathes-soient-pris-en-charge-par-assurance-maladie-cpam.svg "Graphique 14")](./14-souhaiteriez-vous-que-les-soins-prodigues-par-les-osteopathes-soient-pris-en-charge-par-assurance-maladie-cpam.svg)
 
-[![Pensez-vous que les ostéopathes ont un rôle à jouer au sein des CPTS ?](./15-pensez-vous-que-les-osteopathes-ont-un-role-a-jouer-au-sein-des-cpts.svg)](./15-pensez-vous-que-les-osteopathes-ont-un-role-a-jouer-au-sein-des-cpts.svg)
+[![Pensez-vous que les ostéopathes ont un rôle à jouer au sein des CPTS ?](./15-pensez-vous-que-les-osteopathes-ont-un-role-a-jouer-au-sein-des-cpts.svg "Graphique 15")](./15-pensez-vous-que-les-osteopathes-ont-un-role-a-jouer-au-sein-des-cpts.svg)
 
 Les Communautés Professionnelles Territoriales de Santé (CPTS)
 regroupent les professionnels d’un même territoire qui souhaitent
@@ -176,20 +176,20 @@ Pour en savoir plus sur les
 <abbr title="Communautés Professionnelles Territoriales de Santé">CPTS</abbr>, consultez [notre article sur le rôle
 des ostéopathes au sein des CPTS]({{< ref "/actualites/2025-02-OP-3AA2T7-3_oui-les-osteopathes-peuvent-integrer-les-cpts" >}}).
 
-[![Estimez-vous que les ostéopathes doivent devenir une profession de santé à proprement parler en intégrant le code de la santé publique ?](./16-estimez-vous-que-les-osteopathes-doivent-devenir-une-profession-de-sante-a-proprement-parler-en-integrant-le-code-de-la-sante-publique.svg)](./16-estimez-vous-que-les-osteopathes-doivent-devenir-une-profession-de-sante-a-proprement-parler-en-integrant-le-code-de-la-sante-publique.svg)
+[![Estimez-vous que les ostéopathes doivent devenir une profession de santé à proprement parler en intégrant le code de la santé publique ?](./16-estimez-vous-que-les-osteopathes-doivent-devenir-une-profession-de-sante-a-proprement-parler-en-integrant-le-code-de-la-sante-publique.svg "Graphique 16")](./16-estimez-vous-que-les-osteopathes-doivent-devenir-une-profession-de-sante-a-proprement-parler-en-integrant-le-code-de-la-sante-publique.svg)
 
 ### Questions sur le paysage associatif
 
-[![Êtes-vous satisfait de l'action et de l'activité de plaidoyer de l'association Ostéo Pour Tous ?](./17-etes-vous-satisfait-de-l-action-et-de-l-activite-de-plaidoirie-de-l-association-osteo-pour-tous.svg)](./17-etes-vous-satisfait-de-l-action-et-de-l-activite-de-plaidoirie-de-l-association-osteo-pour-tous.svg)
+[![Êtes-vous satisfait de l'action et de l'activité de plaidoyer de l'association Ostéo Pour Tous ?](./17-etes-vous-satisfait-de-l-action-et-de-l-activite-de-plaidoirie-de-l-association-osteo-pour-tous.svg "Graphique 17")](./17-etes-vous-satisfait-de-l-action-et-de-l-activite-de-plaidoirie-de-l-association-osteo-pour-tous.svg)
 
-[![Souhaitez-vous soutenir financièrement l'action des associations cartiatives et solidaires en ostéopathie ?](./18-souhaitez-vous-soutenir-financierement-l-action-des-associations-caritatives-et-solidaire-en-osteopathie.svg)](./18-souhaitez-vous-soutenir-financierement-l-action-des-associations-caritatives-et-solidaire-en-osteopathie.svg)
+[![Souhaitez-vous soutenir financièrement l'action des associations cartiatives et solidaires en ostéopathie ?](./18-souhaitez-vous-soutenir-financierement-l-action-des-associations-caritatives-et-solidaire-en-osteopathie.svg "Graphique 18")](./18-souhaitez-vous-soutenir-financierement-l-action-des-associations-caritatives-et-solidaire-en-osteopathie.svg)
 
 
-[![Pensez-vous que les associations caritatives et solidaires qui gèrent les permanences de soins gratuites devraient recevoir des subventions de l'État afin de structurer ces permanences sur l'ensemble du territoire français ?](./19-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-subventions-de-l-etat-afin-de-structurer-ces-permanences-sur-l-ensemble-du-territoire-francais.svg)](./19-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-subventions-de-l-etat-afin-de-structurer-ces-permanences-sur-l-ensemble-du-territoire-francais.svg)
+[![Pensez-vous que les associations caritatives et solidaires qui gèrent les permanences de soins gratuites devraient recevoir des subventions de l'État afin de structurer ces permanences sur l'ensemble du territoire français ?](./19-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-subventions-de-l-etat-afin-de-structurer-ces-permanences-sur-l-ensemble-du-territoire-francais.svg "Graphique 19")](./19-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-subventions-de-l-etat-afin-de-structurer-ces-permanences-sur-l-ensemble-du-territoire-francais.svg)
 
-[![Pensez-vous que les associations caritatives et solidaires qui gèrent les permanences de soins gratuites devraient recevoir des dons privés des établissements de formations initiale agréés par le Ministère de la Santé afin de structurer ces permanences sur l'ensemble du territoire français ?](./20-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-dons-prives-des-etablissements-de-formation-initiale-agrees-par-le-ministere-de-la-sante.svg)](./20-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-dons-prives-des-etablissements-de-formation-initiale-agrees-par-le-ministere-de-la-sante.svg)
+[![Pensez-vous que les associations caritatives et solidaires qui gèrent les permanences de soins gratuites devraient recevoir des dons privés des établissements de formations initiale agréés par le Ministère de la Santé afin de structurer ces permanences sur l'ensemble du territoire français ?](./20-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-dons-prives-des-etablissements-de-formation-initiale-agrees-par-le-ministere-de-la-sante.svg "Graphique 20")](./20-pensez-vous-que-les-associations-caritatives-et-solidaires-qui-gerent-des-permanences-de-soins-gratuites-devraient-recevoir-des-dons-prives-des-etablissements-de-formation-initiale-agrees-par-le-ministere-de-la-sante.svg)
 
-[![Pensez-vous que les cliniques étudiantes des dispositifs de formation devraient être intégrés dans un programme visant à améliorer l'accès aux soins en ostéopathie ?](./21-pensez-vous-que-les-cliniques-etudiantes-des-dispositifs-de-formation-devraient-etre-integres-dans-un-programme-visant-a-ameliorer-l-acces-aux-soins-en-osteopathie.svg)](./21-pensez-vous-que-les-cliniques-etudiantes-des-dispositifs-de-formation-devraient-etre-integres-dans-un-programme-visant-a-ameliorer-l-acces-aux-soins-en-osteopathie.svg)
+[![Pensez-vous que les cliniques étudiantes des dispositifs de formation devraient être intégrés dans un programme visant à améliorer l'accès aux soins en ostéopathie ?](./21-pensez-vous-que-les-cliniques-etudiantes-des-dispositifs-de-formation-devraient-etre-integres-dans-un-programme-visant-a-ameliorer-l-acces-aux-soins-en-osteopathie.svg "Graphique 21")](./21-pensez-vous-que-les-cliniques-etudiantes-des-dispositifs-de-formation-devraient-etre-integres-dans-un-programme-visant-a-ameliorer-l-acces-aux-soins-en-osteopathie.svg)
 
 ## Résultats du sondage (questions ouvertes)
 
@@ -609,10 +609,10 @@ Nous soulignons que les résultats, lorsqu’ils sont analysés selon
 l’âge ou le nombre d’années d’installation, varient peu, tous
 groupes confondus. Cela traduit un **consensus intra-professionnel** manifeste.
 
-Trois opinions majoritaires se dégagent très nettement:
+Trois opinions majoritaires se dégagent très nettement (voir graphique 4):
 - « En France, les patients les plus précaires renoncent à consulter les ostéopathes. »
-- « L’accès aux soins est correct, mais la prise en charge par les mutuelles est insuffisante. »
-- « L’accès aux soins est trop inégal ; trop de patients doivent renoncer, faute de moyens financiers. »
+- « L’accès aux soins est correct, mais insuffisant pour les personnes en situation de précarité. »
+- « L’accès aux soins est trop inégal ; trop de patients doivent renoncer, faute de financement. »
 
 Les ostéopathes restent attachés à leur liberté d’installation, à
 la fixation de leurs honoraires, et à l’accès direct aux soins.
