@@ -745,7 +745,94 @@ contribuer à ce rapport.
 – Klemen SEVER, Président d'osteopathes.pro
 {{< /alert >}}
 
+## Méthodologie et représentativité statistique
+Notre enquête a été menée avec soin dans l’objectif de proposer
+une **photographie, à un instant T, de l’opinion de notre profession
+sur l’accès aux soins en ostéopathie en France**. Il s’agit de la
+première tentative de mesure de cette opinion professionnelle sur ce sujet.
+
+**Ce travail ne constitue pas une étude scientifique au sens strict,
+mais un outil informatif destiné à éclairer la réflexion et à
+accompagner la prise de décision**.
+
+Toutefois, nous avons souhaité nous prêter à l’exercice du **calcul
+d’échantillonnage afin d’estimer, avec rigueur, le degré de confiance**
+avec lequel nous pouvons interpréter nos résultats.
+
+**⚠️ N'oublions pas de relever les limites de notre enquête**:
+- **Méthode de diffusion non probabiliste**: la participation s’est
+  faite sur la base du **volontariat**, via des canaux numériques
+  (emails, réseaux sociaux, relais associatifs), ce qui peut introduire
+  un biais d’**auto-sélection**.
+- **Biais de représentativité possible**: certains sous-groupes de la
+  profession (par exemple, les ostéopathes peu connectés aux réseaux
+  ou isolés) peuvent être sous-représentés.
+- **Pas de redressement statistique**: les résultats n’ont pas été
+  pondérés pour corriger d’éventuels déséquilibres démographiques
+  ou territoriaux (par exemple : surreprésentation de départements
+  très actifs ou engagés).
+
+Cependant, nous avous souhaité répondre à la question suivante:
+**« Est-ce que ce nombre de répondants permet de faire une conclusion
+sur l'orientation de l'avis général des ostéopathes de France ? »**
+
+C'est ce qu'on appelle **la représentativité statistique d’un échantillon**.
+
+### 🧠 Les 3 ingrédients nécessaires
+Pour répondre à cette question, il nous faut 3 choses :
+1. La taille totale de la population
+*C’est le nombre total d’ostéopathes en France.*
+➡️ En 2025, on estime à environ **39 000** les ostéopathes en exercice en France.
+
+2. Le niveau de confiance
+*C'est le degré de certitude qu'on souhaite avoir dans nos résultats.*
+➡️ Le plus courant, c’est 95 % de confiance, ce qui veut dire :
+«Si nous faisons 100 fois ce même sondage, avec 897 ostéos différents
+à chaque fois, nous obtiendrons un résultat similaire au moins 95
+fois sur 100.»
+
+3. La marge d’erreur acceptable
+*C'est la tolérance que l'on accepte entre le résultat du sondage
+et la réalité de la population totale.*
+➡️ Exemple: si le sondage dit que 60 % des ostéos veulent être
+remboursés, et que la marge d’erreur est ±3 %, alors le vrai
+chiffre dans la population est entre 57 % et 63 %.
+
+### 📊 Calculs de taille d’échantillon
+#### 📊 Taille d’échantillon nécessaire pour 39 000 ostéopathes
+| Confiance | Marge d’erreur | Taille d’échantillon requise |
+|-----------|----------------|-----------------------------|
+| 90 %      | 5 %            | ≈ 271                       |
+| 90 %      | 3 %            | ≈ 754                       |
+| 90 %      | 2 %            | ≈ 1 694                     |
+| 95 %      | 5 %            | ≈ 381                       |
+| 95 %      | 3 %            | ≈ 1 038                     |
+| 95 %      | 2 %            | ≈ 2 328                     |
+| 99 %      | 5 %            | ≈ 662                       |
+| 99 %      | 3 %            | ≈ 1 528                     |
+| 99 %      | 2 %            | ≈ 3 392                     |
+
+#### Application à notre enquête
+- **Nombre de répondants**: 897 ostéopathes ont répondu à l’enquête.
+- **Population totale**: environ 39 000 ostéopathes en France.
+- **Confiance**: 95 % (standard pour les sondages professionnels).
+- **Marge d’erreur**: environ ±3,2 %.
+
+La population étudiée est plutôt homogène (ostéopathes
+professionnels en France), ce qui renforce la validité de notre
+échantillon.
+
+Pour résumer, nous avons eu 897 ostéopathes répondants, ce qui
+nous donne une marge d’erreur de ±3,2 % à 95 % de confiance. Cette
+enquête peut donc être considérée comme représentative de l’opinion
+des ostéopathes en France sur l’accès aux soins en ostéopathie.
+
 ## Réponses brutes
 
 Vous trouverez [les réponses brutes obtenues et anonymisées et qui
 ont été conservées pour ce rapport](https://docs.google.com/spreadsheets/d/1UM-TRfconqwUGzYWyCu6q60EygaOPqwW8F7XXIk3hXs/edit?usp=sharing).
+
+## Modifications de l’article
+
+> **Modification 2025/07/23** : Ajout de la section
+> « Méthodologie et représentativité statistique ».
