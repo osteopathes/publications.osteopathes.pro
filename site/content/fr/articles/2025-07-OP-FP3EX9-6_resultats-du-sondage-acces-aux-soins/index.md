@@ -1,6 +1,7 @@
 ---
 title: "Résultats de l'enquête « Accès aux soins » par l'association Ostéo Pour Tous"
 date: 2025-07-16T09:23:05Z
+lastmod: 2025-07-22T23:22:01Z
 draft: false
 slug: resultats-de-l-enquete-acces-aux-soins-pour-tous
 resources:
@@ -834,5 +835,5 @@ ont été conservées pour ce rapport](https://docs.google.com/spreadsheets/d/1U
 
 ## Modifications de l’article
 
-> **Modification 2025/07/23** : Ajout de la section
+> **Modification 2025/07/22** : Ajout de la section
 > « Méthodologie et représentativité statistique ».
