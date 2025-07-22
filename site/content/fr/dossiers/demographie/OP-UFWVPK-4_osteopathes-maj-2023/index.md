@@ -629,7 +629,7 @@ de santé pour adapter les politiques en conséquence.
 > d'après les chiffres CIPAV pour la mise en perspective des chiffres UNASA.
 > Précision sur le travail initial conséquent sur le comparatif économique
 > au niveau régional par Pierre-Adrien LIOT.
->
+
 > **Modification 2023/11/09** : Mise à jour du tableau des charges
 > pour afficher *toutes* les charges et pas seulement les charges
 > externes pour une image plus réaliste de la situation.
