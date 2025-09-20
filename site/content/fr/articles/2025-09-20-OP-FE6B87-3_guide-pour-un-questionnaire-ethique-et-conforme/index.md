@@ -132,7 +132,9 @@ Voici les informations obligatoires à fournir.
     la fin de l'étude (par exemple, 5 ans après la soutenance).[^9][^10]
 *   **Le rappel des droits sur les données:** Listez les droits que le RGPD confère au participant :
     *   Droit d'**accès** (consulter ses données).
-    *   Droit de **rectification** (corriger une erreur).
+    *   Droit de **rectification** (corriger une erreur). Une fois les données
+        anonymisées ou l'analyse des données effetué,
+        ce droit n'est plus applicable car on ne peut plus identifier la personne.
     *   Droit à la **limitation** et droit d'**opposition** (qui peuvent être limités
         pour ne pas compromettre les objectifs de la recherche).[^11][^12]
 *   **Le droit de réclamation:** Mentionnez que le participant peut saisir la **CNIL** en cas de problème.[^9][^11]
