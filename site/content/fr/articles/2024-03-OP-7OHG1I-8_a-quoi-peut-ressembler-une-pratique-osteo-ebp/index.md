@@ -61,6 +61,8 @@ mes propos et vous donner un **aperçu concret des outils et des méthodes que
 l'EBP met à notre disposition**, pour faire évoluer notre pratique
 vers une ostéopathie contemporaine, respectée et scientifiquement fondée.
 
+<!--more-->
+
 {{< alert type="info">}}
 Avertissement: Il est évident que je ne suis qu’un ostéopathe qui
 essaye au mieux de fonder sa pratique sur des données probantes,
@@ -69,7 +71,6 @@ certaines sources ne soient pas les plus optimales, j’accueillerai
 avec plaisir toute donnée qui me permettra de m’améliorer.
 {{</ alert >}}
 
-<!--more-->
 ## Déroulement de notre cas pratique
 Avant d'entrer dans le vif du sujet, je souhaitais rappeler
 rapidement quelques notions essentielles pour mieux comprendre
