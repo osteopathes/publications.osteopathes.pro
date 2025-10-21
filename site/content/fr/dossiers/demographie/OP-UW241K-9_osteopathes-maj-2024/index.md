@@ -94,6 +94,25 @@ Plus concrètement, **plus le ratio est faible** (peu d'habitants par ostéopath
 En déduction, une zone avec peu de praticiens installés peut indiquer un potentiel d'installation intéressant.
 **Cependant, ce critère isolé ne suffit pas** à donner une idée précise, il est notamment à recouper avec les informations concernant le pouvoir d'achat, l'offre de santé existante sur place, les habitudes de consommation de la population, etc...
 
+</div>
+<div class="p-4 mb-6 border-l-4 border-teal-400 bg-teal-50">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg class="w-5 h-5 text-teal-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
+    </div>
+    <div class="ml-3">
+      <p class="text-sm text-teal-700">
+        Pour un accompagnement plus complet, n'hésitez pas à consulter la
+        <a class="underline" href="https://www.osteopathes.pro/fr/ressources/bds/etude-de-marche-comment-bien-choisir-ou-s-installer?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024">
+          BD sur l'installation
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="w-full px-4 py-4 prose max-w-prose font-readable">
+
 ## L'analyse économique
 ### *Quel salaire pour un ostéopathe&nbsp;?*
 
@@ -105,15 +124,17 @@ Il faut déjà noter que les revenus varient énormement selon le lieu d'exercic
 Ainsi, en 2024, le bénéfice médian se situe autour de **19&nbsp;225€ annuels**, avec un **quartile inférieur (Q1) à 9&nbsp;524€** et un **quartile supérieur (Q3) à 26&nbsp;890€**. Cela signifie donc que **la moitié des ostéopathes**, au régime réel, génèrent un bénéfice annuel compris entre 9&nbsp;524€ et 26&nbsp;890€.  
 Il faut néanmoins garder en tête que **le bénéfice n'est pas un salaire** au sens strict : il s'agit du **revenu net avant impôts**, après déductions des charges.  
 
-Le tableau *ci-dessous* expose alors les **recettes et bénéfices des ostéopathes en 2024**, et la colonne "***revenus mensuels nets***" correspond à notre estimation de **salaire mensuel**, via le **simulateur de revenus osteopathes.pro**, en prenant donc en compte les impôts et supposant une situation maritale cerlibataire.
+Le tableau *ci-dessous* expose alors les **recettes et bénéfices des ostéopathes en 2024**, et la colonne "***revenus mensuels bruts***" correspond à notre estimation de **salaire mensuel**, via le **simulateur de revenus osteopathes.pro**, en prenant donc en compte les impôts et supposant une situation maritale cerlibataire.
 
-| Indicateur statistique | Recettes | Bénéfices | Revenus mensuels nets |
+| Indicateur statistique | Recettes | Bénéfices | Revenus mensuels bruts |
 | --- | ---: | ---: | ---: |
-| 1er Quartile (Q1) | 28&nbsp;857€ | 9&nbsp;534€ | 585€ |
-| Médiane | 49&nbsp;098€ | 19&nbsp;225€ | 1&nbsp;200€ |
-| Moyenne nationale | 58&nbsp;649€ | 23&nbsp;845€ | 1&nbsp;466€ |
-| 3ème Quartile (Q3) | 64&nbsp;291€ | 26&nbsp;890€ | 1&nbsp;616€ |
-| 4ème Quartile (Q4) | 92&nbsp;050€ | 39&nbsp;608€ | 2&nbsp;200€ |
+| 1er Quartile (Q1) | 28&nbsp;857€ | 9&nbsp;534€ | 794€ |
+| Médiane | 49&nbsp;098€ | 19&nbsp;225€ | 1&nbsp;600€ |
+| Moyenne nationale | 58&nbsp;649€ | 23&nbsp;845€ | 1&nbsp;987€ |
+| 3ème Quartile (Q3) | 64&nbsp;291€ | 26&nbsp;890€ | 2&nbsp;240€ |
+| 4ème Quartile (Q4) | 92&nbsp;050€ | 39&nbsp;608€ | 3&nbsp;300€ |
+
+*Grâce aux chiffres de la CIPAV, memes infos donc mm si l'echantillon de l'unasa est que de XXX, on peut supposer que c'est assez représentatif vu que ça se rapproche du chiffre de tous les exclusifs*
 
 ### *Combien de fois les patient·e·s consultent-t-ils chaque année&nbsp;?*
 
@@ -151,10 +172,32 @@ Si l'on compare ces données aux recettes annuelles, on constate que les ostéop
 | Indicateur statistique | Charges |
 | --- | ---: |
 | 1er Quartile (Q1) | 19&nbsp;333€ |
-| Médiane | 29&nbsp;873€ | 
+| 2ème Quartile (Q2) | 29&nbsp;873€ | 
 | Moyenne nationale | 34&nbsp;804€ |
 | 3ème Quartile (Q3) | 37&nbsp;401€ |
 | 4ème Quartile (Q4) | 52&nbsp;442€ |
+
+Afin d'avoir une vision plus concrète de la répartition de ces charges, le tableau ci-dessous détaille comment se divisent celles-ci :
+
+| Catégorie de charge | 1er Quartile&nbsp;(Q1) | 2ème Quartile&nbsp;(Q2) | 3ème Quartile&nbsp;(Q3) | 4ème Quartile&nbsp;(Q4) | 
+| --- | ---: | ---: | ---: | ---: |
+| Loyer et charges locatives | 5&nbsp;598€ | 6&nbsp;923€ | 7&nbsp;908€ | 9&nbsp;757€ |
+| *soit mensuel :* | *467€* | *577€* | *659€* | *813€* |
+| Frais de déplacement | 2&nbsp;741€ | 3&nbsp;928€ | 4&nbsp;115€ | 4&nbsp;787€ |
+| Autres TFSE | 1&nbsp;962€ | 2&nbsp;553€ | 3&nbsp;215€ | 4&nbsp;142€ |
+| Autres frais divers de gestion | 1&nbsp;356€ | 1&nbsp;718€ | 1&nbsp;800€ | 2&nbsp;393€ |
+| Fournitures de bureau | 1&nbsp;010€ | 1&nbsp;178€ | 1&nbsp;350€ | 1&nbsp;749€ |
+| Honoraires | 808€ | 933€ | 1&nbsp;286€ | 1&nbsp;749€ |
+| Primes d'assurances | 548€ | 589€ | 643€ | 828€ |
+| Frais de réception | 433€ | 589€ | 771€ | 920€ |
+| Achats | 202€ | 295€ | 321€ | 644€ |
+| **Total des charges HORS taxes et impôts** | **14&nbsp;659€** | **18&nbsp;706€** | **21&nbsp;409€** | **26&nbsp;970€** |
+| Charges sociales | 4&nbsp;819€ | 8&nbsp;298€ | 11&nbsp;315€ | 17&nbsp;766€ |
+| *soit mensuel :* | *402€* | *691€* | *943€* | *1480€* |
+| Impôts et taxes | 1&nbsp;703€ | 2&nbsp;651€ | 3&nbsp;407€ | 4&nbsp;879€ |
+| **Total taxes et impôts** | **6&nbsp;522€** | **10&nbsp;949€** | **14&nbsp;722€** | **22&nbsp;645€** |
+| **Total des charges** | **21&nbsp;181€** | **29&nbsp;655€** | **36&nbsp;131€** | **49&nbsp;614€** |
+
 
 ## Installation et étude de marché en ostéopathie
 ### *Comment savoir si ma future zone d'installation a du potentiel&nbsp;?*
