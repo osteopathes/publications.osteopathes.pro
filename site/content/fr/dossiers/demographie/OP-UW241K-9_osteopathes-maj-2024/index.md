@@ -70,12 +70,15 @@ Cette première partie se veut très factuelle, et nous discuterons de ces chiff
 - La **moyenne des bénéfices** en 2024 est de 23&nbsp;845€ sur l'année[^2], ce qui
   correspond à 1&nbsp;987€/mois (pour rappel, bénéfices = chiffre d'affaires - charges).
 - La densité moyenne en 2024 est de 1 ostéopathe pour 2&nbsp;294 habitants[^3].
+- Le **tarif moyen** d'une consultation d'ostéopathie s'aligne autour de **60€** ; plus précisément 58,1€ selon nos chiffres et 59,7€ selon Oostéo (février 2024[^4]
 
 [^1]: Rapport de l'Observatoire Socio-Économique que l'Ostéopathie (OSEOSTEO) - 2009
 
 [^2]: [Statistiques détaillées des ostéopathes en 2024 <abbr title="nion Nationale des Associations Agréés">UNASA</abbr>](https://www.unasa.fr/statistiques-details/?annee=2024&code_profession=851HAK&profession=851HAK&secteur=NULL&decoupage_statistique=national&region=NULL&departement=null)
 
 [^3]: [INSEE: Population française au 1er janvier 2024 est de 68 373 433](https://www.insee.fr/fr/statistiques/5225246) – Consulté le 13/10/2025
+
+[^4]: [Quel est le tarif d'un ostéopathe ? - Oostéo (février 2024)](https://oosteo.com/blog/2018/01/quel-est-le-tarif-dun-osteopathe/#:~:text=En%202024%2C%2068%25%20des%20ostéopathes,entre%2050%20à%2060%20euros.)
 
 ## L’analyse démographique et territoriale
 ### *Combien y-a-t il d'ostéopathes en France et comment évolue ce chiffre&nbsp;?*
@@ -113,6 +116,11 @@ En déduction, une zone avec peu de praticiens installés peut indiquer un poten
 
 <div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
+### *Le genre comme facteur différenciant local&nbsp;?*
+
+Au-delà de la légère stabilité nationale de la répartition hommes/femmes (rappelons que 52% des ostéopathes sont des hommes), il peut être pertinent d'observer les **disparités locales**.  
+Dans certaines zones où l'un des sexes est très majoritaire, un praticien du sexe opposé peut y trouver un **facteur différenciant non négligeable**. Cela peut devenir un atout distinctif fort lors du choix de son thérapeute, et donc un élément clé à considérer !
+
 ## L'analyse économique
 ### *Quel salaire pour un ostéopathe&nbsp;?*
 
@@ -134,12 +142,16 @@ Le tableau *ci-dessous* expose alors les **recettes et bénéfices des ostéopat
 | 3ème Quartile (Q3) | 64&nbsp;291€ | 26&nbsp;890€ | 2&nbsp;240€ |
 | 4ème Quartile (Q4) | 92&nbsp;050€ | 39&nbsp;608€ | 3&nbsp;300€ |
 
-*Grâce aux chiffres de la CIPAV, memes infos donc mm si l'echantillon de l'unasa est que de XXX, on peut supposer que c'est assez représentatif vu que ça se rapproche du chiffre de tous les exclusifs*
+Nous avons également eu accès aux données de la 
+<abbr title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">**CIPAV**</abbr>, qui pour rappel concernent exclusivement les **ostéopathes exclusifs**. Les niveaux de revenus observés y sont **proches de ceux rapportés par l'**<abbr title="Union Nationale des ASsociations Agréées">**UNASA**</abbr>, ce qui semble renforcer la fiabilité des ordres de grandeur présentés ici.  
+Même si ces deux sources reposent sur des échantillons différents — *la <abbr title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr> ne comptant que les exclusifs et <abbr title="Union Nationale des ASsociations Agréées">l'UNASA</abbr> uniquement les praticiens au régime réel* — leurs résultats convergent : les chiffres peuvent donc être supposés représentatifs du revenu moyen des ostéopathes en France.
 
 ### *Combien de fois les patient·e·s consultent-t-ils chaque année&nbsp;?*
 
-D'apès le **baromètre Odoxa pour l'UPO** (mai 2024), **les français vont chez l'ostéopathe en moyenne 1,45 fois par an**. Près d'un sur deux (47%) consulte une à deux fois par an, tandis que **16% y vont plus souvent**.  
-D'après les données **ostéopathes.pro**, recoupées avec les données de plusieurs cliniques, le nombre moyen de consultations est de **1,5 fois par an**, un chiffre proche du baromètre Odoxa.  
+D'apès le 
+[**baromètre Odoxa pour l'UPO**](https://www.ecole-osteopathie-paris.fr/app/uploads/sites/11/2024/07/odoxa-pour-upo-les-francais-et-losteopathie-juin-2024-1.pdf?) (juin 2024),
+**les français vont chez l'ostéopathe en moyenne 1,45 fois par an**. Près d'un sur deux (47%) consulte une à deux fois par an, tandis que **16% y vont plus souvent**.  
+D'après les données **osteopathes.pro**, recoupées avec les données de plusieurs cliniques, le nombre moyen de consultations est de **1,5 fois par an**, un chiffre proche du baromètre Odoxa.  
 Cette donnée semble donc fiable car obtenue en recoupant diverses sources. Elle traduit alors un recours à l'ostéopathie ponctuel et ancré dans les habitudes des français.
 
 ### *Pourquoi calculer son chiffre d'affaire maximal théorique et comment faire&nbsp;?*
@@ -205,11 +217,31 @@ Afin d'avoir une vision plus concrète de la répartition de ces charges, le tab
 Premièrement, il faut garder à l'esprit que le **ratio habitants&nbsp;/&nbsp;ostéopathe** permet de situer la présence d'ostéopathes déjà en place et donc **d'évaluer les zones peu denses qui sembleraient opportunes**.  
 Dans un premier temps, il peut sembler pertinent de **comparer le ratio de la zone ciblée** (celui d'une commune notamment) avec le ratio moyen national et régional, puis des communes aux alentours :  
 -  **si le ratio est plus faible que la moyenne comparée**, cela traduit une offre ostéopathique plutôt élevée dans la zone ciblée.  
--  **à l'inverse, un ratio plus élevé** peut signaler un potentiel manque de praticien, donc un marché probablement plus ouvert aux nouveaux ostéopathes souhaitant s'y installer.
+-  **à l'inverse, un ratio plus élevé** peut signaler un potentiel manque de praticien, donc un marché probablement plus ouvert aux nouveaux ostéopathes souhaitant s'y installer.  
+De plus, les chiffres de 2024 semblent indiquer que le **ratio d’habitants par ostéopathe** aurait une correlation relativement marquée avec le **revenu des praticiens** contrairement à des données comme le revenu médian de la population. Ainsi, prioriser un ratio confortable pourrait permettre d'assurer une meilleure stabilité économique, **même dans les bassins de vie plus modestes**.
 
  Ensuite -- comme dit précédemment -- pour donner un réel sens au ratio, il faut **croiser l'information avec d'autres indicateurs** : la taille et la répartition des statuts de la population concernée (âge, métier, revenus), la présence d'autres professions de santé (voire la présence d'un réseau personnel déjà implanté), les flux de mobilité des habitants (personnes qui partent travailler dans d'autres communes ou à l'inverse qui viendraient y travailler), ou encore les habitudes de recours à l'ostéopathie de la population concernée.  
  
  **En résumé**, une étude de marché ne peut pas se résumer au ratio habitants / ostéopathe, mais celui-ci constitue un **indicateur d'équilibre** entre l'offre et la demande sur une zone géographique donnée. En le croisant avec d'autres indicateurs, il aide grandement à identifier les zones prometteuses, et constitue donc une base solide pour un projet d'installation.
+
+</div>
+<div class="p-4 mb-6 border-l-4 border-teal-400 bg-teal-50">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg class="w-5 h-5 text-teal-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
+    </div>
+    <div class="ml-3">
+      <p class="text-sm text-teal-700">
+        Pour un accompagnement plus complet, n'hésitez pas à consulter la
+        <a class="underline" href="https://www.osteopathes.pro/fr/ressources/bds/etude-de-marche-comment-bien-choisir-ou-s-installer?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024">
+          BD sur l'installation
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
 ### *Quels facteurs font que les patients consultent en ostéopathie&nbsp;?*
 
@@ -430,337 +462,3 @@ sans accents, avec majuscules, raccourcis ou avec coquilles (comme ost**h**éopa
 - **Ostéopathe "actif"** : Praticien identifié avec au moins une adresse valide, publiquement accessible 
 - **Cabinet** : Adresse d'exercice
 - **Ostéopathe "exclusif"** (CIPAV) : Ostéopathe dont l'activité principale est l'ostéopathie, non couplée à une autre profession.
-
-----------------
-
-## Brouillon en dessous
-
-
-
-
-
-
-
-
-
-
-
-## Quelle évolution du nombre d'ostéopathe par rapport aux années précédentes ?
-Étant donné que notre méthode de cette année diffère de celle des années précédentes,
-le comparatif n'est pas aisé. Cela étant dit, les données obtenues en 2022 sont
-probablement légèrement surestimées car nous n'avions pas de valeur de référence
-avec laquelle croiser nos résultats.
-
-[![Évolution du nombre d'ostéopathes ADELI vs recensement osteopathes.pro](./nombre-osteopathes-ADELI-vs-osteopathes-pro-2019-2023-et-delta.png)](./nombre-osteopathes-ADELI-vs-osteopathes-pro-2019-2023-et-delta.png)
-
-Grâce à la publication du
-[rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}), nous
-avons pu améliorer notre méthodologie et exclure des sources de données qui
-semblaient peu fiables. Cela a eu pour conséquence de réduire l'augmentation
-mais pas le nombre d'ostéopathes trouvés.
-
-Concernant <abbr title="Automatisation DEs LIstes">ADELI</abbr> seul,
-le nombre progresse de 37&nbsp;531 ostéopathes au 1er janvier 2022 à
-39&nbsp;511 au 1er janvier 2023, une croissance de 5,28% (+1980 ostéopathes).
-
-En 2022, nous avions recensé 30&nbsp;168 ostéopathes grâce à Internet.
-Malgré des critères de selection plus stricts, nous observons
-une augmentation de 1&nbsp;086 ostéopathes (+3,6%) en 2023 par rapport à 2022.
-
-Si l'on compare ce chiffre avec les dernières données du
-[rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}) de 2022,
-nous avons:
-- 15&nbsp;043 ostéopathes inscrit·e·s à la CIPAV en 2022
-- 10&nbsp;500 kiné-ostéopathes (chiffres approximatifs de l'ordre des kinésithérapeutes)
-- &nbsp;2&nbsp;281 médecins-ostéopathes (chiffres de l'ordre des médecins)
-
-Pour un total estimé en 2022 de 27&nbsp;824 ostéopathes.
-
-Sachant qu'il y a eu 1&nbsp;980 ostéopathes fraîchement inscrit·e·s en 2023,
-cela nous donne un total minimal estimé de 29&nbsp;804 ostéopathes en 2023.
-La différence entre notre recensement et cette estimation est de 1&nbsp;450
-ostéopathes (4,8%).
-
-Dans ce contexte il semblerait qu'il **continue d'y avoir une croissance
-du nombre d'ostéopathe sur le territoire français** mais que celle-ci
-est potentiellement plus faible dû à **une augmentation du nombre d'arrêt
-d'activité**. Il reste difficile d'estimer le nombre d'ostéopathes
-ayant réellement arrêté leur activité.
-
-On peut néanmoins constater que sur les 39&nbsp;511 ostéopathes du registre
-<abbr title="Automatisation DEs LIstes">ADELI</abbr> au 01/2023, il semble
-y avoir 8&nbsp;257 ostéopathes manquant·e·s (soit 21% de différence). Ce chiffre
-est supérieur aux projections de départs à la retraite (voir plus loin),
-on peut donc vraissemblablement en déduire qu'un certain nombre
-d'ostéopathes ont arrêté leur activité.
-
-Voici un tableau récapitulatif du nombre d'ostéopathes, de cabinets et du nombre de cabinets uniques (c'est à dire avec la même adresse) par région en 2023.
-
-| Région | Nombre d'ostéopathes | Nombre de cabinets | Nombre de cabinets uniques |
-| --- | ---: | ---: | ---: |
-| Île-de-France | 6072 | 7041 | 5953 |
-| Auvergne-Rhône-Alpes | 4881 | 5529 | 4760 |
-| Provence-Alpes-Côte d'Azur | 3501 | 3918 | 3564 |
-| Occitanie | 3428 | 3817 | 3465 |
-| Nouvelle-Aquitaine | 3344 | 3749 | 3340 |
-| Pays de la Loire | 1872 | 2098 | 1830 |
-| Bretagne | 1683 | 1851 | 1640 |
-| Hauts-de-France | 1677 | 1954 | 1784 |
-| Grand Est | 1660 | 1834 | 1598 |
-| Bourgogne-Franche-Comté | 970 | 1060 | 956 |
-| Normandie | 959 | 1070 | 935 |
-| Centre-Val de Loire | 860 | 952 | 854 |
-| La Réunion | 187 | 200 | 195 |
-| Corse | 176 | 197 | 192 |
-| Guadeloupe | 75 | 79 | 77 |
-| Martinique | 56 | 60 | 59 |
-| Guyane | 28 | 28 | 28 |
-| Mayotte | 4 | 5 | 5 |
-| **Total** | **31 433** | **35 442** | **31 235** |
-
-Pour les plus attentif·ve·s, vous aurez remarqué que le nombre d'ostéopathes
-est différent de celui annoncé plus haut (+179). En effet, certains ostéopathes ont
-des cabinets dans plusieurs régions, nous les comptabilisons une fois dans chacune.
-
-## Discussion sur la démographie 2023
-### Ratio habitant·e·s par ostéopathe
-En 2023, la population estimée en France est de 68&nbsp;042&nbsp;591[^2] habitant·e·s,
-ce qui donne un **ratio moyen de 1 ostéopathe pour 2&nbsp;177 habitant·e·s**.
-
-Malgré un ratio moyen qui semble correct, les disparités entre régions sont
-parfois extrêmes.
-En effet, dans le pays Basque, le ratio minimum est de 1 ostéopathe pour 175 habitant·e·s,
-expliqué par la dynamique touristique de la région. À l'inverse, dans le 93, quelques
-villes ont des ratios de plus de 30&nbsp;000 habitant·e·s par ostéopathe.
-
-La cartographie permet de visualiser ces territoires où la densité
-atteint des valeurs critiques. Il reste néanmoins difficile d'estimer la
-pression démographique présente sur le terrain et le ratio acceptable
-pour une installation.
-
-On remarque cependant qu'avec un ratio moyen de 2&nbsp;177 habitant·e·s/ostéopathe,
-seuls 79% des ostéopathes du registre
-<abbr title="Automatisation DEs LIstes">ADELI</abbr> semblent encore en activité.
-Une part peut être liée aux départs à la retraite, mais une autre partie est
-probablement dûe à des arrêts anticipés d'activité.
-
-### Une répartition inégale sur le territoire
-Comme on vient de le voir, les disparités de densité sont très élevées.
-
-Paradoxalement, les **communes denses continuent de se densifier**.
-Par exemple, entre 2022 et 2023, sur les 30 communes avec le plus d'ostéopathes,
-(Paris, Lyon, Marseille, Toulouse, Bordeaux, etc.), 26 (86%) ont vu leur densité
-augmenter.
-
-### Les départs à la retraite n'expliquent pas tout
-En 2018, la <abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>
-affichait 10&nbsp;024 ostéopathes cotisant·e·s[^4].
-En 2022, ce chiffre est de 15&nbsp;043 ostéopathes, soit une augmentation
-de 5&nbsp;000 ostéopathes en 4 ans (+50%).
-
-[^4]: Chiffre de l'Observatoire de l'activité libérale du ministère de l'économie,
-      disponible en ligne à https://www.entreprises.gouv.fr/files/files/secteurs-d-activite/professions-liberales/chiffres/2018/osteopathe.pdf . Consulté
-      le 2023-10-01.
-
-Cependant, chaque année, environ 2&nbsp;000 nouveaux ostéopathes s'inscrivent
-au registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>. En 4 ans,
-cela représente environ 8&nbsp;000 nouveaux ostéopathes. Il devrait donc y avoir,
-en 2022, 10&nbsp;024 ostéopathes + 8&nbsp;000 nouveaux ostéopathes soit
-18&nbsp;024 ostéopathes. Or, la <abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>
-indique 15&nbsp;043. Où sont donc les 3&nbsp;000 ostéopathes manquant·e·s ?
-Est-ce seulement dû à des départs à la retraite ?
-
-Grâce à la pyramide des ages[^5], on peut estimer environ 400 départs à la retraite
-chaque année (en 2020, 2086 ostéopathes avaient 65ans+ et on suppose
-qu'ils et elles partiront en retraite à l'âge de 70 ans). En 4 ans, cela
-représente 1&nbsp;600 départs à la retraite. Il reste donc 1&nbsp;400
-ostéopathes (soit 350 par an) qui manquent à l'appel. Cela peut être dû à
-un arrêt d'activité mais cela peut également être dû au fait que sur
-les 2&nbsp;000 ostéopathes s'inscrivant chaque année au registre
-<abbr title="Automatisation DEs LIstes">ADELI</abbr>, une partie
-d'entre eux et d'entre elles est potentiellement médecin, kiné, sage-femme, etc.
-et qu'ils ne figurent pas dans les chiffres de la
-<abb title="Caisse interprofessionnelle de prévoyance et d'assurance vieillesse des professions libérales">CIPAV</abbr>.
-
-[^5]: Pyramide des ages de l'ostéopathie en fin 2020 (page 9), disponible en ligne
-      à https://www.osteopathie.org/documents.php?url=demographierofjanvier2021_527.pdf
-      Consulté le 2023-10-01.
-
-## Analyse économique
-Pour pousser l'exercice plus loin et suite à plusieurs demandes,
-nous avons souhaité également nous intéresser à l'aspect
-économique de la profession.
-
-Le [rapport de l'IGAS de 2022]({{< ref "/dossiers/rapport-igas-2022" >}}) a
-mis en lumière le fait que la majorité des ostéopathes ont des revenus modestes.
-Les chiffres que nous avons utilisé pour la suite de cette analyse proviennent
-majoritairement de l'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>[^6] ainsi que du [rapport de l'IGAS]({{< ref "/dossiers/rapport-igas-2022" >}}).
-
-[^6]: L'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr> publie
-     des [statistiques annuelles ainsi que nationales et région par région sur l'ostéopathie](https://www.unasa.fr/statistiques/).
-
-### Évolution du chiffre d'affaires
-Sur les 10 dernières années, l'augmentation du nombre d'ostéopathe est
-régulier d'environ +2000 praticien·ne·s chaque année.
-
-[![Évolution du nombre d'ostéopathes](./nombre-osteopathes-2010-2023-sur-ADELI.png)](./nombre-osteopathes-2010-2023-sur-ADELI.png)
-
-Malgré cette importante augmentation, le chiffre d'affaires reste
-globalement stable (hormis COVID-19 en 2020). Seul le 4e quartile,
-le plus riche, voit un diminution de son
-<abbr title="Chiffre d'Affaires">CA</abbr>.
-
-[![Évolution du chiffre d'affaires des ostéopathes](./recettes_moyennes_national_osteopathes_2002_2022_france_unasa.png)](./recettes_moyennes_national_osteopathes_2002_2022_france_unasa.png)
-
-Cela s'explique par d'une part, par l'augmentation du nombre
-de consulations de la population française au cours du temps.
-D'autre part, le remboursement croissant de l'ostéopathie par les
-mutuelles a facilité l'accès à cette discipline par la population
-française.
-
-Grâce au nombre d'ostéopathes par région, et en prenant
-le chiffre d'affaires moyen en 2022 (58&nbsp;448€), on peut estimer
-le montant de l'activité économique dans chaque région lié
-à l'ostéopathie en 2023. Nous remercions par ailleurs Pierre-Adrien LIOT
-pour le travail initial sur ce calcul. Le calcul est le suivant:
-```
-nombre d'ostéopathes x chiffre d'affaires moyen 2022
-```
-
-| Région | Montant estimé de l'activité économique en 2023 |
-| --- | ---: |
-| Île-de-France | 354 896 256 € |
-| Auvergne-Rhône-Alpes | 285 284 688 € |
-| Provence-Alpes-Côte d'Azur | 204 626 448 € |
-| Occitanie | 200 359 744 € |
-| Nouvelle-Aquitaine | 195 450 112 € |
-| Pays de la Loire | 109 414 656 € |
-| Bretagne | 98 367 984 € |
-| Hauts-de-France | 98 017 296 € |
-| Grand Est | 97 023 680 € |
-| Bourgogne-Franche-Comté | 56 694 560 € |
-| Normandie | 56 051 632 € |
-| Centre-Val de Loire | 50 265 280 € |
-| La Réunion | 10 929 776 € |
-| Corse | 10 286 848 € |
-| Guadeloupe | 4 383 600 € |
-| Martinique | 3 273 088 € |
-| Guyane | 1 636 544 € |
-| Mayotte | 233 792 € |
-| **Total** | **1 837 195 984 €** |
-
-### Évolution des bénéfices
-Le bénéfice moyen des ostéopathes est de 23&nbsp;641€ en 2022, soit
-1&nbsp;970€/mois. Les bénéfices ont été plutôt stables ces dernières
-années malgré une diminution marquée en 2023 dû à l'augmentation
-des charges.
-
-Notons également que les données de l'UNASA ne prennent pas en compte
-les micro-entrepreneurs qui ont généralement un revenu plus faible.
-D'après le rapport IGAS citant la CIPAV, il y a 23,6% (3&nbsp;953)
-de micro-entrepreneurs parmi les ostéopathes exclusifs (15&nbsp;043).
-Il est donc possible que cette moyenne soit supérieure à la réalité.
-
-[![Évolution du bénéfice moyen des ostéopathes](./benefice_moyen_national_osteopathes_2002_2022_france_unasa.png)](./benefice_moyen_national_osteopathes_2002_2022_france_unasa.png)
-
-[![Évolution des charges des ostéopathes](./charges_moyennes_national_osteopathes_2002_2022_france_unasa.png)](./charges_moyennes_national_osteopathes_2002_2022_france_unasa.png)
-
-### Évolution au niveau régional
-En septembre 2023 a eu lieu la publication de la
-[situation économique de l'ostéopathie de 2002 à 2022](https://ogi.osteopathe-syndicat.fr/upload/files/situation%20economique%20osteo%20VF3bis1.pdf)
-effectuée par Pierre-Adrien LIOT et Pierre-Yves POITEVIN
-pour le <abbr title="Syndicat Français Des Ostéopathes">SFDO</abbr>.
-
-Dans le prolongement de cette étude et d'un travail conséquent
-de récolte et de recherche au niveau régional par Pierre-Adrien LIOT,
-nous avons souhaité pousser l'analyse au niveau régional.
-
-Nous avons donc effectué une mise en perspective des bénéfices, charges et
-recettes moyennes en fonction de la densité d'ostéopathes/habitant·e·s par région.
-On note que **les régions à plus faible densité d'ostéopathes s'en sortent globalement
-mieux au niveau bénéfices** (+10&nbsp;000€ de bénéfices entre les deux extrêmes)
-que les régions avec une densité forte, la seule exception étant la
-région des Pays de la Loire.
-[![Tableau de classement des régions avec les bénéfices, charges totales et recettes moyennes](./tableau-classement-regions-benefices-toutes-charges-recettes.png)](./tableau-classement-regions-benefices-toutes-charges-recettes.png)
-
-Nous avons également exploré les variations de bénéfices région
-par région. Si nous avons vu qu'au niveau national les revenus
-sont en légère diminution en 2022 par l'augmentation des charges,
-toutes les régions n'ont pas les mêmes conditions et certaines
-sont plus touchées que d'autres.
-
-Nous avons donc calculé les modifications des bénéfices moyens
-sur l'intervalle 2017 à 2022 (pour éviter la période COVID-19).
-
-[![Variations des bénéfices moyens entre 2017 et 2022](./tableau-variation-benefices-regions-2017-2022.png)](./tableau-variation-benefices-regions-2017-2022.png)
-
-La tendance baissière en 2022 est donc forte, avec certaines
-régions qui voient leurs bénéfices diminuer de plus de 15%.
-Il n'y a malheureusement pas de données plus précises
-(par département ou canton) qui permettraient une analyse
-encore plus fine en fonction de la densité.
-
-En classant les régions suivant leurs bénéfices en 2017
-puis en 2022, nous obtenons les changements de classement
-suivant pour 2022:
-[![Classement des régions en fonction de l'évolution des bénéfices entre 2017 et 2022](./classement-regions-2017-2022-benefices.png)](./classement-regions-2017-2022-benefices.png)
-
-## Questions fréquentes
-### Pourquoi je ne figure pas sur la carte de la démographie ?
-Il existe de nombreux facteurs pouvant causer ce résultat comme
-mentioné dans la section consacrée aux différences
-entre le registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>
-et nos chiffres.
-
-Si vos informations <abbr title="Automatisation DEs LIstes">ADELI</abbr>
-comme votre nom, prénom ou département ne sont pas à jour et que votre
-présence en ligne ne correspond pas, il est possible que nous n'ayons pas
-pu vous identifier.
-
-Si vous souhaitez renseigner votre cabinet, vous pouvez le rajouter vous-même
-directement dans votre espace membres et celui-ci sera pris en compte
-pour la prochaine édition.
-
-### Une zone semble vide sur la carte, est-ce une bonne idée d'y ouvrir mon cabinet ?
-D'une part, notre carte n'indique que deux critères potentiels de
-réussite: la densité des ostéopathes et le ratio d'habitants par ostéopathes.
-
-D'autre part, et malgré nos meilleurs efforts, il est possible que nous ayons
-omis quelques ostéopathes dans la zone que vous consultez.
-Recoupez toujours nos informations avec d'autres sources
-comme des annuaires ou d'autres cartes.
-
-Enfin, nous vous recommandons de prendre le temps de faire une étude de marché et de
-viabilité avant d'installer votre cabinet.
-
-### Excluez-vous les kiné-ostéopathes ou d'autres professions médicales ou paramédicales ?
-Notre carte affiche tous les praticien·ne·s qui pratiquent
-l'ostéopathie en tant qu'activité principale, qu'ils soient
-kiné-ostéopathes, médecins-ostéopathes ou ostéopathes exclusifs.
-
-## Conclusion
-Notre analyse révèle que la démographie des ostéopathes en France
-montre une croissance constante, mais avec des disparités fortes
-entre régions.
-
-Les revenus ont su rester en majorité stables au cours du temps malgré
-une forte augmentation démographique. Cependant, les charges ont
-augmenté en 2022, ce qui a eu pour conséquence une diminution des
-bénéfices moyens.
-
-Nous espérons que ces données servirons aux ostéopathes ainsi qu'aux
-étudiant·e·s ou pour celles et ceux qui envisagent de faire des études
-d'ostéopathie. La compréhension de ces tendances est essentielle pour
-les praticien·ne·s qui cherchent à s'installer et pour les autorités
-de santé pour adapter les politiques en conséquence.
-
-## Modifications de l’article
-
-> **Modification 2023/10/27** : Précisions sur le nombre de micro-entrepreneurs
-> d'après les chiffres CIPAV pour la mise en perspective des chiffres UNASA.
-> Précision sur le travail initial conséquent sur le comparatif économique
-> au niveau régional par Pierre-Adrien LIOT.
-
-> **Modification 2023/11/09** : Mise à jour du tableau des charges
-> pour afficher *toutes* les charges et pas seulement les charges
-> externes pour une image plus réaliste de la situation.
