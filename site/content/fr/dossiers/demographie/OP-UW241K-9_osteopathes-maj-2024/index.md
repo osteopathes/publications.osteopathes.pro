@@ -174,7 +174,7 @@ Concernant la densité moyenne d'ostéopathes en France en 2024, si l'on prend l
 1&nbsp;645 ostéopathe pour 1&nbsp;651 habitants[^3]; et avec notre recensement plus précis,
 cela correspond plutôt à un **ratio de 2&nbsp;270 habitants par ostéopathe** sur le territoire.
 
-#### Que s'est-il passé en octobre 2024&nbsp;?
+### Qu'en est-il de la bascule ADELI vers RPPS en octobre 2024&nbsp;?
 Certain·e·s d'entre vous l'ont probablement remarqué: en octobre 2024,
 le registre ADELI a été remplacé par le registre
 <abbr title="Répertoire Partagé des Professionnels intervenant dans le système de Santé">RPPS</abbr>
@@ -188,8 +188,14 @@ notable du nombre de doublons** dans le registre:
   nous avons recensé 5&nbsp;524 homonymes dont **5&nbsp;040 doublons exacts**,
   une **augmentation de 4&nbsp;000 doublons en quelques semaines** !
 
-Cela signifie que depuis la bascule, il est plus correct de systématiquement
-soustraire 5&nbsp;000 ostéopathes du total affiché par le registre RPPS.
+{{< alert type="info">}}
+Un **homonyme** correspond aux ostéopathes ayant le même nom et prénom.
+Un **doublon exact** correspond aux ostéopathes ayant le même nom, prénom
+et numéro ADELI/RPPS.
+{{</alert>}}
+
+Cela signifie que depuis la bascule, il est plus correct de **systématiquement
+soustraire 5&nbsp;000 ostéopathes du total affiché par le registre RPPS**.
 
 ### À quoi sert le ratio habitants par ostéopathe&nbsp;?
 Le ratio du **nombre d'habitants par ostéopathe est un indicateur clé**
@@ -409,6 +415,10 @@ Afin d'avoir une vision plus concrète de la répartition de ces charges, le tab
 | **Total taxes et impôts** | **6&nbsp;522€** | **10&nbsp;949€** | **14&nbsp;722€** | **22&nbsp;645€** |
 | **Total des charges** | **21&nbsp;181€** | **29&nbsp;655€** | **36&nbsp;131€** | **49&nbsp;614€** |
 
+{{< alert type="info">}}
+Les **Autres TFSE** correspond aux Télécommunications, Fournitures, et Services Extérieurs.
+{{</alert>}}
+
 ### Ces chiffres sont-ils représentatifs de la profession&nbsp;?
 Pour savoir si **ces chiffres étaient représentatifs de la profession dans son ensemble**,
 nous avons comparé ces données avec celles de la
@@ -548,9 +558,9 @@ les leviers les plus attractifs.
 ### Comment calculer le revenu maximal possible avec le chiffre d'affaire maximal théorique&nbsp;?
 D'après le mémoire de fin d'études d'Esteban Weil intitulé
 «L’ostéopathie profession en pleine expansion ou en saturation future»,
-portant sur la démographie de la profession, ainsi que notre expertise sur l'étude
-de marché et la démographie de la profession, nous vous proposons ici une méthode
-inédite et simple pour estimer le **chiffre d'affaire maximal théorique**.
+portant sur la démographie de la profession, ainsi que notre expertise,
+nous vous proposons ici une méthode inédite et simple pour estimer
+le **chiffre d'affaire maximal théorique**.
 
 Ce chiffre permet d'**évaluer simplement le revenu maximum possible dans une zone
 d'installation donnée** et voir si cela correpond à ses attentes
@@ -627,7 +637,7 @@ local, et donc de la pression démographique locale.
 Cela explique également l'augmentation aux systèmes de réservation en ligne
 qui traduisent les changements de comportement des patient·e·s:
 **la facilité d'accès à un ostéopathe** (disponibilité, rapidité
-de prise de rendez-vous, localisation) ainsi que la **la visibilité en ligne**
+de prise de rendez-vous, localisation) ainsi que **la visibilité en ligne**
 d'un ostéopathe jouent un rôle prépondérant dans le maintien et le développement
 de son activité: c'est un levier clé pour capter une part plus importante de la patientèle
 potentielle dans une zone donnée, malheureusement au détriment des autres
