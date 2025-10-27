@@ -23,18 +23,18 @@ add_closing_div: true
 ---
 À l’instar de nos
 [éditions précédentes]({{< ref "/dossiers/demographie" >}}),
-notre ambition reste la même: offrir une lecture claire,
+notre ambition reste la même : offrir une lecture claire,
 utile et transparente de la démographie des ostéopathes en France.
 
 Pour cette édition 2024, nous avons pu **enrichir les informations** que nous
-utilisons ainsi que nos sources pour affiner encore davantage les données
+utilisons ainsi que nos sources, pour affiner encore davantage les données
 et les analyses. Parmi les nouvelles sources, on retrouve principalement la
 **<abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>**
 concernant le nombre d’ostéopathes ainsi que les revenus en fonction des statuts.
 
 L’objectif de notre article ici est multiple:
 - dans un premier temps, nous revenons sur les **chiffres principaux** qui
-  permettent de situer la profession aujourd’hui;
+  permettent de situer la profession aujourd’hui ;
 - puis nous poursuivons avec une **analyse démographique et territoriale** afin
   de mieux saisir les disparités et tendances régionales en France.
 
@@ -127,7 +127,7 @@ Si vous vous référez au registre **<abbr title="Automatisation DEs LIstes">ADE
 vous trouverez un total de 41&nbsp;579 ostéopathes inscrits au 1er janvier 2024.
 Ce registre est connu depuis de nombreuses années pour avoir
 **de nombreux inconvénients (personnes décédées, reconverties, en retraite, ...)**,
-on peut donc considéré que **ce chiffre est faux**.
+on peut donc considérer **ce chiffre comme erroné**.
 Pour mieux comprendre le problème, nous vous invitons à consulter la section
 ["Comment expliquer une telle différence entre vos chiffres et le registre ADELI ?"
 dédiée à cette question sur la démographie 2023]({{< ref "/dossiers/demographie/OP-UFWVPK-4_osteopathes-maj-2023" >}}#comment-expliquer-une-telle-diff%C3%A9rence-entre-ces-chiffres-et-le-registre-abbr-titleautomatisation-des-listesadeliabbr-).
@@ -139,9 +139,10 @@ Dû aux limites des registres nationaux, nous nous efforçons chaque
 année de **croiser plusieurs sources** et d'affiner notre méthode pour obtenir
 une estimation plus réaliste du nombre d'ostéopathes réellement en activité en France.
 
-Cette année, nous avons notamment intégré une nouvelle source de données qui nous
-a été suggérée par [rapport de l'IGAS publié en 2023]({{< ref "/dossiers/rapport-igas-2022" >}}):
-la <abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr> qui nous a permis d'affiner notre estimation.
+Cette année, nous avons intégré les données de la
+<abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">**CIPAV**</abbr>, notamment suite aux suggestions du
+[rapport de l'IGAS publié en 2023]({{< ref "/dossiers/rapport-igas-2022" >}}),
+afin d'affiner notre estimation.
 
 C'est la caisse de retraite obligatoire des ostéopathes exclusifs, et elle
 recense **18&nbsp;492 ostéopathes exclusifs** en 2024. Ce chiffre est fiable
@@ -155,23 +156,24 @@ disposons d'une estimation indépendante et plutôt fiable du nombre total
 d'ostéopathes rééllement en activité. Pour 2024, nous estimons donc
 le **nombre total d'ostéopathes en exercice en France à 30&nbsp;122**.
 
+[![Nombre d'ostéopathes en France de 2019 à 2024 d'après le registre ADELI (nouvellement RPPS) versus le recensement osteopathes.pro et la différence](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)
+
 Cela regroupe tous les ostéopathes, qu'ils soient exclusifs ou non-exclusifs.
 En soustrayant le nombre d'exclusifs (18&nbsp;492), on en déduit qu'il y aurait environ
 **11&nbsp;630 ostéopathes non-exclusifs**, soit 38% du total.
 
-[![Nombre d'ostéopathes en France de 2019 à 2024 d'après le registre ADELI (nouvellement RPPS) versus le recensement osteopathes.pro et la différence](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)
+[![Répartition des ostéopathes exclusifs et non exclusifs en France](./repartition-des-osteopathes-exclusifs-et-non-exclusifs-en-france-en-2024.svg)](./repartition-des-osteopathes-exclusifs-et-non-exclusifs-en-france-en-2024.svg)
 
 On voit donc que la différence entre le registre ADELI et notre estimation
 reste importante, et cohérente avec les tendances observées les années précédentes.
 
-Cette année nous avons **recensé pour la première fois une diminution
-de 1&nbsp;132 ostéopathes de moins** qu'en 2023 (31&nbsp;254 en 2023 contre 30&nbsp;122 en 2024).
+Cette année nous avons **recensé pour la première fois une diminution, soit 1&nbsp;132 ostéopathes de moins** qu'en 2023 (31&nbsp;254 en 2023 contre 30&nbsp;122 en 2024).
 Nous pensons que cela est principalement dû à une amélioration de notre méthode
 de recensement et à un meilleur filtrage des faux positifs (données obsolètes).
 
 Concernant la densité moyenne d'ostéopathes en France en 2024, si l'on prend les chiffres du registre
 <abbr title="Automatisation DEs LIstes">ADELI</abbr>, on obtient une densité moyenne de
-1&nbsp;645 ostéopathe pour 1&nbsp;651 habitants[^3]; et avec notre recensement plus précis,
+1&nbsp;645 habitants pour 1 ostéopathe[^3]; et avec notre recensement plus précis,
 cela correspond plutôt à un **ratio de 2&nbsp;270 habitants par ostéopathe** sur le territoire.
 
 ### Qu'en est-il de la bascule ADELI vers RPPS en octobre 2024&nbsp;?
@@ -248,7 +250,7 @@ concentrer dans des zones déjà saturées**, ce qui peut rendre la pression
 démographique locale très élevée.
 
 Ces disparités de répartition se traduisent par des écarts importants
-dans le ratio: celui ci atteint jusqu'à **250 habitants par ostéopathe** dans certaines
+dans le ratio: celui-ci atteint jusqu'à **250 habitants par ostéopathe** dans certaines
 communes touristiques ou urbaines, tandis que dans d'autres zones, il peut dépasser
 les **10&nbsp;000 habitants par ostéopathe**. Nous constatons également que le nombre
 de communes avec un ratio élevé (peu d'ostéopathes) tend à se raréfier au fil des années
@@ -398,6 +400,7 @@ Afin d'avoir une vision plus concrète de la répartition de ces charges, le tab
 
 | Catégorie de charge | 1er Quartile&nbsp;(Q1) | 2ème Quartile&nbsp;(Q2) | 3ème Quartile&nbsp;(Q3) | 4ème Quartile&nbsp;(Q4) |
 | --- | ---: | ---: | ---: | ---: |
+| Recettes | 23&nbsp;857€ | 49&nbsp;098€ | 64&nbsp;291€ | 92&nbsp;050€ |
 | Loyer et charges locatives | 5&nbsp;598€ | 6&nbsp;923€ | 7&nbsp;908€ | 9&nbsp;757€ |
 | *soit mensuellement :* | *467€* | *577€* | *659€* | *813€* |
 | Frais de déplacement | 2&nbsp;741€ | 3&nbsp;928€ | 4&nbsp;115€ | 4&nbsp;787€ |
@@ -405,15 +408,18 @@ Afin d'avoir une vision plus concrète de la répartition de ces charges, le tab
 | Autres frais divers de gestion | 1&nbsp;356€ | 1&nbsp;718€ | 1&nbsp;800€ | 2&nbsp;393€ |
 | Fournitures de bureau | 1&nbsp;010€ | 1&nbsp;178€ | 1&nbsp;350€ | 1&nbsp;749€ |
 | Honoraires | 808€ | 933€ | 1&nbsp;286€ | 1&nbsp;749€ |
+| Dotations aux amortissements | 721€ | 884€ | 1&nbsp;093€ | 1&nbsp;657€ |
+| Locations | 404€ | 786€ | 900€ | 1&nbsp;105€ |
 | Primes d'assurances | 548€ | 589€ | 643€ | 828€ |
 | Frais de réception | 433€ | 589€ | 771€ | 920€ |
 | Achats | 202€ | 295€ | 321€ | 644€ |
-| **Total des charges HORS taxes et impôts** | **14&nbsp;659€** | **18&nbsp;706€** | **21&nbsp;409€** | **26&nbsp;970€** |
+| Frais financiers | 231€ | 245€ | 257€ | 368€ |
+| **Total des charges HORS taxes et impôts** | **16&nbsp;015€** | **20&nbsp;621€** | **23&nbsp;659€** | **30&nbsp;099€** |
 | Charges sociales | 4&nbsp;819€ | 8&nbsp;298€ | 11&nbsp;315€ | 17&nbsp;766€ |
 | *soit mensuel :* | *402€* | *691€* | *943€* | *1480€* |
 | Impôts et taxes | 1&nbsp;703€ | 2&nbsp;651€ | 3&nbsp;407€ | 4&nbsp;879€ |
 | **Total taxes et impôts** | **6&nbsp;522€** | **10&nbsp;949€** | **14&nbsp;722€** | **22&nbsp;645€** |
-| **Total des charges** | **21&nbsp;181€** | **29&nbsp;655€** | **36&nbsp;131€** | **49&nbsp;614€** |
+| **Total des charges** | **22&nbsp;537€** | **31&nbsp;569€** | **38&nbsp;381€** | **52&nbsp;744€** |
 
 {{< alert type="info">}}
 Les **Autres TFSE** correspond aux Télécommunications, Fournitures, et Services Extérieurs.
@@ -634,8 +640,8 @@ que peut espérer avoir un ostéopathe dépend peu de sa durée d'installation
 ou de son expérience**, et bien plus du ratio habitants&nbsp;/&nbsp;ostéopathe
 local, et donc de la pression démographique locale.
 
-Cela explique également l'augmentation aux systèmes de réservation en ligne
-qui traduisent les changements de comportement des patient·e·s:
+Cela explique également l'augmentation du recours aux systèmes de réservation en ligne,
+qui traduit un changement de comportement des patient·e·s:
 **la facilité d'accès à un ostéopathe** (disponibilité, rapidité
 de prise de rendez-vous, localisation) ainsi que **la visibilité en ligne**
 d'un ostéopathe jouent un rôle prépondérant dans le maintien et le développement
