@@ -28,9 +28,7 @@ utile et transparente de la démographie des ostéopathes en France.
 
 Pour cette édition 2024, nous avons pu **enrichir les informations** que nous
 utilisons ainsi que nos sources pour affiner encore davantage les données
-et les analyses. Parmi les nouvelles sources, on retrouve notamment le
-**Registre National des Entreprises (RNE)** afin d’affiner les statistiques
-concernant les ostéopathes en activité et la
+et les analyses. Parmi les nouvelles sources, on retrouve principalement la
 **<abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>**
 concernant le nombre d’ostéopathes ainsi que les revenus en fonction des statuts.
 
@@ -45,7 +43,11 @@ ostéopathique. Vous trouverez également à la fin notre méthode quant à
 l’obtention et au traitement des données, ainsi que les définitions
 des termes importants employés.
 
-**Bonne lecture !**
+Nous tenons à remercier chaleureusement toutes les personnes qui contribuent
+et qui ont contribué à rendre cette étude possible: nos adhérents, nos partenaires,
+nos soutiens, ... Merci à vous toutes et tous !
+
+**Bonne lecture**
 
 <!--more-->
 
@@ -117,7 +119,6 @@ détaillée de notre profession.
 
 ## L’analyse démographique et territoriale
 ### Combien y-a-t il d'ostéopathes en France et comment évolue ce chiffre&nbsp;?
-
 D'après **notre étude annuelle la plus robuste**, nous estimons qu'il y a environ
 **30&nbsp;122 ostéopathes en activité en France** en 2024. Pour comprendre
 comment nous obtenons ce chiffre, lisez la suite.
@@ -147,9 +148,9 @@ recense **18&nbsp;492 ostéopathes exclusifs** en 2024. Ce chiffre est fiable
 car il correspond à des praticiens qui ont cotisé rééllement
 pour leur retraite en tant qu'ostéopathe.
 
-![Nombre d'ostéopathes en France de 2010 à 2024 d'après le registre ADELI (nouvellement RPPS) et le nombre d'ostéopathes exclusifs d'après la CIPAV](./nombre-osteopathes-en-france-de-2010-a-2024-source-rpps-et-cipav.svg)
+[![Nombre d'ostéopathes en France de 2010 à 2024 d'après le registre ADELI (nouvellement RPPS) et le nombre d'ostéopathes exclusifs d'après la CIPAV](./nombre-osteopathes-en-france-de-2010-a-2024-source-rpps-et-cipav.svg)](./nombre-osteopathes-en-france-de-2010-a-2024-source-rpps-et-cipav.svg)
 
-Grâce à notre propre système d'analyse (voir la section Méthodologie), nous
+Grâce à notre propre système d'analyse (voir la section [Méthodologie](#méthodologie)), nous
 disposons d'une estimation indépendante et plutôt fiable du nombre total
 d'ostéopathes rééllement en activité. Pour 2024, nous estimons donc
 le **nombre total d'ostéopathes en exercice en France à 30&nbsp;122**.
@@ -158,7 +159,7 @@ Cela regroupe tous les ostéopathes, qu'ils soient exclusifs ou non-exclusifs.
 En soustrayant le nombre d'exclusifs (18&nbsp;492), on en déduit qu'il y aurait environ
 **11&nbsp;630 ostéopathes non-exclusifs**, soit 38% du total.
 
-![Nombre d'ostéopathes en France de 2019 à 2024 d'après le registre ADELI (nouvellement RPPS) versus le recensement osteopathes.pro et la différence](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)
+[![Nombre d'ostéopathes en France de 2019 à 2024 d'après le registre ADELI (nouvellement RPPS) versus le recensement osteopathes.pro et la différence](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)
 
 On voit donc que la différence entre le registre ADELI et notre estimation
 reste importante, et cohérente avec les tendances observées les années précédentes.
@@ -172,11 +173,25 @@ Concernant la densité moyenne d'ostéopathes en France en 2024, si l'on prend l
 <abbr title="Automatisation DEs LIstes">ADELI</abbr>, on obtient une densité moyenne de
 1&nbsp;645 ostéopathe pour 1&nbsp;651 habitants[^3]; et avec notre recensement plus précis,
 cela correspond plutôt à un **ratio de 2&nbsp;270 habitants par ostéopathe** sur le territoire.
-En terme d'évolution, cela représente une légère amélioration par rapport à 2023
-(1 ostéopathe pour 2&nbsp;177 habitants en 2023).
 
-### À quoi sert le ratio habitants par ostéopathe?
+#### Que s'est-il passé en octobre 2024&nbsp;?
+Certain·e·s d'entre vous l'ont probablement remarqué: en octobre 2024,
+le registre ADELI a été remplacé par le registre
+<abbr title="Répertoire Partagé des Professionnels intervenant dans le système de Santé">RPPS</abbr>
+(Répertoire Partagé des Professionnels intervenant dans le système de Santé).
 
+Cette migration a engendré un effet secondaire notable: **une augmentation
+notable du nombre de doublons** dans le registre:
+- En effet, en 2023, nous avions identifié 1&nbsp;456 homonymes dont 855 doublons exacts (même numéro ADELI).
+- En septembre 2024 nous avons comptabilisé 1&nbsp;618 homonymes dont 896 doublons exacts.
+- En octobre 2024, quelques jours après la bascule vers le registre RPPS,
+  nous avons recensé 5&nbsp;524 homonymes dont **5&nbsp;040 doublons exacts**,
+  une **augmentation de 4&nbsp;000 doublons en quelques semaines** !
+
+Cela signifie que depuis la bascule, il est plus correct de systématiquement
+soustraire 5&nbsp;000 ostéopathes du total affiché par le registre RPPS.
+
+### À quoi sert le ratio habitants par ostéopathe&nbsp;?
 Le ratio du **nombre d'habitants par ostéopathe est un indicateur clé**
 pour évaluer la densité de praticien·ne·s sur un territoire.
 
@@ -213,8 +228,7 @@ l'offre de santé existante, les habitudes de la population, etc...
 
 <div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
-### La repartition des ostéopathes sur le territoire est-elle homogène ?
-
+### La repartition des ostéopathes sur le territoire est-elle homogène&nbsp;?
 Si vous avez déjà consulté notre
 [carte interactive de la démographie des ostéopathes en France](https://www.osteopathes.pro/fr/cartographie),
 vous avez pu constater que **la répartition des ostéopathes n'est pas homogène
@@ -257,17 +271,16 @@ section sur l'**étude de marché** plus bas dans cet article.
 
 <div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
-### Le genre comme facteur différenciant local?
-
+### Le genre comme facteur différenciant local&nbsp;?
 Pour conclure cette section démographique, abordons la répartition
 homme/femme chez les ostéopathes en France.
 
 D'après plusieurs analyses, en 2009 par l'OSEO[^1] puis en 2021 par le ROF[^5],
-la profession d'ostéopathe tendrait à se féminiser au fil des années
+la **profession d'ostéopathe tendrait à se féminiser au fil des années**
 au rythme de 6% par an avec une majorité de femmes attendue pour 2022.
 
 Cependant, les données du registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>
-des dernières années montrent que cette féminisation est en ralentissement, avec
+des dernières années montrent que cette **féminisation est en ralentissement**, avec
 toujours une majorité d'hommes:
 - 2022 avec 55% d'hommes et 45% de femmes
 - 2023 avec 54,5% d'hommes et 45,5% de femmes
@@ -277,16 +290,19 @@ toujours une majorité d'hommes:
 
 Au-delà de cette évolution nationale, il peut être pertinent
 d'observer les **disparités locales**.
-Dans certaines zones où l'un des sexes est très majoritaire,
-un praticien du sexe opposé peut y trouver un **facteur différenciant non négligeable**.
+Dans certaines zones où l'un des genres est très majoritaire,
+un praticien du genre opposé peut y trouver un **facteur différenciant non négligeable**.
 Cela peut devenir un atout distinctif fort lors du choix de son
-thérapeute[^6], et donc un élément clé à considérer !
+thérapeute[^6], et donc un élément à considérer !
 
 [^6]: [Enquête Fedosoli 2025 – L’ostéopathie pour tous, un rêve ?](https://fedosoli.org/acces-aux-soins-osteopathiques/)
 
 ## L'analyse économique
-### Combien gagne un ostéopathe ?
+L'année dernière nous avons introduit une section dédiée à l'analyse
+économique de la profession d'ostéopathe en France. Cette année, nous
+poursuivons dans cette voie en approfondissant certains aspects.
 
+### Combien gagne un ostéopathe&nbsp;?
 C'est *la* question que beaucoup se posent – et nous allons tenter d'y répondre
 le plus précisément possible.
 
@@ -308,29 +324,98 @@ gagne moins que ce montant, et l'autre gagne plus. Il faut également garder en 
 **le bénéfice n'est pas un salaire** au sens strict: il s'agit du **revenu net avant impôts**,
 après déductions des charges.
 
-#### Quels sont les revenus des ostéopathes en fonction des quartiles ?
+En comparaison avec les années précédentes, on constate que
+**le chiffre d'affaires moyen reste stable** avec 58&nbsp;448€ en 2022,
+58&nbsp;653€ en 2023 et 58&nbsp;649€ en 2024. Cependant, **le bénéfice
+moyen est plus volatile**: 23&nbsp;641€ en 2022, 25&nbsp;460€ en 2023 et
+23&nbsp;845€ soit une diminution de 6,3% de 2023 à 2024. En cause, une
+**augmentation des charges professionnelles** depuis plusieurs années.
 
+[![Chiffres d'affaires ou Recettes des ostéopathes en France par quartiles, de 2002 à 2024 d'après l'UNASA](./recettes-ou-chiffre-d-affaires-des-osteopathes-en-france-de-2002-a-2024-d-apres-unasa.svg)](./recettes-ou-chiffre-d-affaires-des-osteopathes-en-france-de-2002-a-2024-d-apres-unasa.svg)
+
+[![Charges des ostéopathes en France par quartiles, de 2002 à 2024 d'après l'UNASA](./charges-des-osteopathes-en-france-de-2002-a-2024-d-apres-unasa.svg)](./charges-des-osteopathes-en-france-de-2002-a-2024-d-apres-unasa.svg)
+
+[![Bénéfices des ostéopathes en France par quartiles, de 2002 à 2024 d'après l'UNASA](./benefices-des-osteopathes-en-france-de-2002-a-2024-d-apres-unasa.svg)](./benefices-des-osteopathes-en-france-de-2002-a-2024-d-apres-unasa.svg)
+
+### Comment se répartissent les revenus des ostéopathes&nbsp;?
 Le tableau *ci-dessous* expose alors les **recettes et bénéfices des ostéopathes en 2024**,
-et la colonne "***revenus mensuels bruts***" correspond à notre estimation
-de **revenu mensuel**, via le
+et la colonne "***revenus mensuels nets***" correspond à notre estimation
+de **revenu mensuel réel**, via le
 **[simulateur de revenus osteopathes.pro](https://www.osteopathes.pro/fr/choisir-son-statut-juridique-liberal)**, en prenant donc en compte les impôts sur le revenu et supposant une situation maritale celibataire.
 
 | Indicateur statistique | Recettes | Bénéfices annuels | Revenus mensuels nets |
 | --- | ---: | ---: | ---: |
 | 1er Quartile (Q1) | 28&nbsp;857€ | 9&nbsp;534€ | 794€ |
-| Médiane | 49&nbsp;098€ | 19&nbsp;225€ | 1&nbsp;600€ |
-| Moyenne nationale | 58&nbsp;649€ | 23&nbsp;845€ | 1&nbsp;987€ |
-| 3ème Quartile (Q3) | 64&nbsp;291€ | 26&nbsp;890€ | 2&nbsp;240€ |
-| 4ème Quartile (Q4) | 92&nbsp;050€ | 39&nbsp;608€ | 3&nbsp;300€ |
+| Médiane | 49&nbsp;098€ | 19&nbsp;225€ | 1&nbsp;560€ |
+| Moyenne nationale | 58&nbsp;649€ | 23&nbsp;845€ | 1&nbsp;881€ |
+| 3ème Quartile (Q3) | 64&nbsp;291€ | 26&nbsp;890€ | 2&nbsp;093€ |
+| 4ème Quartile (Q4) | 92&nbsp;050€ | 39&nbsp;608€ | 2&nbsp;833€ |
 
-#### Ces chiffres sont-ils représentatifs de la profession ?
+### Quelles sont les principales charges des ostéopathes ?
+Le **bénéfice d'un ostéopathe dépend de ses charges professionnelles**.
+Si on veut donc comprendre combien gagne un ostéopathe ou si l'on
+souhaite optimiser ses revenus, il est crucial d'analyser les charges en détail
+et de comprendre leur répartition.
 
+Les charges peuvent se diviser en deux principales catégories:
+- les charges de fonctionnement (loyer, matériel, fournitures, déplacements, ...);
+- les impôts et taxes dont principalement les cotisations sociales (maladie, retraite, ...).
+
+Lorsque nous parlons de charges, nous faisons référence à la **somme de ces deux catégories**.
+
+En reprenant les chiffres de l'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>,
+nous pouvons analyser la répartition des charges des ostéopathes. Gardons une
+nouvelle fois à l'esprit que les chiffres de
+l'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>
+concernent uniquement les ostéopathes au **régime réel** (*déclaration controlée, formulaire 2035*).
+Nous pouvons cependant considérer que ces chiffres sont représentatifs de la profession
+dans son ensemble, comme nous le verrons plus loin.
+
+En 2024, **la médiane des charges annuelles** est de 29&nbsp;873€, avec un
+1er quartile (Q1) à 19&nbsp;323€ et un 3ème quartile (Q3) à 37&nbsp;401€.
+En d'autres termes, **la moitié des ostéopathes au régime réel dépensent
+entre 19&nbsp;323€ et 37&nbsp;401€ de charges par an**.
+
+Si l'on compare ces données aux recettes annuelles, on constate que
+les ostéopathes au régime réel payent en moyenne entre
+**51% et 67% de charges professionnelles**, avec un taux médian à 51%.
+
+| Indicateur statistique | Charges | Pourcentage des recettes |
+| --- | ---: | ---: |
+| 1er Quartile (Q1) | 19&nbsp;323€ | 67% |
+| Médiane | 29&nbsp;873€ | 51% |
+| Moyenne nationale | 34&nbsp;804€ | 59% |
+| 3ème Quartile (Q3) | 37&nbsp;401€ | 58% |
+| 4ème Quartile (Q4) | 52&nbsp;442€ | 57% |
+
+Afin d'avoir une vision plus concrète de la répartition de ces charges, le tableau ci-dessous détaille comment se divisent celles-ci :
+
+| Catégorie de charge | 1er Quartile&nbsp;(Q1) | 2ème Quartile&nbsp;(Q2) | 3ème Quartile&nbsp;(Q3) | 4ème Quartile&nbsp;(Q4) |
+| --- | ---: | ---: | ---: | ---: |
+| Loyer et charges locatives | 5&nbsp;598€ | 6&nbsp;923€ | 7&nbsp;908€ | 9&nbsp;757€ |
+| *soit mensuellement :* | *467€* | *577€* | *659€* | *813€* |
+| Frais de déplacement | 2&nbsp;741€ | 3&nbsp;928€ | 4&nbsp;115€ | 4&nbsp;787€ |
+| Autres TFSE | 1&nbsp;962€ | 2&nbsp;553€ | 3&nbsp;215€ | 4&nbsp;142€ |
+| Autres frais divers de gestion | 1&nbsp;356€ | 1&nbsp;718€ | 1&nbsp;800€ | 2&nbsp;393€ |
+| Fournitures de bureau | 1&nbsp;010€ | 1&nbsp;178€ | 1&nbsp;350€ | 1&nbsp;749€ |
+| Honoraires | 808€ | 933€ | 1&nbsp;286€ | 1&nbsp;749€ |
+| Primes d'assurances | 548€ | 589€ | 643€ | 828€ |
+| Frais de réception | 433€ | 589€ | 771€ | 920€ |
+| Achats | 202€ | 295€ | 321€ | 644€ |
+| **Total des charges HORS taxes et impôts** | **14&nbsp;659€** | **18&nbsp;706€** | **21&nbsp;409€** | **26&nbsp;970€** |
+| Charges sociales | 4&nbsp;819€ | 8&nbsp;298€ | 11&nbsp;315€ | 17&nbsp;766€ |
+| *soit mensuel :* | *402€* | *691€* | *943€* | *1480€* |
+| Impôts et taxes | 1&nbsp;703€ | 2&nbsp;651€ | 3&nbsp;407€ | 4&nbsp;879€ |
+| **Total taxes et impôts** | **6&nbsp;522€** | **10&nbsp;949€** | **14&nbsp;722€** | **22&nbsp;645€** |
+| **Total des charges** | **21&nbsp;181€** | **29&nbsp;655€** | **36&nbsp;131€** | **49&nbsp;614€** |
+
+### Ces chiffres sont-ils représentatifs de la profession&nbsp;?
 Pour savoir si **ces chiffres étaient représentatifs de la profession dans son ensemble**,
 nous avons comparé ces données avec celles de la
 <abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>. En effet, celle-ci recevant la totalité des cotisations
 des ostéopathes exclusifs, ses chiffres représentent une source de données intéressantes
 pour valider l'ordre de grandeur des revenus des ostéopathes, quel que soit leur régime
-fiscal (micro-BNC ou réel). Notons qu'en 2024, **33% des ostéopathes exclusifs sont
+fiscal (micro-BNC ou régime réel). Notons qu'en 2024, **33% des ostéopathes exclusifs sont
 au régime micro-BNC** selon la <abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>.
 
 En comparant les médianes de 2010 à 2022, nous avons constaté que l'écart
@@ -364,83 +449,48 @@ les données de l'<abbr title="Union Nationale des ASsociations Agréées">UNASA
 ne permettent pas de le savoir précisément, ni celles de la <abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>.
 Peut-être arriverons-nous à répondre à cette question dans une prochaine édition.
 
-### Combien de fois les patient·e·s consultent-t-ils chaque année?
-
-D'apès le
-[**baromètre Odoxa pour l'UPO**](https://www.ecole-osteopathie-paris.fr/app/uploads/sites/11/2024/07/odoxa-pour-upo-les-francais-et-losteopathie-juin-2024-1.pdf?) (juin 2024),
-**les français vont chez l'ostéopathe en moyenne 1,45 fois par an**. Près d'un sur deux (47%) consulte une à deux fois par an, tandis que **16% y vont plus souvent**.
-D'après les données **osteopathes.pro**, recoupées avec les données de plusieurs cliniques, le nombre moyen de consultations est de **1,5 fois par an**, un chiffre proche du baromètre Odoxa.
-Cette donnée semble donc fiable car obtenue en recoupant diverses sources. Elle traduit alors un recours à l'ostéopathie ponctuel et ancré dans les habitudes des français.
-
-### *Pourquoi calculer son chiffre d'affaire maximal théorique et comment faire&nbsp;?*
-
-Calculer son **CA maximal théorique** permet de se donner une référence haute, afin d'évaluer le potentiel économique d'une zone d'installation ou pour comparer plusieurs territoires avant de s'y établir ; voire pour estimer la croissance de son cabinet par rapport au potentiel maximal qu'il pourrait développer.
-
-Pour estimer ce chiffre, on peut part d'un raisonnement simple : le ratio d'habitants par ostéopathe représente un **bassin de patients potentiels**. Ici, nous allons utiliser pour exemple le ratio moyen français, soit pour rappel **2&nbsp;294 habitants par ostéopathe** selon nos données.
-
-Selon Harris Interactive dans "Observatoire des parcours de soins des Français" (2019), **un français sur deux** consulte, ou a déjà consulté, un ostéopathe. Suivant cela, on divise donc le ratio par deux -- soit dans notre cas environ **1&nbsp;150 personnes susceptibles de consulter** un praticien.
-D'après **Odoxa pour l'UPO** (mai 2024), ces patients réalisent en moyenne 1,5 consultations par an. Ainsi, en multipliant le nombre de patients par le nombre de fois qu'il consultent, on obtient **1&nbsp;725 consultations annuelles possibles**.
-
-Enfin, considérant un tarif moyen de 60€ (source), le **chiffre d'affaire annuel maximal théorique** pour notre exemple ressort à environ **103&nbsp;500€**.
-
-En résumé : **CA max théorique = (ratio habitants par ostéopathe ÷ 2) x 1,5 x tarif de la consultation**
-
-Attention, il faut garder à l'esprit que ce calcul donne une **vision haute** du potentiel économique du cabinet, **dans un contexte idéal** *(en somme, peu réaliste)*. Notons également qu'il s'agit d'une estimation du **chiffre d'affaire brut**, pour estimer un **revenu**, il faut notamment prendre en compte les charges professionnelles (loyer, matériel, etc...) qui représentent souvent **un pourcentage conséquent du CA** selon les praticiens.
-
-### *Combien de charges annuelles payent les ostéopathes&nbsp;?*
-
-À nouveau, les données récoltées par **l'
-<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>** permettent d'estimer relativement précisément les **charges** payées par les ostéopathes.
-Ces charges comprennent à la fois les cotisations sociales, les loyers, le matériel, les déplacements, ainsi que globalement **toutes les dépenses liées à l'activité**.
-Gardons une nouvelle fois à l'esprit que les chiffres de l'<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr> concernent uniquement les ostéopathes au **régime réel** (*déclaration controlée, formulaire 2035*)
-
-En 2024, **la médiane des charges annuelles** est de 29&nbsp;873€, avec un **quartile inférieur (Q1) à 19&nbsp;333€** et un **quartile supérieur (Q3) à 37&nbsp;401€**.
-En d'autres termes, **la moitié des ostéopathes au régime réel dépensent entre 19&nbsp;333€ et 37&nbsp;401€ de charges par an**.
-
-Si l'on compare ces données aux recettes annuelles, on constate que les ostéopathes au régime réel payent en moyenne entre **50% et 60% de charges professionnelles**, avec un taux médian à 51%.
-
-| Indicateur statistique | Charges |
-| --- | ---: |
-| 1er Quartile (Q1) | 19&nbsp;333€ |
-| 2ème Quartile (Q2) | 29&nbsp;873€ |
-| Moyenne nationale | 34&nbsp;804€ |
-| 3ème Quartile (Q3) | 37&nbsp;401€ |
-| 4ème Quartile (Q4) | 52&nbsp;442€ |
-
-Afin d'avoir une vision plus concrète de la répartition de ces charges, le tableau ci-dessous détaille comment se divisent celles-ci :
-
-| Catégorie de charge | 1er Quartile&nbsp;(Q1) | 2ème Quartile&nbsp;(Q2) | 3ème Quartile&nbsp;(Q3) | 4ème Quartile&nbsp;(Q4) |
-| --- | ---: | ---: | ---: | ---: |
-| Loyer et charges locatives | 5&nbsp;598€ | 6&nbsp;923€ | 7&nbsp;908€ | 9&nbsp;757€ |
-| *soit mensuel :* | *467€* | *577€* | *659€* | *813€* |
-| Frais de déplacement | 2&nbsp;741€ | 3&nbsp;928€ | 4&nbsp;115€ | 4&nbsp;787€ |
-| Autres TFSE | 1&nbsp;962€ | 2&nbsp;553€ | 3&nbsp;215€ | 4&nbsp;142€ |
-| Autres frais divers de gestion | 1&nbsp;356€ | 1&nbsp;718€ | 1&nbsp;800€ | 2&nbsp;393€ |
-| Fournitures de bureau | 1&nbsp;010€ | 1&nbsp;178€ | 1&nbsp;350€ | 1&nbsp;749€ |
-| Honoraires | 808€ | 933€ | 1&nbsp;286€ | 1&nbsp;749€ |
-| Primes d'assurances | 548€ | 589€ | 643€ | 828€ |
-| Frais de réception | 433€ | 589€ | 771€ | 920€ |
-| Achats | 202€ | 295€ | 321€ | 644€ |
-| **Total des charges HORS taxes et impôts** | **14&nbsp;659€** | **18&nbsp;706€** | **21&nbsp;409€** | **26&nbsp;970€** |
-| Charges sociales | 4&nbsp;819€ | 8&nbsp;298€ | 11&nbsp;315€ | 17&nbsp;766€ |
-| *soit mensuel :* | *402€* | *691€* | *943€* | *1480€* |
-| Impôts et taxes | 1&nbsp;703€ | 2&nbsp;651€ | 3&nbsp;407€ | 4&nbsp;879€ |
-| **Total taxes et impôts** | **6&nbsp;522€** | **10&nbsp;949€** | **14&nbsp;722€** | **22&nbsp;645€** |
-| **Total des charges** | **21&nbsp;181€** | **29&nbsp;655€** | **36&nbsp;131€** | **49&nbsp;614€** |
-
-
 ## Installation et étude de marché en ostéopathie
-### *Comment savoir si ma future zone d'installation a du potentiel&nbsp;?*
+Cette année, nous avons décidé d'ajouter une section dédiée
+à l'installation et à l'**étude de marché en ostéopathie**.
 
-Premièrement, il faut garder à l'esprit que le **ratio habitants&nbsp;/&nbsp;ostéopathe** permet de situer la présence d'ostéopathes déjà en place et donc **d'évaluer les zones peu denses qui sembleraient opportunes**.
-Dans un premier temps, il peut sembler pertinent de **comparer le ratio de la zone ciblée** (celui d'une commune notamment) avec le ratio moyen national et régional, puis des communes aux alentours :
--  **si le ratio est plus faible que la moyenne comparée**, cela traduit une offre ostéopathique plutôt élevée dans la zone ciblée.
--  **à l'inverse, un ratio plus élevé** peut signaler un potentiel manque de praticien, donc un marché probablement plus ouvert aux nouveaux ostéopathes souhaitant s'y installer.
-De plus, les chiffres de 2024 semblent indiquer que le **ratio d’habitants par ostéopathe** aurait une correlation relativement marquée avec le **revenu des praticiens** contrairement à des données comme le revenu médian de la population. Ainsi, prioriser un ratio confortable pourrait permettre d'assurer une meilleure stabilité économique, **même dans les bassins de vie plus modestes**.
+En effet, de nombreux étudiant·e·s en ostéopathie ou jeunes diplômé·e·s
+nous contactent régulièrement pour nous demander des conseils sur le choix
+de leur future zone d'installation. Nous allons donc aborder
+**plusieurs points clés à considérer pour estimer le potentiel d'une zone
+pour une future installation ou collaboration**. Cela peut permettre
+de **maximiser les chances de réussite et de pérennité du cabinet**.
 
- Ensuite -- comme dit précédemment -- pour donner un réel sens au ratio, il faut **croiser l'information avec d'autres indicateurs** : la taille et la répartition des statuts de la population concernée (âge, métier, revenus), la présence d'autres professions de santé (voire la présence d'un réseau personnel déjà implanté), les flux de mobilité des habitants (personnes qui partent travailler dans d'autres communes ou à l'inverse qui viendraient y travailler), ou encore les habitudes de recours à l'ostéopathie de la population concernée.
+### Comment savoir si ma future zone d'installation a du potentiel&nbsp;?
+Premièrement, il faut garder à l'esprit que
+le **ratio habitants&nbsp;/&nbsp;ostéopathe** permet de situer la présence
+d'ostéopathes déjà en place et donc **d'évaluer les zones peu denses qui semblent opportunes**.
+Pour savoir si une zone géographique donnée présente un potentiel intéressant,
+il est intéressant de **comparer le ratio de la zone ciblée** (celui d'une commune notamment)
+avec le ratio moyen national et régional, puis des communes aux alentours:
+-  **si le ratio est plus petit que la moyenne comparée**, cela traduit une
+   offre ostéopathique plutôt élevée dans la zone ciblée, et donc un marché probablement
+   plus difficile d'accès pour un nouvel ostéopathe souhaitant s'y installer;
+-  **à l'inverse, un ratio plus élevé** peut signaler une zone plus propice
+  aux nouveaux ostéopathes souhaitant s'y installer.
 
- **En résumé**, une étude de marché ne peut pas se résumer au ratio habitants / ostéopathe, mais celui-ci constitue un **indicateur d'équilibre** entre l'offre et la demande sur une zone géographique donnée. En le croisant avec d'autres indicateurs, il aide grandement à identifier les zones prometteuses, et constitue donc une base solide pour un projet d'installation.
+Comme nous avions pu le voir dans l'[étude économique en 2023 sur les régions]({{< ref "/dossiers/demographie/OP-UFWVPK-4_osteopathes-maj-2023" >}}#évolution-au-niveau-régional),
+il semblait y avoir une **corrélation entre le ratio habitants&nbsp;/&nbsp;ostéopathe
+et le bénéfice moyen des ostéopathes de cette région**. Cette tendance se confirme en 2024.
+Ainsi, prioriser un ratio confortable pourrait permettre d'assurer
+une meilleure stabilité économique et un meilleur potentiel de revenus,
+**même dans les bassins de vie plus modestes**.
+
+Ensuite – comme dit précédemment – pour donner un réel sens au ratio,
+il faut **croiser l'information avec d'autres indicateurs**: profil de la population
+locale (âge, revenus, métiers, habitudes, ...), présence d'autres professions de santé,
+les flux de mobilité des habitant·e·s, opportunités des locaux disponibles, réseau
+personnel déjà implanté, etc.
+
+**En résumé**, une étude de marché ne peut pas se résumer seulement
+au ratio habitants&nbsp;/&nbsp;ostéopathe, mais celui-ci constitue un
+**indicateur d'équilibre** entre l'offre et la demande sur une zone géographique
+donnée. En le croisant avec d'autres indicateurs, il aide grandement à identifier
+les zones prometteuses, et constitue donc **une base solide pour un projet d'installation**.
 
 </div>
 <div class="p-4 mb-6 border-l-4 border-teal-400 bg-teal-50">
@@ -450,9 +500,9 @@ De plus, les chiffres de 2024 semblent indiquer que le **ratio d’habitants par
     </div>
     <div class="ml-3">
       <p class="text-sm text-teal-700">
-        Pour un accompagnement plus complet, n'hésitez pas à consulter la
+        Pour aller plus loin sur le sujet, vous pouvez consultez notre
         <a class="underline" href="https://www.osteopathes.pro/fr/ressources/bds/etude-de-marche-comment-bien-choisir-ou-s-installer?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024">
-          BD sur l'installation
+          BD sur l'étude de marché.
         </a>
       </p>
     </div>
@@ -461,31 +511,155 @@ De plus, les chiffres de 2024 semblent indiquer que le **ratio d’habitants par
 
 <div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
-### *Quels facteurs font que les patients consultent en ostéopathie&nbsp;?*
+### Quels facteurs font que les patient·e·s consultent en ostéopathie&nbsp;?
+Un autre aspect important à considérer lorsqu'on souhaite s'installer
+ou même savoir développer son activité, c'est de comprendre **les facteurs
+qui influencent le recours à l'ostéopathie**.
 
-Une étude menée par
-**<abbr title="Fédération des Ostéopathes Solidaires">FédOsoli</abbr>** en 2024 questionne les français sur les facteurs qui influencent leur recours à l'ostéopathie. Celle-ci est basée sur un large questionnaire diffusé auprès du grand public, et met en évidence que **la décision de consulter ne repose pas uniquement sur la douleur** ou le besoin de soin ; mais sur un **ensemble de facteurs économiques, sociaux et relationnels**.
+Une étude menée par la **<abbr title="Fédération des Ostéopathes SOLIdaires">FédOSOLI</abbr>**
+en 2024 a questionné les français sur les facteurs qui influencent leur recours à
+l'ostéopathie. Celle-ci est basée sur un large questionnaire diffusé auprès de patient·e·s
+et du grand public, et met en évidence que **la décision de consulter ne repose
+pas uniquement sur la douleur** ou le besoin de soin; mais sur un **ensemble de
+facteurs économiques, sociaux et relationnels**.
 
-Avant tout, lorsqu'on questionne le public sur les raisons d'un non-recours à l'ostéopathie, le **coût et l'absence de remboursement** semblent les principaux freins, restreignant l'accès à l'ostéopathie notamment aux foyers à revenus modestes.
-À l'inverse, **disposer d'une mutuelle** qui prend partiellement en charge les consultations est **positivement associé au recours** : les personnent couvertes consultent significativement plus que celles qui ne le sont pas.
-Ainsi, les raisons évoquées parmi ceux qui ne consultent pas ou peu en ostéopathie paraissent plutôt **monétaires** que liées à la méconnaissance ou la méfiance envers la profession.
+Avant tout, lorsqu'on questionne le public sur les raisons d'un non-recours
+à l'ostéopathie, le **coût et l'absence de remboursement** semblent les principaux
+freins, restreignant l'accès à l'ostéopathie des foyers à revenus modestes.
+Ainsi, les raisons évoquées parmi ceux qui ne consultent pas ou peu en
+ostéopathie paraissent plutôt **financières** que liées à la méconnaissance
+ou la méfiance envers la profession.
 
-Lorsqu'ils choisissent un ostéopathe, les patients se montrent attentifs à **des critères très humains** : le **bouche à oreille** représente le critère principal -- **devant la localisation**. Les qualité liées à la **douceur, l'écoute, la pédagogie et le cadre de confiance** sont également citées comme **déterminentes dans le choix du praticien**.
-Autrement dit, le choix d'un ostéopathe semble **consciemment** reposer autant sur la **relation thérapeutique** que sur l'acte de soin en lui-même.
+Lorsqu'ils choisissent un ostéopathe, les patients se montrent attentifs
+à **des critères très humains**: le **bouche à oreille** représente le
+critère principal – **devant la localisation**. Les qualité liées à la
+**douceur, l'écoute, la pédagogie et le cadre de confiance** sont également
+citées comme **déterminentes dans le choix du praticien**.
+Autrement dit, le choix d'un ostéopathe semble **consciemment** reposer
+autant sur la **relation thérapeutique** que sur l'acte de soin en lui-même.
 
-En résumé, l'étude de
-**<abbr title="Fédération des Ostéopathes Solidaires">FédOsoli</abbr>**
-semble confirmer que le recours à l'ostéopathie tient à un équilibre entre **accessibilité financière et qualité relationnelle**. Le **bouche à oreille** et la confiance paraissent également les leviers les plus attractifs.
+En résumé, l'étude de la
+**<abbr title="Fédération des Ostéopathes Solidaires">FédOSOLI</abbr>**
+semble confirmer que le recours à l'ostéopathie tient à un équilibre
+entre **accessibilité financière et qualité relationnelle**.
+Le **bouche à oreille** et la confiance paraissent également
+les leviers les plus attractifs.
+
+### Comment calculer le revenu maximal possible avec le chiffre d'affaire maximal théorique&nbsp;?
+D'après le mémoire de fin d'études d'Esteban Weil intitulé
+«L’ostéopathie profession en pleine expansion ou en saturation future»,
+portant sur la démographie de la profession, ainsi que notre expertise sur l'étude
+de marché et la démographie de la profession, nous vous proposons ici une méthode
+inédite et simple pour estimer le **chiffre d'affaire maximal théorique**.
+
+Ce chiffre permet d'**évaluer simplement le revenu maximum possible dans une zone
+d'installation donnée** et voir si cela correpond à ses attentes
+en terme de revenus. Il peut également servir à comparer plusieurs zones
+avant de s'y installer ou pour estimer la croissance possible de son cabinet
+par rapport au potentiel maximal qu'il pourrait développer.
+
+Pour estimer ce chiffre, on peut partir d'un raisonnement simple:
+le **ratio d'habitants par ostéopathe représente la patientèle potentielle**.
+Pour rendre cela plus concret, imaginons un ostéopathe exerçant dans une zone
+où le ratio est de **2&nbsp;270 habitants par ostéopathe** (soit le ratio moyen français en 2024).
+
+Selon Harris Interactive en 2019[^8], **un français sur deux** consulte, ou
+a déjà consulté, un ostéopathe. Cette donnée est confirmée par plusieurs sondages,
+dont le plus récent est celui d'Odoxa pour l'UPO en mai 2024[^9].
+
+[^8]: [Observatoire des parcours de soins des Français – Harris Interactive (2019)](https://harris-interactive.fr/wp-content/uploads/sites/6/2019/11/Rapport-Harris-Etude-sur-les-Francais-et-les-medecines-douces-Santeclair.pdf) – Consulté le 26/10/2025
+[^9]: [Les Français et l'ostéopathie – Odoxa pour l'UPO (mai 2024)](https://www.ecole-osteopathie-paris.fr/app/uploads/sites/11/2024/07/odoxa-pour-upo-les-francais-et-losteopathie-juin-2024-1.pdf?) – Consulté le 26/10/2025
+
+Grâce à cette information, on peut estimer le nombre de patients
+susceptibles de consulter l'ostéopathe dans notre exemple: **2&nbsp;270 ÷ 2 = 1&nbsp;135 patients**.
+
+Il nous faut ensuite estimer **combien de fois ces patients consultent chaque année**.
+Toujours d'après le sondage Odoxa pour l'UPO (mai 2024), les français vont chez l'ostéopathe
+en moyenne **1,45 fois par an**. Nous avons souhaité confirmer cette donnée
+avec nos propres sources et d'après les statistiques internes de plusieurs cliniques ostéopathiques
+(qu'elles appartiennent à des praticien·ne·s en activité ou des écoles d'ostéopathie),
+nous retrouvons de façon indépendante une moyenne de consultations à **1,5 fois par an**.
+Cette donnée est issue de données quantitatives sur plus de 10&nbsp;000 consultations
+au cours de plusieurs années, et indique que le chiffre obtenu par Odoxa est valide.
+
+En multipliant le nombre de patients par le nombre de consultations annuelles,
+on obtient donc **1&nbsp;135 x 1,5 = 1&nbsp;702 consultations annuelles possibles**.
+
+Enfin, en considérant un tarif moyen de 60€ d'après le réseau Oostéo[^4], confirmé
+par nos propres analyses des tarifs pratiqués par les ostéopathes en France en 2024,
+on peut estimer le **chiffre d'affaire annuel maximal théorique**:
+**1&nbsp;702 x 60€ = 102&nbsp;120€**.
+
+[^4]: [Blog Oostéo – Quel est le tarif d'un ostéopathe ?](https://oosteo.com/blog/2018/01/quel-est-le-tarif-dun-osteopathe/)
+
+D'après les chiffres précédents sur les charges des ostéopathes,
+on peut estimer qu'un ostéopathe au régime réel et dans le 4e quartile de revenus
+paye 57% de charges. Ainsi, en déduisant ces charges du chiffre d'affaire maximal théorique,
+on peut estimer un **revenu annuel maximal théorique**:
+**102&nbsp;120€ x 43% = 43&nbsp;521€**, soit environ **3&nbsp;627€ par mois**.
+
+Pour résumer notre calcul, voici la formule complète:
+```
+ratio hab/ostéo x ratio de consultation = nb de patients potentiels
+nb de patients potentiels x nb de consultations annuelles par patient = nb de consultations annuelles du cabinet
+nb de consultations annuelles du cabinet x tarif de la consultation = CA max théorique
+CA max théorique x (1 - taux de charges) = revenu max. théorique annuel
+revenu max. théorique annuel ÷ 12 = revenu max. théorique mensuel
+```
+
+Avec les chiffres de notre exemple:
+```
+2 270 x 0,5 = 1 135 patients
+1 135 x 1,5 = 1 702 consultations annuelles
+1 702 x 60€ = 102 120€ de CA maximum théorique
+102 120€ x 43% = 43 521€ de revenu maximum théorique
+43 521€ ÷ 12 = 3 627€ de revenu maximum théorique mensuel
+```
+
+Bien entendu, ce calcul donne surtout une **estimation haute** du potentiel
+économique d'un cabinet dans une zone donnée et **dans un contexte idéal**.
+
+Cet outil a également comme intérêt de montrer que le **revenu maximum
+que peut espérer avoir un ostéopathe dépend peu de sa durée d'installation
+ou de son expérience**, et bien plus du ratio habitants&nbsp;/&nbsp;ostéopathe
+local, et donc de la pression démographique locale.
+
+Cela explique également l'augmentation aux systèmes de réservation en ligne
+qui traduisent les changements de comportement des patient·e·s:
+**la facilité d'accès à un ostéopathe** (disponibilité, rapidité
+de prise de rendez-vous, localisation) ainsi que la **la visibilité en ligne**
+d'un ostéopathe jouent un rôle prépondérant dans le maintien et le développement
+de son activité: c'est un levier clé pour capter une part plus importante de la patientèle
+potentielle dans une zone donnée, malheureusement au détriment des autres
+praticien·ne·s installés dans la même zone. De nombreux·ses ostéopathes
+ont pu constater cet effet par eux-mêmes au cours des dernières années.
+
+Pour terminer, voici un tableau des revenus maximums théoriques annuels et mensuels
+en fonction du ratio habitants&nbsp;/&nbsp;ostéopathe:
+
+| Ratio habitants&nbsp;/&nbsp;ostéopathe | Pourcentage de charges (adapté au quartile de recettes) | Revenu maximum théorique annuel | Revenu maximum théorique mensuel |
+| ---: | ---: | ---: | ---: |
+| 500 | 67% | 7&nbsp;425€ | 619€ |
+| 750 | 67% | 11&nbsp;138€ | 928€ |
+| 1&nbsp;000 | 67% | 14&nbsp;850€ | 1&nbsp;238€ |
+| 1&nbsp;500 | 58% | 28&nbsp;350€ | 2&nbsp;362€ |
+| 2&nbsp;000 | 58% | 37&nbsp;800€ | 3&nbsp;150€ |
+| 2&nbsp;270 (moyenne nationale 2024) | 57% | 43&nbsp;924€ | 3&nbsp;660€ |
+| 3&nbsp;000 | 57% | 58&nbsp;050€ | 4&nbsp;837€ |
 
 ## Méthodologie
+Pour cloturer cette étude, voici les explications d'usage sur notre méthodologie
+de collecte et d'analyse des données.
 
-### *Comment ces chiffres ont-ils été obtenus&nbsp;?*
-
-Globalement, chaque année nous utilisons les mêmes méthodes en tâchant d'en améliorer la qualité et la précision.
+### Comment faites-vous le recensement des ostéopathes en activité&nbsp;?
+Chaque année nous utilisons une méthode similaire, tout en tâchant **d'améliorer
+la qualité et la précision de nos résultats** en augmentant les recoupes de
+données entre nos sources et celles disponibles publiquement ainsi
+qu'en affinant nos algorithmes de traitement des données.
 
 </div><!-- Close prose for nice layout -->
 
-<div class="flow-root mt-8 mb-8 font-readable">
+<div class="flow-root max-w-xl mx-auto mt-8 mb-8 font-readable">
   <ul>
     <li>
       <div class="relative pb-8">
@@ -544,7 +718,7 @@ Globalement, chaque année nous utilisons les mêmes méthodes en tâchant d'en 
             </div>
             <div class="mt-2 text-sm text-gray-700">
               <p>
-                Nous recherchons chaque ostéopathe sur Internet (sites web, annuaires, réseaux sociaux, lieu Google maps, etc.) et nous supprimons les données de mauvaises qualité (informations datées, incohérentes, etc.). Pour les plus assidus, vous aurez remarqué que ce chiffre a diminué en comparaison à l'année dernière ; et cette diminution est majoritairement liée à l'amélioration de la précision de notre algorithme de recherche des ostéopathes actifs.
+                Nous recherchons chaque ostéopathe sur Internet (sites web, annuaires, réseaux sociaux, lieu Google maps, etc.) et nous supprimons les données de mauvaises qualité (informations datées, incohérentes, etc.). Pour les plus assidus, vous aurez remarqué que ce chiffre a diminué en comparaison à l'année dernière; et cette diminution est majoritairement liée à l'amélioration de la précision de notre algorithme de recherche des ostéopathes actifs.
               </p>
             </div>
           </div>
@@ -569,7 +743,7 @@ Globalement, chaque année nous utilisons les mêmes méthodes en tâchant d'en 
                 <span class="font-medium text-gray-900">Recherche des cabinets d'exercice</span>
               </div>
               <p class="mt-0.5 text-sm text-gray-500">
-                35&nbsp;768 cabinets
+                35&nbsp;916 cabinets
               </p>
             </div>
             <div class="mt-2 text-sm text-gray-700">
@@ -646,37 +820,62 @@ Globalement, chaque année nous utilisons les mêmes méthodes en tâchant d'en 
 
 <div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
-### *Comment expliquer une telle différence entre ces chiffres et le registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>&nbsp;?*
+### Comment expliquer une telle différence entre ces chiffres et le registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>&nbsp;?
 
-Les problèmes du registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>
-sont connus de longue date (voir
-l'[article sur la démographie des ostéopathes 2021]({{< ref "/dossiers/demographie/OP-XMG6LR-3_osteopathes-maj-2021" >}}))
-et qui ont été re-confirmés par le dernier
-[rapport de l'IGAS publié en 2023]({{< ref "/dossiers/rapport-igas-2022" >}}).
+Nous vous renvoyons à la section
+["Comment expliquer une telle différence entre vos chiffres et le registre ADELI ?"
+dédiée à cette question sur la démographie 2023]({{< ref "/dossiers/demographie/OP-UFWVPK-4_osteopathes-maj-2023" >}}#comment-expliquer-une-telle-diff%C3%A9rence-entre-ces-chiffres-et-le-registre-abbr-titleautomatisation-des-listesadeliabbr-).
 
-Il nous semble aussi utile d'apporter des précisions additionnelles
-sur les nouveaux facteurs qui contribuent à cette différence:
-- certain·e·s professionnel·le· de santé ne s'enregistrent pas dans
-  le répertoire <abbr title="Automatisation DEs LIstes">ADELI</abbr>
-  et pratiquent malgré tout comme ostéopathes (médecins, kinés, ...).
-- certain·e·s praticien·ne·s exercent à l'étranger mais sont toujours
-  dans le registre <abbr title="Automatisation DEs LIstes">ADELI</abbr>.
-- certain·e·s praticien·ne·s ont changé de nom (mariage etc.) sans pour
-  autant mettre à jour cette information dans le registre
-  <abbr title="Automatisation DEs LIstes">ADELI</abbr>.
-- dans le cas d'homonymes (même nom et prénom), nous
-  utilisons leur numéro de département pour les différencier. Cela nous a
-  permis de *ne pas dédoublonner* les homonymes et de retrouver
-  la plupart des praticien·ne·s du registre.
-
-Comme les années précédentes, pour chacun des résultats obtenus, nous ne gardons que
-ceux comportant le mot clé «ostéopathe», toutes écritures confondues:
-sans accents, avec majuscules, raccourcis ou avec coquilles (comme ost**h**éopathe).
-
-
-### *Quelles sont les sources de données que vous utilisez&nbsp;?*
+### Quelles sont vos sources de données&nbsp;?
+Nos principales sources de données externes sont:
+- Le [répertoire ADELI public](https://annuaire.sante.fr/)
+- Les données de l'[<abbr title="Union Nationale des ASsociations Agréées">UNASA</abbr>](https://www.unasa.fr/)
+- Les données de la [<abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>](https://www.lacipav.fr/)
+- Les données de l'[INSEE](https://www.insee.fr/)
+- Renseignements fournis par nos membres sur leur profil osteopathes.pro (avec leur aimable autorisation)
+- Les données ouvertes publiques disponibles (data.gouv.fr, openstreetmap.org, etc.)
+- Nos propres bases de données internes issues de plusieurs années de collecte
+  et d'analyse des données publiques sur les ostéopathes en France: sites web,
+  annuaires, réseaux sociaux, lieux sur Google Maps, etc.
 
 ## Définitions
-- **Ostéopathe "actif"** : Praticien identifié avec au moins une adresse valide, publiquement accessible
-- **Cabinet** : Adresse d'exercice
-- **Ostéopathe "exclusif"** (CIPAV) : Ostéopathe dont l'activité principale est l'ostéopathie, non couplée à une autre profession.
+- **Ostéopathe "actif"**: Praticien·ne identifié·e comme en activité professionnelle,
+  avec au moins un lieu ou une adresse géographique valide et enregistré dans le répertoire ADELI.
+- **Cabinet**: Adresse d'exercice
+- **Ostéopathe "exclusif"** (CIPAV): Ostéopathe dont l'activité professionnelle libérale
+  principale est l'ostéopathie.
+
+## Conclusion
+Le millésime 2024 de notre étude démographique et économique des
+ostéopathes en France confirme plusieurs tendances observées
+les années précédentes:
+- la profession **continue de croître en nombre d'ostéopathes actifs**,
+  avec une augmentation de +5,2% par rapport à 2023.
+- la **répartition géographique des ostéopathes reste inégale**,
+  avec des zones de forte concentration mais une excellente
+  couverture nationale globale.
+- si les recettes des ostéopathes restent stables, les charges
+  sont en augmentation (sans compter l'inflation). La tendance
+  observée baissière en 2023 se confirme donc en 2024.
+- en croisant nos données avec celles de plusieurs organismes,
+  nous pouvons nous assurer que nos données et estimations
+  présentées sont fiables et représentatives de la profession
+  dans son ensemble.
+
+Nous espérons que cette étude sera utile à nos confrères
+et consœurs ostéopathes, ainsi qu'aux étudiant·e·s en ostéopathie,
+à toutes les personnes intéressées par la profession ainsi
+qu'aux décideurs institutionnels.
+
+Nous souhaitons réitérer nos remerciements à toutes celles et ceux
+qui rendent ce travail possible, année après années: nos membres
+osteopathes.pro, les personnes qui partagent nos publications,
+ainsi que les différents organismes qui nous fournissent
+des données précieuses et fiable pour mener à bien cette étude.
+Si vous souhaitez nous soutenir dans notre démarche et
+contribuer à la pérennité de cette étude, n'hésitez pas
+à rejoindre notre communauté d'ostéopathes sur
+[osteopathes.pro](https://www.osteopathes.pro/fr/?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024).
+
+Nous vous donnons rendez-vous pour la prochaine édition
+de cette étude qui portera sur l'année 2025.
