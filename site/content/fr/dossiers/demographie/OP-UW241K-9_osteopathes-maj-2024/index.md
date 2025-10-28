@@ -1,8 +1,8 @@
 ---
-title: 'Démographie des ostéopathes en France 2024: Chiffres clés, répartition et analyse'
-date: 2025-10-23T15:10:15Z
+title: 'Démographie des ostéopathes en France 2024: Chiffres clés, répartition territoriale et analyse'
+date: 2025-10-27T15:10:15Z
 draft: false
-slug: demographie-des-osteopathes-en-France-en-2024
+slug: demographie-des-osteopathes-en-France-en-2024-chiffres-cles-repartition-territoriale-et-analyse
 resources:
   - name: cover-image
     src: fond-surface-papier-3d-statistiques.jpg
@@ -117,7 +117,7 @@ Maintenant que nous avons en tête les chiffres clés, passons à l'analyse
 détaillée de notre profession.
 
 ## L’analyse démographique et territoriale
-### Combien y-a-t il d'ostéopathes en France et comment évolue ce chiffre&nbsp;?
+### Combien y a-t-il d'ostéopathes en France et comment évolue ce chiffre&nbsp;?
 D'après **notre étude annuelle**, nous estimons qu'il y a environ
 **30&nbsp;122 ostéopathes en activité en France** en 2024. Pour comprendre
 comment nous obtenons ce chiffre, lisez la suite.
@@ -148,14 +148,14 @@ afin d'affiner notre estimation.
 
 C'est la caisse de retraite obligatoire des ostéopathes exclusifs, et elle
 recense **18&nbsp;492 ostéopathes exclusifs** en 2024. Ce chiffre est fiable
-car il correspond à des praticiens qui ont cotisé rééllement
+car il correspond à des praticiens qui ont cotisé réellement
 pour leur retraite en tant qu'ostéopathe.
 
 [![Nombre d'ostéopathes en France de 2010 à 2024 d'après le registre ADELI (nouvellement RPPS) et le nombre d'ostéopathes exclusifs d'après la CIPAV](./nombre-osteopathes-en-france-de-2010-a-2024-source-rpps-et-cipav.svg)](./nombre-osteopathes-en-france-de-2010-a-2024-source-rpps-et-cipav.svg)
 
 Grâce à notre propre système d'analyse (voir la section [Méthodologie](#méthodologie)), nous
 disposons d'une estimation indépendante et plutôt fiable du nombre total
-d'ostéopathes rééllement en activité. Pour 2024, nous estimons donc
+d'ostéopathes réellement en activité. Pour 2024, nous estimons donc
 le **nombre total d'ostéopathes en exercice en France à 30&nbsp;122**.
 
 [![Nombre d'ostéopathes en France de 2019 à 2024 d'après le registre ADELI (nouvellement RPPS) versus le recensement osteopathes.pro et la différence](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)](./nombre-osteopathes-en-france-au-rpps-vs-recensement-osteopathes-pro-de-2019-a-2024.svg)
@@ -312,7 +312,7 @@ un praticien du genre opposé peut y trouver un **facteur différenciant non né
 Cela peut devenir un atout distinctif fort lors du choix de son
 thérapeute[^6], et donc un élément à considérer !
 
-[^6]: [Enquête Fedosoli 2025 – L’ostéopathie pour tous, un rêve ?](https://fedosoli.org/acces-aux-soins-osteopathiques/)
+[^6]: [Enquête FédOSOLI 2025 – L’ostéopathie pour tous, un rêve ?](https://fedosoli.org/acces-aux-soins-osteopathiques/)
 
 ## L'analyse économique
 L'année dernière nous avons introduit une section dédiée à l'analyse
@@ -358,7 +358,7 @@ moyen est plus volatile**: 23&nbsp;641€ en 2022, 25&nbsp;460€ en 2023 et
 Le tableau *ci-dessous* expose alors les **recettes et bénéfices des ostéopathes en 2024**,
 et la colonne "***revenus mensuels nets***" correspond à notre estimation
 de **revenu mensuel réel**, via le
-**[simulateur de revenus osteopathes.pro](https://www.osteopathes.pro/fr/choisir-son-statut-juridique-liberal)**, en prenant donc en compte les impôts sur le revenu et supposant une situation maritale celibataire.
+**[simulateur de revenus osteopathes.pro](https://www.osteopathes.pro/fr/choisir-son-statut-juridique-liberal)**, en prenant donc en compte les impôts sur le revenu et supposant une situation maritale célibataire.
 
 | Indicateur statistique | Recettes | Bénéfices annuels | Revenus mensuels nets |
 | --- | ---: | ---: | ---: |
@@ -543,7 +543,7 @@ ou même savoir développer son activité, c'est de comprendre **les facteurs
 qui influencent le recours à l'ostéopathie**.
 
 Une étude menée par la **<abbr title="Fédération des Ostéopathes SOLIdaires">FédOSOLI</abbr>**
-en 2024 a questionné les français sur les facteurs qui influencent leur recours à
+en 2024[^6] a questionné les français sur les facteurs qui influencent leur recours à
 l'ostéopathie. Celle-ci est basée sur un large questionnaire diffusé auprès de patient·e·s
 et du grand public, et met en évidence que **la décision de consulter ne repose
 pas uniquement sur la douleur** ou le besoin de soin; mais sur un **ensemble de
@@ -565,7 +565,7 @@ Autrement dit, le choix d'un ostéopathe semble **consciemment** reposer
 autant sur la **relation thérapeutique** que sur l'acte de soin en lui-même.
 
 En résumé, l'étude de la
-**<abbr title="Fédération des Ostéopathes Solidaires">FédOSOLI</abbr>**
+**<abbr title="Fédération des Ostéopathes Solidaires">FédOSOLI</abbr>**[^6]
 semble confirmer que le recours à l'ostéopathie tient à un équilibre
 entre **accessibilité financière et qualité relationnelle**.
 Le **bouche à oreille** et la confiance paraissent également
@@ -674,7 +674,7 @@ en fonction du ratio habitants&nbsp;/&nbsp;ostéopathe:
 | 3&nbsp;000 | 57% | 58&nbsp;050€ | 4&nbsp;837€ |
 
 ## Méthodologie
-Pour cloturer cette étude, voici les explications d'usage sur notre méthodologie
+Pour clôturer cette étude, voici les explications d'usage sur notre méthodologie
 de collecte et d'analyse des données.
 
 ### Comment faites-vous le recensement des ostéopathes en activité&nbsp;?
