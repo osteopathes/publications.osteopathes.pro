@@ -160,7 +160,12 @@ function scrollAnchors(e, respond = null) {
     ? respond.getAttribute("href")
     : this.getAttribute("href")
   targetID = targetID.replace(":", "\\:")
-  const targetAnchor = document.querySelector(targetID)
+  let targetAnchor
+  try {
+    targetAnchor = document.querySelector(targetID)
+  } catch (err) {
+    return
+  }
   if (!targetAnchor) return
   const originalTop = distanceToTop(targetAnchor)
   window.scrollBy({top: originalTop, left: 0, behavior: "smooth"})

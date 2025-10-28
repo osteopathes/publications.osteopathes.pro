@@ -12,8 +12,8 @@ aliases:
   - /ref/OP-UW241K-9
 
 auteurs:
-  - konrad-florkow
   - klemen-sever
+  - konrad-florkow
   - dillan-allab
 
 toc: true
@@ -30,21 +30,20 @@ Pour cette édition 2024, nous avons pu **enrichir les informations** que nous
 utilisons ainsi que nos sources, pour affiner encore davantage les données
 et les analyses. Parmi les nouvelles sources, on retrouve principalement la
 **<abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>**
-concernant le nombre d’ostéopathes ainsi que les revenus en fonction des statuts.
+concernant le nombre d’ostéopathes ainsi que les revenus.
 
 L’objectif de notre article ici est multiple:
 - dans un premier temps, nous revenons sur les **chiffres principaux** qui
   permettent de situer la profession aujourd’hui ;
 - puis nous poursuivons avec une **analyse démographique et territoriale** afin
   de mieux saisir les disparités et tendances régionales en France.
+- pour terminer, nous proposons une **lecture économique et sociale** du paysage
+  ostéopathique. Vous trouverez également à la fin notre méthode quant à
+  l’obtention et au traitement des données, ainsi que les définitions
+  des termes importants employés.
 
-Enfin, nous proposons une **lecture économique et sociale** du paysage
-ostéopathique. Vous trouverez également à la fin notre méthode quant à
-l’obtention et au traitement des données, ainsi que les définitions
-des termes importants employés.
-
-Nous tenons à remercier chaleureusement toutes les personnes qui contribuent
-et qui ont contribué à rendre cette étude possible: nos adhérents, nos partenaires,
+Nous tenons à **remercier chaleureusement toutes les personnes qui contribuent
+et qui ont contribué à rendre cette étude possible**: nos adhérents, nos partenaires,
 nos soutiens, ... Merci à vous toutes et tous !
 
 **Bonne lecture**
@@ -59,7 +58,8 @@ nos soutiens, ... Merci à vous toutes et tous !
       <svg class="w-5 h-5 text-teal-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
     </div>
     <div class="ml-3">
-      <p class="text-sm text-teal-700">
+      <img src="./ratio-habitant-par-osteopathe-en-france-en-2024.png" alt="Ratio habitants par ostéopathe en France en 2024" class="float-left w-32 h-auto mb-2 mr-4" loading="lazy"/>
+      <p class="max-w-md text-sm text-teal-700">
         Pour accéder directement à la carte, vous pouvez vous rendre sur la
         <a href="https://www.osteopathes.pro/fr/cartographie" class="font-medium text-teal-700 underline hover:text-teal-600">
           carte interactive de la démographie des ostéopathes en 2024
@@ -90,8 +90,7 @@ de ces chiffres plus loin dans cet article.
   Par différence avec les 30&nbsp;122 actifs, on déduit la présence d'environ
   **11&nbsp;630 non exclusifs** (38% du total).
 - Déjà en 2009, on estimait que la profession tendait à se féminiser[^1]; or,
-  en 2024, on constate toujours une légère majorité d'hommes – soit 52% des ostéopathes –
-  stable sur ces dernières années.
+  en 2024, on constate toujours une légère majorité d'hommes – soit 53% des ostéopathes.
 - **19% des praticien·nes** (5&nbsp;794) disposent d'**au moins deux cabinets**;
   et nous recensons **35&nbsp;916 cabinets** sur le territoire français.
 - Les **outils de présence en ligne** représentent une part majeure et
@@ -119,7 +118,7 @@ détaillée de notre profession.
 
 ## L’analyse démographique et territoriale
 ### Combien y-a-t il d'ostéopathes en France et comment évolue ce chiffre&nbsp;?
-D'après **notre étude annuelle la plus robuste**, nous estimons qu'il y a environ
+D'après **notre étude annuelle**, nous estimons qu'il y a environ
 **30&nbsp;122 ostéopathes en activité en France** en 2024. Pour comprendre
 comment nous obtenons ce chiffre, lisez la suite.
 
@@ -128,9 +127,12 @@ vous trouverez un total de 41&nbsp;579 ostéopathes inscrits au 1er janvier 2024
 Ce registre est connu depuis de nombreuses années pour avoir
 **de nombreux inconvénients (personnes décédées, reconverties, en retraite, ...)**,
 on peut donc considérer **ce chiffre comme erroné**.
+
+{{< alert type="info" >}}
 Pour mieux comprendre le problème, nous vous invitons à consulter la section
 ["Comment expliquer une telle différence entre vos chiffres et le registre ADELI ?"
 dédiée à cette question sur la démographie 2023]({{< ref "/dossiers/demographie/OP-UFWVPK-4_osteopathes-maj-2023" >}}#comment-expliquer-une-telle-diff%C3%A9rence-entre-ces-chiffres-et-le-registre-abbr-titleautomatisation-des-listesadeliabbr-).
+{{</alert>}}
 
 Si on se fie seulement à ce registre, on peut constater une augmentation d'environ
 2&nbsp;000 nouveaux ostéopathes chaque année depuis de nombreuses années.
@@ -167,13 +169,14 @@ En soustrayant le nombre d'exclusifs (18&nbsp;492), on en déduit qu'il y aurait
 On voit donc que la différence entre le registre ADELI et notre estimation
 reste importante, et cohérente avec les tendances observées les années précédentes.
 
-Cette année nous avons **recensé pour la première fois une diminution, soit 1&nbsp;132 ostéopathes de moins** qu'en 2023 (31&nbsp;254 en 2023 contre 30&nbsp;122 en 2024).
+Cette année nous avons **recensé pour la première fois une diminution,
+soit 1&nbsp;132 ostéopathes de moins** qu'en 2023 (31&nbsp;254 en 2023 contre 30&nbsp;122 en 2024).
 Nous pensons que cela est principalement dû à une amélioration de notre méthode
 de recensement et à un meilleur filtrage des faux positifs (données obsolètes).
 
 Concernant la densité moyenne d'ostéopathes en France en 2024, si l'on prend les chiffres du registre
 <abbr title="Automatisation DEs LIstes">ADELI</abbr>, on obtient une densité moyenne de
-1&nbsp;645 habitants pour 1 ostéopathe[^3]; et avec notre recensement plus précis,
+1&nbsp;645 habitants par ostéopathe[^3]; et avec notre recensement plus précis,
 cela correspond plutôt à un **ratio de 2&nbsp;270 habitants par ostéopathe** sur le territoire.
 
 ### Qu'en est-il de la bascule ADELI vers RPPS en octobre 2024&nbsp;?
@@ -192,6 +195,7 @@ notable du nombre de doublons** dans le registre:
 
 {{< alert type="info">}}
 Un **homonyme** correspond aux ostéopathes ayant le même nom et prénom.
+
 Un **doublon exact** correspond aux ostéopathes ayant le même nom, prénom
 et numéro ADELI/RPPS.
 {{</alert>}}
@@ -224,7 +228,8 @@ l'offre de santé existante, les habitudes de la population, etc...
       </svg>
     </div>
     <div class="ml-3">
-      <p class="text-sm text-teal-700">
+      <img src="./etude-de-marche-comment-bien-choisir-ou-s-installer-en-osteopathie-bd.png" class="float-left w-32 h-auto mb-2 mr-4" loading="lazy" />
+      <p class="max-w-md text-sm text-teal-700">
         Pour aller plus loin sur l'étude de marché en ostéopathie, vous pouvez lire la
         <a class="underline" href="https://www.osteopathes.pro/fr/ressources/bds/etude-de-marche-comment-bien-choisir-ou-s-installer?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024">
           BD sur l'installation et l'étude de marché
@@ -243,6 +248,8 @@ vous avez pu constater que **la répartition des ostéopathes n'est pas homogèn
 sur le territoire français**. En effet, certaines zones présentent une densité
 d'ostéopathes bien plus élevée que d'autres.
 
+[![Répartition des ostéopathes sur le territoire français vu par le ratio en 2024](./ratio-habitant-par-osteopathe-en-france-en-2024.png "Ratio habitant/ostéopathe en France en 2024")](https://www.osteopathes.pro/fr/cartographie)
+
 Par exemple, les zones urbaines avec une forte population
 tendent à avoir une densité plus élevée d'ostéopathes. Malgré notre recensement
 précis et notre carte interactive, on observe que **les ostéopathes ont tendance à se
@@ -257,7 +264,8 @@ de communes avec un ratio élevé (peu d'ostéopathes) tend à se raréfier au f
 ce qui traduit une **excellente couverture ostéopathique du territoire français**.
 
 Pour aller plus loin sur ce sujet, nous vous invitons à consulter la
-section sur l'**étude de marché** plus bas dans cet article.
+section sur l'**[étude de marché](#installation-et-étude-de-marché-en-ostéopathie)** plus
+bas dans cet article.
 
 </div>
 
@@ -267,11 +275,12 @@ section sur l'**étude de marché** plus bas dans cet article.
       <svg class="w-5 h-5 text-teal-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
     </div>
     <div class="ml-3">
-      <p class="text-sm text-teal-700">
+      <p class="max-w-md text-sm text-teal-700">
         Vous pouvez utiliser les différentes options de la
         <a href="https://www.osteopathes.pro/fr/cartographie" class="font-medium text-teal-700 underline hover:text-teal-600">
           carte interactive de la démographie des ostéopathes en 2024
-        </a> pour visualiser les ratios à différentes échelles (communes, départements, régions).
+        </a> pour visualiser les ratios à différentes échelles (communes, départements, régions) comme
+        sur l'image ci-dessus.
       </p>
     </div>
   </div>
@@ -515,7 +524,8 @@ les zones prometteuses, et constitue donc **une base solide pour un projet d'ins
       <svg class="w-5 h-5 text-teal-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
     </div>
     <div class="ml-3">
-      <p class="text-sm text-teal-700">
+      <img src="./etude-de-marche-comment-bien-choisir-ou-s-installer-en-osteopathie-bd.png" class="float-left w-32 h-auto mb-2 mr-4" loading="lazy" />
+      <p class="max-w-md text-sm text-teal-700">
         Pour aller plus loin sur le sujet, vous pouvez consultez notre
         <a class="underline" href="https://www.osteopathes.pro/fr/ressources/bds/etude-de-marche-comment-bien-choisir-ou-s-installer?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024">
           BD sur l'étude de marché.
@@ -563,7 +573,7 @@ les leviers les plus attractifs.
 
 ### Comment calculer le revenu maximal possible avec le chiffre d'affaire maximal théorique&nbsp;?
 D'après le mémoire de fin d'études d'Esteban Weil intitulé
-«L’ostéopathie profession en pleine expansion ou en saturation future»,
+*«L’ostéopathie profession en pleine expansion ou en saturation future»*,
 portant sur la démographie de la profession, ainsi que notre expertise,
 nous vous proposons ici une méthode inédite et simple pour estimer
 le **chiffre d'affaire maximal théorique**.
@@ -858,8 +868,9 @@ Nos principales sources de données externes sont:
 - **Ostéopathe "actif"**: Praticien·ne identifié·e comme en activité professionnelle,
   avec au moins un lieu ou une adresse géographique valide et enregistré dans le répertoire ADELI.
 - **Cabinet**: Adresse d'exercice
-- **Ostéopathe "exclusif"** (CIPAV): Ostéopathe dont l'activité professionnelle libérale
-  principale est l'ostéopathie.
+- **Ostéopathe "exclusif"**: Ostéopathe dont l'activité professionnelle libérale
+  principale est l'ostéopathie et qui n'exerce pas d'autre profession de santé
+  (kinésithérapie, médecine, etc.).
 
 ## Conclusion
 Le millésime 2024 de notre étude démographique et économique des
@@ -871,27 +882,26 @@ les années précédentes:
   avec des zones de forte concentration mais une excellente
   couverture nationale globale.
 - si les recettes des ostéopathes restent stables, les charges
-  sont en augmentation (sans compter l'inflation). La tendance
-  observée baissière en 2023 se confirme donc en 2024.
+  sont en augmentation (sans compter l'inflation). La **tendance
+  observée baissière en 2023 se confirme donc en 2024**.
 - en croisant nos données avec celles de plusieurs organismes,
-  nous pouvons nous assurer que nos données et estimations
+  nous pouvons nous assurer que **nos données et estimations
   présentées sont fiables et représentatives de la profession
-  dans son ensemble.
+  dans son ensemble**.
 
 Nous espérons que cette étude sera utile à nos confrères
 et consœurs ostéopathes, ainsi qu'aux étudiant·e·s en ostéopathie,
 à toutes les personnes intéressées par la profession ainsi
 qu'aux décideurs institutionnels.
 
-Nous souhaitons réitérer nos remerciements à toutes celles et ceux
-qui rendent ce travail possible, année après années: nos membres
+Nous souhaitons réitérer **nos remerciements à toutes celles et ceux
+qui rendent ce travail possible, année après année**: nos membres
 osteopathes.pro, les personnes qui partagent nos publications,
 ainsi que les différents organismes qui nous fournissent
 des données précieuses et fiable pour mener à bien cette étude.
 Si vous souhaitez nous soutenir dans notre démarche et
-contribuer à la pérennité de cette étude, n'hésitez pas
-à rejoindre notre communauté d'ostéopathes sur
-[osteopathes.pro](https://www.osteopathes.pro/fr/?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024).
+contribuer à notre pérennité, n'hésitez pas à rejoindre notre
+communauté d'ostéopathes sur [osteopathes.pro](https://www.osteopathes.pro/fr/?utm_source=publications.osteopathes.pro&utm_medium=xcta_link&utm_campaign=article-demography-2024).
 
-Nous vous donnons rendez-vous pour la prochaine édition
+Nous vous donnons **rendez-vous pour la prochaine édition**
 de cette étude qui portera sur l'année 2025.
