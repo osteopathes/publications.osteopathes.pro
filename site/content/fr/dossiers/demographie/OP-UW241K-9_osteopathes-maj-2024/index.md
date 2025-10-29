@@ -1,8 +1,8 @@
 ---
 title: 'Démographie des ostéopathes en France 2024: Chiffres clés, répartition territoriale et analyse'
-date: 2025-10-27T15:10:15Z
+date: 2025-10-29T22:07:55Z
 draft: false
-slug: demographie-des-osteopathes-en-France-en-2024-chiffres-cles-repartition-territoriale-et-analyse
+slug: demographie-des-osteopathes-en-France-en-2024
 resources:
   - name: cover-image
     src: fond-surface-papier-3d-statistiques.jpg
@@ -58,7 +58,7 @@ nos soutiens, ... Merci à vous toutes et tous !
       <svg class="w-5 h-5 text-teal-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
     </div>
     <div class="ml-3">
-      <img src="./ratio-habitant-par-osteopathe-en-france-en-2024.png" alt="Ratio habitants par ostéopathe en France en 2024" class="float-left w-32 h-auto mb-2 mr-4" loading="lazy"/>
+      <img src="./ratio-habitant-par-osteopathe-en-france-en-2024.jpg" alt="Ratio habitants par ostéopathe en France en 2024" class="float-left w-32 h-auto mb-2 mr-4" loading="lazy"/>
       <p class="max-w-md text-sm text-teal-700">
         Pour accéder directement à la carte, vous pouvez vous rendre sur la
         <a href="https://www.osteopathes.pro/fr/cartographie" class="font-medium text-teal-700 underline hover:text-teal-600">
@@ -85,12 +85,14 @@ de ces chiffres plus loin dans cet article.
   hausse **cohérente avec notre estimation habituelle** d'environ 2&nbsp;000
   diplômé·e·s supplémentaires par an. Le nombre d'ostéopathe semble continuer
   d'**augmenter de manière stable**
+- La bascule ADELI vers RPPS ayant eu lieu en octobre 2024 a **créé 4&nbsp;000
+  doublons supplémentaires, rendant le registre officiel encore moins fiable**.
 - La <abbr title="Caisse Interprofessionnelle de Prévoyance et d'Assurance Vieillesse des professions libérales">CIPAV</abbr>
   dénombre **18&nbsp;492 ostéopathes exclusifs** en 2024, soit 62% du total.
   Par différence avec les 30&nbsp;122 actifs, on déduit la présence d'environ
   **11&nbsp;630 non exclusifs** (38% du total).
 - Déjà en 2009, on estimait que la profession tendait à se féminiser[^1]; or,
-  en 2024, on constate toujours une légère majorité d'hommes – soit 53% des ostéopathes.
+  en 2024, **on constate toujours une légère majorité d'hommes** – soit 53% des ostéopathes.
 - **19% des praticien·nes** (5&nbsp;794) disposent d'**au moins deux cabinets**;
   et nous recensons **35&nbsp;916 cabinets** sur le territoire français.
 - Les **outils de présence en ligne** représentent une part majeure et
@@ -248,7 +250,7 @@ vous avez pu constater que **la répartition des ostéopathes n'est pas homogèn
 sur le territoire français**. En effet, certaines zones présentent une densité
 d'ostéopathes bien plus élevée que d'autres.
 
-[![Répartition des ostéopathes sur le territoire français vu par le ratio en 2024](./ratio-habitant-par-osteopathe-en-france-en-2024.png "Ratio habitant/ostéopathe en France en 2024")](https://www.osteopathes.pro/fr/cartographie)
+[![Répartition des ostéopathes sur le territoire français vu par le ratio en 2024](./ratio-habitant-par-osteopathe-en-france-en-2024.jpg "Ratio habitant/ostéopathe en France en 2024")](https://www.osteopathes.pro/fr/cartographie)
 
 Par exemple, les zones urbaines avec une forte population
 tendent à avoir une densité plus élevée d'ostéopathes. Malgré notre recensement
@@ -572,11 +574,11 @@ Le **bouche à oreille** et la confiance paraissent également
 les leviers les plus attractifs.
 
 ### Comment calculer le revenu maximal possible avec le chiffre d'affaire maximal théorique&nbsp;?
-D'après le mémoire de fin d'études d'Esteban Weil intitulé
+Grâce au travail de mémoire d'Esteban Weil intitulé
 *«L’ostéopathie profession en pleine expansion ou en saturation future»*,
 portant sur la démographie de la profession, ainsi que notre expertise,
 nous vous proposons ici une méthode inédite et simple pour estimer
-le **chiffre d'affaire maximal théorique**.
+le **chiffre d'affaire maximal théorique** de votre localité.
 
 Ce chiffre permet d'**évaluer simplement le revenu maximum possible dans une zone
 d'installation donnée** et voir si cela correpond à ses attentes
@@ -672,6 +674,66 @@ en fonction du ratio habitants&nbsp;/&nbsp;ostéopathe:
 | 2&nbsp;000 | 58% | 37&nbsp;800€ | 3&nbsp;150€ |
 | 2&nbsp;270 (moyenne nationale 2024) | 57% | 43&nbsp;924€ | 3&nbsp;660€ |
 | 3&nbsp;000 | 57% | 58&nbsp;050€ | 4&nbsp;837€ |
+
+### Comment se répartissent les communes disponibles&nbsp;?
+
+#### Carte des communes avec un ratio habitants&nbsp;/&nbsp;ostéopathe élevé
+Sur cette carte, vous pouvez voir les zones
+**les plus intéressantes pour une installation**:
+ - Les zones en couleur et en gris clair ont un ratio de plus de
+   3&nbsp;000 habitants par ostéopathe&nbsp; soit **les zones les plus intéressantes**.
+ - Les zones en gris foncé sont celles où le nombre d'ostéopathes
+   est élevé avec un ratio de moins de 3&nbsp;000 habitants par ostéopathe&nbsp;
+
+[![Communes de France en 2024 avec un ratio supérieur à 3000hab/ostéo sur un périmètre de 10km](./communes-france-ratio-plus-de-3000hab-par-osteo.jpg)](./communes-france-ratio-plus-de-3000hab-par-osteo.jpg)
+
+{{< alert type="info" >}}
+Si vous souhaitez filtrer la carte selon vos critères
+(ratio, revenus, ...), et trouver les zones qui correspondent
+à vos choix, nous vous invitons à utiliser notre
+[carte interactive](https://www.osteopathes.pro/fr/cartographie).
+Vous pouvez aussi faire appel à nous pour réaliser une étude de marché personnalisée
+via le tchat du site.
+{{</alert>}}
+
+#### Nombre de communes en fonction du ratio habitants&nbsp;/&nbsp;ostéopathe
+Voici un graphique qui montre le **nombre de communes en France
+en 2024 en fonction du ratio habitants&nbsp;/&nbsp;ostéopathe**
+avec 10km de rayon d'action en supposant l'installation d'un ostéopathe
+additionnel dans la zone.
+
+Pour trouver des communes intéressantes, **il ne faut pas compter chaque
+zone invididuellement**. Dix petits villages voisins ne sont pas 10
+opportunités, mais une seule et même zone qu'un·e seul·e praticien·ne peut couvrir.
+
+C'est pourquoi nous avons regroupé les communes pour compter les zones potentielles.
+Nous avons regardé dans un rayon de 10km (une zone de déplacement réaliste)
+et comptabilisé la zone dans le ratio correspondant. Cette approche nous
+semble la plus réaliste pour évaluer le nombre de zones disponibles en
+France pour une installation.
+
+![Nombre de communes en France en 2024 en fonction du ratio habitants par ostéopathe pour une installation, en prennant ene compte une zone de 10km et les pôles urbains](./nombre-de-communes-en-fonction-du-ratio-habitants-par-osteo-pour-une-installation-moyenne-sur-10km-avec-poles-urbains-en-2024-d-apres-demographie-osteopathes-pro.svg)
+
+**Ce qu'on peut en dire**: on remarque qu'une majorité de communes
+se retrouve dans un ratio entre 1500 et 2500 habitants par ostéopathe
+(2&nbsp;416 communes entre 1500-1999 et 2&nbsp;242 communes entre 2000-2499)
+pour une nouvelle installation. Le nombre de communes avec une
+densité plus faible diminue ensuite progressivement, et devient **rare
+au delà de 5&nbsp;500 habitants par ostéopathe** (< 1% des communes en France).
+
+**Au total**, on compte donc 13&nbsp;845 zones d'installation en France
+avec cette méthode. Parmi celles-ci, 11&nbsp;450 zones ont un ratio
+supérieur à 1&nbsp;500 habitants par ostéopathe.
+
+Pour comparaison, voici la répartition des communes sans prendre en compte
+les 10km de rayon d'action, c'est à dire en comptant chaque commune
+par rapport à son propre ratio habitants&nbsp;/&nbsp;ostéopathe.
+
+![Nombre de communes en France en 2024 en fonction du ratio habitants par ostéopathe pour une installation](./nombre-de-communes-en-fonction-du-ratio-habitants-par-osteopathe-pour-une-installation-en-2024-d-apres-la-demographie-osteopathes-pro.svg)
+
+Bien sûr, cette analyse nationale globale ne remplace pas une **étude de marché**
+spécifique à son projet, mais elle permet de se faire une idée du **nombre de zones
+disponibles** en fonction du ratio habitants&nbsp;/&nbsp;ostéopathe.
 
 ## Méthodologie
 Pour clôturer cette étude, voici les explications d'usage sur notre méthodologie
