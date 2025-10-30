@@ -103,7 +103,7 @@ de ces chiffres plus loin dans cet article.
 - La **moyenne des bénéfices** en 2024 est de 23&nbsp;845€ sur l'année[^2], ce qui
   correspond à 1&nbsp;987€/mois (pour rappel, bénéfices = chiffre d'affaires - charges).
 - La densité moyenne en 2024 en considérant seulement les ostéopathes actifs (30&nbsp;122)
-  est de 1 ostéopathe pour 2&nbsp;270 habitants[^3].
+  est de **1 ostéopathe pour 2&nbsp;270 habitants**[^3].
 - Le **tarif moyen** d'une consultation d'ostéopathie s'aligne autour de **60€**;
   plus précisément 58,1€ selon nos chiffres et 59,7€ selon Oostéo (février 2024[^4]).
 
@@ -187,7 +187,7 @@ le registre ADELI a été remplacé par le registre
 <abbr title="Répertoire Partagé des Professionnels intervenant dans le système de Santé">RPPS</abbr>
 (Répertoire Partagé des Professionnels intervenant dans le système de Santé).
 
-Cette migration a engendré un effet secondaire notable: **une augmentation
+Cette migration a engendré un effet secondaire majeur: **une augmentation
 notable du nombre de doublons** dans le registre:
 - En effet, en 2023, nous avions identifié 1&nbsp;456 homonymes dont 855 doublons exacts (même numéro ADELI).
 - En septembre 2024 nous avons comptabilisé 1&nbsp;618 homonymes dont 896 doublons exacts.
