@@ -49,6 +49,7 @@ Les différentes **sections professionnelles** de la CNAVPL sont les
 la section compétente est donc la **CIPAV**.
 
 ### Les dix sections professionnelles de la CNAVPL
+![Logo de la CNAVPL](./logo-cnavpl-professions-liberales.jpeg)
 * **CARCDSF** – Chirurgiens-dentistes et sages-femmes
 * **CARMF** – Médecins
 * **CARPIMKO** – Infirmiers, masseurs-kinésithérapeutes, pédicures-podologues, orthophonistes et orthoptistes
@@ -61,7 +62,7 @@ la section compétente est donc la **CIPAV**.
 * **CPRN** – Notaires
 
 ## Les missions de la CIPAV
-
+![Logo de la CIPAV](./logo-la-cipav-retraite-osteopathes.jpeg)
 Pour résumer, la CIPAV a pour principales missions :
 * La **gestion et le conseil carrière** des assurés,
 * La **liquidation des droits à la retraite**,
@@ -120,7 +121,6 @@ La CIPAV détient une **source de données unique** sur les ostéopathes exerça
   afin d’étayer leurs revendications ou leurs propositions dans les politiques de santé.
 
 ## Bien connaître la CIPAV: un enjeu essentiel
-
 Bien connaître la CIPAV, c’est **mieux gérer son entreprise libérale**
 et **préparer son avenir personnel**.
 
@@ -156,11 +156,14 @@ l’espace personnel CIPAV, un ostéopathe peut **ajuster ses choix d’activit�
 en connaissance de cause.
 
 ## Comment ça fonctionne ?
+![Logo URSSAF](./logo-urssaf.jpeg)
 Depuis le **1er janvier 2023**, la **collecte des cotisations
 de retraite de base, complémentaire et d’invalidité-décès**
 des 190 000 professionnels libéraux affiliés à la **CIPAV** est
 assurée par **l’URSSAF**, conformément à la **loi de financement
 de la Sécurité sociale pour 2022**.
+
+![Transfert des cotisations de la CIPAV vers l'URSSAF](./transfert-cotisations-cipav-vers-l-urssaf.jpeg)
 
 ### 1. Objectif : simplification et qualité de service
 * Les affiliés ont désormais **un interlocuteur unique** pour
@@ -257,7 +260,10 @@ Le système français repose sur **trois niveaux** :
 * **Retraite supplémentaire** – facultative,
   souscrite individuellement ou collectivement (épargne retraite, PER, contrats d’entreprise…).
 
+![Structure des 3 pilliers du système de retraite français](./structure-system-retraite-francais-3-pilliers.jpeg)
+
 ### Modalités d’acquisition des droits à la retraite à la CIPAV
+![Fonctionnement des prestations de la CIPAV en 2023](./prestations-cipav-2023.jpeg)
 **Principe général: un système à points**
 Les droits à la retraite des professions libérales
 affiliées à la CIPAV s’acquièrent **en contrepartie des
