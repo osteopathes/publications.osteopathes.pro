@@ -31,6 +31,9 @@ biography: |
   profesions libérales de Normandie et membre du conseil
   d'administration de la FédOsoli.<br/><br/>
 
+  Enfin, depuis novembre 2025, il est secrétaire général
+  du Registre des Ostéopathes de France (ROF).<br/><br/>
+
   Dans le cadre des articles publiés sur ce site,
   l’auteur s’exprime à titre personnel.
 
