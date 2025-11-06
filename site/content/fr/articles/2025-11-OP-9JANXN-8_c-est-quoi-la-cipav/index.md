@@ -36,10 +36,11 @@ exerce une **mission de service public** au sein du système de la Sécurité so
 <!--more-->
 
 ## La CIPAV et la CNAVPL
-La CIPAV fait partie intégrante de la
+La [CIPAV](https://www.lacipav.fr/) fait partie intégrante de la
 **Caisse Nationale d’Assurance Vieillesse des Professions Libérales (CNAVPL)**,
 qui regroupe l’ensemble des sections professionnelles représentant
-les professions libérales françaises. La **CNAVPL**, organisme de Sécurité
+les professions libérales françaises.
+La **[CNAVPL](https://www.cnavpl.fr/)**, organisme de Sécurité
 sociale, est placée **sous la tutelle administrative du ministère chargé
 de la Sécurité sociale**. Elle assure la **gestion du régime d’assurance
 vieillesse de base** pour l’ensemble des professionnels libéraux.
@@ -115,7 +116,7 @@ La CIPAV détient une **source de données unique** sur les ostéopathes exerça
     * les **évolutions du niveau de vie** des ostéopathes libéraux.
 
 👉 Ces informations peuvent être précieuses :
-* pour les **institutions publiques** (ARS, URSSAF,
+* pour les **institutions publiques** (ARS, [URSSAF](https://www.urssaf.fr/),
   Ministère de la Santé) qui suivent la démographie des professionnels de santé,
 * mais aussi pour les **organisations professionnelles d’ostéopathes**,
   afin d’étayer leurs revendications ou leurs propositions dans les politiques de santé.
@@ -186,7 +187,7 @@ La **CNAVPL** est gérée par un Conseil d’administration
 composé de **16 membres** titulaires : les présidents des 10 Sections
 professionnelles et 6 membres désignés par les syndicats
 représentant les professions libérales au niveau national
-([UNAPL](https://unapl.fr/) et [CNPL](https://cnpl.org/)).
+([UNAPL](https://unapl.fr/) et CNPL).
 
 Pour ce qui est du fonctionnement de la CIPAV, c’est un peu différent.
 
