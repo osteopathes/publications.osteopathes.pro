@@ -1,8 +1,8 @@
 ---
-title: "La CIPAV, qu'est-ce que c'est?"
+title: "Osteopathes, la CIPAV: notre caisse, nos cotisations, nos droits."
 date: 2025-11-06T18:20:59Z
 draft: false
-slug: la-cipav-qu-est-ce-que-c-est
+slug: osteopathes-la-cipav-notre-caisse-nos-cotisations-nos-droits
 resources:
 - name: cover-image
   src: cipav-retraite-osteopathes.png
@@ -185,7 +185,8 @@ de la Sécurité sociale pour 2022**.
 La **CNAVPL** est gérée par un Conseil d’administration
 composé de **16 membres** titulaires : les présidents des 10 Sections
 professionnelles et 6 membres désignés par les syndicats
-représentant les professions libérales au niveau national (UNAPL et CNPL).
+représentant les professions libérales au niveau national
+([UNAPL](https://unapl.fr/) et [CNPL](https://cnpl.org/)).
 
 Pour ce qui est du fonctionnement de la CIPAV, c’est un peu différent.
 
