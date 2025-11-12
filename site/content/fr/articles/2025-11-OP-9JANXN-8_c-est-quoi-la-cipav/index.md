@@ -360,7 +360,7 @@ prestations et soutenabilité contributive.
 * **Hétérogénéité des métiers**: disparités fortes
   de revenus entre professions et régions ;
 * certains métiers très précaires risquent
-* d’avoir des droits faibles.
+  d’avoir des droits faibles.
 
 **Conséquence**: nécessité de mécanismes redistributifs
 (solidarité inter-professions, minima garantis,
