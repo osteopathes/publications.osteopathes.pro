@@ -56,6 +56,10 @@ Vous pouvez donc
 l'[écouter sur Spotify](https://open.spotify.com/episode/0PxKA4E9iwfoB8oPb3ZqOO)
 ou le [regarder sur YouTube](https://youtu.be/wa8vEctjXWc).
 
+Nous avons également publié un autre résumé au
+format [vidéo sur YouTube](https://youtu.be/yRojqVfNWss)
+avec l'association [Ostéos pour tous](https://osteopourtous.eu/).
+
 ## Notre méthode
 Afin de nous assurer que seuls les ostéopathes autorisé·e·s à exercer répondaient
 à notre sondage, nous avons demandé le numéro ADELI à tous les participant·e·s,
