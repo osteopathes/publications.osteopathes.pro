@@ -22,7 +22,7 @@
             --c-teal-600: #0d9488;
             --c-teal-700: #0f766e;
             --c-teal-900: #134e4a;
-            
+
             --c-slate-50: #f8fafc;
             --c-slate-100: #f1f5f9;
             --c-slate-200: #e2e8f0;
@@ -34,10 +34,10 @@
             --c-slate-800: #1e293b;
             --c-slate-900: #0f172a;
             --c-white: #ffffff;
-            
+
             --font-sans: 'Plus Jakarta Sans', sans-serif;
             --font-serif: 'Merriweather', serif;
-            
+
             --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
             --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -64,13 +64,13 @@
         .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
         .section { padding: 6rem 0; }
         .section-light { background-color: var(--c-white); }
-        
+
         /* Typography */
         .text-center { text-align: center; }
         .mb-2 { margin-bottom: 0.5rem; }
         .mb-4 { margin-bottom: 1rem; }
         .mt-8 { margin-top: 2rem; }
-        .tagline { 
+        .tagline {
             display: inline-block;
             background: var(--c-teal-50);
             color: var(--c-teal-700);
@@ -84,12 +84,12 @@
         }
 
         /* Header */
-        header { 
-            background-color: rgba(15, 23, 42, 0.95); 
+        header {
+            background-color: rgba(15, 23, 42, 0.95);
             backdrop-filter: blur(8px);
-            padding: 1rem 0; 
-            position: sticky; 
-            top: 0; 
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
             z-index: 50;
             border-bottom: 1px solid var(--c-slate-800);
         }
@@ -97,7 +97,7 @@
         .brand { display: flex; align-items: center; gap: 0.75rem; }
         .logo { height: 32px; object-fit: contain; }
         .brand-text { color: var(--c-white); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
-        
+
         /* Buttons */
         .btn {
             display: inline-flex;
@@ -119,7 +119,7 @@
         .btn-large { padding: 1rem 2rem; font-size: 1.125rem; }
         .btn-outline { background-color: transparent; border: 2px solid var(--c-slate-200); color: var(--c-slate-700) !important; box-shadow: none; }
         .btn-outline:hover { background-color: var(--c-slate-50); border-color: var(--c-slate-300); transform: translateY(-1px); }
-        
+
         .header-btn {
             background-color: transparent;
             border: 1px solid var(--c-slate-700);
@@ -135,9 +135,9 @@
         }
 
         /* Hero */
-        .hero { 
-            text-align: center; 
-            padding: 8rem 0 6rem; 
+        .hero {
+            text-align: center;
+            padding: 8rem 0 6rem;
             background: radial-gradient(circle at top, var(--c-slate-100) 0%, var(--c-slate-50) 100%);
             position: relative;
             overflow: hidden;
@@ -174,11 +174,11 @@
         .grid-2 { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
         .grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 
-        .card { 
-            background: var(--c-white); 
-            border-radius: 1.5rem; 
-            padding: 2.5rem; 
-            box-shadow: var(--shadow-md); 
+        .card {
+            background: var(--c-white);
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            box-shadow: var(--shadow-md);
             border: 1px solid var(--c-slate-100);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             position: relative;
@@ -188,14 +188,14 @@
             box-shadow: var(--shadow-lg);
         }
         .card h3 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--c-slate-900); }
-        .card-icon { 
-            width: 56px; height: 56px; 
-            background: var(--c-teal-50); 
-            border-radius: 1rem; 
-            display: flex; align-items: center; justify-content: center; 
-            color: var(--c-teal-600); 
-            margin-bottom: 1.5rem; 
-            font-size: 1.75rem; 
+        .card-icon {
+            width: 56px; height: 56px;
+            background: var(--c-teal-50);
+            border-radius: 1rem;
+            display: flex; align-items: center; justify-content: center;
+            color: var(--c-teal-600);
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
         }
 
         /* Pricing Cards */
@@ -249,12 +249,12 @@
         .timeline-item:last-child { margin-bottom: 0; }
         .timeline-dot { position: absolute; left: -2.375rem; top: 0.25rem; width: 14px; height: 14px; border-radius: 50%; background: var(--c-teal-500); box-shadow: 0 0 0 4px var(--c-slate-50); }
         .timeline-date { font-weight: 800; color: var(--c-slate-900); margin-bottom: 0.5rem; font-size: 1.125rem; }
-        .timeline-content { 
-            background: var(--c-white); 
-            padding: 1.5rem; 
-            border-radius: 1rem; 
-            box-shadow: var(--shadow-sm); 
-            border: 1px solid var(--c-slate-100); 
+        .timeline-content {
+            background: var(--c-white);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--c-slate-100);
         }
 
         /* Calculator */
@@ -266,13 +266,13 @@
         }
         .calc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: stretch; position: relative; z-index: 1; }
         @media(max-width: 900px) { .calc-grid { grid-template-columns: 1fr; gap: 3rem; } }
-        
+
         .calc-label { display: flex; align-items: flex-start; gap: 1rem; cursor: pointer; padding: 1rem; border-radius: 1rem; border: 1px solid var(--c-slate-700); background: var(--c-slate-800); transition: all 0.2s ease; margin-bottom: 0.75rem; }
         .calc-label:hover { border-color: var(--c-teal-500); background: rgba(30, 41, 59, 0.8); }
         .calc-label input[type="checkbox"] { display: none; }
-        
+
         .calc-checkbox-custom {
-            width: 24px; height: 24px; border: 2px solid var(--c-slate-500); border-radius: 0.5rem; 
+            width: 24px; height: 24px; border: 2px solid var(--c-slate-500); border-radius: 0.5rem;
             display: flex; align-items: center; justify-content: center; flex-shrink: 0;
             transition: all 0.2s ease;
         }
@@ -284,26 +284,26 @@
         }
         .calc-text strong { display: block; font-size: 1rem; margin-bottom: 0.25rem; color: var(--c-slate-50); }
         .calc-subtext { font-size: 0.875rem; color: var(--c-slate-400); }
-        
+
         .calc-toggles { display: flex; gap: 0.5rem; background: var(--c-slate-800); padding: 0.5rem; border-radius: 9999px; width: fit-content; margin-bottom: 2rem; }
-        .calc-toggle-btn { 
-            padding: 0.5rem 1.25rem; border-radius: 9999px; font-weight: 700; font-size: 0.875rem; 
+        .calc-toggle-btn {
+            padding: 0.5rem 1.25rem; border-radius: 9999px; font-weight: 700; font-size: 0.875rem;
             cursor: pointer; color: var(--c-slate-400); transition: all 0.2s ease;
         }
         .calc-toggle-btn.active { background: var(--c-teal-500); color: white; }
 
         .calc-input {
-            width: 100%; padding: 0.75rem 1rem; border-radius: 0.75rem; border: 1px solid var(--c-slate-600); 
+            width: 100%; padding: 0.75rem 1rem; border-radius: 0.75rem; border: 1px solid var(--c-slate-600);
             background: var(--c-slate-900); color: var(--c-white); font-family: var(--font-sans);
             margin-top: 0.5rem; font-size: 1rem;
         }
         .calc-input:focus { outline: none; border-color: var(--c-teal-500); }
 
-        .calc-result { 
-            background: var(--c-teal-600); 
-            padding: 3rem 2rem; 
-            border-radius: 1.5rem; 
-            text-align: center; 
+        .calc-result {
+            background: var(--c-teal-600);
+            padding: 3rem 2rem;
+            border-radius: 1.5rem;
+            text-align: center;
             display: flex; flex-direction: column; justify-content: center;
         }
         .calc-result-value { font-size: 4rem; font-weight: 800; line-height: 1; margin: 1rem 0; letter-spacing: -0.02em; }
@@ -313,12 +313,12 @@
         footer a { color: var(--c-teal-500); }
         footer .logo-footer { filter: grayscale(1) brightness(2); opacity: 0.5; height: 32px; margin-bottom: 1.5rem; }
 
-        .guarantee { 
-            background: var(--c-teal-50); 
-            padding: 2rem; 
-            border-radius: 1rem; 
-            text-align: center; 
-            margin-top: 4rem; 
+        .guarantee {
+            background: var(--c-teal-50);
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            margin-top: 4rem;
             border: 1px dashed var(--c-teal-500);
         }
 
@@ -349,7 +349,7 @@
         <div class="container hero-content">
             <span class="tagline">Offre Spéciale Étudiants ISOGM Grand Montpellier</span>
             <h1>Lance ton activité d'ostéopathe<br>avec <span class="accent">les meilleures conditions</span></h1>
-            <p class="text-readable">Bénéficie pour ISOGM Grand Montpellier de tarifs négociés pendant 4 ans, de 6 mois offerts sur tes outils ostéopro, d'une RC Pro à 50€/an et d'un accompagnement concret pour démarrer sereinement dès ton attestation.</p>
+            <p class="text-readable">Bénéficie avec ISO Grand Montpellier de tarifs négociés pendant 4 ans, de 6 mois offerts sur tes outils ostéopro, d'une RC Pro à 50€/an et d'un accompagnement concret pour démarrer sereinement dès ton attestation.</p>
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                 <a href="#simulateur" class="btn btn-large btn-outline" style="background: white;">Calculer mes économies</a>
                 <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=ULTRAISOGM2026" target="_blank" class="btn btn-large">Réserver mon pack (60€)</a>
@@ -359,11 +359,11 @@
 
     <section class="section section-light" id="avantages">
         <div class="container">
-            <div class="text-center mb-4">
+            <div class="mb-4 text-center">
                 <h2>Pourquoi choisir cette offre ?</h2>
                 <p style="color: var(--c-slate-600); max-width: 600px; margin: 1rem auto 3rem;">Tout ce dont tu as besoin pour te lancer, regroupé et négocié au meilleur prix.</p>
             </div>
-            
+
             <div class="grid grid-3">
                 <div class="card">
                     <div class="card-icon">⏳</div>
@@ -411,7 +411,7 @@
 
     <section class="section" id="tarifs">
         <div class="container">
-            <div class="text-center mb-4">
+            <div class="mb-4 text-center">
                 <span class="tagline">Tes tarifs réservés</span>
                 <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Les Formules Accessibles</h2>
                 <p style="color: var(--c-slate-600); max-width: 600px; margin: 1rem auto 1rem; font-size: 1.125rem;">En réservant ton pack de lancement aujourd'hui, tu débloques l'accès à ces 5 formules à tarifs réduits pour les 4 prochaines années.</p>
@@ -438,7 +438,7 @@
                 .pc-features { list-style: none; margin: 0 0 2rem 0; padding: 0; flex-grow: 1; }
                 .pc-features li { font-size: 0.95rem; color: var(--c-slate-700); margin-bottom: 0.75rem; display: flex; align-items: flex-start; gap: 0.5rem; }
                 .pc-features li svg { width: 1.25rem; height: 1.25rem; color: var(--c-teal-500); flex-shrink: 0; margin-top: 0.1rem; }
-                
+
                 .comparison-table-wrapper { overflow-x: auto; background: var(--c-white); border-radius: 1rem; box-shadow: var(--shadow-md); border: 1px solid var(--c-slate-200); }
                 .comparison-table { width: 100%; min-width: 800px; border-collapse: collapse; text-align: left; }
                 .comparison-table th, .comparison-table td { padding: 1.5rem 1rem; border-bottom: 1px solid var(--c-slate-200); vertical-align: middle; }
@@ -447,17 +447,41 @@
                 .comparison-table tr:last-child td { border-bottom: none; }
                 .td-check { text-align: center; color: var(--c-teal-500); font-weight: bold; font-size: 1.25rem; }
                 .td-dash { text-align: center; color: var(--c-slate-300); font-weight: bold; }
+
+                .pc-included {
+                    background: var(--c-teal-50);
+                    color: var(--c-teal-900);
+                    padding: 0.5rem 0.75rem;
+                    border-radius: 0.5rem;
+                    font-size: 0.85rem;
+                    margin-bottom: 1rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    border: 1px solid var(--c-teal-200);
+                }
+                .pc-included svg {
+                    color: var(--c-teal-600);
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    flex-shrink: 0;
+                }
+                .pc-included strong {
+                    font-weight: 800;
+                    color: var(--c-slate-900);
+                }
             </style>
 
                         <div class="cards-wrapper">
                 <!-- Ostéopro seul -->
                 <div class="price-card">
                     <div class="pc-title">Ostéopro seul</div>
-                    <div class="pc-desc">L'essentiel pour la gestion de ton cabinet.</div>
-                    <div class="pc-price-block">
-                        <div class="pc-price">14,75€ <span>/mois</span></div>
-                        <div class="pc-old"><s>25€/mois</s> <span class="pc-badge">-41% à vie</span></div>
+                    <div class="pc-price-block" style="display: flex; flex-direction: column;">
+                        <div class="pc-old" style="margin-bottom: 0.25rem;"><s>25€/mois</s></div>
+                        <div class="pc-price">14,75€<span>/mois</span></div>
+                        <div style="display: flex; align-items: center;"><span class="pc-badge">-41% à vie</span></div>
                     </div>
+                    <div class="pc-included"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Inclut le logiciel <strong>Ostéopro</strong></span></div>
                     <ul class="pc-features">
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Logiciel clinique, facturation, site vitrine</li>
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Accompagnement visio (installation, contrats)</li>
@@ -468,27 +492,28 @@
                 <!-- Oostéo Avantages -->
                 <div class="price-card">
                     <div class="pc-title">Oostéo Avantages</div>
-                    <div class="pc-desc">Les avantages partenaires et réseau.</div>
-                    <div class="pc-price-block">
-                        <div class="pc-price">24€ <span>/mois</span></div>
-                        <div class="pc-old"><s>29€/mois</s> <span class="pc-badge">-5€/mois à vie</span></div>
+                    <div class="pc-price-block" style="display: flex; flex-direction: column;">
+                        <div class="pc-old" style="margin-bottom: 0.25rem;"><s>29€/mois</s></div>
+                        <div class="pc-price">24€<span>/mois</span></div>
+                        <div style="display: flex; align-items: center;"><span class="pc-badge">-5€/mois à vie</span></div>
                     </div>
+                    <div class="pc-included"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Inclut Ostéopro <strong>+ Avantages</strong></span></div>
                     <ul class="pc-features">
-                        <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Logiciel Ostéopro inclus</li>
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> RCP 50€, SumUp, -50% draps...</li>
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Interventions en entreprise</li>
                     </ul>
                     <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=ULTRAISOGM2026" target="_blank" class="btn btn-outline" style="width: 100%;">Réserver mon pack</a>
                 </div>
-                
+
                 <!-- Avantages + Ads -->
                 <div class="price-card">
                     <div class="pc-title">Avantages + Ads</div>
-                    <div class="pc-desc">Visibilité immédiate et acquisition.</div>
-                    <div class="pc-price-block">
-                        <div class="pc-price">35€ <span>/mois</span></div>
-                        <div class="pc-old"><s>39€/mois</s> <span class="pc-badge">-4€/mois à vie</span></div>
+                    <div class="pc-price-block" style="display: flex; flex-direction: column;">
+                        <div class="pc-old" style="margin-bottom: 0.25rem;"><s>39€/mois</s></div>
+                        <div class="pc-price">35€<span>/mois</span></div>
+                        <div style="display: flex; align-items: center;"><span class="pc-badge">-4€/mois à vie</span></div>
                     </div>
+                    <div class="pc-included"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Inclut Ostéopro + Avantages <strong>+ Ads</strong></span></div>
                     <ul class="pc-features">
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Avantages Oostéo inclus</li>
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Campagnes Google Ads</li>
@@ -500,11 +525,12 @@
                 <div class="price-card highlight">
                     <div class="highlight-badge">Le plus choisi</div>
                     <div class="pc-title">Avantages + Site</div>
-                    <div class="pc-desc">Ta vitrine en ligne optimisée.</div>
-                    <div class="pc-price-block">
-                        <div class="pc-price">39€ <span>/mois</span></div>
-                        <div class="pc-old"><s>49€/mois</s> <span class="pc-badge">-10€/mois à vie</span></div>
+                    <div class="pc-price-block" style="display: flex; flex-direction: column;">
+                        <div class="pc-old" style="margin-bottom: 0.25rem;"><s>49€/mois</s></div>
+                        <div class="pc-price">39€<span>/mois</span></div>
+                        <div style="display: flex; align-items: center;"><span class="pc-badge">-10€/mois à vie</span></div>
                     </div>
+                    <div class="pc-included"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Inclut Ostéopro + Avantages <strong>+ Site</strong></span></div>
                     <ul class="pc-features">
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Avantages Oostéo inclus</li>
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Site web vitrine + SEO local</li>
@@ -515,11 +541,12 @@
                 <!-- Avantages + Site + Ads -->
                 <div class="price-card">
                     <div class="pc-title">Site + Ads</div>
-                    <div class="pc-desc">La solution complète pour ton agenda.</div>
-                    <div class="pc-price-block">
-                        <div class="pc-price">49€ <span>/mois</span></div>
-                        <div class="pc-old"><s>59€/mois</s> <span class="pc-badge">-10€/mois à vie</span></div>
+                    <div class="pc-price-block" style="display: flex; flex-direction: column;">
+                        <div class="pc-old" style="margin-bottom: 0.25rem;"><s>59€/mois</s></div>
+                        <div class="pc-price">49€<span>/mois</span></div>
+                        <div style="display: flex; align-items: center;"><span class="pc-badge">-10€/mois à vie</span></div>
                     </div>
+                    <div class="pc-included"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Inclut Ostéopro + Avantages + Site <strong>+ Ads</strong></span></div>
                     <ul class="pc-features">
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Avantages Oostéo inclus</li>
                         <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Site web vitrine + SEO local</li>
@@ -546,7 +573,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Logiciel clinique Ostéopro</strong><br><ul style="font-size: 0.8rem; color: var(--c-slate-500); margin: 0.25rem 0 0 1rem; padding: 0;"><li>Facturation &amp; site vitrine</li><li>Accompagnement visio (installation, contrats)</li></ul></td>
+                            <td><strong>Logiciel clinique Ostéopro</strong><ul style="font-size: 0.78rem; color: var(--c-slate-500); margin: 0.35rem 0 0 1rem; padding: 0; line-height: 1.35;"><li>Logiciel clinique et facturation (dont 6 mois offerts)</li><li>Site internet vitrine simple (dont 6 mois offerts)</li><li>Carte avancée complète à vie</li><li>Accompagnement installation &amp; développement d'activité en visio</li></ul></td>
                             <td class="td-check">✓</td>
                             <td class="td-check">✓</td>
                             <td class="td-check">✓</td>
@@ -554,7 +581,7 @@
                             <td class="td-check">✓</td>
                         </tr>
                         <tr>
-                            <td><strong>Avantages Oostéo</strong><br><span style="font-size: 0.8rem; color: var(--c-slate-500);">RCP 50€, réseau d'entreprises, SumUp...</span></td>
+                            <td><strong>Oostéo Avantages</strong><ul style="font-size: 0.78rem; color: var(--c-slate-500); margin: 0.35rem 0 0 1rem; padding: 0; line-height: 1.35;"><li>Réductions (RCP 50€/an ; SumUp 0,89% au lieu de 1,75% ; draps à -50%)</li><li>Interventions en entreprise</li></ul></td>
                             <td class="td-dash">-</td>
                             <td class="td-check">✓</td>
                             <td class="td-check">✓</td>
@@ -581,7 +608,7 @@
                 </table>
             </div>
 
-            <div class="text-center mt-8">
+            <div class="mt-8 text-center">
                 <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=ULTRAISOGM2026" target="_blank" class="btn btn-large">Débloquer ces tarifs avec le pack (60€)</a>
                 <p style="color: var(--c-slate-500); margin-top: 1rem; font-size: 0.9rem;">Une fois le pack activé, tu auras le choix parmi ces 5 formules.</p>
             </div>
@@ -590,7 +617,7 @@
 
     <section class="section section-light">
         <div class="container">
-            <div class="text-center mb-4">
+            <div class="mb-4 text-center">
                 <h2>Le Pack de Lancement</h2>
                 <p style="color: var(--c-slate-600); max-width: 600px; margin: 1rem auto 2rem;">Un paiement unique qui sécurise tes avantages pour les 4 prochaines années et inclut la configuration de tes outils.</p>
             <p style="color: var(--c-slate-600); max-width: 760px; margin: 0 auto 0; font-size: 0.95rem;">Tu bloques tes avantages pendant 4 ans, et une fois tes formules activées, les réductions restent acquises à vie.</p>
@@ -639,8 +666,8 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="text-center mt-8">
+
+            <div class="mt-8 text-center">
                 <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=ULTRAISOGM2026" target="_blank" class="btn btn-large">Réserver mon pack (60€)</a>
             </div>
         </div>
@@ -739,7 +766,7 @@
         <div class="container text-center">
             <span class="tagline">Prêt·e à sécuriser tes avantages ?</span>
             <h2 style="margin-bottom: 1rem; font-size: 2.5rem;">Bloque ton offre maintenant, active tes outils quand tu veux</h2>
-            <p style="max-width: 760px; margin: 0 auto 2.5rem; color: var(--c-slate-600); font-size: 1.125rem;">Le pack complet est à 60€ jusqu'au 30/06/2026, payé une seule fois. Tu peux déclencher tes outils (et tes 6 mois offerts) plus tard, quand tu seras vraiment prêt·e.</p>
+            <p style="max-width: 760px; margin: 0 auto 2.5rem; color: var(--c-slate-600); font-size: 1.125rem;">Le pack complet est à 60€ jusqu'au 30/06/2026, payé une seule fois. Tu peux déclencher tes outils plus tard, quand tu seras vraiment prêt·e.</p>
             <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
                 <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=ULTRAISOGM2026" target="_blank" class="btn btn-large">Réserver mon pack (60€)</a>
                 <a href="mailto:equipe@osteopathes.pro" class="btn btn-large btn-outline">Poser une question par email</a>
