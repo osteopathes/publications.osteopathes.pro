@@ -355,7 +355,53 @@
                 <a href="#simulateur" class="btn btn-large btn-outline" style="background: white;">Calculer mes économies</a>
                 <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=SUPEROSTEOSTUDYING2026" target="_blank" class="btn btn-large">Réserver mon pack (59€)</a>
             </div>
-            <p class="text-readable" style="margin-top: 1rem; font-size: 1rem; color: var(--c-slate-700);">Code promo inclus : <strong>SUPEROSTEOSTUDYING2026</strong></p>
+        </div>
+    </section>
+
+    <section class="section" id="etapes">
+        <div class="container">
+            <div class="mb-4 text-center">
+                <span class="tagline">Comment ça marche ?</span>
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ton lancement en 3 étapes simples</h2>
+            </div>
+
+            <style>
+                .steps-container { position: relative; max-width: 900px; margin: 4rem auto 0; }
+                .steps-grid-custom { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; position: relative; z-index: 1; }
+                .step-card { background: var(--c-white); border-radius: 1.5rem; padding: 2.5rem 1.5rem 2rem; text-align: center; border: 1px solid var(--c-slate-200); box-shadow: var(--shadow-sm); position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+                .step-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--c-teal-200); }
+                .step-number { width: 3.5rem; height: 3.5rem; background: var(--c-teal-500); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; position: absolute; top: -1.75rem; left: 50%; transform: translateX(-50%); box-shadow: 0 0 0 8px var(--c-slate-50); }
+                .step-card h3 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--c-slate-900); padding-top: 0.5rem; }
+                .steps-line { position: absolute; top: 0; left: 15%; right: 15%; height: 2px; background: var(--c-teal-200); z-index: 0; border-radius: 2px; }
+                @media(max-width: 768px) {
+                    .steps-grid-custom { grid-template-columns: 1fr; gap: 3.5rem; margin-top: 3rem; }
+                    .steps-line { display: none; }
+                    .step-number { box-shadow: 0 0 0 8px var(--c-slate-50); }
+                }
+            </style>
+
+            <div class="steps-container">
+                <div class="steps-line"></div>
+                <div class="steps-grid-custom">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Prends le pack</h3>
+                        <p class="text-readable" style="font-size: 0.95rem; color: var(--c-slate-600);">Réserve ton pack dès maintenant pour sécuriser l'ensemble de tes avantages et tarifs négociés.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Active à ton rythme</h3>
+                        <p class="text-readable" style="font-size: 0.95rem; color: var(--c-slate-600);">Choisis l'abonnement que tu veux, quand tu veux pendant 4 ans (tu peux démarrer aujourd'hui ou dans 2 ans). <strong>Tes avantages sont conservés !</strong></p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Profite \o/</h3>
+                        <p class="text-readable" style="font-size: 0.95rem; color: var(--c-slate-600);">Développe ta patientèle et gère ton activité sereinement avec les meilleurs outils du marché.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -368,15 +414,14 @@
 
             <div class="grid grid-3">
                 <div class="card">
-                    <div class="card-icon">⏳</div>
-                    <h3>6 mois offerts & validité 4 ans</h3>
-                    <p class="text-readable">Tu bloques l'offre maintenant, puis tu peux activer plus tard tes 6 mois offerts sur le logiciel et le site vitrine ostéopro. Tes avantages restent réservés pendant 4 ans.</p>
-                    <p class="text-readable" style="margin-top: 0.85rem; color: var(--c-slate-600);">Tu bloques tes avantages pendant 4 ans, et une fois tes formules activées, les réductions restent acquises à vie.</p>
+                    <div class="card-icon">💻</div>
+                    <h3>Logiciel clinique & facturation</h3>
+                    <p class="text-readable">Un logiciel conçu <strong>par et pour les ostéos</strong> pour gérer tes dossiers patients, ta facturation et ton agenda. Les 6 premiers mois te sont offerts.</p>
                 </div>
                 <div class="card">
-                    <div class="card-icon">🛡️</div>
-                    <h3>Assurance & encaissement</h3>
-                    <p class="text-readable">Une Responsabilité Civile Professionnelle à seulement <strong>50€/an</strong> au lieu d'environ 200€/an, et des frais de transaction réduits avec SumUp à <strong>0,89%</strong> sans abonnement.</p>
+                    <div class="card-icon">🤝</div>
+                    <h3>Réductions & avantages</h3>
+                    <p class="text-readable">Un ensemble d'avantages négociés : RCP à <strong>50€/an</strong>, TPE SumUp à <strong>0,89%</strong>, draps d'examen à prix réduit, et accès plateforme CE (HelloCSE).</p>
                 </div>
                 <div class="card">
                     <div class="card-icon">🚀</div>
@@ -625,15 +670,19 @@
             <div class="grid grid-2" style="margin-bottom: 3rem;">
                 <div class="card" style="border: 2px solid var(--c-teal-500);">
                     <h3>Pack Complet (Oostéo + Ostéopro)</h3>
+                    <p style="color: var(--c-slate-600); margin-top: 0.75rem;">La formule la plus complète pour t'installer, te rendre visible et profiter de tous les avantages négociés.</p>
                     <ul style="list-style: none; margin: 1rem 0; color: var(--c-slate-600);">
-                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Configuration de ton espace Oostéo</li>
-                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Mise en place de ton logiciel Ostéopro</li>
+                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Logiciel clinique, facturation et visibilité boostée avec Oostéo</li>
+                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Réductions Oostéo + interventions en entreprise</li>
+                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Accompagnement installation et développement d'activité</li>
                     </ul>
                 </div>
                 <div class="card">
                     <h3>Pack Ostéopro (Seul)</h3>
+                    <p style="color: var(--c-slate-600); margin-top: 0.75rem;">L'essentiel pour démarrer avec de bons outils cliniques, une présence en ligne simple et un cadre solide.</p>
                     <ul style="list-style: none; margin: 1rem 0; color: var(--c-slate-600);">
-                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Mise en place de ton logiciel Ostéopro</li>
+                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Logiciel clinique, facturation et visibilité plus basique</li>
+                        <li style="margin-bottom: 0.75rem; display: flex; gap: 0.5rem;"><span style="color: var(--c-teal-500);">✓</span> Accompagnement installation et développement d'activité</li>
                     </ul>
                 </div>
             </div>
@@ -643,8 +692,8 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content" style="border: 2px solid var(--c-teal-100);">
                         <div class="timeline-date">Jusqu'au 30/06/2026</div>
-                        <p style="font-size: 1.125rem;"><strong>Pack Complet : 59€</strong> <span style="color:var(--c-slate-500);font-size:0.875rem;text-decoration:line-through;">299€</span></p>
-                        <p style="font-size: 1.125rem;"><strong>Pack Ostéopro : 59€</strong> <span style="color:var(--c-slate-500);font-size:0.875rem;text-decoration:line-through;">199€</span></p>
+                        <p style="font-size: 1.125rem;"><strong>Pack Complet : 60€</strong> <span style="color:var(--c-slate-500);font-size:0.875rem;text-decoration:line-through;">299€</span></p>
+                        <p style="font-size: 1.125rem;"><strong>Pack Ostéopro : 60€</strong> <span style="color:var(--c-slate-500);font-size:0.875rem;text-decoration:line-through;">199€</span></p>
                         <p style="color: var(--c-teal-600); font-weight: 700; margin-top: 0.5rem; font-size: 0.875rem;">→ Le meilleur moment pour réserver le pack complet.</p>
                     </div>
                 </div>
@@ -653,7 +702,7 @@
                     <div class="timeline-content" style="opacity: 0.8;">
                         <div class="timeline-date">Jusqu'au 31/12/2026</div>
                         <p><strong>Pack Complet : 149€</strong></p>
-                        <p><strong>Pack Ostéopro : 59€</strong></p>
+                        <p><strong>Pack Ostéopro : 60€</strong></p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -667,7 +716,7 @@
             </div>
 
             <div class="mt-8 text-center">
-                <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=SUPEROSTEOSTUDYING2026" target="_blank" class="btn btn-large">Réserver mon pack (59€)</a>
+                <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f" target="_blank" class="btn btn-large">Réserver mon pack (60€)</a>
             </div>
         </div>
     </section>
@@ -770,6 +819,31 @@
                 <a href="https://buy.stripe.com/28EcN458a92p91o2dtdZ60f?prefilled_promo_code=SUPEROSTEOSTUDYING2026" target="_blank" class="btn btn-large">Réserver mon pack (59€)</a>
                 <a href="mailto:equipe@osteopathes.pro" class="btn btn-large btn-outline">Poser une question par email</a>
             </div>
+        </div>
+    </section>
+
+
+    <section class="section section-light" id="faq">
+        <div class="container" style="max-width: 800px;">
+            <div class="mb-4 text-center">
+                <span class="tagline">Questions fréquentes</span>
+                <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">Ce que vous nous demandez souvent</h2>
+            </div>
+            <style>
+                .faq-item { background: var(--c-white); border: 1px solid var(--c-slate-200); border-radius: 1rem; margin-bottom: 1rem; box-shadow: var(--shadow-sm); overflow: hidden; transition: all 0.2s ease; }
+                .faq-item:hover { border-color: var(--c-teal-300); box-shadow: var(--shadow); }
+                .faq-summary { padding: 1.5rem; font-weight: 700; font-size: 1.125rem; color: var(--c-slate-900); cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none; }
+                .faq-summary::-webkit-details-marker { display: none; }
+                .faq-summary::after { content: '+'; font-size: 1.5rem; color: var(--c-teal-500); transition: transform 0.2s ease; }
+                details[open] .faq-summary::after { content: '−'; transform: rotate(180deg); }
+                .faq-content { padding: 0 1.5rem 1.5rem; color: var(--c-slate-600); font-family: var(--font-serif); line-height: 1.6; }
+            </style>
+            <details class="faq-item" name="faq"><summary class="faq-summary">Chez qui est la RCP ?</summary><div class="faq-content"><p style="margin-bottom: 1.5rem;">Elle est chez Allianz, c'est un contrat standard.</p><figure style="margin: 0; background: var(--c-slate-50); border: 1px solid var(--c-slate-200); border-radius: 1rem; padding: 0.5rem; box-shadow: var(--shadow-sm);"><a href="/imgs/offres-etudiants/details-rcp-allianz.png" target="_blank" rel="noopener noreferrer" style="display: block; overflow: hidden; border-radius: 0.75rem; border: 1px solid var(--c-slate-200);"><img src="/imgs/offres-etudiants/details-rcp-allianz.png" alt="Aperçu des garanties du contrat RCP Allianz" style="width: 100%; height: auto; display: block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'"></a><figcaption style="text-align: center; font-size: 0.85rem; color: var(--c-slate-500); margin-top: 0.75rem; margin-bottom: 0.25rem; font-family: var(--font-sans); display: flex; align-items: center; justify-content: center; gap: 0.35rem;"><svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>Cliquer sur l'image pour agrandir</figcaption></figure></div></details>
+            <details class="faq-item" name="faq"><summary class="faq-summary">Le tarif de la RCP évolue-t-il ?</summary><div class="faq-content">Non, la RCP reste à 50€/an tant que tu as un des abonnements Avantages ou supérieur actif.</div></details>
+            <details class="faq-item" name="faq"><summary class="faq-summary">Y a-t-il un engagement ?</summary><div class="faq-content">Non, tous nos abonnements sont sans engagement.</div></details>
+            <details class="faq-item" name="faq"><summary class="faq-summary">Est-ce que je peux être remboursé ?</summary><div class="faq-content">Si tu n'as rien utilisé ou activé dans les 4 ans, on te rembourse :)</div></details>
+            <details class="faq-item" name="faq"><summary class="faq-summary">Et si je ne prends pas de pack ?</summary><div class="faq-content">Tu n’auras pas autant d’avantages sur les tarifs Oostéo et Osteopathes.pro dès ton démarrage. Néanmoins, tu peux utiliser le logiciel Osteopathes.pro gratuitement pendant 100 consultations ou 100 notes d’honoraires, sans limite de temps et sans engagement. Au-delà, tu pourras utiliser le parrainage pour réduire tes mensualités chez Osteopathes.pro.</div></details>
+            <details class="faq-item" name="faq"><summary class="faq-summary">Je pensais faire des rempla ou des collab’, ça me sert à quoi ?</summary><div class="faq-content">Les avantages que tu obtiens aujourd’hui sont valables pour 4 ans et réservés aux nouveaux et nouvelles diplômé·es. Par ailleurs, les réductions (RCP, SumUp, etc.) vont t’aider à commencer avec moins de charges. Certain·es titulaires n’ont pas de logiciel pour leur cabinet&nbsp;: avoir ton propre logiciel t’aidera en clinique. Enfin, on est là pour t’accompagner quelles que soient tes questions&nbsp;: contrats, facturation, clinique, démarches administratives, etc.</div></details>
         </div>
     </section>
 
