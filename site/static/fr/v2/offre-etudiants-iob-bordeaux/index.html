@@ -373,11 +373,72 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.03);
         }
 
-        .chip-grid {
+        .base-included-card {
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px dashed var(--border);
+            border-radius: 16px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            text-align: left;
+        }
+        .base-included-card h3 {
+            font-size: 1rem;
+            margin-bottom: 12px;
+            color: var(--text-main);
             display: flex;
-            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+        }
+        .base-included-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 16px;
+        }
+        @media (max-width: 600px) {
+            .base-included-list {
+                grid-template-columns: 1fr;
+            }
+        }
+        .base-included-list li {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .base-included-list li::before {
+            content: '✓';
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .selector-action-line {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 16px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .selector-action-line::before {
+            content: '👇';
+        }
+
+        .chip-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 12px;
-            margin: 24px 0 28px;
+            margin-bottom: 32px;
+        }
+        @media (max-width: 768px) {
+            .chip-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .need-chip {
@@ -385,17 +446,57 @@
             border: 1px solid var(--border);
             background: var(--bg-color);
             color: var(--text-main);
-            padding: 12px 16px;
-            border-radius: 999px;
+            padding: 16px;
+            border-radius: 12px;
             font: inherit;
-            font-weight: 600;
+            font-weight: 500;
+            font-size: 0.95rem;
             cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-align: left;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .need-chip:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transform: translateY(-1px);
+        }
+
+        .need-chip::before {
+            content: '+';
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.05);
+            color: var(--text-muted);
+            font-weight: bold;
+            font-size: 1.1rem;
+            line-height: 1;
+            padding-bottom: 2px; /* Visual centering for + */
+            box-sizing: border-box;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
         }
 
         .need-chip.is-active {
-            background: var(--primary);
+            background: #fff8f0;
             border-color: var(--primary);
+            color: var(--text-main);
+        }
+
+        .need-chip.is-active::before {
+            content: '✓';
+            background: var(--primary);
             color: white;
+            font-size: 0.9rem;
+            padding-bottom: 0;
         }
 
         .selector-result {
@@ -1206,11 +1307,45 @@
                 <h2 class="section-title" style="margin-bottom: 16px;">De quoi as-tu besoin&nbsp;?</h2>
                 <p style="color: var(--text-muted); font-size: 1.05rem; text-align: center; max-width: 760px; margin: 0 auto 24px;"><span class="yellow-highlight">Sélectionne tes besoins, on te montre la meilleure formule qui correspond</span>.</p>
                 <div class="selector-shell">
+                    <div class="base-included-card">
+                        <h3>Inclus dans toutes nos offres</h3>
+                        <ul class="base-included-list">
+                            <li>Logiciel ostéo illimité</li>
+                            <li>Site vitrine + référencement</li>
+                            <li>Interventions en entreprise</li>
+                            <li>Partenariats</li>
+                            <li>2 formations offertes ReflexOstéo</li>
+                            <li>Accompagnement en visio</li>
+                        </ul>
+                    </div>
+
+                    <div class="selector-action-line">Configure ton offre sur mesure</div>
+
                     <div class="chip-grid" role="group" aria-label="Sélection des besoins">
-                        <button type="button" class="need-chip" data-need="software">Logiciel ostéo</button>
-                        <button type="button" class="need-chip" data-need="rcp">Tarifs négociés</button>
-                        <button type="button" class="need-chip" data-need="site">Site vitrine / Référencement local</button>
-                        <button type="button" class="need-chip" data-need="ads">Référencement payant</button>
+                        <button type="button" class="need-chip is-active" data-need="software">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🗂️ Gérer mes patients et ma facturation</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">Gagnes plus de 7h/semaine, facturation simple, suivi patient, ...</span>
+                            </div>
+                        </button>
+                        <button type="button" class="need-chip" data-need="rcp">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🤝 Réduire mes charges pro</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">RCP à 50€/an, -50% sur draps d'examen, frais bancaires réduits, ...</span>
+                            </div>
+                        </button>
+                        <button type="button" class="need-chip" data-need="site">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🌐 Site internet sur mesure</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">Plusieurs pages, référencement local & annuaire</span>
+                            </div>
+                        </button>
+                        <button type="button" class="need-chip" data-need="ads">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🚀 Trouver de nouveaux patients</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">Campagnes publicitaires Google Ads ciblées</span>
+                            </div>
+                        </button>
                     </div>
 
                     <div class="selector-result" id="selector-result" aria-live="polite"></div>
@@ -1267,14 +1402,20 @@
                             <li>Tu as 4 ans pour activer ton offre jeune diplômé·e</li>
                             <li>Remboursable si tu changes d'avis</li>
                             <li>Zéro engagement de durée</li>
+                            <li>6 mois de logiciel + site + plateforme de réductions (voir ci-après)</li>
                         </ul>
                     </div>
 
                     <div class="pricing-card">
                         <h4>À l'activation (plus tard)</h4>
-                        <p>Le montant mensuel dépend de la formule choisie au-dessus. <span class="yellow-highlight">L'achat du pack te permet d'avoir des tarif réduits à vie</span>.</p>
+                        <p>Le montant mensuel dépend de la formule choisie au-dessus.<span class="yellow-highlight">L'achat du pack te permet d'avoir des des tarif réduits à vie</span>.</p>
+                        <p><span class="yellow-highlight"><strong>Dans tous les cas</strong> ton pack comprend déjà</span>:</p>
                         <ul class="pricing-list">
-                            <li><strong>6 mois offerts</strong> avec le logiciel osteopathes.pro + site vitrine inclus;</li>
+                            <li><strong>100 consultations offertes + 6 mois offerts</strong> du logiciel osteopathes.pro;</li>
+                            <li><strong>6 mois offerts</strong> de site vitrine</li>
+                            <li><strong>6 mois offerts</strong> sur la plateforme HelloCSE (Réductions type CE - Comité d'Entreprise)</li>
+                            <li><strong>Accompagnement complet</strong>: administratif, contrats, comptabilité, développement d'activité, installation, ...</li>
+                            <li>Carte des ostéos avancée à vie</li>
                             <li>osteopathes.pro: <strong>-41% à vie</strong> soit 14,75€/mois au lieu de 25€;</li>
                             <li>Fomules Avantages/Site/Ads avec <strong>5€ à 10€ de réduction mensuelle à vie</strong>.</li>
                         </ul>
@@ -1285,7 +1426,7 @@
                     <div style="font-size: 1.5rem;">🤝</div>
                     <div>
                         <strong style="display: block; margin-bottom: 4px;">Notre promesse entre confrères</strong>
-                        Si tu trouves une meilleure offre ailleurs pour démarrer, viens nous en parler : on s'alignera. L'important c'est que tu sois bien équipé(e).
+                        Si tu trouves une meilleure offre ailleurs pour démarrer, viens nous en parler : on s'alignera. L'important c'est que tu sois bien équipé·e.
                     </div>
                 </div>
             </section>
@@ -1378,11 +1519,16 @@
             { name: 'Avantages + Site + Ads', price: '49€/mois', oldPrice: '59€/mois', savingLabel: '-10€/mois à vie', covers: ['software', 'rcp', 'site', 'ads'], includes: ['Logiciel ostéo illimité', 'Tarifs négociés', 'Interventions en entreprise', 'Site sur mesure + référencement local', 'référencement payant'], why: 'C’est la formule la plus complète pour t’équiper, te rendre visible et démarrer fort.' }
         ];
 
-        const needLabels = { software:'logiciel ostéo', rcp:'tarifs négociés', site:'site vitrine / référencement local', ads:'référencement payant' };
+        const needLabels = { software:'gérer mes patients et ma facturation', rcp:'réduire mes charges pro', site:'un site internet sur mesure', ads:'trouver de nouveaux patients' };
 
         function updateSelector() {
             const selected = needs.filter(chip => chip.classList.contains('is-active')).map(chip => chip.dataset.need);
-            const matched = packs.find(pack => selected.every(need => pack.covers.includes(need))) || packs[0];
+            const matched = packs.find(pack => selected.every(need => {
+                if (need === 'site') {
+                    return pack.name !== 'osteopathes.pro Essentiel' && pack.covers.includes(need);
+                }
+                return pack.covers.includes(need);
+            })) || packs[0];
             const asked = selected.length ? selected.map(n => needLabels[n]).join(', ') : 'un démarrage simple';
             result.innerHTML = `
                 <div class="eyebrow">Recommandation</div>
