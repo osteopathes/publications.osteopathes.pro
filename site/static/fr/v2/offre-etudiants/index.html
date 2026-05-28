@@ -415,11 +415,30 @@
             font-weight: bold;
         }
 
+        .selector-action-line {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 16px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .selector-action-line::before {
+            content: '👇';
+        }
+
         .chip-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: 1fr 1fr;
             gap: 12px;
             margin-bottom: 32px;
+        }
+        @media (max-width: 768px) {
+            .chip-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .need-chip {
@@ -459,6 +478,9 @@
             color: var(--text-muted);
             font-weight: bold;
             font-size: 1.1rem;
+            line-height: 1;
+            padding-bottom: 2px; /* Visual centering for + */
+            box-sizing: border-box;
             transition: all 0.2s ease;
             flex-shrink: 0;
         }
@@ -474,6 +496,7 @@
             background: var(--primary);
             color: white;
             font-size: 0.9rem;
+            padding-bottom: 0;
         }
 
         .selector-result {
@@ -1285,19 +1308,44 @@
                 <p style="color: var(--text-muted); font-size: 1.05rem; text-align: center; max-width: 760px; margin: 0 auto 24px;"><span class="yellow-highlight">Sélectionne tes besoins, on te montre la meilleure formule qui correspond</span>.</p>
                 <div class="selector-shell">
                     <div class="base-included-card">
-                        <h3>Inclus dans toutes nos formules étudiantes</h3>
+                        <h3>Inclus dans toutes nos offres</h3>
                         <ul class="base-included-list">
                             <li>Logiciel ostéo illimité</li>
-                            <li>Site vitrine simple</li>
-                            <li>Carte complète + mises à jour à vie</li>
+                            <li>Site vitrine + référencement</li>
+                            <li>Interventions en entreprise</li>
+                            <li>Partenariats</li>
+                            <li>2 formations offertes ReflexOstéo</li>
                             <li>Accompagnement en visio</li>
                         </ul>
                     </div>
+
+                    <div class="selector-action-line">Configure ton offre sur mesure</div>
+
                     <div class="chip-grid" role="group" aria-label="Sélection des besoins">
-                        <button type="button" class="need-chip" data-need="software">🗂️ Gérer mes patients et ma facturation</button>
-                        <button type="button" class="need-chip" data-need="rcp">🤝 Réduire mes charges pro</button>
-                        <button type="button" class="need-chip" data-need="site">🌐 Créer mon site internet</button>
-                        <button type="button" class="need-chip" data-need="ads">🚀 Trouver de nouveaux patients</button>
+                        <button type="button" class="need-chip" data-need="software">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🗂️ Gérer mes patients et ma facturation</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">Gagnes plus de 7h/semaine, facturation simple, suivi patient, ...</span>
+                            </div>
+                        </button>
+                        <button type="button" class="need-chip" data-need="rcp">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🤝 Réduire mes charges pro</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">RCP à 50€/an, -50% sur draps d'examen, frais bancaires réduits, ...</span>
+                            </div>
+                        </button>
+                        <button type="button" class="need-chip" data-need="site">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🌐 Site internet sur mesure</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">Plusieurs pages, référencement local & annuaire</span>
+                            </div>
+                        </button>
+                        <button type="button" class="need-chip" data-need="ads">
+                            <div style="display: flex; flex-direction: column; gap: 4px;">
+                                <span style="font-weight: 600;">🚀 Trouver de nouveaux patients</span>
+                                <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 400;">Campagnes publicitaires Google Ads ciblées</span>
+                            </div>
+                        </button>
                     </div>
 
                     <div class="selector-result" id="selector-result" aria-live="polite"></div>
@@ -1354,13 +1402,14 @@
                             <li>Tu as 4 ans pour activer ton offre jeune diplômé·e</li>
                             <li>Remboursable si tu changes d'avis</li>
                             <li>Zéro engagement de durée</li>
+                            <li>6 mois de logiciel + site + plateforme de réductions (voir ci-après)</li>
                         </ul>
                     </div>
 
                     <div class="pricing-card">
                         <h4>À l'activation (plus tard)</h4>
-                        <p>Le montant mensuel dépend de la formule choisie au-dessus.<span class="yellow-highlight">L'achat du pack te permet d'avoir des services gratuits + des tarif réduits à vie</span>.</p>
-                        <p><strong>Dans tous les cas</strong> ton pack comprend déjà:</p>
+                        <p>Le montant mensuel dépend de la formule choisie au-dessus.<span class="yellow-highlight">L'achat du pack te permet d'avoir des des tarif réduits à vie</span>.</p>
+                        <p><span class="yellow-highlight"><strong>Dans tous les cas</strong> ton pack comprend déjà</span>:</p>
                         <ul class="pricing-list">
                             <li><strong>100 consultations offertes + 6 mois offerts</strong> du logiciel osteopathes.pro;</li>
                             <li><strong>6 mois offerts</strong> de site vitrine</li>
@@ -1470,11 +1519,16 @@
             { name: 'Avantages + Site + Ads', price: '49€/mois', oldPrice: '59€/mois', savingLabel: '-10€/mois à vie', covers: ['software', 'rcp', 'site', 'ads'], includes: ['Logiciel ostéo illimité', 'Tarifs négociés', 'Interventions en entreprise', 'Site sur mesure + référencement local', 'référencement payant'], why: 'C’est la formule la plus complète pour t’équiper, te rendre visible et démarrer fort.' }
         ];
 
-        const needLabels = { software:'gérer mes patients et ma facturation', rcp:'réduire mes charges pro', site:'créer mon site internet', ads:'trouver de nouveaux patients' };
+        const needLabels = { software:'gérer mes patients et ma facturation', rcp:'réduire mes charges pro', site:'un site internet sur mesure', ads:'trouver de nouveaux patients' };
 
         function updateSelector() {
             const selected = needs.filter(chip => chip.classList.contains('is-active')).map(chip => chip.dataset.need);
-            const matched = packs.find(pack => selected.every(need => pack.covers.includes(need))) || packs[0];
+            const matched = packs.find(pack => selected.every(need => {
+                if (need === 'site') {
+                    return pack.name !== 'osteopathes.pro Essentiel' && pack.covers.includes(need);
+                }
+                return pack.covers.includes(need);
+            })) || packs[0];
             const asked = selected.length ? selected.map(n => needLabels[n]).join(', ') : 'un démarrage simple';
             result.innerHTML = `
                 <div class="eyebrow">Recommandation</div>
