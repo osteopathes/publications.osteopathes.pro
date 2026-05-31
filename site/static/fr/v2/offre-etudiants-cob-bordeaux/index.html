@@ -937,22 +937,46 @@
 
         /* Final CTA */
         .final-cta {
-            text-align: center;
-            padding: 80px 40px;
+            display: flex;
+            flex-direction: column;
             background: var(--surface);
             border-radius: 32px;
             border: 1px solid var(--border);
             margin-bottom: 80px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            overflow: hidden;
+        }
+
+        .final-cta-content {
+            padding: 80px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .final-cta-image-wrapper {
+            position: relative;
+            min-height: 250px;
+            background: var(--border);
+            order: -1;
+        }
+
+        .final-cta-image-wrapper img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .final-cta h2 {
             font-size: 2.5rem;
             margin-bottom: 24px;
             letter-spacing: -0.02em;
+            color: var(--text-main);
         }
 
-        .final-cta p {
+        .final-cta p.final-cta-desc {
             color: var(--text-muted);
             margin-bottom: 40px;
             font-size: 1.25rem;
@@ -961,35 +985,51 @@
         .final-cta-actions {
             display: flex;
             gap: 16px;
-            justify-content: center;
             flex-wrap: wrap;
         }
 
         .final-cta-actions .btn,
         .final-cta-actions .btn-secondary {
-            flex: 1 1 240px;
+            flex: 1 1 200px;
             max-width: 320px;
         }
 
         .founders-signoff {
-            margin-bottom: 32px;
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
             display: flex;
-            flex-direction: column;
             align-items: center;
-            gap: 12px;
+            gap: 16px;
         }
 
         .founders-img {
-            width: 110px;
+            width: 80px;
             height: auto;
             opacity: 0.9;
         }
 
-        .final-cta p.founders-caption {
+        .founders-signoff p.founders-caption {
             font-size: 0.95rem;
             margin-bottom: 0;
             font-weight: 500;
             color: var(--text-muted);
+        }
+
+        @media (min-width: 900px) {
+            .final-cta {
+                flex-direction: row;
+                text-align: left;
+            }
+            .final-cta-content {
+                flex: 1;
+                padding: 80px 64px;
+            }
+            .final-cta-image-wrapper {
+                flex: 0.8;
+                min-height: auto;
+                order: 0;
+            }
         }
 
         /* Reviews Marquee */
@@ -1211,7 +1251,7 @@
             </nav>
 
             <div class="header-actions">
-                <a href="mailto:equipe@osteopathes.pro?subject=J'ai une question&body=Bonjour, J'ai une question concernant votre offre" class="btn-contact">Nous contacter</a>
+                <a href="mailto:equipe@osteopathes.pro?subject=J%27ai%20une%20question&amp;body=Bonjour%2C%20J%27ai%20une%20question%20concernant%20votre%20offre" class="btn-contact">Nous contacter</a>
             </div>
         </div>
     </header>
@@ -1626,15 +1666,20 @@ développement de cabinet : <span class="yellow-highlight">tout ce qu’il faut 
 
             <!-- Final CTA -->
             <section class="final-cta">
-                <div class="founders-signoff">
-                    <img src="/imgs/offres-etudiants/klemen-et-konrad.png" alt="Klemen et Konrad, ostéopathes et fondateurs" class="founders-img">
-                    <p class="founders-caption">Créé par Klemen & Konrad, pour les (futurs) ostéos ✌️</p>
+                <div class="final-cta-content">
+                    <h2>Prêt·e à te lancer ?</h2>
+                    <p class="final-cta-desc">Rejoins les +800 futurs confrères et consœurs qui ont déjà fait le choix d'un démarrage serein.</p>
+                    <div class="final-cta-actions">
+                        <a href="https://buy.stripe.com/fZe2bd4D2cZSacg9AH?prefilled_promo_code=SUPERCOB2026" class="btn">Réserver mon pack (60€)</a>
+                        <a href="mailto:equipe@osteopathes.pro?subject=J%27ai%20une%20question&amp;body=Bonjour%2C%20J%27ai%20une%20question%20concernant%20votre%20offre" class="btn-secondary">J'ai une question</a>
+                    </div>
+                    <div class="founders-signoff">
+                        <img src="/imgs/offres-etudiants/klemen-et-konrad.png" alt="Klemen et Konrad, ostéopathes et fondateurs" class="founders-img">
+                        <p class="founders-caption">Créé par Klemen & Konrad, pour les (futurs) ostéos ✌️</p>
+                    </div>
                 </div>
-                <h2>Prêt·e à te lancer ?</h2>
-                <p>Rejoins les +800 futurs confrères et consœurs qui ont déjà fait le choix d'un démarrage serein.</p>
-                <div class="final-cta-actions">
-                    <a href="https://buy.stripe.com/fZe2bd4D2cZSacg9AH?prefilled_promo_code=SUPERCOB2026" class="btn">Réserver mon pack (60€)</a>
-                    <a href="mailto:equipe@osteopathes.pro?subject=J'ai une question&body=Bonjour, J'ai une question concernant votre offre" class="btn-secondary">J'ai une question</a>
+                <div class="final-cta-image-wrapper">
+                    <img src="/imgs/offres-etudiants/photo_hotel_region.jpg" alt="Jeunes ostéopathes" loading="lazy">
                 </div>
             </section>
         </main>
@@ -1658,7 +1703,7 @@ développement de cabinet : <span class="yellow-highlight">tout ce qu’il faut 
         const needs = Array.from(document.querySelectorAll('.need-chip'));
         const result = document.getElementById('selector-result');
         const packs = [
-            { name: 'osteopathes.pro Essentiel', price: '14,75€/mois', oldPrice: '25€/mois', savingLabel: '-41% à vie', covers: ['software', 'site'], includes: ['Logiciel ostéo illimité', 'Site vitrine simple', 'Carte complète + mises à jour à vie', 'Accompagnement en visio'], why: 'C’est le pack essentiel, qui comprend tout ce qu\'il te faut pour bien commencer – avec notre accompagnement bien sûr !' },
+            { name: 'osteopathes.pro Complet', price: '14,75€/mois', oldPrice: '25€/mois', savingLabel: '-41% à vie', covers: ['software', 'site'], includes: ['Logiciel ostéo illimité', 'Site vitrine simple', 'Carte complète + mises à jour à vie', 'Plateforme de réduction HelloCSE', 'Accompagnement en visio'], why: 'C’est le pack essentiel, qui comprend tout ce qu\'il te faut pour bien commencer – avec notre accompagnement bien sûr !' },
             { name: 'Avantages', price: '24€/mois', oldPrice: '29€/mois', savingLabel: '-5€/mois à vie', covers: ['software', 'rcp'], includes: ['Logiciel ostéo illimité', 'RCP 50€/an', 'SumUp à 0,89%', 'Draps d’examen à -50%', 'Comité d\'entreprise HelloCSE', 'Interventions en entreprise'], why: 'Maximise tes réductions avec tous nos meilleurs tarifs négociés, interviens en entreprise et pilote ton cabinet avec notre logiciel.' },
             { name: 'Avantages + Ads', price: '35€/mois', oldPrice: '39€/mois', savingLabel: '-4€/mois à vie', covers: ['software', 'rcp', 'ads'], includes: ['Logiciel ostéo illimité', 'Tarifs négociés', 'Interventions en entreprise', 'Référencement'], why: 'En plus des supers tarifs et des interventions en entreprise, booste ta visibilité sur un site existant avec du référencement payant.' },
             { name: 'Avantages + Site', price: '39€/mois', oldPrice: '49€/mois', savingLabel: '-10€/mois à vie', covers: ['software', 'rcp', 'site'], includes: ['Logiciel ostéo illimité', 'Tarifs négociés', 'Interventions en entreprise', 'Site sur mesure + référencement local'], why: 'En plus des supers tarifs et des interventions en entreprise, booste ta visibilité avec un site sur mesure et optimisé.' },
@@ -1671,7 +1716,7 @@ développement de cabinet : <span class="yellow-highlight">tout ce qu’il faut 
             const selected = needs.filter(chip => chip.classList.contains('is-active')).map(chip => chip.dataset.need);
             const matched = packs.find(pack => selected.every(need => {
                 if (need === 'site') {
-                    return pack.name !== 'osteopathes.pro Essentiel' && pack.covers.includes(need);
+                    return pack.name !== 'osteopathes.pro Complet' && pack.covers.includes(need);
                 }
                 return pack.covers.includes(need);
             })) || packs[0];
