@@ -17,3 +17,13 @@
 [context.production.environment]
   HUGO_ENV = "production"
   DEPLOY_PRIME_URL = "https://publications.osteopathes.pro/"
+
+[[headers]]
+  for = "/fr/v2/offre-etudiants/liste/"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/fr/v2/offre-etudiants/liste/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
