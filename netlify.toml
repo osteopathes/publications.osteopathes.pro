@@ -17,3 +17,361 @@
 [context.production.environment]
   HUGO_ENV = "production"
   DEPLOY_PRIME_URL = "https://publications.osteopathes.pro/"
+
+[[redirects]]
+  from = "/fr/offre-etudiants"
+  to = "/fr/v2/offre-etudiants/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants/"
+  to = "/fr/v2/offre-etudiants/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants/liste"
+  to = "/fr/v2/offre-etudiants/liste/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants/liste/"
+  to = "/fr/v2/offre-etudiants/liste/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-atsa-lyon"
+  to = "/fr/v2/offre-etudiants-atsa-lyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-atsa-lyon/"
+  to = "/fr/v2/offre-etudiants-atsa-lyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ceeso-lyon"
+  to = "/fr/v2/offre-etudiants-ceeso-lyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ceeso-lyon/"
+  to = "/fr/v2/offre-etudiants-ceeso-lyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ceeso-paris"
+  to = "/fr/v2/offre-etudiants-ceeso-paris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ceeso-paris/"
+  to = "/fr/v2/offre-etudiants-ceeso-paris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cido-saint-etienne"
+  to = "/fr/v2/offre-etudiants-cido-saint-etienne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cido-saint-etienne/"
+  to = "/fr/v2/offre-etudiants-cido-saint-etienne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cob-bordeaux"
+  to = "/fr/v2/offre-etudiants-cob-bordeaux/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cob-bordeaux/"
+  to = "/fr/v2/offre-etudiants-cob-bordeaux/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cop-marseille"
+  to = "/fr/v2/offre-etudiants-cop-marseille/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cop-marseille/"
+  to = "/fr/v2/offre-etudiants-cop-marseille/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-copb-pays-basque"
+  to = "/fr/v2/offre-etudiants-copb-pays-basque/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-copb-pays-basque/"
+  to = "/fr/v2/offre-etudiants-copb-pays-basque/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cos-strasbourg"
+  to = "/fr/v2/offre-etudiants-cos-strasbourg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cos-strasbourg/"
+  to = "/fr/v2/offre-etudiants-cos-strasbourg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cso-nanterre"
+  to = "/fr/v2/offre-etudiants-cso-nanterre/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cso-nanterre/"
+  to = "/fr/v2/offre-etudiants-cso-nanterre/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cso-toulouse"
+  to = "/fr/v2/offre-etudiants-cso-toulouse/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-cso-toulouse/"
+  to = "/fr/v2/offre-etudiants-cso-toulouse/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-danhier-saint-denis"
+  to = "/fr/v2/offre-etudiants-danhier-saint-denis/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-danhier-saint-denis/"
+  to = "/fr/v2/offre-etudiants-danhier-saint-denis/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-eo-paris"
+  to = "/fr/v2/offre-etudiants-eo-paris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-eo-paris/"
+  to = "/fr/v2/offre-etudiants-eo-paris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-eso-champs-sur-marne"
+  to = "/fr/v2/offre-etudiants-eso-champs-sur-marne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-eso-champs-sur-marne/"
+  to = "/fr/v2/offre-etudiants-eso-champs-sur-marne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-holistea"
+  to = "/fr/v2/offre-etudiants-holistea/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-holistea/"
+  to = "/fr/v2/offre-etudiants-holistea/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-idheo-nantes"
+  to = "/fr/v2/offre-etudiants-idheo-nantes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-idheo-nantes/"
+  to = "/fr/v2/offre-etudiants-idheo-nantes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ifoga-avignon"
+  to = "/fr/v2/offre-etudiants-ifoga-avignon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ifoga-avignon/"
+  to = "/fr/v2/offre-etudiants-ifoga-avignon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-insolille"
+  to = "/fr/v2/offre-etudiants-insolille/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-insolille/"
+  to = "/fr/v2/offre-etudiants-insolille/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-iob-bordeaux"
+  to = "/fr/v2/offre-etudiants-iob-bordeaux/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-iob-bordeaux/"
+  to = "/fr/v2/offre-etudiants-iob-bordeaux/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-io-rennes-bretagne"
+  to = "/fr/v2/offre-etudiants-io-rennes-bretagne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-io-rennes-bretagne/"
+  to = "/fr/v2/offre-etudiants-io-rennes-bretagne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ito-toulouse"
+  to = "/fr/v2/offre-etudiants-ito-toulouse/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ito-toulouse/"
+  to = "/fr/v2/offre-etudiants-ito-toulouse/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-isogm-montpellier"
+  to = "/fr/v2/offre-etudiants-isogm-montpellier/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-isogm-montpellier/"
+  to = "/fr/v2/offre-etudiants-isogm-montpellier/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-kevin-chabbouh"
+  to = "/fr/v2/offre-etudiants-kevin-chabbouh/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-kevin-chabbouh/"
+  to = "/fr/v2/offre-etudiants-kevin-chabbouh/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-osteo-studying"
+  to = "/fr/v2/offre-etudiants-osteo-studying/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-osteo-studying/"
+  to = "/fr/v2/offre-etudiants-osteo-studying/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-osteobio"
+  to = "/fr/v2/offre-etudiants-osteobio/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-osteobio/"
+  to = "/fr/v2/offre-etudiants-osteobio/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-oscar-strasbourg"
+  to = "/fr/v2/offre-etudiants-oscar-strasbourg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-oscar-strasbourg/"
+  to = "/fr/v2/offre-etudiants-oscar-strasbourg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ido-paris"
+  to = "/fr/v2/offre-etudiants-ido-paris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-ido-paris/"
+  to = "/fr/v2/offre-etudiants-ido-paris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-iso-lyon"
+  to = "/fr/v2/offre-etudiants-iso-lyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/offre-etudiants-iso-lyon/"
+  to = "/fr/v2/offre-etudiants-iso-lyon/"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/fr/v2/offre-etudiants/liste/"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/fr/v2/offre-etudiants/liste/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
