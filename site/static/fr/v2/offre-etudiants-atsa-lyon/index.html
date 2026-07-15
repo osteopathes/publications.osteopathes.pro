@@ -1580,8 +1580,7 @@ développement de cabinet : <span class="yellow-highlight">tout ce qu’il faut 
                         <p style="margin-bottom: 16px;">Paiement unique pour débloquer l'accès à l'offre jeune diplômé·e.</p>
                         <div style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px; padding: 12px; background: var(--bg-color); border-radius: 12px; border: 1px solid var(--border);">
                             <strong style="color: var(--text-main);">Évolution du tarif du pack :</strong><br>
-                            <span style="display: inline-block; margin-top: 4px;">• <strong>49€</strong> jusqu'au mercredi 3 juin à 23h59</span><br>
-                            <span style="display: inline-block; margin-top: 2px;">• <strong>60€</strong> jusqu'au 30/06/2026</span><br>
+                            <span style="display: inline-block; margin-top: 4px;">• <strong>49€</strong> jusqu'au 31/08/2026</span><br>
                             <span style="display: inline-block; margin-top: 2px;">• <strong>99€</strong> jusqu'au 31/12/2026</span><br>
                             <span style="display: inline-block; margin-top: 2px;">• <strong>199€</strong> au-delà</span>
                         </div>
@@ -1716,18 +1715,14 @@ développement de cabinet : <span class="yellow-highlight">tout ce qu’il faut 
         function updateDateBasedPricing() {
             const baseUrl = 'https://buy.stripe.com/fZe2bd4D2cZSacg9AH';
             const now = new Date();
-            const ultraDeadline = new Date(2026, 5, 3, 23, 59, 59);
-            const juneDeadline = new Date(2026, 5, 30, 23, 59, 59);
+            const juneDeadline = new Date(2026, 7, 31, 23, 59, 59);
             const yearDeadline = new Date(2026, 11, 31, 23, 59, 59);
             let price = '199€';
             let promoCode = '';
 
-            if (now <= ultraDeadline) {
+            if (now <= juneDeadline) {
                 price = '49€';
                 promoCode = 'GIGAATSA2026';
-            } else if (now <= juneDeadline) {
-                price = '60€';
-                promoCode = 'SUPERATSA2026';
             } else if (now <= yearDeadline) {
                 price = '99€';
                 promoCode = 'ATSA2026';
@@ -1735,10 +1730,8 @@ développement de cabinet : <span class="yellow-highlight">tout ce qu’il faut 
 
             const href = promoCode ? `${baseUrl}?prefilled_promo_code=${promoCode}` : baseUrl;
             document.querySelectorAll('[data-pack-cta]').forEach(button => {
-                if (button.textContent.trim().startsWith('Réserver mon pack (')) {
-                    button.href = href;
+                button.href = href;
                     button.textContent = `Réserver mon pack (${price})`;
-                }
             });
 
             const priceEl = document.querySelector('[data-pack-price]');
