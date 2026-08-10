@@ -364,7 +364,7 @@ Et le parcours type s'est structuré avec le temps : les remplacements et collab
 ### Ce qui use
 
 **3 répondants sur 4 se sentent mieux armés en clinique qu'en gestion**, et plus d'un sur deux juge ses revenus décevants — une déception qui ne semble s'effacer ni avec les années, ni avec l'ouverture de son propre cabinet.  
-4 praticiens sur 10 se sentent isolés quand seuls 3,4&nbsp;% disposent d'un espace pour en parler. Et près de 6 sur 10 se déclarent pessimistes quant à l'avenir de la profession, avec cette particularité que le pessimisme s'accentue avec l'expérience plutôt que de s'atténuer.
+**4 praticiens sur 10 se sentent isolés quand seuls 3,4&nbsp;% disposent d'un espace pour en parler**. Et près de 6 sur 10 se déclarent pessimistes quant à l'avenir de la profession, avec cette particularité que le pessimisme s'accentue avec l'expérience plutôt que de s'atténuer.
 
 Le tableau n'est donc ni celui d'une profession qui n’a aucun souci, ni celui d'une profession en détresse : c'est celui d'un métier solide dont l'exercice semble toutefois difficile. Mais la distinction n'est pas rhétorique, parce qu'elle désigne précisément où agir.
 
