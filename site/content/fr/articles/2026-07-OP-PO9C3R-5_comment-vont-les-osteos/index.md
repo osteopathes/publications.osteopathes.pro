@@ -2,10 +2,10 @@
 title: 'Est-ce que les ostéopathes vont bien ?'
 date: 2026-07-20T15:10:15Z
 draft: false
-slug: 
+slug: est-ce-que-les-osteopathes-vont-bien
 resources:
   - name: cover-image
-    src: 
+    src: texture-organique.jpg
 
 publication_id: OP-PO9C3R-5
 aliases:
@@ -35,9 +35,9 @@ Et si la réponse est plus nuancée qu'un oui ou un non, elle pourrait indiquer 
   
   Deux types de résultats se croisent dans cet article. Les questions fermées (échelles de 1 à 5, ressenti sur les revenus, isolement, vision de l'avenir) donnent des mesures nettes. Les questions ouvertes ont été lues et classées à la main : les pourcentages qui en découlent indiquent des tendances, pas des mesures exactes.
   
-  Les répondants étant volontaires, ces résultats décrivent fidèlement ce panel sans pouvoir être extrapolés à toute la profession. 
+  Les répondants étant volontaires, ces résultats décrivent fidèlement ce panel sans pouvoir être extrapolés à toute la profession.  
 
-  Méthodologie détaillée en fin d'article.
+  *Méthodologie détaillée en fin d'article.*
 
 </div>
 
@@ -50,7 +50,8 @@ Afin de saisir les enjeux de la profession d’ostéopathe, il faut comprendre c
 
 ### Débuter : le remplacement et la collaboration, presque un passage obligé
 
-Juste après le diplôme, le champ des possibles paraît vaste. Dans les faits, il se resserre vite autour de **deux options** : **63,4&nbsp;% des répondants ont commencé par un remplacement ou une collaboration**, avant d'envisager toute installation en propre. Le remplacement domine, suivi de la collaboration. À l'inverse, **un peu moins d'un tiers ont fait le choix d'une création directe** : 17,3&nbsp;% en cabinet solo, 12,2&nbsp;% au sein d'un cabinet de groupe ou d'une maison de santé.
+Juste après le diplôme, le champ des possibles paraît vaste ; mais dans les faits, il se resserre assez vite autour de **deux options** : le **remplacement** et la **collaboration**. **63,4&nbsp;% des répondants** ont débuté par l'une ou l'autre avant d'envisager une installation à leur compte, le remplacement étant majoritaire.  
+À l'inverse, **un peu moins d'un tiers ont fait le choix d'une création directe** : 17,3&nbsp;% en cabinet seul, 12,2&nbsp;% au sein d'un cabinet de groupe ou d'une maison de santé.
 
 Ces débuts par étapes ont une **logique**, qui paraît aujourd'hui évidente : moins d'engagement financier, moins de risque, et la possibilité d'apprendre le métier réel — *la gestion d'un agenda, des patients, le rythme des journées* — sans avoir à porter seul les obligations du cabinet.
 
@@ -62,7 +63,7 @@ On peut y lire une forme de maturation collective : la profession a appris qu'il
 
 ### Aujourd’hui : sept ostéopathes sur dix en cabinet
 
-La phase en remplacement et/ou collaboration mène, pour la grande majorité, à l'**installation**. **69,3&nbsp;%** des répondants exercent aujourd'hui dans leur propre cabinet — 36&nbsp;% en solo, 33,3&nbsp;% en groupe ou maison de santé. 
+La phase en remplacement et/ou collaboration mène, pour la grande majorité, à l'**installation**. **69,3&nbsp;%** des répondants exercent aujourd'hui dans leur propre cabinet — 36&nbsp;% seul, 33,3&nbsp;% en groupe ou maison de santé. 
 Les collaborations représentent **17,9&nbsp;%** du panel, les remplacements 4,8&nbsp;%.
 
 Le contraste avec les débuts est net : là où deux tiers commençaient en remplacement ou collaboration, moins d'un quart s'y trouvent encore. La trajectoire type est donc celle d'une progression vers l'**autonomie** — on continue d’apprendre en s’associant, puis on s'installe chez soi. 
@@ -137,6 +138,26 @@ Interrogés sur l'adéquation entre leurs revenus réels et ce qu'ils avaient im
 À l'inverse, **27&nbsp;%** estiment que leurs revenus correspondent à leurs attentes ou les dépassent (13,3&nbsp;% "c'est mieux qu'espéré", 13,8&nbsp;% "conforme").
 
 [![Adéquation entre revenus et attentes](./REVENUS.png)](./REVENUS.png)
+
+</div>
+
+<div class="p-4 mb-6 border-l-4 border-teal-400 bg-teal-50">
+  <div class="flex">
+    <div class="ml-3">
+      <p class="text-sm text-teal-700">
+        <strong>Et concrètement, combien gagne un ostéopathe ?</strong><br>
+        Cette enquête mesure un écart entre les attentes et le vécu, pas des montants. 
+        Pour les chiffres réels — revenus moyens et médians, dispersion, évolution sur 
+        les dernières années —, nous les analysons chaque année dans notre étude 
+        démographique, aux côtés des effectifs et de la répartition territoriale de la profession.<br>
+        <a href="[https://publications.osteopathes.pro/fr/dossiers/demographie/demographie-des-osteopathes-en-france-en-2024]" class="underline">→ Démographie des ostéopathes en France</a>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="w-full px-4 py-4 prose max-w-prose font-readable">
 
 ### Un vécu stable à tous les âges de carrière
 
