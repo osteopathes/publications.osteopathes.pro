@@ -1,7 +1,3 @@
-{{- define "title" -}}
-Accueil | {{ .Site.Title }}
-{{- end -}}
-
 {{- define "main" -}}
 
 <div class="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -10,15 +6,15 @@ Accueil | {{ .Site.Title }}
   </div>
   <div class="relative mx-auto max-w-7xl">
     <div class="text-center">
-      <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+      <h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
         Nos dernières publications
-      </h2>
+      </h1>
       <p class="max-w-2xl mx-auto mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
         Découvrez nos dossiers, articles et autres actualités.
       </p>
     </div>
     <div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
-      {{- $paginator := .Paginate (where $.Site.RegularPages.ByPublishDate.Reverse "Section" "in" (slice "actualites" "articles" "dossiers")) 9 -}}
+      {{- $paginator := .Paginator -}}
       {{- range $paginator.Pages -}}
       {{- .Render "home-vertical-card" -}}
       {{- end -}}

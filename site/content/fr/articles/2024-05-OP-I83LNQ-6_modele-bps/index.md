@@ -1,5 +1,6 @@
 ---
 title: "Le modèle bio-psycho-social: un regard critique"
+description: "Modèle biopsychosocial : origines, limites et pièges d’interprétation. Un regard critique sur son utilisation dans le soin et la thérapie manuelle."
 date: 2024-05-27T20:09:00Z
 draft: false
 slug: le-modele-bio-psycho-social-un-regard-critique

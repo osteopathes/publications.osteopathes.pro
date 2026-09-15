@@ -1,5 +1,6 @@
 ---
 title: 'Démographie et perspectives économiques des ostéopathes en 2023'
+description: "Démographie des ostéopathes en France en 2023 : nombre de praticiens, densité des cabinets, revenus et méthodologie. Consultez les données de cette édition."
 date: 2023-10-22T15:10:15Z
 lastmod: 2023-11-09T16:24:55Z
 draft: false

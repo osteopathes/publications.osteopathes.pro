@@ -27,11 +27,13 @@ frontmatter:
   date:
     - publishDate
     - date
-    - :fileModTime
   publishDate:
     - publishDate
     - date
-    - :fileModTime
+  lastmod:
+    - lastmod
+    - publishDate
+    - date
 
 params:
   description: "Articles et dossiers sur l'ostéopathie ainsi que les actualités d'osteopathes.pro: démographie ostéopathes, ateliers rgpd etc."

@@ -1,5 +1,6 @@
 ---
 title: 'Démographie des ostéopathes en France 2024: Chiffres clés, répartition territoriale et analyse'
+description: "Combien d’ostéopathes en France en 2024 ? Chiffres clés, répartition des cabinets, revenus et méthode de notre étude démographique."
 date: 2025-10-29T22:07:55Z
 draft: false
 slug: demographie-des-osteopathes-en-France-en-2024

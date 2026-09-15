@@ -1,94 +1,47 @@
-{{- if .IsHome -}}
-{
-"@context": "http://schema.org",
-"@type": "WebSite",
-"url": "{{ .Site.BaseURL }}",
-{{ if .Site.Author.name -}}
-"author": {
-"@type": "Person",
-"name": "{{ .Site.Author.name }}"
-},
-{{- end }}
-{{ if .Site.Params.description -}}
-"description": "{{ .Site.Params.description }}",
-{{- end }}
-{{ with .Site.Params.image -}}
-"image": "{{ .url | absURL }}",
-{{- end }}
-{{ with .Site.Params.logo -}}
-"thumbnailUrl": "{{ .url | absURL }}",
-{{- end }}
-{{ with .Site.Copyright -}}
-"license": "{{ . }}",
-{{- end }}
-"name": "{{ .Site.Title }}"
-}
-{{/*
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "http://example.com/search?&q={query}",
-    "query-input": "required"
-  } */}}
-{{- else if .IsPage -}}
-{
-"@context": "http://schema.org",
-"@type": "BlogPosting",
-"headline": "{{ .Title }}",
-"mainEntityOfPage": {
-"@type": "WebPage",
-"@id": "{{ .Permalink }}"
-},
-{{ if ge (.Param "lua.image.width") 696 -}}
-"image": {
-"@type": "ImageObject",
-"url": "{{ .Param "lua.image.url" | absURL }}",
-"width": {{ .Param "lua.image.width" }},
-"height": {{ .Param "lua.image.height" }}
-},
-{{- end }}
-"genre": "{{ .Type }}",
-{{ with .Params.labels -}}
-"keywords": "{{ delimit . ", " }}",
-{{- end }}
-"wordcount": {{ .WordCount }},
-"url": "{{ .Permalink }}",
-{{ if not .PublishDate.IsZero -}}
-"datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
-{{- else if not .Date.IsZero -}}
-"datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
-{{- end }}
-{{ with .Lastmod -}}
-"dateModified": "{{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
-{{- end }}
-{{ with .Site.Copyright -}}
-"license": "{{ . }}",
-{{- end }}
-{{ with .Site.Params.editeur -}}
-"publisher": {
-"@type": "Organization",
-"name": "{{ .name }}"
-{{/*,"logo": {
-      "@type": "ImageObject",
-      "url": "{{ .logo.url | absURL }}",
-"width": {{ .logo.width }},
-"height": {{ .logo.height }}
-}*/}}
-},
-{{- end }}
-{{- if .Params.authors -}}
-{{- range .Params.authors -}}
-{{- with $.Site.GetPage (printf "/auteurs/%s" (urlize .)) -}}
-"author": {
-"@type": "Person",
-"name": "{{ .Params.name }}"
-},
+{{- $page := .page -}}
+{{- $seo := .seo -}}
+{{- $home := $page.Site.Home.Permalink -}}
+{{- $publisher := dict "@type" "Organization" "@id" (printf "%s#organization" $home) "name" $page.Site.Params.editeur.name "url" "https://www.osteopathes.pro/" "logo" (dict "@type" "ImageObject" "url" ("/imgs/logos/osteopathes.pro-logo.png" | absURL)) -}}
+{{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" $home) "url" $home "name" $page.Site.Title "inLanguage" $page.Language.Lang "publisher" (dict "@id" (index $publisher "@id")) -}}
+{{- $type := "WebPage" -}}
+{{- if $page.IsNode -}}{{- $type = "CollectionPage" -}}{{- end -}}
+{{- if $page.Params.name -}}{{- $type = "ProfilePage" -}}{{- end -}}
+{{- $webpage := dict "@type" $type "@id" (printf "%s#webpage" $seo.url) "url" $seo.url "name" $seo.title "description" $seo.description "inLanguage" $page.Language.Lang "isPartOf" (dict "@id" (index $website "@id")) -}}
+{{- $graph := slice $publisher $website -}}
+{{- if $page.Params.name -}}
+  {{- $person := dict "@type" "Person" "@id" (printf "%s#person" $page.Permalink) "name" $page.Params.name "url" $page.Permalink -}}
+  {{- with $page.Params.professional_titles -}}{{- $person = merge $person (dict "jobTitle" .) -}}{{- end -}}
+  {{- with $page.Params.biography -}}{{- $person = merge $person (dict "description" (. | plainify | htmlUnescape | replaceRE "\\s+" " " | replaceRE "^ +| +$" "")) -}}{{- end -}}
+  {{- with $page.Params.avatar_url -}}{{- $person = merge $person (dict "image" (. | absURL)) -}}{{- end -}}
+  {{- $graph = $graph | append $person -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" (dict "@id" (index $person "@id"))) -}}
 {{- end -}}
+{{- if $seo.article -}}
+  {{- $article := dict "@type" "BlogPosting" "@id" (printf "%s#article" $page.Permalink) "url" $page.Permalink "headline" $page.Title "description" $seo.description "inLanguage" $page.Language.Lang "wordCount" $page.WordCount "mainEntityOfPage" (dict "@id" (index $webpage "@id")) "publisher" (dict "@id" (index $publisher "@id")) "license" "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr" -}}
+  {{- $authors := slice -}}
+  {{- range $page.Params.auteurs -}}
+    {{- with $page.Site.GetPage (printf "/auteurs/%s" (urlize .)) -}}
+      {{- $authors = $authors | append (dict "@type" "Person" "@id" (printf "%s#person" .Permalink) "name" .Params.name "url" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $authors -}}{{- $article = merge $article (dict "author" .) -}}{{- end -}}
+  {{- with $page.Resources.GetMatch "cover-image" -}}{{- $article = merge $article (dict "image" (slice .Permalink)) -}}{{- end -}}
+  {{- if not $page.PublishDate.IsZero -}}{{- $article = merge $article (dict "datePublished" ($page.PublishDate.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+  {{- if not $page.Lastmod.IsZero -}}{{- $article = merge $article (dict "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+  {{- with $page.Params.labels -}}{{- $article = merge $article (dict "keywords" .) -}}{{- end -}}
+  {{- $graph = $graph | append $article -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" (dict "@id" (index $article "@id"))) -}}
 {{- end -}}
-{{- end }}
-{{- if .Description -}}
-"description": "{{ .Description | plainify | htmlUnescape | replaceRE "\\s+" " " }}"
-{{- else if .Summary -}}
-"description": "{{ .Summary | plainify | htmlUnescape | replaceRE "\\s+" " " }}"
+{{- if and (not $page.IsHome) (ne $page.Kind "404") -}}
+  {{- $items := slice -}}
+  {{- range $index, $item := (partial "seo/breadcrumb-items.html" $page) -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $index 1) "name" .name "item" .url) -}}
+  {{- end -}}
+  {{- if ge (len $items) 2 -}}
+    {{- $breadcrumb := dict "@type" "BreadcrumbList" "@id" (printf "%s#breadcrumb" $seo.url) "itemListElement" $items -}}
+    {{- $graph = $graph | append $breadcrumb -}}
+    {{- $webpage = merge $webpage (dict "breadcrumb" (dict "@id" (index $breadcrumb "@id"))) -}}
+  {{- end -}}
 {{- end -}}
-}
-{{- end }}
+{{- $graph = $graph | append $webpage -}}
+{{- return (dict "@context" "https://schema.org" "@graph" $graph) -}}

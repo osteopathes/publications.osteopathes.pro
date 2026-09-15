@@ -1,5 +1,6 @@
 ---
 title: "BD sur le Syndrome de la Queue de Cheval: identification & conduite à tenir"
+description: "Syndrome de la queue de cheval : la BD de Tom Jesson en français, à lire en ligne ou en PDF, avec une notice d’information pour les patients."
 date: 2023-06-01T07:03:00Z
 draft: false
 slug: bd-sur-le-syndrome-de-la-queue-de-cheval-identification-et-conduite-a-tenir

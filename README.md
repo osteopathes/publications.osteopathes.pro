@@ -55,6 +55,32 @@ npm run build:preview
 
 See [package.json](package.json#L8) for all tasks.
 
+### SEO
+
+Les métadonnées sont produites par les partials `seo/page.html` et
+`site-schema.html`. Les auteurs d’un article se déclarent avec `auteurs`
+(identifiants des pages sous `content/fr/auteurs`). Une `description` explicite
+est recommandée ; sinon, un extrait court est généré. `lastmod` doit refléter une
+révision réelle du contenu. `no_index: true` exclut une page du sitemap et ajoute
+la directive robots correspondante.
+
+La pagination est initialisée une seule fois dans `seo/page.html` ; les modèles
+de listes réutilisent `.Paginator` pour garder les mêmes collections et URL.
+
+Après un build de production avec `DEPLOY_PRIME_URL=https://publications.osteopathes.pro/` :
+
+```bash
+python3 scripts/check-seo.py dist
+```
+
+Pour contrôler un build Netlify de prévisualisation (`CONTEXT=deploy-preview`,
+avec les brouillons), ajouter `--preview`. Utiliser un répertoire de sortie neuf
+si un ancien build contenait des brouillons : Hugo seul ne supprime pas toujours
+les anciens fichiers.
+
+Voir [l’audit de septembre 2026](docs/seo-audit-2026-09.md) pour les constats
+Search Console, les corrections et les prochaines priorités.
+
 ## Structure
 
 ```
