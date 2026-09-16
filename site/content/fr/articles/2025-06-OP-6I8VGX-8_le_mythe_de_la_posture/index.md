@@ -1,5 +1,6 @@
 ---
 title: "Droit et tendu: l'invention de la posture"
+description: "Se tenir droit, une évidence médicale ? Tom Jesson remonte aux origines militaires et sociales de la « bonne posture » pour bousculer nos certitudes."
 date: 2025-06-04T12:05:05Z
 draft: false
 slug: droit-et-tendu-l-invention-de-la-posture

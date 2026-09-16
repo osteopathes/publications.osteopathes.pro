@@ -2,7 +2,7 @@
 {{- $paginator := false -}}
 {{- if .IsHome -}}
   {{- $paginator = .Paginate (where .Site.RegularPages.ByPublishDate.Reverse "Section" "in" (slice "actualites" "articles" "dossiers")) 9 -}}
-{{- else if .IsNode -}}
+{{- else if and .IsNode (not (in (slice "taxonomy" "taxonomyTerm") .Kind)) -}}
   {{- if .Params.name -}}
     {{- $paginator = .Paginate .Data.Pages 10 -}}
   {{- else -}}

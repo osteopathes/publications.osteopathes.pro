@@ -1,5 +1,6 @@
 ---
 title: 'La carte des thérapeutes EBP'
+description: "Comment trouver un thérapeute EBP près de chez vous ? Explorez notre carte pour orienter un patient, rencontrer des collègues ou proposer votre inscription."
 date: 2023-11-19T14:43:00Z
 draft: false
 slug: carte-des-therapeutes-ebp

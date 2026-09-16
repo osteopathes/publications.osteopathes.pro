@@ -7,10 +7,15 @@
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="https://publications.osteopathes.pro" class="text-base leading-6 text-gray-300 hover:text-white">
+        <a href="{{ .Site.Home.RelPermalink }}" class="text-base leading-6 text-gray-300 hover:text-white">
           Publications
         </a>
       </div>
+      {{- with .Site.GetPage "/auteurs" -}}
+      <div class="px-5 py-2">
+        <a href="{{ .RelPermalink }}" class="text-base leading-6 text-gray-300 hover:text-white">Auteurs</a>
+      </div>
+      {{- end -}}
       <div class="px-5 py-2">
         <a href="{{ "/mentions-legales" | relURL }}" class="text-base leading-6 text-gray-300 hover:text-white">
           Mentions Légales

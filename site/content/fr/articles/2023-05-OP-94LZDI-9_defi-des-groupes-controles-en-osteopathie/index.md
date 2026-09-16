@@ -1,5 +1,9 @@
 ---
 title: "Le défi des groupes contrôles en ostéopathie: comment y parvenir ?"
+description: "Comment créer un placebo crédible en ostéopathie ? Entrez dans les coulisses des essais cliniques pour mieux comprendre ce qu’ils permettent de conclure."
+takeaways:
+  - "L’ostéopathie associe plusieurs composantes : le geste, le toucher, la relation thérapeutique et le contexte rendent le choix du groupe contrôle délicat."
+  - "Comparer un traitement à un placebo crédible et mesurer son efficacité globale en pratique répondent à des questions différentes."
 date: 2023-05-05T11:08:26Z
 draft: false
 slug: le-defi-des-groupes-controles-en-osteopathie-comment-y-parvenir

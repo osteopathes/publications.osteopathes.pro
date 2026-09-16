@@ -1,5 +1,10 @@
 ---
 title: "Douleur référée, douleur radiculaire et radiculopathie expliquées en BD"
+description: "Une radiculopathie peut-elle être indolore ? Tom Jesson démêle en BD trois notions souvent confondues : douleur référée, radiculaire et radiculopathie."
+takeaways:
+  - "Une douleur référée est ressentie à distance de sa source, sans signifier à elle seule une atteinte de racine nerveuse."
+  - "La douleur radiculaire provient d’une activité anormale d’une racine nerveuse ou de son ganglion ; elle est parfois associée à une décharge électrique."
+  - "La radiculopathie correspond à une perte de fonction nerveuse, avec des déficits de force, de sensibilité ou de réflexes. Elle peut être indolore ; les trois tableaux peuvent coexister."
 date: 2022-09-30T17:09:34Z
 draft: false
 slug: douleur-referee-douleur-radiculaire-et-radiculopathie-expliquees-en-BD

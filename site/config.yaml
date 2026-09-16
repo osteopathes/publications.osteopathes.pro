@@ -20,7 +20,7 @@ markup:
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds: ["RSS", "taxonomyTerm"]
+disableKinds: ["RSS"]
 # enableGitInfo: true
 
 frontmatter:
@@ -54,8 +54,6 @@ languages:
 
     taxonomies:
       auteur: "auteurs"
-      label: "labels"
-      catégorie: "catégories"
 
 imaging:
   # Default resample filter used for resizing. Default is Box,

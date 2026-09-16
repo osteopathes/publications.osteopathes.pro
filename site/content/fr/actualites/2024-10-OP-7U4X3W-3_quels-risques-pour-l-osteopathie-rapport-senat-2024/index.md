@@ -1,5 +1,8 @@
 ---
 title: "Quels risques pour l'ostéopathie suite au rapport du sénat de 2024 ?"
+description: "L’ostéopathie pourrait-elle sortir de votre contrat de mutuelle ? Décryptons la proposition du Sénat de 2024 et ses enjeux pour les patients."
+takeaways:
+  - "Le rapport du Sénat de septembre 2024 propose d’exclure l’ostéopathie des contrats de complémentaire santé « solidaires et responsables », qui couvrent alors 98 % des souscripteurs. Il s’agit d’une proposition, pas d’une mesure entrée en vigueur."
 date: 2024-10-12T22:41:17Z
 draft: false
 slug: quels-risques-pour-l-osteopathie-suite-au-rapport-du-senat-de-2024

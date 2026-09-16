@@ -1,6 +1,9 @@
 ---
 title: "Le modèle bio-psycho-social: un regard critique"
-description: "Modèle biopsychosocial : origines, limites et pièges d’interprétation. Un regard critique sur son utilisation dans le soin et la thérapie manuelle."
+description: "Le modèle biopsychosocial nous aide-t-il toujours à mieux soigner ? Explorons ses limites et les raccourcis qui peuvent déformer son usage."
+takeaways:
+  - "Le modèle biopsychosocial invite à comprendre comment le corps, les pensées, les émotions et l’environnement social interagissent dans la douleur. Se concentrer uniquement sur une lésion ou uniquement sur la psychologie fait perdre cette vue d’ensemble."
+  - "Ce cadre ne donne pas, à lui seul, une méthode pour choisir les soins. Son manque de précision laisse des interprétations très différentes : l’enjeu clinique reste de déterminer ce qui compte pour cette personne, dans cette situation."
 date: 2024-05-27T20:09:00Z
 draft: false
 slug: le-modele-bio-psycho-social-un-regard-critique

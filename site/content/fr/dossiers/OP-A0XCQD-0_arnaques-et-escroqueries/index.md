@@ -1,5 +1,10 @@
 ---
 title: 'Arnaques et escroqueries: comment les reconnaître et réagir'
+description: "Ce courrier « officiel » adressé à votre cabinet est-il une arnaque ? Repérez les pièges qui visent les ostéopathes et les bons réflexes avant de signer."
+takeaways:
+  - "Un courrier personnalisé ou un ton officiel ne prouve pas qu’une demande est légitime. Si l’on vous presse de payer ou de signer, prenez le temps de vérifier avant de vous engager."
+  - "Cherchez les coordonnées de l’organisme par une source indépendante et contactez-le par ce biais. Utiliser uniquement le numéro ou le lien fourni dans le message revient à demander confirmation à son expéditeur."
+  - "Avant d’accepter une offre, repérez le coût total, la durée d’engagement, les renouvellements et les conditions de résiliation. Un service gratuit au départ peut cacher un abonnement coûteux."
 date: 2020-05-10T08:20:21Z
 lastmod: 2020-10-13T00:30:00Z
 draft: false

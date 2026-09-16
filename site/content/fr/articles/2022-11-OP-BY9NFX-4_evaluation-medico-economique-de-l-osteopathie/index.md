@@ -1,5 +1,10 @@
 ---
 title: "Quelle place pour l’ostéopathie dans le système de santé français? Introduction à son évaluation médico-économique."
+description: "L’ostéopathie pourrait-elle réduire les dépenses de santé ? L’exemple de la lombalgie éclaire l’intérêt et les limites des évaluations médico-économiques."
+takeaways:
+  - "Une évaluation médico-économique compare ce que coûtent plusieurs options de soin et ce qu’elles apportent aux patients. Elle aide à déterminer comment utiliser les ressources disponibles."
+  - "L’analyse coût-efficacité mesure un résultat de santé, par exemple des années de vie gagnées. L’analyse coût-utilité tient aussi compte de la qualité de ces années de vie."
+  - "Pour la lombalgie, les données examinées en 2022 restent trop limitées pour conclure solidement à l’intérêt médico-économique de l’ostéopathie. Évaluer cet intérêt demande aussi de mieux connaître son efficacité et ses risques."
 date: 2022-11-16T09:44:21Z
 draft: false
 slug: quelle-place-pour-l-osteopathie-dans-le-systeme-de-sante-francais-introduction-a-son-evaluation-medico-economique

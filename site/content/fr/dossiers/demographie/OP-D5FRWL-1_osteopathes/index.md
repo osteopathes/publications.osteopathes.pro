@@ -1,5 +1,9 @@
 ---
 title: 'Démographie des ostéopathes'
+description: "Comment compter les ostéopathes quand les sources divergent ? Entrez dans les coulisses des premières cartes démographiques de 2019 et 2020."
+takeaways:
+  - "Les premières cartes estiment la présence des ostéopathes à partir de leurs coordonnées publiques sur Internet. Les doublons, les cabinets partagés et les informations devenues anciennes compliquent le comptage."
+  - "Pour comprendre la densité autour d’un cabinet, il faut regarder au-delà des limites de sa commune : les patients se déplacent. La carte permet d’élargir l’observation aux communes voisines dans un rayon de 5 à 20 km."
 date: 2020-04-18T09:00:00Z
 lastmod: 2020-06-13T11:14:13Z
 draft: false

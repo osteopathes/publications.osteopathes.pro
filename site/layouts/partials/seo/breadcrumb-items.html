@@ -2,11 +2,9 @@
 {{- with .Parent -}}
   {{- $items = partial "seo/breadcrumb-items.html" . -}}
 {{- end -}}
-{{/* Taxonomy indexes are disabled; do not link to pages Hugo does not publish. */}}
-{{- if not (in (slice "taxonomy" "taxonomyTerm") .Kind) -}}
-  {{- $name := .Title -}}
-  {{- if .IsHome -}}{{- $name = "Accueil" -}}{{- end -}}
-  {{/* Navigation uses relURL; structured data uses the build's absolute URL. */}}
-  {{- $items = $items | append (dict "name" $name "url" .Permalink "relURL" .RelPermalink) -}}
-{{- end -}}
+{{- $name := .Title -}}
+{{- with .Params.name -}}{{- $name = . -}}{{- end -}}
+{{- if .IsHome -}}{{- $name = "Accueil" -}}{{- end -}}
+{{/* Navigation uses relURL; structured data uses the build's absolute URL. */}}
+{{- $items = $items | append (dict "name" $name "url" .Permalink "relURL" .RelPermalink) -}}
 {{- return $items -}}

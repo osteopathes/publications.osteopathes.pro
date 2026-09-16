@@ -130,7 +130,8 @@
               </div>
             </aside>
             {{ end }}
-          {{ $body := replace .Content .Summary "" }}
+            {{- partial "takeaways.html" . -}}
+            {{ $body := replace .Content .Summary "" }}
             {{- if (isset .Params "container_css") -}}
             <div class="{{ .Params.container_css }}">
               {{ $body | emojify }}

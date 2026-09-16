@@ -1,5 +1,10 @@
 ---
 title: "L’émergence des sciences ostéopathiques"
+description: "Comment mettre les idées de l’ostéopathie à l’épreuve de la science ? Pierre-Luc L’Hermite explore les obstacles et ce que les patients ont à y gagner."
+takeaways:
+  - "La recherche produit des connaissances ; la consultation demande de les adapter à une personne. Les données scientifiques, l’expérience du praticien et les préférences du patient contribuent ensemble à la décision de soin."
+  - "Pour étudier un concept ostéopathique, il faut le formuler assez précisément pour pouvoir le mettre à l’épreuve. Une affirmation très générale, à laquelle chacun donne un sens différent, se prête mal à une vérification scientifique."
+  - "Mieux connaître les effets et les limites des soins permet de les expliquer au patient. Celui-ci peut alors participer aux décisions avec des informations compréhensibles sur ce qu’on lui propose."
 subtitle: "Pour un contournement des obstacles"
 date: 2021-03-27T15:45:26Z
 draft: false

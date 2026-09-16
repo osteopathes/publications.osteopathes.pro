@@ -1,5 +1,9 @@
 ---
 title: "Résultats de l'enquête auprès des ostéopathes et des étudiant·e·s sur le rapport IGAS"
+description: "Les réformes de l’IGAS font-elles consensus chez les ostéopathes ? Notre enquête donne la parole aux praticiens et étudiants, avec les limites du sondage."
+takeaways:
+  - "Les 26 propositions de l’IGAS obtiennent un taux moyen d’avis favorables de 84 % dans ce sondage. Les répondants expriment aussi le souhait d’une réforme du statut et d’une autorité pour encadrer la profession."
+  - "L’enquête retient les réponses de 420 professionnels et 45 étudiants."
 date: 2023-07-22T08:13:28Z
 draft: false
 slug: rapport-igas-2021-sur-l-osteopathie-resultat-de-l-enquete-aupres-des-osteopathes-et-etudiant-e-s

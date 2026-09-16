@@ -1,5 +1,10 @@
 ---
 title: 'Mise à jour 2021 – Démographie des ostéopathes'
+description: "En 2021, croiser ADELI et le web change notre regard sur la démographie des ostéopathes. Que révèlent les 25 919 praticiens retrouvés et leurs cabinets ?"
+takeaways:
+  - "En 2021, le croisement d’ADELI avec le web permet de retrouver 25 919 praticiens parmi 35 174 inscrits, pour 29 513 cabinets. Cette nouvelle méthode rend la comparaison directe avec les éditions précédentes délicate."
+  - "Des doublons, des changements de nom ou d’activité et des informations en ligne incomplètes expliquent une partie des écarts. L’absence d’un praticien sur la carte ne signifie pas nécessairement qu’il n’exerce plus."
+  - "Une zone apparemment vide mérite une vérification sur le terrain et dans d’autres annuaires. La densité et le nombre d’habitants par ostéopathe donnent des repères, mais ne remplacent pas une étude de marché."
 date: 2021-03-20T19:00:00Z
 lastmod: 2021-03-20T19:00:00Z
 draft: false

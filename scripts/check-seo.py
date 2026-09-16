@@ -30,6 +30,10 @@ class Page(HTMLParser):
         self.in_breadcrumbs = False
         self.in_title = False
         self.in_schema = False
+        self.takeaway_sections = 0
+        self.takeaways = []
+        self.in_takeaways = False
+        self.in_takeaway_item = False
         self.feed(source)
 
     def handle_starttag(self, tag, attrs):
@@ -47,6 +51,12 @@ class Page(HTMLParser):
             self.times.append(attrs.get("datetime", ""))
         if tag == "h1":
             self.h1 += 1
+        if tag == "section" and attrs.get("aria-labelledby") == "a-retenir":
+            self.takeaway_sections += 1
+            self.in_takeaways = True
+        if tag == "li" and self.in_takeaways:
+            self.takeaways.append("")
+            self.in_takeaway_item = True
         if tag == "nav" and attrs.get("aria-label") == "Fil d’Ariane":
             self.breadcrumbs = True
             self.in_breadcrumbs = True
@@ -57,6 +67,10 @@ class Page(HTMLParser):
             self.schemas.append("")
 
     def handle_endtag(self, tag):
+        if tag == "li":
+            self.in_takeaway_item = False
+        if tag == "section":
+            self.in_takeaways = False
         if tag == "nav":
             self.in_breadcrumbs = False
         if tag == "title":
@@ -69,6 +83,8 @@ class Page(HTMLParser):
             self.title += data
         if self.in_schema:
             self.schemas[-1] += data
+        if self.in_takeaway_item:
+            self.takeaways[-1] += data
 
 
 def unique_keys(pairs):
@@ -87,6 +103,9 @@ def main():
     urls = {item.text for item in sitemap.findall(".//{*}loc")}
     errors = []
     pages = articles = profiles = paginated = 0
+    article_descriptions = set()
+    author_urls = set()
+    author_index = None
 
     def exists(url):
         path = root / unquote(urlparse(url).path).lstrip("/")
@@ -132,6 +151,11 @@ def main():
             assert "WebSite" in by_type and "Organization" in by_type
             if "BlogPosting" in by_type:
                 articles += 1
+                assert description not in article_descriptions, "Duplicate article description"
+                article_descriptions.add(description)
+                assert page.takeaway_sections <= 1, "Duplicate À retenir sections"
+                if page.takeaway_sections:
+                    assert page.takeaways and all(item.strip() for item in page.takeaways), "Empty or unreadable takeaways"
                 article = by_type["BlogPosting"]
                 assert article["description"] == description, "JSON-LD description differs from metadata"
                 assert isinstance(article.get("author"), list) and article["author"], "Missing authors"
@@ -147,6 +171,10 @@ def main():
             if "ProfilePage" in by_type:
                 profiles += 1
                 assert by_type["Person"]["name"], "Profile has no person name"
+                items = by_type["BreadcrumbList"]["itemListElement"]
+                assert [item["name"] for item in items] == ["Accueil", "Auteurs", by_type["Person"]["name"]], "Author breadcrumb must include Auteurs"
+                author_urls.add(urlparse(by_type["Person"]["url"]).path)
+                author_index = urlparse(items[1]["item"]).path
             if "BreadcrumbList" in by_type:
                 assert page.breadcrumbs, "Breadcrumb schema has no visible navigation"
                 assert page.breadcrumb_links, "Breadcrumb has no navigation links"
@@ -167,6 +195,9 @@ def main():
         except (AssertionError, KeyError, ValueError) as error:
             errors.append(f"{path}: {error}")
     assert pages and articles and profiles and paginated, "Incomplete build: missing page types"
+    assert author_index and exists(author_index), "Missing authors index"
+    index = Page((root / author_index.lstrip("/") / "index.html").read_text())
+    assert author_urls <= set(index.links), "Authors index does not link to every author"
     for url in urls:
         if not exists(url):
             errors.append(f"Sitemap references missing page: {url}")

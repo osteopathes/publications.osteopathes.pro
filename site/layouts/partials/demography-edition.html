@@ -3,7 +3,7 @@
   {{- if and (in $editions $) (gt (len $editions) 1) -}}
     {{- $latest := index $editions 0 -}}
     {{- if ne $.Permalink $latest.Permalink -}}
-    <aside aria-label="Édition démographique récente" class="max-w-3xl p-4 mx-auto mt-6 text-left text-teal-900 border-l-4 border-teal-500 bg-teal-50">
+    <aside aria-label="Édition démographique récente" class="max-w-3xl p-4 mx-auto mt-6 mb-8 text-left text-teal-900 border-l-4 border-teal-500 bg-teal-50">
       <p>Vous consultez une édition archivée. Retrouvez la plus récente :
         <a class="font-semibold underline" href="{{ $latest.RelPermalink }}">{{ $latest.Title }}</a>.
       </p>

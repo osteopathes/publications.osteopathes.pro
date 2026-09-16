@@ -1,5 +1,6 @@
 ---
 title: 'Ma sélection des meilleures ressources en ostéopathie'
+description: "Des blogs aux podcasts, voici les ressources qui nourrissent notre pratique d’ostéopathe. Une sélection pour suivre la recherche et explorer d’autres pistes."
 date: 2023-08-09T07:18:45Z
 lastmod: 2023-08-10T16:43:00Z
 draft: false

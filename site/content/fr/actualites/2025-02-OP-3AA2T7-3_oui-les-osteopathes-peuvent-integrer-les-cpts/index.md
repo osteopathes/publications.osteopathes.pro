@@ -1,5 +1,9 @@
 ---
 title: "Oui, les ostéopathes peuvent intégrer les CPTS"
+description: "Les CPTS sont-elles fermées aux ostéopathes ? Des exemples de participation et des obstacles locaux éclairent le débat dans cet article de 2025."
+takeaways:
+  - "Des ostéopathes participent déjà à des CPTS, ces réseaux qui organisent les soins à l’échelle d’un territoire. En février 2025, certains y exercent même des responsabilités de présidence ou de trésorerie."
+  - "L’adhésion dépend notamment des statuts de chaque CPTS. Pour rejoindre celle de votre territoire ou comprendre un refus, commencez par examiner ses conditions d’adhésion et échanger avec ses représentants."
 date: 2025-02-26T15:24:52Z
 draft: false
 slug: oui-les-osteopahtes-peuvent-integrer-les-cpts

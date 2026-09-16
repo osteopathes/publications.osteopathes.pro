@@ -1,5 +1,10 @@
 ---
 title: "Que reproche-t-on aux “ostéopathes EBP” ?"
+description: "L’EBP ferait-elle perdre son identité à l’ostéopathie ? Examinons les reproches, la place de l’expérience et ce que signifie garder l’esprit ouvert."
+takeaways:
+  - "L’auteur défend une ouverture d’esprit qui va avec l’esprit critique : examiner une idée suppose aussi de pouvoir la remettre en question, y compris lorsqu’elle appartient aux traditions de sa propre profession."
+  - "Une pratique fondée sur les preuves laisse une place à l’individualisation. Les données scientifiques éclairent les choix, qui tiennent aussi compte du contexte, de l’expérience clinique et des préférences du patient."
+  - "Accumuler des années de pratique ne suffit pas à garantir la justesse de ses explications. L’expérience devient plus utile lorsqu’on examine ses erreurs, ses biais et les raisons qui nous font croire à une hypothèse."
 date: 2025-05-26T17:28:55Z
 draft: false
 slug: que-reproche-t-on-aux-osteopathes-ebp

@@ -1,5 +1,6 @@
 ---
 title: "Cas clinique interactif #1 – 38% des personnes se sont trompées, et vous ?"
+description: "Une patiente, vos questions, une décision : quelle conduite à tenir choisirez-vous ? Jouez à Fan de yoga, notre cas clinique interactif en ostéopathie."
 date: 2023-02-24T18:08:26Z
 draft: false
 slug: cas-clinique-interactif-fan-de-yoga

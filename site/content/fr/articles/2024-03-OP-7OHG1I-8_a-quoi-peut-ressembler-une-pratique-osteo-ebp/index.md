@@ -1,5 +1,10 @@
 ---
 title: "À quoi peut ressembler une pratique ostéopathique EBP: un exemple concret avec la lombalgie aiguë non traumatique"
+description: "Passer de la théorie EBP à la consultation : suivons un cas de lombalgie aiguë pour voir comment un ostéopathe construit son raisonnement et ses décisions."
+takeaways:
+  - "Le cas présenté part d’une lombalgie aiguë sans traumatisme, sans drapeau rouge et avec un examen neurologique négatif. Le contexte du patient, ses inquiétudes et ses attentes orientent ensuite l’évaluation."
+  - "Un « cluster » regroupe plusieurs tests pour mieux apprécier une hypothèse clinique. Leurs résultats se lisent avec l’histoire du patient : un test positif isolé ne suffit pas à affirmer l’origine de sa douleur."
+  - "Le choix des soins tient compte de l’examen, des effets attendus et des préférences du patient. Expliquer les options et recueillir son consentement font partie de la consultation, au même titre que les techniques proposées."
 date: 2024-03-24T23:42:00Z
 draft: false
 slug: a-quoi-peut-ressembler-une-pratique-osteopathique-ebp-un-exemple-concret-avec-la-lombalgie-aigue-non-traumatique

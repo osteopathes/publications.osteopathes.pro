@@ -1,5 +1,12 @@
 ---
 title: "Votre questionnaire de mémoire est prêt? La checklist indispensable avant de le diffuser!"
+description: "Avant de partager votre questionnaire de mémoire, pensez à sa notice d’information. Notre checklist aide à repérer les oublis qui freinent sa diffusion."
+takeaways:
+  - "Avant de diffuser votre questionnaire, préparez une notice d’information : qui mène l’étude, dans quel but, ce que les participants devront faire et combien de temps cela prendra."
+  - "La notice permet de montrer le sérieux et l'authenticité de votre étude. Ne pas en mettre peut être un frein majeur à sa diffusion."
+  - "Expliquez le caractère volontaire de la participation, les contraintes éventuelles et les possibilités de retrait. Donnez un contact accessible sans compte sur un réseau social."
+  - "Précisez quelles données sont recueillies, qui y aura accès et combien de temps elles seront conservées. Vérifiez aussi ce que la plateforme de questionnaire collecte automatiquement."
+  - "Adaptez le modèle de notice à votre projet et faites-le valider par votre encadrement avant diffusion. Une relecture par une personne extérieure aide à repérer les passages difficiles à comprendre."
 date: 2025-09-20T10:20:59Z
 draft: false
 slug: votre-questionnaire-de-memoire-est-pret-la-checklist-indispensable-avant-de-le-diffuser

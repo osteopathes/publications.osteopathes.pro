@@ -1,5 +1,10 @@
 ---
 title: "L'IGAS fait un constat détaillé et préoccupant de l'ostéopathie"
+description: "Écoles, revenus, démographie : le rapport IGAS bouscule l’image de l’ostéopathie. Revenons sur les constats qui motivent ses propositions de réforme."
+takeaways:
+  - "L’IGAS relève une forte croissance du nombre d’ostéopathes et une répartition territoriale inégale. Les écarts entre les sources administratives compliquent l’estimation du nombre de praticiens réellement en exercice."
+  - "Le rapport situe le coût de cinq années de formation entre 42 000 et 49 000 euros, alors que les revenus professionnels observés sont souvent modestes. Il souligne aussi le manque d’informations comparables sur l’insertion des diplômés."
+  - "L’IGAS constate des lacunes dans le contrôle des écoles et le recueil des accidents graves. Ces constats motivent ses propositions pour mieux encadrer la formation, évaluer les pratiques et protéger les patients."
 date: 2023-06-12T10:00:00Z
 draft: false
 slug: rapport-igas-2021-sur-l-osteopathie-un-constat-détaillé-et-preoccupant

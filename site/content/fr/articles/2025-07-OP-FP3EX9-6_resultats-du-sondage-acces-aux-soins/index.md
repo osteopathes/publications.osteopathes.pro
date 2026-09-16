@@ -1,5 +1,10 @@
 ---
 title: "Résultats de l'enquête « Accès aux soins » par l'association Ostéo Pour Tous"
+description: "Les ostéopathes sont-ils prêts à un conventionnement ? En 2025, 897 répondants partagent leurs attentes et leurs réserves sur l’accès aux soins."
+takeaways:
+  - "L’enquête d’avril à juillet 2025 rassemble 897 réponses d’ostéopathes. Les difficultés financières des patients y apparaissent comme un obstacle important à l’accès aux soins."
+  - "Les répondants se montrent favorables à un financement public ciblé vers les personnes les plus précaires, notamment via la Complémentaire Santé Solidaire, et à un rôle des mutuelles pour les autres patients."
+  - "L’ouverture à un conventionnement s’accompagne de conditions : préserver le temps de consultation, le libre choix du thérapeute, l’organisation du travail et une rémunération jugée adaptée."
 date: 2025-07-16T09:23:05Z
 lastmod: 2025-07-22T23:22:01Z
 draft: false
