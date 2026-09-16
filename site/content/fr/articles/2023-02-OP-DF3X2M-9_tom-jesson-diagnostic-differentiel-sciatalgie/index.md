@@ -1,5 +1,9 @@
 ---
 title: "Évaluation de la Sciatique – Zine 1: Diagnostic différentiel de la douleur radiculaire"
+description: "Et si cette « sciatique » venait de la hanche ? La BD de Tom Jesson vous aide à explorer les diagnostics différentiels de la douleur radiculaire."
+takeaways:
+  - "Une douleur qui descend dans la jambe ne vient pas forcément d’une racine nerveuse. La hanche, le bassin ou un nerf périphérique peuvent produire des symptômes ressemblants : ce sont des pistes à envisager dans le diagnostic différentiel."
+  - "L’histoire du patient et l’examen clinique servent à comparer ces hypothèses et à choisir la conduite à tenir. Le diagnostic reste une hypothèse à réévaluer si l’évolution ne correspond pas à ce qui était attendu."
 date: 2023-02-27T00:00:00Z
 draft: false
 slug: evaluation-clinique-de-la-sciatique-zine-1-diagnostic-differentiel-de-la-douleur-radiculaire-en-BD

@@ -1,5 +1,10 @@
 ---
 title: "Rapport IGAS: bientôt une autorité et le statut de profession de santé ?"
+description: "Une autorité dédiée et un nouveau statut pour les ostéopathes ? Explorons les pistes de l’IGAS et les questions qu’elles posent pour la profession."
+takeaways:
+  - "L’IGAS envisage une structure dédiée à la régulation de l’ostéopathie, inspirée du modèle britannique. Elle aurait notamment pour rôle d’encadrer la profession et de contribuer à la protection des patients."
+  - "Une commission nationale d’évaluation des pratiques permettrait de mieux décrire les soins réalisés et d’examiner les connaissances sur leurs effets."
+  - "Le rapport explore aussi une intégration des ostéopathes dans le Code de la santé publique. Cette piste modifierait leur statut et leurs obligations ; elle nécessiterait des changements législatifs et ne constitue pas un statut déjà acquis."
 date: 2023-06-14T10:00:00Z
 draft: false
 slug: rapport-igas-2021-sur-l-osteopathie-bientot-une-autorite-et-le-statut-de-profession-de-sante

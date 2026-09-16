@@ -1,5 +1,9 @@
 ---
 title: 'Mise à jour 2020 – Démographie des ostéopathes'
+description: "25 120 ostéopathes recensés en ligne en 2020 : pourquoi un tel écart avec ADELI ? Revenons sur les chiffres et les corrections de cette édition."
+takeaways:
+  - "Le recensement web de janvier 2020 retrouve 25 120 ostéopathes, contre 23 484 en janvier 2019 après correction des doublons."
+  - "Cette édition cherche surtout à recenser les ostéopathes en activité. Son périmètre diffère donc du registre ADELI, qui comptait 33 188 porteurs du titre en décembre 2019, y compris des médecins et des kinésithérapeutes."
 date: 2020-04-18T10:00:00Z
 lastmod: 2020-05-09T22:00:00Z
 draft: false

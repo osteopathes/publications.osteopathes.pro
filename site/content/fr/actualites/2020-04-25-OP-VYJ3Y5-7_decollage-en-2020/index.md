@@ -1,5 +1,6 @@
 ---
 title: '3, 2, 1, Décollage !'
+description: "En 2020, osteopathes.pro prend son envol ! Découvrez les coulisses du nouveau blog et les projets qui nous donnent envie de partager nos découvertes."
 date: 2020-04-25T08:20:21Z
 draft: false
 slug: 3-2-1-decollage

@@ -1,5 +1,6 @@
 ---
 title: "Cas clinique interactif #1 – 38% des personnes se sont trompées, et vous ?"
+description: "Une patiente, vos questions, une décision : quelle conduite à tenir choisirez-vous ? Jouez à Fan de yoga, notre cas clinique interactif en ostéopathie."
 date: 2023-02-24T18:08:26Z
 draft: false
 slug: cas-clinique-interactif-fan-de-yoga
@@ -31,7 +32,7 @@ de la bonne conduite à tenir.
 
 <!--more-->
 
-# Jouer au jeu
+## Jouer au jeu
 Si vous n'y avait pas déjà joué, voici le lien vers le jeu:
 
 [👉 Jouer au cas clinique – Fan de Yoga 👈](https://publications.osteopathes.pro/fr/jeux/cas-cliniques/01-fan-de-yoga/)
@@ -39,7 +40,7 @@ Si vous n'y avait pas déjà joué, voici le lien vers le jeu:
 *P.S. On vous conseille de faire le jeu sur ordinateur,
 l'interface sera plus agréable 😉*
 
-# Réponses des joueurs et joueuses
+## Réponses des joueurs et joueuses
 Nous mettrons cette section à jour au fur et à mesure avec
 les statistiques de jeu. Pensez à partager avec vos collègues
 et amis pour faire grossir les chiffres 📈
@@ -51,7 +52,7 @@ Depuis qu'on a publié le jeu en septembre 2022, on a partagé
 le jeu sur les réseaux sociaux et on a pu constater que 38%
 des joueurs et joueuses faisaient au moins une erreur.
 
-# Remerciements
+## Remerciements
 
 Je remercie Laurent MARC pour ses dessins de la patiente
 et pour son aide lors de nombreux essais du jeu avant

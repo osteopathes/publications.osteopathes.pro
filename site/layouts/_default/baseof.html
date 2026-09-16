@@ -2,16 +2,17 @@
 <html lang="{{ $.Site.Language.Lang }}">
 
 <head>
+  {{- $seo := partial "seo/page.html" . -}}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   {{/*- if getenv "CONTEXT" -}}
   <base
     href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
   {{- end -*/}}
-  <title>{{- block "title" . -}}
-    {{ .Title }} | {{ $.Site.Title }}
-    {{- end -}}</title>
-  <link rel="canonical" href="{{ .Permalink }}">
+  <title>{{ $seo.title }} | {{ $.Site.Title }}</title>
+  <meta name="description" content="{{ $seo.description }}">
+  <meta name="robots" content="{{ if $seo.noindex }}noindex, follow{{ else }}index, follow, max-image-preview:large{{ end }}">
+  <link rel="canonical" href="{{ $seo.url }}">
   {{- if .OutputFormats.Get "RSS" -}}
   <link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml"
     title="{{ .Title }}" />{{- end -}}
@@ -35,9 +36,9 @@
   <meta name="msapplication-TileColor" content="#38B2AC">
   <meta name="msapplication-TileImage" content="/imgs/favicons/mstile-144x144.png">
   <script type="application/ld+json">
-  {{- partial "site-schema.html" . | safeJS -}}
+  {{- partial "site-schema.html" (dict "page" . "seo" $seo) | jsonify | safeJS -}}
   </script>
-  {{- partial "social-meta.html" . -}}
+  {{- partial "social-meta.html" (dict "page" . "seo" $seo) -}}
   <script async defer data-domain="publications.osteopathes.pro"
   data-api="https://www.osteopathes.pro/analytics/api/event"
   src="https://www.osteopathes.pro/analytics/js/script.outbound-links.js"></script>

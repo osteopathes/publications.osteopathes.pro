@@ -1,5 +1,10 @@
 ---
 title: 'Le RGPD expliqué aux ostéopathes'
+description: "Vos dossiers patients sont sur papier : le RGPD vous concerne-t-il ? Faisons le point sur les données au cabinet d’ostéopathie, avec des documents types."
+takeaways:
+  - "Les dossiers patients sur papier sont aussi concernés par la protection des données. Commencez par identifier les informations que vous recueillez, leur utilité, les personnes qui y ont accès et leur durée de conservation."
+  - "Protéger les dossiers demande des mesures concrètes : limiter les accès, sécuriser les appareils et prévoir des sauvegardes chiffrées. Les données doivent rester confidentielles même en cas de perte ou de vol du matériel."
+  - "Les modèles proposés comprennent des affiches de salle d’attente et un registre des traitements. Personnalisez-les pour décrire vos usages réels : prise de rendez-vous, dossiers patients et échanges avec d’autres praticiens."
 date: 2020-05-21T09:30:45Z
 lastmod: 2020-09-09T07:30:00Z
 draft: false

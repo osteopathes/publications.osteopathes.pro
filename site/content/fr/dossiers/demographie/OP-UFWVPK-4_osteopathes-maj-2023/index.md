@@ -1,5 +1,10 @@
 ---
 title: 'Démographie et perspectives économiques des ostéopathes en 2023'
+description: "Combien d’ostéopathes en France en 2023, et pour quels revenus ? Explorons les écarts entre inscrits et praticiens retrouvés, puis les disparités locales."
+takeaways:
+  - "En janvier 2023, le recensement retrouve 31 254 praticiens en ligne parmi les 39 511 inscrits dans ADELI, pour 35 435 cabinets. Les inscriptions administratives, les praticiens retrouvés et les lieux d’exercice sont trois comptages différents."
+  - "La moyenne nationale d’un ostéopathe pour 2 177 habitants masque de fortes disparités locales. Pour envisager une installation, il faut aussi examiner le bassin de population et ses habitudes de consultation."
+  - "Dans les données économiques étudiées, on remarque des recettes relativement stables mais une baisse du bénéfice car les charges augmentent."
 date: 2023-10-22T15:10:15Z
 lastmod: 2023-11-09T16:24:55Z
 draft: false

@@ -1,5 +1,11 @@
 ---
 title: "Tendinopathies – Mise à jour des connaissances en 2024"
+description: "Nos habitudes face aux tendinopathies méritent un nouvel examen. Diagnostic, exercice, croyances : confrontons-les aux connaissances disponibles en 2024."
+takeaways:
+  - "Une douleur près d’un tendon ne suffit pas à diagnostiquer une tendinopathie. L’examen doit aussi envisager d’autres causes, notamment neurologiques ou vasculaires, et tenir compte des médicaments pris par le patient."
+  - "Dans les travaux présentés en 2024, l’exercice et l’adaptation progressive de la charge occupent une place centrale. Le but est de reconstruire la tolérance du tendon à l’effort, avec un programme adapté au tendon concerné et à la personne."
+  - "Ce que montre l’imagerie ne correspond pas toujours à l’intensité de la douleur. Les peurs liées au mouvement, les difficultés du quotidien et les objectifs du patient comptent aussi dans l’accompagnement."
+  - "Les résultats d’un traitement varient selon la tendinopathie étudiée. Une amélioration observée pour un tendon ou avec une intervention ne permet pas de conclure que la même approche convient à toutes les situations."
 date: 2024-07-08T10:58:43Z
 draft: false
 slug: tendinopathies-mise-a-jour-des-connaissances-en-2024

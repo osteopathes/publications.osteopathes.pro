@@ -1,5 +1,11 @@
 ---
 title: "Osteopathes, la CIPAV: notre caisse, nos cotisations, nos droits."
+description: "Vous cotisez à la CIPAV, mais savez-vous quels droits vous ouvrez ? Retraite, prévoyance et gouvernance : faisons le point pour les ostéopathes."
+takeaways:
+  - "Pour les ostéopathes libéraux affiliés, la CIPAV gère la retraite de base, la retraite complémentaire et la couverture invalidité-décès. Depuis 2023, l’Urssaf collecte les cotisations ; la CIPAV reste l’interlocutrice pour les droits et les prestations."
+  - "La retraite fonctionne par répartition : les cotisations des actifs financent les pensions versées aujourd’hui. En cotisant, vous acquérez aussi des points qui serviront au calcul de votre propre pension."
+  - "Vérifier son relevé de carrière permet de repérer des droits manquants et de demander une correction avant le départ à la retraite. Comprendre sa couverture invalidité-décès aide aussi à identifier les besoins de protection complémentaires."
+  - "La CIPAV est administrée par des représentants élus des professions affiliées. Les ostéopathes peuvent participer à cette représentation : la gestion des réserves et la qualité du service concernent directement leurs droits."
 date: 2025-11-06T18:20:59Z
 draft: false
 slug: osteopathes-la-cipav-notre-caisse-nos-cotisations-nos-droits

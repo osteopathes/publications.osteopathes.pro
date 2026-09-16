@@ -1,5 +1,10 @@
 ---
 title: "L'IGAS formule 26 propositions pour réformer l'ostéopathie"
+description: "Du contrôle des écoles à la sécurité des patients, les 26 recommandations de l’IGAS dessinent une autre ostéopathie. Voyons ce qu’elles changeraient."
+takeaways:
+  - "Parmi ses 26 recommandations, l’IGAS propose de recenser les accidents graves et de créer une commission chargée d’évaluer les pratiques. L’objectif est de mieux connaître les effets et les risques des soins."
+  - "Pour la formation, le rapport recommande de renforcer le contrôle des écoles et les exigences de pratique clinique, ainsi que de créer un examen national. Ces mesures visent à rendre les compétences des diplômés plus homogènes."
+  - "L’IGAS propose aussi d’ajuster les capacités des écoles aux besoins estimés en ostéopathes et de mieux suivre l’insertion des diplômés. Ce sont des recommandations de réforme ; ça ne les rend pas automatiquement applicables."
 date: 2023-06-13T10:00:00Z
 draft: false
 slug: rapport-igas-2021-sur-l-osteopathie-26-propositions-pour-reformer-l-osteopathie

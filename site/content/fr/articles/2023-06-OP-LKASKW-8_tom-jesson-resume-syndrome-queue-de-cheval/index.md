@@ -1,5 +1,11 @@
 ---
 title: "BD sur le Syndrome de la Queue de Cheval: identification & conduite à tenir"
+description: "Syndrome de la queue de cheval : quelles questions poser, quand orienter ? Trois planches de Tom Jesson pour mieux aborder cette urgence en consultation."
+takeaways:
+  - "Le syndrome de la queue de cheval peut laisser des séquelles durables. Une suspicion nécessite une évaluation médicale urgente."
+  - "En consultation, recherchez les changements récents concernant la vessie, les intestins, la fonction sexuelle et la sensibilité du périnée. Préciser quand ils ont commencé aide à les distinguer de difficultés anciennes."
+  - "La BD aide à organiser la consultation et la décision clinique : faut-il réorienter le patient ? Elle propose aussi des étapes concrètes pour préparer le patient, contacter les urgences et prendre de ses nouvelles ensuite."
+  - "Le « filet de sécurité » est une notice remise au patient qui explique les signes à surveiller et quand consulter en urgence. Elle prolonge les explications données en consultation et permet au patient de savoir comment réagir si sa situation évolue."
 date: 2023-06-01T07:03:00Z
 draft: false
 slug: bd-sur-le-syndrome-de-la-queue-de-cheval-identification-et-conduite-a-tenir

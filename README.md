@@ -55,6 +55,42 @@ npm run build:preview
 
 See [package.json](package.json#L8) for all tasks.
 
+### SEO
+
+Les métadonnées sont produites par les partials `seo/page.html` et
+`site-schema.html`. Les auteurs d’un article se déclarent avec `auteurs`
+(identifiants des pages sous `content/fr/auteurs`). Une `description` explicite
+est utilisée dans les métadonnées SEO et sociales. Elle donne envie de lire en
+posant une question pertinente, en interrogeant une idée reçue ou en annonçant un
+bénéfice concret. Les cartes de l’accueil et des listes affichent l’introduction
+(`.Summary`) pour conserver la voix de l’auteur. Une publication peut aussi avoir
+une liste `takeaways` lorsque des explications ou résultats méritent d’être retenus.
+Le nombre de points dépend du contenu, sans quota ; chaque point doit apporter
+une information utile. La section « À retenir » est rendue en HTML après
+l’introduction et le sommaire éventuel, avant le corps de l’article. Omettre la
+liste lorsqu’elle ne ferait que répéter l’introduction ou dévoiler la réponse
+d’un cas interactif. Les pages institutionnelles
+sans description explicite conservent un extrait généré. `lastmod` doit refléter une
+révision réelle du contenu. `no_index: true` exclut une page du sitemap et ajoute
+la directive robots correspondante.
+
+La pagination est initialisée une seule fois dans `seo/page.html` ; les modèles
+de listes réutilisent `.Paginator` pour garder les mêmes collections et URL.
+
+Après un build de production avec `DEPLOY_PRIME_URL=https://publications.osteopathes.pro/` :
+
+```bash
+python3 scripts/check-seo.py dist
+```
+
+Pour contrôler un build Netlify de prévisualisation (`CONTEXT=deploy-preview`,
+avec les brouillons), ajouter `--preview`. Utiliser un répertoire de sortie neuf
+si un ancien build contenait des brouillons : Hugo seul ne supprime pas toujours
+les anciens fichiers.
+
+Voir [les conventions éditoriales et les pistes d’amélioration](docs/editorial-seo.md)
+pour les résumés, les contenus illustrés et l’organisation du blog.
+
 ## Structure
 
 ```

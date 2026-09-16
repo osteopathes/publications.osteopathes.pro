@@ -1,5 +1,10 @@
 ---
 title: "Science et ostéopathie: Que reste-t-il à un ostéopathe EBP ?"
+description: "Si l’on revoit les modèles traditionnels, que reste-t-il à l’ostéopathe ? Un kiné explore les possibilités d’une pratique EBP et ouvre le débat."
+takeaways:
+  - "L’EBP consiste à formuler une question clinique, chercher les données utiles, les évaluer puis les confronter à son expérience et aux préférences du patient. La décision peut évoluer avec les résultats du suivi."
+  - "Pour Anthony Halimi, le triage est un rôle essentiel de l’ostéopathe : reconnaître ce qui peut être pris en charge au cabinet et ce qui nécessite une orientation vers d’autres soins."
+  - "Dans l’approche qu’il défend, la thérapie manuelle s’intègre à un accompagnement qui comprend des explications, des conseils et des exercices adaptés. L’objectif est aussi d’aider le patient à retrouver de l’autonomie."
 date: 2024-03-19T22:58:00Z
 draft: false
 slug: science-et-osteopathie-que-reste-t-il-a-un-osteopathe-ebp

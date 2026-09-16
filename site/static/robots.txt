@@ -7,3 +7,6 @@
 User-agent: *
 Disallow: /search-index/
 Disallow: /recherche/
+
+# Includes public articles, author profiles and dossiers.
+Sitemap: https://publications.osteopathes.pro/sitemap.xml

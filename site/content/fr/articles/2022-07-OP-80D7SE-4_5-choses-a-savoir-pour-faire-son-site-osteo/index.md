@@ -1,5 +1,12 @@
 ---
 title: "5 choses à savoir pour faire son site ostéo"
+description: "Avant de confier votre site d’ostéopathe à un prestataire, voici cinq conseils en BD pour garder la main sur votre domaine, vos contenus et vos choix."
+takeaways:
+  - "Restez propriétaire de votre nom de domaine : c’est l’adresse par laquelle vos patients vous retrouvent. Un prestataire peut le configurer sans en devenir propriétaire."
+  - "Une page simple peut suffire pour commencer : votre présentation, l’adresse du cabinet, les horaires, les tarifs et les moyens de prendre rendez-vous. Vous pourrez enrichir le site ensuite."
+  - "Publiez vos propres textes et utilisez des images dont vous avez les droits."
+  - "Essayez le site sur téléphone et tablette : les informations pratiques doivent rester lisibles et faciles à trouver sur un petit écran."
+  - "Avant de signer, vérifiez la durée d’engagement, le coût total et la possibilité de récupérer vos contenus. Vous devez pouvoir changer de prestataire en conservant votre adresse web et vos contenus."
 date: 2022-07-18T23:08:26Z
 draft: false
 slug: 5-choses-a-savoir-pour-faire-son-site-osteo

@@ -1,0 +1,36 @@
+{{/* Initialize once, before the head; list templates reuse .Paginator. */}}
+{{- $paginator := false -}}
+{{- if .IsHome -}}
+  {{- $paginator = .Paginate (where .Site.RegularPages.ByPublishDate.Reverse "Section" "in" (slice "actualites" "articles" "dossiers")) 9 -}}
+{{- else if and .IsNode (not (in (slice "taxonomy" "taxonomyTerm") .Kind)) -}}
+  {{- if .Params.name -}}
+    {{- $paginator = .Paginate .Data.Pages 10 -}}
+  {{- else -}}
+    {{- $paginator = .Paginate .Pages 8 -}}
+  {{- end -}}
+{{- end -}}
+{{- $url := .Permalink -}}
+{{- $title := .Title -}}
+{{- if .IsHome -}}{{- $title = "Accueil" -}}{{- end -}}
+{{- with $paginator -}}
+  {{- if gt .PageNumber 1 -}}
+    {{- $url = .URL | absURL -}}
+    {{- $title = printf "%s — Page %d" $title .PageNumber -}}
+  {{- end -}}
+{{- end -}}
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if .IsHome -}}
+    {{- $description = .Site.Params.description -}}
+  {{- else if .Params.biography -}}
+    {{- $description = printf "%s. %s" .Title (.Params.biography | plainify) -}}
+  {{- else if .Summary -}}
+    {{- $description = .Summary -}}
+  {{- else -}}
+    {{- $description = printf "%s : articles, analyses et ressources sur l’ostéopathie par osteopathes.pro." .Title -}}
+  {{- end -}}
+{{- end -}}
+{{- $description = $description | replaceRE "<sup[^>]*>.*?</sup>" "" | plainify | htmlUnescape | replaceRE "[\\s\\x{00a0}]+" " " | replaceRE "^ +| +$" "" | truncate 157 | htmlUnescape -}}
+{{- $article := and .IsPage (in (slice "actualites" "articles" "dossiers") .Section) -}}
+{{- $noindex := or .Params.no_index .Draft (eq .Kind "404") (in (slice "deploy-preview" "branch-deploy") (getenv "CONTEXT")) -}}
+{{- return (dict "url" $url "title" $title "description" $description "article" $article "noindex" $noindex) -}}

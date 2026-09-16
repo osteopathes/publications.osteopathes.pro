@@ -20,18 +20,20 @@ markup:
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds: ["RSS", "taxonomyTerm"]
+disableKinds: ["RSS"]
 # enableGitInfo: true
 
 frontmatter:
   date:
     - publishDate
     - date
-    - :fileModTime
   publishDate:
     - publishDate
     - date
-    - :fileModTime
+  lastmod:
+    - lastmod
+    - publishDate
+    - date
 
 params:
   description: "Articles et dossiers sur l'ostéopathie ainsi que les actualités d'osteopathes.pro: démographie ostéopathes, ateliers rgpd etc."
@@ -52,8 +54,6 @@ languages:
 
     taxonomies:
       auteur: "auteurs"
-      label: "labels"
-      catégorie: "catégories"
 
 imaging:
   # Default resample filter used for resizing. Default is Box,

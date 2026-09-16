@@ -1,5 +1,9 @@
 ---
 title: "Les erreurs à éviter pour une installation réussie"
+description: "Un bon emplacement suffit-il pour réussir son installation d’ostéopathe ? Des confrères racontent leurs erreurs et ce qu’ils auraient aimé savoir."
+takeaways:
+  - "Dans le sondage de 2021, les difficultés dans le choix du lieu et de communication concentrent plus des deux tiers des erreurs rapportées."
+  - "Le choix du cabinet demande de croiser la densité locale en ostéopathes, les habitudes de consultation, l’accessibilité et les coûts."
 date: 2021-08-01T21:14:26Z
 draft: false
 slug: erreurs-a-eviter-pour-une-installation-reussie

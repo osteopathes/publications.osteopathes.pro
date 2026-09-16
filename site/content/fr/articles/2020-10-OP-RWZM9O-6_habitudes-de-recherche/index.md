@@ -1,5 +1,9 @@
 ---
 title: "Ostéopathie en ligne: que nous apprennent les habitudes de recherche?"
+description: "Du lundi matin aux pics de l’été, les recherches Google sur l’ostéopathie ont leur rythme. Explorons ce que les données de 2020 peuvent nous apprendre."
+takeaways:
+  - "Dans les périodes analysées, les recherches sur l’ostéopathie culminent le matin et le lundi ; les volumes varient aussi selon les saisons."
+  - "Ces observations de 2020 suggèrent des pistes de recherche, sans établir de lien causal entre recherches en ligne, douleurs et rendez-vous."
 date: 2020-10-31T09:26:21Z
 draft: false
 slug: osteopathie-en-ligne-que-nous-apprennent-les-habitudes-de-recherche

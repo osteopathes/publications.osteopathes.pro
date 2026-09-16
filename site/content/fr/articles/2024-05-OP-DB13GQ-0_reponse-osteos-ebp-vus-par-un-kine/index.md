@@ -1,5 +1,9 @@
 ---
 title: "Réponses à l'article «Science et ostéopathie: Que reste-t-il à un ostéopathe EBP ?»"
+description: "Deux regards sur l’ostéopathie EBP : Anthony Halimi et Joseph Kallel confrontent leurs arguments sur la palpation et la biomécanique. Où s’accordent-ils ?"
+takeaways:
+  - "Anthony Halimi et Joseph Kallel s’accordent sur l’intérêt du triage : l’accès direct et la durée des consultations donnent aux ostéopathes une place utile pour repérer les patients qui doivent être réorientés."
+  - "Leur désaccord porte notamment sur ce que le toucher permet de connaître et de modifier. Joseph défend une place pour les informations palpatoires et les effets biomécaniques ; Anthony juge les preuves trop limitées pour leur attribuer une action spécifique sur la douleur."
 date: 2024-05-21T15:09:00Z
 lastmod: 2024-05-22T21:17:00Z
 draft: false

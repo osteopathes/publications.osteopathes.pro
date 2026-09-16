@@ -1,0 +1,22 @@
+{{- $page := .page -}}
+{{- if and (not $page.IsHome) (ne $page.Kind "404") -}}
+{{- $items := partial "seo/breadcrumb-items.html" $page -}}
+{{/* The article heading identifies the current page; keep the trail compact. */}}
+{{- if .ancestorsOnly -}}
+  {{- $items = first (sub (len $items) 1) $items -}}
+{{- end -}}
+<nav aria-label="Fil d’Ariane" class="text-xs leading-5 text-gray-500 sm:text-sm">
+  <ol class="flex flex-wrap items-center gap-x-2 gap-y-1 {{ if .center }}justify-center{{ end }}">
+    {{- range $index, $item := $items -}}
+    <li class="inline-flex items-center">
+      {{- if $index -}}<span aria-hidden="true" class="mr-2 text-gray-400">/</span>{{- end -}}
+      {{- if and (not $.ancestorsOnly) (eq (add $index 1) (len $items)) -}}
+      <span aria-current="page">{{ .name }}</span>
+      {{- else -}}
+      <a href="{{ .relURL }}" class="hover:text-teal-700 hover:underline">{{ .name }}</a>
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ol>
+</nav>
+{{- end -}}

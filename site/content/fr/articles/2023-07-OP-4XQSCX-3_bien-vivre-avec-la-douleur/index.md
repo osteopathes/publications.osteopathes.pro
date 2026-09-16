@@ -1,5 +1,10 @@
 ---
 title: "Aider les gens à bien vivre avec la douleur par Le Pub Scientifique"
+description: "Faut-il attendre la fin de la douleur chronique pour mieux vivre ? Le Pub Scientifique propose des pistes pour repartir de ce qui compte pour le patient."
+takeaways:
+  - "Avec une douleur persistante, aller mieux peut aussi signifier reprendre une activité qui compte : marcher, jardiner ou jouer avec ses enfants. Il n’est pas toujours nécessaire d’attendre la disparition complète de la douleur pour travailler sur ces objectifs."
+  - "Demandez au patient ce qu’il aimerait retrouver, ce qui lui pose problème et ce qu’il a déjà essayé. Ses réponses servent à construire ensemble un plan adapté à sa vie quotidienne."
+  - "Avancez par petites étapes et prenez régulièrement des nouvelles. Le suivi permet d’ajuster les objectifs et les efforts à ce que la personne arrive réellement à faire."
 date: 2023-06-30T22:40:00Z
 draft: false
 slug: aider-les-gens-a-bien-vivre-avec-la-douleur-par-le-pub-scientifique
