@@ -28,10 +28,13 @@
         </div>
       </a>
     </div>
+    {{- $author := false -}}
+    {{- range first 1 (.Params.auteurs | default (slice)) -}}
+      {{- $author = $.Site.GetPage "taxonomyTerm" (printf "auteurs/%s" (urlize .)) -}}
+    {{- end -}}
     <div class="flex items-center mt-6">
+      {{- with $author -}}
       <div class="flex-shrink-0">
-        {{- range first 1 .Params.auteurs -}}
-        {{- with $.Site.GetPage "taxonomyTerm" (printf "auteurs/%s" (urlize .)) -}}
         <a href="{{ .Permalink }}">
           <picture>
             <source srcset="{{ .Params.avatar_url }}.webp" type="image/webp">
@@ -40,13 +43,14 @@
           </picture>
         </a>
       </div>
-      <div class="ml-3">
+      {{- end -}}
+      <div{{ if $author }} class="ml-3"{{ end }}>
+        {{- with $author -}}
         <p class="text-sm font-medium leading-5 text-gray-900">
           <a href="{{ .Permalink }}" class="hover:underline">
             {{- .Params.name -}}
           </a>
         </p>
-        {{- end -}}
         {{- end -}}
         <div class="flex text-sm leading-5 text-gray-500">
           <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">

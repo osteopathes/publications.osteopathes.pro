@@ -81,7 +81,7 @@
             {{- end -}}
           </div>
           {{- end -}}
-          {{- if (and (index .Aliases 0) .Params.publication_id) -}}
+          {{- if (and .Aliases .Params.publication_id) -}}
           {{- $aliasAbsoluteUrl := (index .Aliases 0) | absURL -}}
           <div class="mb-2 text-gray-700">
             <svg class="inline-block w-5 h-5 mr-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
