@@ -135,6 +135,42 @@ a.footnote-ref {
 
 /*! purgecss end ignore */
 
+/* Article CTAs: shared Markdown and link styles, including inside .prose. */
+.article-cta__body > * + * {
+  @apply mt-4;
+}
+
+.article-cta__body strong {
+  @apply font-semibold text-gray-900;
+}
+
+.article-cta__body ul {
+  @apply pl-5 list-disc;
+}
+
+.article-cta__body ol {
+  @apply pl-5 list-decimal;
+}
+
+.article-cta a:not(.article-cta__image),
+.prose .article-cta a:not(.article-cta__image) {
+  @apply p-0 font-semibold text-teal-700 underline underline-offset-4 border-0 shadow-none;
+}
+
+.article-cta a:not(.article-cta__image):hover,
+.prose .article-cta a:not(.article-cta__image):hover {
+  @apply text-teal-900 shadow-none;
+}
+
+.article-cta a:focus-visible {
+  @apply outline outline-2 outline-offset-4 outline-teal-700;
+}
+
+.prose .article-cta .article-cta__image,
+.prose .article-cta img {
+  @apply p-0 m-0 border-0 rounded-lg shadow-none bg-transparent;
+}
+
 /* Buttons */
 
 a.btn,

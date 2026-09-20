@@ -1,0 +1,58 @@
+{{- $page := .Page -}}
+{{- $id := .Get "id" | default (printf "cta-%d" .Ordinal) -}}
+{{- $title := .Get "title" -}}
+{{- $actions := slice -}}
+{{- range slice "primary" "secondary" -}}
+  {{- $url := $.Get (printf "%s_url" .) -}}
+  {{- $ref := $.Get (printf "%s_ref" .) -}}
+  {{- $label := $.Get (printf "%s_label" .) -}}
+  {{- if and $url $ref -}}
+    {{- errorf "CTA %s: use either %s_url or %s_ref in %s" $id . . $page.File.Path -}}
+  {{- end -}}
+  {{- with $ref -}}
+    {{- $url = $page.RelRef (dict "path" .) -}}
+  {{- end -}}
+  {{- if or $url $label -}}
+    {{- if not (and $url $label) -}}
+      {{- errorf "CTA %s: %s needs a destination and a label in %s" $id . $page.File.Path -}}
+    {{- end -}}
+    {{- $actions = $actions | append (dict "url" $url "label" $label) -}}
+  {{- end -}}
+{{- end -}}
+{{- $image := .Get "image" -}}
+{{- $imageURL := "" -}}
+{{- if $image -}}
+  {{- if or (not (.Get "image_alt")) (not (len $actions)) -}}
+    {{- errorf "CTA %s: an image needs image_alt and an action in %s" $id $page.File.Path -}}
+  {{- else -}}
+    {{- $imageURL = (index $actions 0).url -}}
+  {{- end -}}
+{{- end -}}
+<aside class="article-cta not-prose p-5 my-8 font-sans text-base leading-7 text-gray-700 border border-teal-200 rounded-xl bg-teal-50 sm:p-8"
+  {{ if $title }}aria-labelledby="{{ $id }}"{{ else }}id="{{ $id }}" aria-label="{{ .Get "label" | default "Ressource complémentaire" }}"{{ end }}>
+  {{- with .Get "eyebrow" }}
+  <p class="mb-2 text-sm font-semibold text-teal-700">{{ . }}</p>
+  {{- end }}
+  {{- with $title }}
+  <h3 id="{{ $id }}" class="mb-3 text-xl font-bold leading-snug text-gray-900">{{ . }}</h3>
+  {{- end }}
+  {{- if $image }}
+  <div class="flex flex-col items-start gap-6 mt-5 md:flex-row">
+    <a href="{{ $imageURL }}" class="article-cta__image block w-full rounded-lg md:w-2/5 md:flex-shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-700">
+      {{ partial "resource-preview.html" (dict "page" $page "src" $image "alt" (.Get "image_alt")) }}
+    </a>
+    <div class="flex-1 min-w-0">
+  {{- end }}
+      <div class="article-cta__body">{{ .Page.RenderString (dict "display" "block") .Inner }}</div>
+      {{- with $actions }}
+      <div class="flex flex-wrap items-center mt-4 gap-x-6 gap-y-3">
+        {{- range . }}
+        <a href="{{ .url }}">{{ .label }} <span aria-hidden="true">→</span></a>
+        {{- end }}
+      </div>
+      {{- end }}
+  {{- if $image }}
+    </div>
+  </div>
+  {{- end }}
+</aside>
