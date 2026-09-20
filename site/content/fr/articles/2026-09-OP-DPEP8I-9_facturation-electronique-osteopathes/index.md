@@ -90,6 +90,8 @@ Dans notre **exemple fictif**, Camille a déjà réglé le PDF reçu par courrie
 
 La réception est une obligation actuelle : engagez la démarche rapidement. Votre logiciel, votre expert-comptable ou votre banque peuvent vous orienter vers une solution, et vous pouvez aussi vous adresser directement à une plateforme agréée.
 
+**Avec nos formules 100 % facturation, vous pouvez utiliser osteopathes.pro uniquement pour la facturation électronique.** Vous conservez votre façon de prendre des notes et vos outils de gestion des informations cliniques. [Découvrez nos formules de facturation](https://www.osteopathes.pro/fr/tarifs-logiciel-osteopathe) et contactez notre équipe via le tchat du site pour préparer la réception de vos factures.
+
 Avant de vous engager, faites préciser le service qui sera activé pour votre cabinet, son coût complet, les modalités d’accès comptable et la récupération des documents en cas de changement de prestataire. Pour un cabinet qui ne réalise que des soins exonérés, commencez par les fonctions dont vous avez besoin pour vos achats.
 
 Le [guide de démarrage de la DGFiP, question 1](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/guide_pratique_facturation_electronique.pdf), demande de corriger rapidement cette situation et de garder les échanges attestant des démarches engagées. Il précise aussi qu’une mise en place inachevée ne doit pas conduire à interrompre l’activité ou à bloquer le traitement des factures reçues.
