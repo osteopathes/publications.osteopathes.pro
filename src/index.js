@@ -143,6 +143,7 @@ function scrollTo() {
     const link = links[i]
     if (
       link.href &&
+      link.dataset.scroll !== "instant" &&
       link.href.indexOf("#") !== -1 &&
       (link.pathname === location.pathname ||
         "/" + link.pathname === location.pathname) &&
