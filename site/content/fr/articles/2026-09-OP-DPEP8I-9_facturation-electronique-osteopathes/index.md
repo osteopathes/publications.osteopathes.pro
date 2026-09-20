@@ -34,6 +34,8 @@ Une offre souscrite et un circuit de réception opérationnel sont deux étapes 
 
 Vous pouvez utiliser directement une **plateforme agréée**, ou une **solution compatible** raccordée à une telle plateforme. Votre logiciel métier peut donc servir d’interface, sans être lui-même la plateforme qui achemine les factures.
 
+**C’est ce que nous proposons avec [osteopathes.pro](https://www.osteopathes.pro/fr/logiciel-osteopathe-notes-d-honoraires-facturation-patient) : notre logiciel métier intègre une plateforme agréée pour recevoir directement les factures électroniques de vos fournisseurs.** Vous retrouvez ainsi ces factures dans votre outil de cabinet. Pour découvrir ce fonctionnement et préparer l’activation pour votre cabinet, contactez notre équipe via le tchat du site.
+
 Demandez le nom exact de cette plateforme et vérifiez-le dans la [liste officielle de la DGFiP](https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees). Une formule commerciale comme « prêt pour la réforme » ne dit pas à elle seule quel service sera effectivement activé pour votre cabinet.
 
 Vous n’avez pas nécessairement à changer de logiciel de dossier patient. La [FAQ de la DGFiP, section 2](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/faq---fe_je-decouvre-la-facturation-electronique.pdf), confirme la liberté de choix de la plateforme et la possibilité de conserver une solution compatible. Le choix peut partir d’un besoin simple : recevoir, retrouver et transmettre vos factures d’achat à la personne qui tient votre comptabilité.
