@@ -78,6 +78,20 @@ Les leviers purement numériques — *réseaux sociaux, site web référencé, p
 
 Voilà donc le parcours type : des débuts progressifs, une installation majoritaire, et une patientèle qui se construit patiemment. Reste à savoir comment on vit cette trajectoire.
 
+</div>
+
+<aside aria-labelledby="ressource-installation" class="p-5 my-8 font-sans text-base leading-7 text-gray-700 border border-teal-200 rounded-xl bg-teal-50 sm:p-8">
+  <p class="mb-2 text-sm font-semibold text-teal-700">Un coup de main avec osteopathes.pro</p>
+  <h3 id="ressource-installation" class="mb-3 text-xl font-bold leading-snug text-gray-900">Comment développer son cabinet ?</h3>
+  <p>Choisir son lieu d’installation, se faire connaître, développer son réseau : on peut avoir besoin d’un coup de main à chaque étape. Retrouvez nos ressources et notre accompagnement pour faire avancer votre activité. Nous proposons aussi <strong class="font-semibold text-gray-900">un échange gratuit sur ces sujets</strong>.</p>
+  <div class="flex flex-wrap items-center mt-4 gap-x-6 gap-y-3">
+    <a href="https://www.osteopathes.pro/fr#apps" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Découvrir les ressources et accompagnements <span aria-hidden="true">→</span></a>
+    <a href="https://rendez-vous.osteopathes.pro" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Prendre RDV pour un conseil gratuit <span aria-hidden="true">→</span></a>
+  </div>
+</aside>
+
+<div class="w-full px-4 py-4 mx-auto prose max-w-prose font-readable">
+
 ## Le vécu réel : comment vont les ostéos ?
 
 On sait désormais par où passent les ostéopathes et où ils aboutissent. Reste la question la plus difficile à mesurer : comment vivent-ils ce parcours ? Nous avons donc laissé la parole ouverte — ce qui procure le plus de fierté, les défis rencontrés, le sentiment d'être entouré ou non — pour saisir ce que les statistiques d'activité ne peuvent pas mettre en lumière.
@@ -126,6 +140,20 @@ Le chiffre le plus frappant est peut-être le plus faible : seuls **3,4&nbsp;%**
 
 L'écart mérite qu'on s'y arrête : entre **40&nbsp;% de praticiens isolés et 3,4&nbsp;% engagés dans un groupe d'analyse de pratique**, ce n'est probablement pas l'intérêt qui manque, mais l'information, l'accès ou le coût. Des dispositifs existent — encore faut-il savoir qu'ils existent.
 
+</div>
+
+<aside aria-labelledby="ressource-entraide" class="p-5 my-8 font-sans text-base leading-7 text-gray-700 border border-teal-200 rounded-xl bg-teal-50 sm:p-8">
+  <p class="mb-2 text-sm font-semibold text-teal-700">Entraide entre collègues</p>
+  <h3 id="ressource-entraide" class="mb-3 text-xl font-bold leading-snug text-gray-900">Envie d’échanger avec d’autres ostéopathes ?</h3>
+  <p>Un doute sur votre pratique, une difficulté au cabinet, ou simplement envie de discuter ? Le <strong class="font-semibold text-gray-900">Discord d’Ostéo de Demain</strong> permet d’échanger avec des étudiants et des ostéopathes, de poser vos questions et de partager vos expériences (cliniques ou pas). Vous préférez un échange direct ? Écrivez nous pour nous parler de votre situation ou demander un coup de main.</p>
+  <div class="flex flex-wrap items-center mt-4 gap-x-6 gap-y-3">
+    <a href="https://discord.gg/kQjtMS63Yg" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Rejoindre le Discord Ostéo de Demain <span aria-hidden="true">→</span></a>
+    <a href="mailto:contact@osteopathes.pro" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Nous écrire par email <span aria-hidden="true">→</span></a>
+  </div>
+</aside>
+
+<div class="w-full px-4 py-4 mx-auto prose max-w-prose font-readable">
+
 ## La réalité financière
 
 On l'a vu, l'aspect financier de la profession semble également au cœur des difficultés rencontrées. **Mais est-ce qu'on le sait avant de s'engager dans ce métier ?**
@@ -138,20 +166,16 @@ Interrogés sur l'adéquation entre leurs revenus réels et ce qu'ils avaient im
 
 </div>
 
-<div class="p-4 mb-6 border-l-4 border-teal-400 bg-teal-50">
-  <div class="flex">
-    <div class="ml-3">
-      <p class="text-sm text-teal-700">
-        <strong>Et concrètement, combien gagne un ostéopathe ?</strong><br>
-        Cette enquête mesure un écart entre les attentes et le vécu, pas des montants.
-        Pour les chiffres réels — revenus moyens et médians, dispersion, évolution sur
-        les dernières années —, nous les analysons chaque année dans notre étude
-        démographique, aux côtés des effectifs et de la répartition territoriale de la profession.<br>
-        <a href="{{< relref "/dossiers/demographie/OP-UW241K-9_osteopathes-maj-2024" >}}" class="underline">→ Démographie des ostéopathes en France</a>
-      </p>
-    </div>
+<aside aria-labelledby="ressource-revenus" class="p-5 my-8 font-sans text-base leading-7 text-gray-700 border border-teal-200 rounded-xl bg-teal-50 sm:p-8">
+  <p class="mb-2 text-sm font-semibold text-teal-700">Comprendre et anticiper ses revenus</p>
+  <h3 id="ressource-revenus" class="mb-3 text-xl font-bold leading-snug text-gray-900">Et concrètement, combien gagne un ostéopathe ?</h3>
+  <p>Cette enquête mesure un écart entre les attentes et le vécu, pas des montants. Notre étude démographique détaille les revenus moyens et médians, leur dispersion et leur évolution.</p>
+  <p class="mt-4">Pour explorer votre propre situation, renseignez <strong class="font-semibold text-gray-900">votre nombre de consultations, vos honoraires et vos frais</strong> dans notre simulateur. Vous pourrez comparer des estimations de revenu net selon le régime choisi.</p>
+  <div class="flex flex-wrap items-center mt-4 gap-x-6 gap-y-3">
+    <a href="https://www.osteopathes.pro/fr/choisir-son-statut-juridique-liberal" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Simuler les revenus de mon cabinet <span aria-hidden="true">→</span></a>
+    <a href="{{< relref "/dossiers/demographie/OP-UW241K-9_osteopathes-maj-2024" >}}" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Lire notre étude démographique <span aria-hidden="true">→</span></a>
   </div>
-</div>
+</aside>
 
 <div class="w-full px-4 py-4 mx-auto prose max-w-prose font-readable">
 
@@ -241,6 +265,27 @@ En clair, une fois sur le terrain, ce n'est pas tant le geste ou le raisonnement
 
 La hiérarchie des défis vécus rejoint ainsi celle des lacunes ressenties : on souffre là où l'on ne se sentait pas préparé.
 C'est peut-être le constat le plus encourageant de cette enquête, aussi paradoxal que cela paraisse : facturation, URSSAF, prévisionnel, choix de statut sont des compétences enseignables. Le déficit est net, et il porte sur des savoirs parfaitement transmissibles.
+
+</div>
+
+<aside aria-labelledby="ressource-bds" class="p-5 my-8 font-sans text-base leading-7 text-gray-700 border border-teal-200 rounded-xl bg-teal-50 sm:p-8">
+  <p class="mb-2 text-sm font-semibold text-teal-700">Les ressources d’osteopathes.pro</p>
+  <h3 id="ressource-bds" class="mb-3 text-xl font-bold leading-snug text-gray-900">La gestion du cabinet, ça s’apprend aussi en BD</h3>
+  <div class="flex flex-col items-start gap-6 mt-5 md:flex-row">
+    <a href="https://www.osteopathes.pro/fr/ressources/bds/comment-anticiper-tes-revenus-en-osteo" class="block w-full rounded-lg md:w-2/5 md:flex-shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-700">
+      {{< resource-preview src="osteopathe-bd-anticiper-revenus-cabinet.jpg" alt="Lire la BD « Comment anticiper tes revenus en ostéo ? » : couverture illustrée." >}}
+    </a>
+    <div class="flex-1 min-w-0">
+      <p>Démarches d’installation, chiffre d’affaires, revenu net : nos BD expliquent la gestion du cabinet pas à pas. Celle sur les revenus vous aide à <strong class="font-semibold text-gray-900">comprendre combien de consultations sont nécessaires pour couvrir vos charges et dégager un revenu</strong>.</p>
+      <div class="flex flex-wrap items-center mt-4 gap-x-6 gap-y-3">
+        <a href="https://www.osteopathes.pro/fr/ressources/bds/comment-anticiper-tes-revenus-en-osteo" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Lire la BD sur les revenus <span aria-hidden="true">→</span></a>
+        <a href="https://www.osteopathes.pro/fr/ressources/bds" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">Parcourir toutes nos BD <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<div class="w-full px-4 py-4 mx-auto prose max-w-prose font-readable">
 
 ## La formation continue, un engagement massif
 

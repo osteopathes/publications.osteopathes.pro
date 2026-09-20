@@ -1,0 +1,13 @@
+{{- $source := .Get "src" -}}
+{{- with .Page.Resources.GetMatch $source -}}
+  {{- $small := .Resize "384x jpg q85" -}}
+  {{- $large := .Resize "768x jpg q85" -}}
+  <img src="{{ $large.RelPermalink }}"
+    srcset="{{ $small.RelPermalink }} 384w, {{ $large.RelPermalink }} 768w"
+    sizes="(min-width: 768px) 360px, (min-width: 640px) 520px, calc(100vw - 90px)"
+    width="{{ $large.Width }}" height="{{ $large.Height }}"
+    alt="{{ $.Get "alt" }}" loading="lazy" decoding="async"
+    class="block w-full h-auto rounded-lg" />
+{{- else -}}
+  {{- errorf "Missing resource preview %q in %s" $source .Page.File.Path -}}
+{{- end -}}
