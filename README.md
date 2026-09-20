@@ -88,9 +88,6 @@ avec les brouillons), ajouter `--preview`. Utiliser un répertoire de sortie neu
 si un ancien build contenait des brouillons : Hugo seul ne supprime pas toujours
 les anciens fichiers.
 
-Voir [les conventions éditoriales et les pistes d’amélioration](docs/editorial-seo.md)
-pour les résumés, les contenus illustrés et l’organisation du blog.
-
 ## Structure
 
 ```
