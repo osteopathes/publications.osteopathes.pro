@@ -1,8 +1,8 @@
 ---
 title: "Ostéopathe : suis-je concerné par la facturation électronique ?"
 description: "Factures patients, remplacement, collaboration, interventions en entreprise : quelles obligations de facturation électronique pour les ostéopathes ?"
-date: 2026-09-20T16:52:41+02:00
-lastmod: 2026-09-22T11:50:06+02:00
+date: 2026-10-23T10:11:07+02:00
+lastmod: 2026-10-23T10:11:07+02:00
 draft: true
 slug: facturation-electronique-osteopathes
 publication_id: OP-DPEP8I-9
