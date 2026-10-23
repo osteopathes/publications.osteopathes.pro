@@ -12,6 +12,9 @@ auteurs:
   - konrad-florkow
 toc: true
 toc_default_closed: true
+resources:
+  - name: cover-image
+    src: facturation-electronique-osteopathes-couverture.jpg
 ---
 
 **Oui, si vous exercez comme ostéopathe indépendant en France, vous devez pouvoir recevoir les factures électroniques de vos fournisseurs depuis le 1er septembre 2026.** Cela vaut même si vous ne facturez pas de TVA : les impôts citent expressément les ostéopathes parmi les professionnels concernés[^1].
