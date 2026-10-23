@@ -14,6 +14,7 @@
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
     "prebuild": "rimraf dist",
+    "prebuild:preview": "npm run prebuild",
     "build": "npm run build:webpack && npm run build:hugo && npm run build:images",
     "build:preview": "npm run build:webpack && npm run build:hugo:preview && npm run build:images",
     "build:hugo": "env HUGO_BASEURL=$DEPLOY_PRIME_URL node ./scripts/run-hugo.js -d ../dist -s site -v",
