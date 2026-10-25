@@ -13,7 +13,7 @@ boilerplate. Check their docs for more information.
 
 ### :exclamation: Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+You need [Node.js](https://nodejs.org/en/download/) 18.16.0 (see `.nvmrc`) and [npm](https://www.npmjs.com/get-npm) 9.5.1 installed in order to use Victor Hugo. `npm install` includes a bundled universal Hugo binary for Apple Silicon; installing a compatible system Hugo is optional.
 
 Next step, clone this repository and run:
 

@@ -1,9 +1,9 @@
 ---
 title: "Ostéopathe : suis-je concerné par la facturation électronique ?"
-description: "Factures patients, remplacement, collaboration, interventions en entreprise : quelles obligations de facturation électronique pour les ostéopathes ?"
-date: 2026-10-23T10:11:07+02:00
-lastmod: 2026-10-23T10:11:07+02:00
-draft: true
+description: "Factures patients, remplacement, collaboration, interventions en entreprise: quelles obligations de facturation électronique pour les ostéopathes ?"
+date: 2026-10-25T10:11:07+02:00
+lastmod: 2026-10-25T10:11:07+02:00
+draft: false
 slug: facturation-electronique-osteopathes
 publication_id: OP-DPEP8I-9
 aliases:
@@ -75,11 +75,12 @@ Factures, dossiers, échanges : notre dossier vous aide à comprendre vos obliga
 
 ## Les rétrocessions d’un ostéopathe remplaçant sont-elles concernées ?
 
-**Non : les rétrocessions d’honoraires versées au remplaçant pour les consultations qu’il a réalisées rémunèrent des soins. Elles restent exonérées de TVA et ne sont pas concernées par l’obligation de facturation électronique[^7][^6][^2].**
+**Non : les rétrocessions d’honoraires versées au remplaçant pour les consultations qu’il a réalisées rémunèrent des soins. Elles restent exonérées de TVA et ne sont pas concernées par l’obligation de facturation électronique[^7][^6][^2]. Cependant, cela ne vous dispense pas d'avoir une plateforme pour recevoir vos factures fournisseur.**
 
 Que le patient vous paie directement ou que le titulaire encaisse puis vous reverse votre part ne change pas la nature de ces honoraires. Il s’agit toujours de la rémunération de vos soins.
 
-En revanche, en tant que remplaçant indépendant, vous devez pouvoir **recevoir vos propres factures fournisseurs**. L’exclusion des honoraires de soins ne supprime pas cette obligation.
+En revanche, en tant que remplaçant indépendant, vous devez pouvoir **recevoir vos propres factures fournisseurs**. L’exclusion des honoraires de soins ne supprime pas cette obligation: **il vous faut bien une
+plateforme pour recevoir vos factures électroniques depuis le 1er septembre 2026**.
 
 Le remplacement et la collaboration occupent une place importante dans les débuts d’exercice décrits par [notre enquête sur la situation des ostéopathes]({{< relref "/articles/2026-09-OP-PO9C3R-5_comment-vont-les-osteos" >}}). Pour la facturation, il faut toutefois distinguer ces honoraires de la redevance présentée ci-dessous.
 
@@ -108,7 +109,7 @@ Il faut distinguer **recevoir les factures de vos fournisseurs** et **émettre v
 | **Factures de vos fournisseurs concernés** | Vous devez pouvoir les recevoir depuis le **1er septembre 2026**, quel que soit votre régime ou votre mode d’exercice indépendant. |
 | **Factures de soins aux patients** | Elles restent en dehors de l’émission électronique obligatoire, en 2026 comme en 2027. |
 | **Rétrocessions versées au remplaçant pour ses soins** | Même règle que pour les soins : pas d’émission électronique obligatoire. |
-| **Redevances de collaboration et autres prestations non exonérées entre entreprises concernées en France** | Émission électronique au **1er septembre 2027** pour les petites et microentreprises. Les grandes entreprises et entreprises de taille intermédiaire sont concernées depuis septembre 2026. |
+| **Redevances de collaboration et autres prestations non exonérées entre entreprises concernées en France** | Émission électronique au **1er septembre 2027** pour les petites et microentreprises, dont les ostéopathes |
 
 Ces distinctions reprennent les règles des impôts sur les soins, les remplacements et le calendrier de la réforme[^2][^7][^8][^9]. Si vous ne réalisez que des soins exonérés, votre démarche principale est donc d’organiser la **réception de vos factures d’achat**.
 
@@ -116,7 +117,7 @@ Ces distinctions reprennent les règles des impôts sur les soins, les remplacem
 
 Vous n’avez pas nécessairement besoin de deux outils. Un logiciel métier peut être raccordé à une **plateforme agréée**, le service qui achemine les factures électroniques entre les entreprises[^1].
 
-**osteopathes.pro intègre une plateforme agréée et vous permet de recevoir les factures électroniques directement dans votre logiciel métier.** Vous consultez ces factures dans osteopathes.pro, sans accès séparé à la plateforme. Le logiciel indique également si le service est actif et raccordé.
+**osteopathes.pro intègre une plateforme agréée et vous permet de recevoir les factures électroniques directement dans votre logiciel métier.** Vous consultez ces factures dans osteopathes.pro, sans accès séparé à la plateforme.
 
 ### Comment choisir une plateforme de facturation électronique pour mon cabinet ?
 
@@ -127,7 +128,7 @@ Vous n’avez pas nécessairement besoin de deux outils. Un logiciel métier peu
   primary_url="https://www.osteopathes.pro/fr/tarifs-logiciel-osteopathe"
   primary_label="Découvrir nos formules 100 % facturation"
 >}}
-**Factures patients en PDF et facturation électronique : nos formules 100 % facturation réunissent les deux.** Vous conservez vos outils et vos habitudes pour la prise de notes et les informations cliniques. Pour choisir votre formule, vous pouvez échanger avec notre équipe via le tchat du site.
+**Factures patients en PDF et facturation électronique : nos formules 100 % facturation réunissent les deux.** Vous conservez vos outils et vos habitudes pour la prise de notes et les dossiers cliniques. Pour choisir votre formule, vous pouvez échanger avec notre équipe via le tchat du site.
 {{< /cta >}}
 
 Si vous n’avez pas encore choisi de plateforme, engagez la démarche rapidement. Les impôts demandent de mettre en place la réception sans interrompre l’activité ni bloquer le traitement des factures reçues[^11].
@@ -148,9 +149,9 @@ Vous recevez une offre ou une demande inhabituelle ? Notre dossier rassemble des
 
 Le choix d’une plateforme doit être validé par votre accord[^1]. Terminez les étapes d’activation proposées, vérifiez les informations de votre entreprise et consultez le statut affiché dans le logiciel.
 
-**Dans osteopathes.pro, si le service est indiqué comme actif et raccordé, vous n’avez pas à demander de confirmation supplémentaire à notre équipe.** Suivez les indications du logiciel si une étape reste à terminer ; contactez le support en cas de blocage, de message d’erreur ou d’incohérence.
+**Dans osteopathes.pro, il suffit de suivre les indications dans le logiciel. Si vous avez pu terminer la procédure, vous êtes prêt·e·s** Une boîte encore vide n’est pas une preuve de panne: vos petits fournisseurs ont jusqu’à septembre 2027 pour émettre leurs factures électroniques concernées[^8].
 
-Une boîte encore vide n’est pas une preuve de panne : vos petits fournisseurs ont jusqu’à septembre 2027 pour émettre leurs factures électroniques concernées[^8].
+Vous pouvez également vérifier le statut de votre entreprise sur l'[annuaire public de facturation électronique: Chorus Pro](https://facturation.chorus-pro.gouv.fr/annuaire). Si l'annuaire indique que vous avez une plateforme rattachée, c'est bon !
 
 ## Facture électronique non reçue, PDF ou doublon : que faire ?
 
@@ -175,7 +176,7 @@ Conservez les références et les échanges en cas d’incident.
 
 [^2]: DGFiP. [Je n’émets pas de facture, ou je facture sans TVA. Suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/je-nemets-pas-de-facture-ou-je-facture-sans-tva-suis-je-concerne-par-la), publié le 15/11/2024, modifié le 16/01/2026 [en ligne]. Distinction entre franchise en base, opérations exonérées et réception des factures d’achat.
 
-[^3]: Osteopathes.pro. [Publication Instagram sur la facturation électronique](https://www.instagram.com/p/DXbjJHSjKUY/), 22 avril 2026 [en ligne].
+[^3]: osteopathes.pro. [Publication Instagram sur la facturation électronique](https://www.instagram.com/p/DXbjJHSjKUY/), 22 avril 2026 [en ligne].
 
 [^4]: DGFiP. [Je découvre la facturation électronique](https://www.impots.gouv.fr/professionnel/je-decouvre-la-facturation-electronique), publié le 16/10/2024, modifié le 26/05/2026 [en ligne]. Rubriques « Quels sont les principes de la réforme ? » et « À quelle date dois-je être prêt ? ».
 

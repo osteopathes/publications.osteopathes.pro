@@ -32,12 +32,7 @@ function run () {
 
   const systemHugo = findSystemHugo()
   if (systemHugo) {
-    const child = spawn(systemHugo, process.argv.slice(2), { stdio: 'inherit', env })
-    child.on('error', err => {
-      process.stderr.write(err.message + '\n')
-      process.exit(1)
-    })
-    child.on('exit', code => process.exit(code ?? 1))
+    spawnHugo(systemHugo, env)
     return
   }
 
@@ -46,16 +41,29 @@ function run () {
 
 function tryVendor (env) {
   if (fs.existsSync(vendorHugo)) {
-    const child = spawn(vendorHugo, process.argv.slice(2), { stdio: 'inherit', env })
-    child.on('exit', code => process.exit(code ?? 1))
-    child.on('error', err => {
-      process.stderr.write(err.message + '\n')
-      process.exit(1)
-    })
+    spawnHugo(vendorHugo, env)
     return
   }
 
-  process.stderr.write('Error: could not find a usable Hugo binary. Install Hugo or restore node_modules/hugo-bin/vendor/hugo.\n')
+  process.stderr.write('Error: could not find a usable Hugo binary. Reinstall dependencies or install a compatible Hugo binary.\n')
+  process.exit(1)
+}
+
+function spawnHugo (executable, env) {
+  let child
+  try {
+    child = spawn(executable, process.argv.slice(2), { stdio: 'inherit', env })
+  } catch (err) {
+    reportSpawnError(executable, err)
+    return
+  }
+
+  child.on('error', err => reportSpawnError(executable, err))
+  child.on('exit', code => process.exit(code ?? 1))
+}
+
+function reportSpawnError (executable, err) {
+  process.stderr.write(`Error: could not run Hugo at ${executable}: ${err.message}. Reinstall dependencies or install a compatible Hugo binary.\n`)
   process.exit(1)
 }
 
