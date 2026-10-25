@@ -40,8 +40,8 @@ Notre publication Instagram du printemps présentait les échéances de la réfo
 
 Vous pouvez ne pas facturer de TVA pour deux raisons différentes, avec des conséquences différentes pour la facturation électronique :
 
-- **Vos soins ostéopathiques sont exonérés de TVA parce qu’il s’agit de soins.** Par exemple, une consultation d’ostéopathie n’est pas soumise à la TVA, quel que soit le chiffre d’affaires de votre cabinet. Cette exonération est liée à la nature de l’acte, pas à la taille de votre activité[^6]. Les factures de ces soins restent donc en dehors de l’obligation de facturation électronique<sup><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
-- **D’autres prestations sont normalement soumises à la TVA, mais vous pouvez bénéficier de la « franchise en base ».** Ce dispositif permet de ne pas facturer la TVA tant que les conditions, notamment de chiffre d’affaires, sont respectées. C’est par exemple le cas d’une **redevance de collaboration** pour l’utilisation du cabinet, ou d’une **mission de conseil en entreprise distincte des soins**. Même si vous ne facturez pas de TVA grâce à cette franchise, ces prestations restent concernées par la facturation électronique lorsqu’elles sont facturées entre entreprises concernées en France<sup><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+- **Vos soins ostéopathiques sont exonérés de TVA parce qu’il s’agit de soins.** Par exemple, une consultation d’ostéopathie n’est pas soumise à la TVA, quel que soit le chiffre d’affaires de votre cabinet. Cette exonération est liée à la nature de l’acte, pas à la taille de votre activité[^6]. Les factures de ces soins restent donc en dehors de l’obligation de facturation électronique[^2].
+- **D’autres prestations sont normalement soumises à la TVA, mais vous pouvez bénéficier de la « franchise en base ».** Ce dispositif permet de ne pas facturer la TVA tant que les conditions, notamment de chiffre d’affaires, sont respectées. C’est par exemple le cas d’une **redevance de collaboration** pour l’utilisation du cabinet, ou d’une **mission de conseil en entreprise distincte des soins**. Même si vous ne facturez pas de TVA grâce à cette franchise, ces prestations restent concernées par la facturation électronique lorsqu’elles sont facturées entre entreprises concernées en France[^5][^6][^2].
 
 Autrement dit, **une facture sans TVA n’est pas automatiquement dispensée de facturation électronique**. Une consultation d’ostéopathie et une redevance de collaboration ne suivent pas les mêmes règles. Nous détaillons ces situations ci-dessous.
 
@@ -57,7 +57,7 @@ Le choix du lieu d’exercice et la communication comptent aussi au démarrage. 
 
 ## La facturation électronique concerne-t-elle les factures patients ?
 
-**Non. Les impôts rappellent que les actes de soins, dont les consultations d’ostéopathie, restent exonérés de TVA<sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. Ces soins ne sont donc pas concernés par l’obligation d’émettre des factures électroniques, même après septembre 2027<sup><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.**
+**Non. Les impôts rappellent que les actes de soins, dont les consultations d’ostéopathie, restent exonérés de TVA[^6]. Ces soins ne sont donc pas concernés par l’obligation d’émettre des factures électroniques, même après septembre 2027[^2].**
 
 Vous pouvez continuer à remettre une facture ou une note d’honoraires à vos patients, sur papier ou en PDF. La réforme ne vous impose pas de faire passer ces documents par une plateforme agréée.
 
@@ -75,7 +75,7 @@ Factures, dossiers, échanges : notre dossier vous aide à comprendre vos obliga
 
 ## Les rétrocessions d’un ostéopathe remplaçant sont-elles concernées ?
 
-**Non : les rétrocessions d’honoraires versées au remplaçant pour les consultations qu’il a réalisées rémunèrent des soins. Elles restent exonérées de TVA et ne sont pas concernées par l’obligation de facturation électronique[^7]<sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.**
+**Non : les rétrocessions d’honoraires versées au remplaçant pour les consultations qu’il a réalisées rémunèrent des soins. Elles restent exonérées de TVA et ne sont pas concernées par l’obligation de facturation électronique[^7][^6][^2].**
 
 Que le patient vous paie directement ou que le titulaire encaisse puis vous reverse votre part ne change pas la nature de ces honoraires. Il s’agit toujours de la rémunération de vos soins.
 
@@ -85,23 +85,23 @@ Le remplacement et la collaboration occupent une place importante dans les débu
 
 ## La redevance de collaboration est-elle concernée par la facturation électronique ?
 
-**Oui, car elle rémunère la mise à disposition du cabinet ou du matériel.** Le collaborateur verse cette redevance au titulaire pour pouvoir utiliser ses locaux et ses équipements. Elle ne paie pas une consultation d’ostéopathie : elle ne bénéficie donc pas de l’exonération de TVA réservée aux soins<sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.
+**Oui, car elle rémunère la mise à disposition du cabinet ou du matériel.** Le collaborateur verse cette redevance au titulaire pour pouvoir utiliser ses locaux et ses équipements. Elle ne paie pas une consultation d’ostéopathie : elle ne bénéficie donc pas de l’exonération de TVA réservée aux soins[^6].
 
-Entre deux professionnels assujettis à la TVA établis en France, une telle redevance entre dans la facturation électronique. Pour une petite ou microentreprise, l’échéance d’émission est le **1er septembre 2027**, même si elle ne facture pas de TVA grâce à la franchise en base[^8]<sup><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>[^9].
+Entre deux professionnels assujettis à la TVA établis en France, une telle redevance entre dans la facturation électronique. Pour une petite ou microentreprise, l’échéance d’émission est le **1er septembre 2027**, même si elle ne facture pas de TVA grâce à la franchise en base[^8][^5][^9].
 
-Pour distinguer les deux situations : **les honoraires versés au remplaçant rémunèrent les soins qu’il a réalisés ; la redevance versée par le collaborateur rémunère l’utilisation du cabinet.** Même si le mot « rétrocession » est parfois employé dans les deux cas, c’est ce que la somme paie qui compte<sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>.
+Pour distinguer les deux situations : **les honoraires versés au remplaçant rémunèrent les soins qu’il a réalisés ; la redevance versée par le collaborateur rémunère l’utilisation du cabinet.** Même si le mot « rétrocession » est parfois employé dans les deux cas, c’est ce que la somme paie qui compte[^6][^7].
 
 ## Une intervention d’ostéopathie en entreprise doit-elle être facturée électroniquement ?
 
-**Cela dépend de la prestation, pas seulement de la personne qui paie.** Des consultations d’ostéopathie réalisées auprès de salariés peuvent rester des soins exonérés, même si l’employeur les organise. Le fait qu’une entreprise demande l’intervention ne suffit pas à lui retirer cette exonération : ce qui compte est notamment son objectif de soin ou de protection de la santé[^10]<sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.
+**Cela dépend de la prestation, pas seulement de la personne qui paie.** Des consultations d’ostéopathie réalisées auprès de salariés peuvent rester des soins exonérés, même si l’employeur les organise. Le fait qu’une entreprise demande l’intervention ne suffit pas à lui retirer cette exonération : ce qui compte est notamment son objectif de soin ou de protection de la santé[^10][^6].
 
-À l’inverse, une mission de conseil à l’entreprise ne bénéficie pas automatiquement de l’exonération des soins<sup><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. Un atelier collectif ou une formation doit être examiné selon son contenu ; l’intitulé « prévention » ou « bien-être » ne suffit pas à trancher.
+À l’inverse, une mission de conseil à l’entreprise ne bénéficie pas automatiquement de l’exonération des soins[^6]. Un atelier collectif ou une formation doit être examiné selon son contenu ; l’intitulé « prévention » ou « bien-être » ne suffit pas à trancher.
 
-**Si votre prestation n’est pas exonérée et que vous la facturez à une entreprise assujettie à la TVA en France, la facture électronique devient obligatoire au 1er septembre 2027 pour les petites et microentreprises**<sup><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>. La franchise en base ne change pas cette échéance<sup><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. Certaines formations peuvent bénéficier de leur propre exonération : vérifiez donc la prestation prévue avant d’établir votre devis.
+**Si votre prestation n’est pas exonérée et que vous la facturez à une entreprise assujettie à la TVA en France, la facture électronique devient obligatoire au 1er septembre 2027 pour les petites et microentreprises**[^8][^9]. La franchise en base ne change pas cette échéance[^5]. Certaines formations peuvent bénéficier de leur propre exonération : vérifiez donc la prestation prévue avant d’établir votre devis.
 
 ## Facturation électronique : quelles sont les dates pour les ostéopathes ?
 
-Il faut distinguer **recevoir les factures de vos fournisseurs** et **émettre vos propres factures**<sup><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.
+Il faut distinguer **recevoir les factures de vos fournisseurs** et **émettre vos propres factures**[^8].
 
 | Type de facture | Ce qui vous concerne |
 | --- | --- |
@@ -110,11 +110,11 @@ Il faut distinguer **recevoir les factures de vos fournisseurs** et **émettre v
 | **Rétrocessions versées au remplaçant pour ses soins** | Même règle que pour les soins : pas d’émission électronique obligatoire. |
 | **Redevances de collaboration et autres prestations non exonérées entre entreprises concernées en France** | Émission électronique au **1er septembre 2027** pour les petites et microentreprises. Les grandes entreprises et entreprises de taille intermédiaire sont concernées depuis septembre 2026. |
 
-Ces distinctions reprennent les règles des impôts sur les soins, les remplacements et le calendrier de la réforme<sup><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup><sup><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>. Si vous ne réalisez que des soins exonérés, votre démarche principale est donc d’organiser la **réception de vos factures d’achat**.
+Ces distinctions reprennent les règles des impôts sur les soins, les remplacements et le calendrier de la réforme[^2][^7][^8][^9]. Si vous ne réalisez que des soins exonérés, votre démarche principale est donc d’organiser la **réception de vos factures d’achat**.
 
 ## Quel logiciel choisir pour les factures patients et la facturation électronique ?
 
-Vous n’avez pas nécessairement besoin de deux outils. Un logiciel métier peut être raccordé à une **plateforme agréée**, le service qui achemine les factures électroniques entre les entreprises<sup><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+Vous n’avez pas nécessairement besoin de deux outils. Un logiciel métier peut être raccordé à une **plateforme agréée**, le service qui achemine les factures électroniques entre les entreprises[^1].
 
 **osteopathes.pro intègre une plateforme agréée et vous permet de recevoir les factures électroniques directement dans votre logiciel métier.** Vous consultez ces factures dans osteopathes.pro, sans accès séparé à la plateforme. Le logiciel indique également si le service est actif et raccordé.
 
@@ -146,15 +146,15 @@ Vous recevez une offre ou une demande inhabituelle ? Notre dossier rassemble des
 
 ### Comment vérifier que mon cabinet peut recevoir des factures électroniques ?
 
-Le choix d’une plateforme doit être validé par votre accord<sup><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Terminez les étapes d’activation proposées, vérifiez les informations de votre entreprise et consultez le statut affiché dans le logiciel.
+Le choix d’une plateforme doit être validé par votre accord[^1]. Terminez les étapes d’activation proposées, vérifiez les informations de votre entreprise et consultez le statut affiché dans le logiciel.
 
 **Dans osteopathes.pro, si le service est indiqué comme actif et raccordé, vous n’avez pas à demander de confirmation supplémentaire à notre équipe.** Suivez les indications du logiciel si une étape reste à terminer ; contactez le support en cas de blocage, de message d’erreur ou d’incohérence.
 
-Une boîte encore vide n’est pas une preuve de panne : vos petits fournisseurs ont jusqu’à septembre 2027 pour émettre leurs factures électroniques concernées<sup><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.
+Une boîte encore vide n’est pas une preuve de panne : vos petits fournisseurs ont jusqu’à septembre 2027 pour émettre leurs factures électroniques concernées[^8].
 
 ## Facture électronique non reçue, PDF ou doublon : que faire ?
 
-Voici les premiers réflexes, d’après le guide de démarrage des impôts<sup><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>.
+Voici les premiers réflexes, d’après le guide de démarrage des impôts[^11].
 
 | Situation | Réflexe utile |
 | --- | --- |
@@ -171,26 +171,39 @@ Conservez les références et les échanges en cas d’incident.
 - [Est-ce que les ostéopathes vont bien ?]({{< relref "/articles/2026-09-OP-PO9C3R-5_comment-vont-les-osteos" >}}) — notre enquête aborde notamment le remplacement, la collaboration et les difficultés d’exercice. Elle décrit ses répondants volontaires, pas toute la profession.
 - [Arnaques et escroqueries]({{< relref "/dossiers/OP-A0XCQD-0_arnaques-et-escroqueries" >}}) — des repères pour examiner les offres et demandes reçues par le cabinet.
 
-[^1]: Direction générale des finances publiques (DGFiP). [Foire aux questions — Je découvre la facturation électronique](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/faq---fe_je-decouvre-la-facturation-electronique.pdf), version du 1er septembre 2026 [PDF]. §1.2 : ostéopathes et réception des factures ; section 2 : plateformes et solutions compatibles. Document consulté le 20/09/2026.
+[^1]: Support: https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/faq---fe_je-decouvre-la-facturation-electronique.pdf ;
+      Consulté le 2026-09-20.
 
-[^2]: DGFiP. [Je n’émets pas de facture, ou je facture sans TVA. Suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/je-nemets-pas-de-facture-ou-je-facture-sans-tva-suis-je-concerne-par-la), publié le 15/11/2024, modifié le 16/01/2026 [en ligne]. Distinction entre franchise en base, opérations exonérées et réception des factures d’achat. Page consultée le 22/09/2026.
+[^2]: Support: https://www.impots.gouv.fr/professionnel/questions/je-nemets-pas-de-facture-ou-je-facture-sans-tva-suis-je-concerne-par-la ;
+      Consulté le 2026-09-22.
 
-[^3]: Osteopathes.pro. [Publication Instagram sur la facturation électronique](https://www.instagram.com/p/DXbjJHSjKUY/), 22 avril 2026 [en ligne]. Légende consultée le 20/09/2026.
+[^3]: Support: https://www.instagram.com/p/DXbjJHSjKUY/ ;
+      Consulté le 2026-09-20.
 
-[^4]: DGFiP. [Je découvre la facturation électronique](https://www.impots.gouv.fr/professionnel/je-decouvre-la-facturation-electronique), publié le 16/10/2024, modifié le 26/05/2026 [en ligne]. Rubriques « Quels sont les principes de la réforme ? » et « À quelle date dois-je être prêt ? ». Page consultée le 20/09/2026.
+[^4]: Support: https://www.impots.gouv.fr/professionnel/je-decouvre-la-facturation-electronique ;
+      Consulté le 2026-09-20.
 
-[^5]: DGFiP. [Franchisé en base, micro-entrepreneur ou auto-entrepreneur, suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/franchise-en-base-micro-entrepreneur-ou-auto-entrepreneur-suis-je-concerne), publié le 15/11/2024, modifié le 16/01/2026 [en ligne]. Page consultée le 22/09/2026.
+[^5]: Support: https://www.impots.gouv.fr/professionnel/questions/franchise-en-base-micro-entrepreneur-ou-auto-entrepreneur-suis-je-concerne ;
+      Consulté le 2026-09-22.
 
-[^6]: DGFiP, BOFiP-Impôts. [TVA — Exonérations — Professions médicales et paramédicales](https://bofip.impots.gouv.fr/bofip/1139-PGP.html/identifiant=BOI-TVA-CHAMP-30-10-20-10-20250409), BOI-TVA-CHAMP-30-10-20-10, version du 09/04/2025, §1, 20, 90, 190 et 230–240 [en ligne]. Page consultée le 22/09/2026.
+[^6]: Support: https://bofip.impots.gouv.fr/bofip/1139-PGP.html/identifiant=BOI-TVA-CHAMP-30-10-20-10-20250409 ;
+      Consulté le 2026-09-22.
 
-[^7]: DGFiP, BOFiP-Impôts. [Régime de TVA applicable aux rétrocessions d’honoraires effectuées entre deux professionnels de santé dans le cadre d’un contrat de remplacement](https://bofip.impots.gouv.fr/bofip/12016-PGP.html/identifiant=BOI-RES-TVA-000056-20210309), BOI-RES-TVA-000056, version du 09/03/2021 [en ligne]. Rescrit portant sur des médecins : distinction entre rémunération des soins et redevance pour les installations. Page consultée le 22/09/2026.
+[^7]: Support: https://bofip.impots.gouv.fr/bofip/12016-PGP.html/identifiant=BOI-RES-TVA-000056-20210309 ;
+      Consulté le 2026-09-22.
+      Rescrit portant sur des médecins : distinction entre rémunération des soins et redevance pour les installations.
 
-[^8]: DGFiP. [À partir de quand suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation), publié le 15/11/2024, modifié le 16/01/2026 [en ligne]. Page consultée le 20/09/2026.
+[^8]: Support: https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation ;
+      Consulté le 2026-09-20.
 
-[^9]: DGFiP. [J’approfondis mes connaissances sur la réforme](https://www.impots.gouv.fr/japprofondis-mes-connaissances-sur-la-reforme), publié le 20/10/2025, modifié le 06/01/2026 [en ligne]. Périmètre de la facturation électronique entre entreprises et opérations exclues. Page consultée le 20/09/2026.
+[^9]: Support: https://www.impots.gouv.fr/japprofondis-mes-connaissances-sur-la-reforme ;
+      Consulté le 2026-09-20.
 
-[^10]: Cour de justice des Communautés européennes. [Arrêt du 20 novembre 2003, Peter d’Ambrumenil et Dispute Resolution Services, C-307/01](https://eur-lex.europa.eu/legal-content/FR/AUTO/?uri=CELEX%3A62001CJ0307), ECLI:EU:C:2003:627, points 60 et 66–68 [en ligne]. Finalité des soins et prestations demandées par un employeur. Arrêt consulté le 20/09/2026.
+[^10]: Support: https://eur-lex.europa.eu/legal-content/FR/AUTO/?uri=CELEX%3A62001CJ0307 ;
+      Consulté le 2026-09-20.
 
-[^11]: DGFiP. [Guide pratique pour accompagner la mise en œuvre de la réforme de la facturation électronique](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/guide_pratique_facturation_electronique.pdf) [PDF]. Guide de démarrage au 1er septembre 2026, questions 1 à 6 et 10 : réception, incidents, paiements, doublons et annuaire. Document consulté le 20/09/2026.
+[^11]: Support: https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/guide_pratique_facturation_electronique.pdf ;
+      Consulté le 2026-09-20.
 
-[^12]: DGFiP. [Je consulte la liste des plateformes agréées](https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees), modifié le 17/09/2026 [en ligne]. Page consultée le 20/09/2026.
+[^12]: Support: https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees ;
+      Consulté le 2026-09-20.
