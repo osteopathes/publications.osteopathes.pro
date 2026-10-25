@@ -46,13 +46,15 @@ Vous pouvez ne pas facturer de TVA pour deux raisons différentes, avec des cons
 Autrement dit, **une facture sans TVA n’est pas automatiquement dispensée de facturation électronique**. Une consultation d’ostéopathie et une redevance de collaboration ne suivent pas les mêmes règles. Nous détaillons ces situations ci-dessous.
 
 {{< cta
-  id="ressource-installation"
-  eyebrow="Pour préparer votre installation"
-  title="Quels pièges éviter en ouvrant son cabinet ?"
-  primary_ref="/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation"
-  primary_label="Lire les erreurs à éviter pour s’installer"
+  id="ressource-statut"
+  eyebrow="Choisir son statut et son régime"
+  title="Micro-BNC ou régime réel : comment choisir ?"
+  primary_url="https://www.osteopathes.pro/fr/choisir-son-statut-juridique-liberal"
+  primary_label="Simuler les revenus de mon cabinet"
+  secondary_ref="/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation"
+  secondary_label="Lire les erreurs à éviter pour s’installer"
 >}}
-Le choix du lieu d’exercice et la communication comptent aussi au démarrage. Retrouvez les retours de praticiens dans notre article consacré à l’installation.
+La facturation électronique s’applique quel que soit votre régime : elle ne doit donc pas guider ce choix. Pour comparer les options, renseignez **votre nombre de consultations, vos honoraires et vos frais** dans notre simulateur.
 {{< /cta >}}
 
 ## La facturation électronique concerne-t-elle les factures patients ?
@@ -65,12 +67,12 @@ Vous pouvez continuer à remettre une facture ou une note d’honoraires à vos 
 
 {{< cta
   id="ressource-donnees-patients"
-  eyebrow="Documents et données patients"
+  eyebrow="Factures patients et données personnelles"
   title="Comment protéger les informations de vos patients ?"
   primary_ref="/dossiers/OP-WF44GL-2_rgpd"
   primary_label="Lire le RGPD expliqué aux ostéopathes"
 >}}
-Factures, dossiers, échanges : notre dossier vous aide à comprendre vos obligations pour la gestion des données personnelles au cabinet.
+En PDF ou sur papier, une note d’honoraires contient des données personnelles de votre patient, au même titre que son dossier ou vos échanges avec lui. Notre dossier vous aide à comprendre comment conserver et protéger ces informations au cabinet.
 {{< /cta >}}
 
 ## Les rétrocessions d’un ostéopathe remplaçant sont-elles concernées ?
@@ -119,17 +121,17 @@ Vous n’avez pas nécessairement besoin de deux outils. Un logiciel métier peu
 
 **osteopathes.pro intègre une plateforme agréée et vous permet de recevoir les factures électroniques directement dans votre logiciel métier.** Vous consultez ces factures dans osteopathes.pro, sans accès séparé à la plateforme.
 
-### Comment choisir une plateforme de facturation électronique pour mon cabinet ?
-
 {{< cta
   id="solution-facturation"
   eyebrow="La facturation avec osteopathes.pro"
-  title="Vous n’avez pas encore choisi votre solution ?"
+  title="Vous n’avez pas encore de plateforme ?"
   primary_url="https://www.osteopathes.pro/fr/tarifs-logiciel-osteopathe"
   primary_label="Découvrir nos formules 100 % facturation"
 >}}
-**Factures patients en PDF et facturation électronique : nos formules 100 % facturation réunissent les deux.** Vous conservez vos outils et vos habitudes pour la prise de notes et les dossiers cliniques. Pour choisir votre formule, vous pouvez échanger avec notre équipe via le tchat du site.
+**Nos formules 100 % facturation réunissent vos factures patients en PDF et la réception de vos factures électroniques.** Vous gardez vos outils actuels pour vos dossiers patients et vos notes cliniques. Pour choisir votre formule, échangez avec notre équipe via le tchat du site.
 {{< /cta >}}
+
+### Comment choisir une plateforme de facturation électronique pour mon cabinet ?
 
 Si vous n’avez pas encore choisi de plateforme, engagez la démarche rapidement. Les impôts demandent de mettre en place la réception sans interrompre l’activité ni bloquer le traitement des factures reçues[^11].
 
@@ -138,11 +140,11 @@ Pour comparer les offres, vérifiez le nom de la plateforme dans la liste offici
 {{< cta
   id="ressource-sollicitations"
   eyebrow="Face aux sollicitations commerciales"
-  title="Comment repérer les arnaques visant les cabinets ?"
+  title="Une offre de plateforme vous semble suspecte ?"
   primary_ref="/dossiers/OP-A0XCQD-0_arnaques-et-escroqueries"
   primary_label="Consulter nos repères contre les arnaques"
 >}}
-Vous recevez une offre ou une demande inhabituelle ? Notre dossier rassemble des repères pour l’examiner avant de vous engager.
+Offre très insistante ou demande de paiements urgents ou élevés: prenez le temps de vérifier avant de répondre. Notre dossier rassemble des repères pour reconnaître les arnaques visant les cabinets.
 {{< /cta >}}
 
 ### Comment vérifier que mon cabinet peut recevoir des factures électroniques ?
@@ -165,12 +167,19 @@ Voici les premiers réflexes, d’après le guide de démarrage des impôts[^11]
 
 Conservez les références et les échanges en cas d’incident.
 
-## Pour continuer
+## Conclusion
+**Pour la plupart des ostéopathes, la réforme change surtout la façon de recevoir les factures, pas celle de facturer les patients.** Depuis le 1er septembre 2026, tout ostéopathe indépendant doit pouvoir recevoir les factures électroniques de ses fournisseurs, quel que soit son régime fiscal ou son mode d'exercice. Vos consultations, et les rétrocessions versées au remplaçant pour ses soins, restent exonérées de TVA: vous pouvez continuer à les facturer en PDF ou sur papier.
 
-- [Le RGPD expliqué aux ostéopathes]({{< relref "/dossiers/OP-WF44GL-2_rgpd" >}}) — pour approfondir la gestion des données et documents patients.
-- [Les erreurs à éviter pour une installation réussie]({{< relref "/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation" >}}) — les retours de praticiens sur le choix du lieu d’exercice et la communication au démarrage.
-- [Est-ce que les ostéopathes vont bien ?]({{< relref "/articles/2026-09-OP-PO9C3R-5_comment-vont-les-osteos" >}}) — notre enquête aborde notamment le remplacement, la collaboration et les difficultés d’exercice. Elle décrit ses répondants volontaires, pas toute la profession.
-- [Arnaques et escroqueries]({{< relref "/dossiers/OP-A0XCQD-0_arnaques-et-escroqueries" >}}) — des repères pour examiner les offres et demandes reçues par le cabinet.
+L'émission électronique ne vous concerne que pour les prestations qui ne sont pas des soins, facturées à d'autres entreprises en France : redevance de collaboration, mission de conseil, certains ateliers ou formations. Pour les petites et microentreprises, elle devient obligatoire au **1er septembre 2027**, même sous franchise en base.
+
+En pratique, trois vérifications suffisent :
+
+1. **Votre cabinet est-il rattaché à une plateforme agréée ?** Contrôlez son statut dans votre logiciel ou dans l'annuaire public.
+2. **Facturez-vous autre chose que des soins à des professionnels ?** Si oui, préparez l'émission électronique de ces factures avant septembre 2027.
+3. **Vos factures reçues sont-elles bien traitées ?** Surveillez les doublons entre PDF et factures électroniques pendant la période de transition.
+
+Vous avez ainsi un an pour vous préparer sereinement aux échéances de 2027. En cas de doute, contactez-nous via le tchat du site osteopathes.pro.
+
 
 [^1]: Direction générale des finances publiques (DGFiP). [Foire aux questions — Je découvre la facturation électronique](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/faq---fe_je-decouvre-la-facturation-electronique.pdf), version du 1er septembre 2026 [PDF]. §1.2 : ostéopathes et réception des factures ; section 2 : plateformes et solutions compatibles.
 
