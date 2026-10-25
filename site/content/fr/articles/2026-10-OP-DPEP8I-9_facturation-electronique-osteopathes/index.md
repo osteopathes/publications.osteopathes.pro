@@ -171,39 +171,26 @@ Conservez les références et les échanges en cas d’incident.
 - [Est-ce que les ostéopathes vont bien ?]({{< relref "/articles/2026-09-OP-PO9C3R-5_comment-vont-les-osteos" >}}) — notre enquête aborde notamment le remplacement, la collaboration et les difficultés d’exercice. Elle décrit ses répondants volontaires, pas toute la profession.
 - [Arnaques et escroqueries]({{< relref "/dossiers/OP-A0XCQD-0_arnaques-et-escroqueries" >}}) — des repères pour examiner les offres et demandes reçues par le cabinet.
 
-[^1]: Support: https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/faq---fe_je-decouvre-la-facturation-electronique.pdf ;
-      Consulté le 2026-09-20.
+[^1]: Direction générale des finances publiques (DGFiP). [Foire aux questions — Je découvre la facturation électronique](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/faq---fe_je-decouvre-la-facturation-electronique.pdf), version du 1er septembre 2026 [PDF]. §1.2 : ostéopathes et réception des factures ; section 2 : plateformes et solutions compatibles.
 
-[^2]: Support: https://www.impots.gouv.fr/professionnel/questions/je-nemets-pas-de-facture-ou-je-facture-sans-tva-suis-je-concerne-par-la ;
-      Consulté le 2026-09-22.
+[^2]: DGFiP. [Je n’émets pas de facture, ou je facture sans TVA. Suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/je-nemets-pas-de-facture-ou-je-facture-sans-tva-suis-je-concerne-par-la), publié le 15/11/2024, modifié le 16/01/2026 [en ligne]. Distinction entre franchise en base, opérations exonérées et réception des factures d’achat.
 
-[^3]: Support: https://www.instagram.com/p/DXbjJHSjKUY/ ;
-      Consulté le 2026-09-20.
+[^3]: Osteopathes.pro. [Publication Instagram sur la facturation électronique](https://www.instagram.com/p/DXbjJHSjKUY/), 22 avril 2026 [en ligne].
 
-[^4]: Support: https://www.impots.gouv.fr/professionnel/je-decouvre-la-facturation-electronique ;
-      Consulté le 2026-09-20.
+[^4]: DGFiP. [Je découvre la facturation électronique](https://www.impots.gouv.fr/professionnel/je-decouvre-la-facturation-electronique), publié le 16/10/2024, modifié le 26/05/2026 [en ligne]. Rubriques « Quels sont les principes de la réforme ? » et « À quelle date dois-je être prêt ? ».
 
-[^5]: Support: https://www.impots.gouv.fr/professionnel/questions/franchise-en-base-micro-entrepreneur-ou-auto-entrepreneur-suis-je-concerne ;
-      Consulté le 2026-09-22.
+[^5]: DGFiP. [Franchisé en base, micro-entrepreneur ou auto-entrepreneur, suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/franchise-en-base-micro-entrepreneur-ou-auto-entrepreneur-suis-je-concerne), publié le 15/11/2024, modifié le 16/01/2026 [en ligne].
 
-[^6]: Support: https://bofip.impots.gouv.fr/bofip/1139-PGP.html/identifiant=BOI-TVA-CHAMP-30-10-20-10-20250409 ;
-      Consulté le 2026-09-22.
+[^6]: DGFiP, BOFiP-Impôts. [TVA — Exonérations — Professions médicales et paramédicales](https://bofip.impots.gouv.fr/bofip/1139-PGP.html/identifiant=BOI-TVA-CHAMP-30-10-20-10-20250409), BOI-TVA-CHAMP-30-10-20-10, version du 09/04/2025, §1, 20, 90, 190 et 230–240 [en ligne].
 
-[^7]: Support: https://bofip.impots.gouv.fr/bofip/12016-PGP.html/identifiant=BOI-RES-TVA-000056-20210309 ;
-      Consulté le 2026-09-22.
-      Rescrit portant sur des médecins : distinction entre rémunération des soins et redevance pour les installations.
+[^7]: DGFiP, BOFiP-Impôts. [Régime de TVA applicable aux rétrocessions d’honoraires effectuées entre deux professionnels de santé dans le cadre d’un contrat de remplacement](https://bofip.impots.gouv.fr/bofip/12016-PGP.html/identifiant=BOI-RES-TVA-000056-20210309), BOI-RES-TVA-000056, version du 09/03/2021 [en ligne]. Rescrit portant sur des médecins : distinction entre rémunération des soins et redevance pour les installations.
 
-[^8]: Support: https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation ;
-      Consulté le 2026-09-20.
+[^8]: DGFiP. [À partir de quand suis-je concerné par la réforme de la facturation électronique ?](https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation), publié le 15/11/2024, modifié le 16/01/2026 [en ligne].
 
-[^9]: Support: https://www.impots.gouv.fr/japprofondis-mes-connaissances-sur-la-reforme ;
-      Consulté le 2026-09-20.
+[^9]: DGFiP. [J’approfondis mes connaissances sur la réforme](https://www.impots.gouv.fr/japprofondis-mes-connaissances-sur-la-reforme), publié le 20/10/2025, modifié le 06/01/2026 [en ligne]. Périmètre de la facturation électronique entre entreprises et opérations exclues.
 
-[^10]: Support: https://eur-lex.europa.eu/legal-content/FR/AUTO/?uri=CELEX%3A62001CJ0307 ;
-      Consulté le 2026-09-20.
+[^10]: Cour de justice des Communautés européennes. [Arrêt du 20 novembre 2003, Peter d’Ambrumenil et Dispute Resolution Services, C-307/01](https://eur-lex.europa.eu/legal-content/FR/AUTO/?uri=CELEX%3A62001CJ0307), ECLI:EU:C:2003:627, points 60 et 66–68 [en ligne]. Finalité des soins et prestations demandées par un employeur.
 
-[^11]: Support: https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/guide_pratique_facturation_electronique.pdf ;
-      Consulté le 2026-09-20.
+[^11]: DGFiP. [Guide pratique pour accompagner la mise en œuvre de la réforme de la facturation électronique](https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/guide_pratique_facturation_electronique.pdf) [PDF]. Guide de démarrage au 1er septembre 2026, questions 1 à 6 et 10 : réception, incidents, paiements, doublons et annuaire.
 
-[^12]: Support: https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees ;
-      Consulté le 2026-09-20.
+[^12]: DGFiP. [Je consulte la liste des plateformes agréées](https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees), modifié le 17/09/2026 [en ligne].
