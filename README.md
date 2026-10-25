@@ -13,7 +13,7 @@ boilerplate. Check their docs for more information.
 
 ### :exclamation: Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+You need [Node.js](https://nodejs.org/en/download/) 18.16.0 (see `.nvmrc`) and [npm](https://www.npmjs.com/get-npm) 9.5.1 installed in order to use Victor Hugo. `npm install` includes a bundled universal Hugo binary for Apple Silicon; installing a compatible system Hugo is optional.
 
 Next step, clone this repository and run:
 
@@ -87,9 +87,6 @@ Pour contrôler un build Netlify de prévisualisation (`CONTEXT=deploy-preview`,
 avec les brouillons), ajouter `--preview`. Utiliser un répertoire de sortie neuf
 si un ancien build contenait des brouillons : Hugo seul ne supprime pas toujours
 les anciens fichiers.
-
-Voir [les conventions éditoriales et les pistes d’amélioration](docs/editorial-seo.md)
-pour les résumés, les contenus illustrés et l’organisation du blog.
 
 ## Structure
 
