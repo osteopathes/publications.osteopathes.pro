@@ -2,9 +2,13 @@
 title: "Quelles aides à l’installation pour un ostéopathe ?"
 description: "ACRE, ARE ou ARCE, aides locales et FIF PL : les aides à l’installation d’un ostéopathe et les démarches à préparer pour en bénéficier."
 date: 2026-09-21T09:00:00+02:00
-lastmod: 2026-11-01T00:11:43+01:00
+lastmod: 2026-11-01T00:35:17+01:00
 draft: true
 slug: aides-installation-osteopathe
+resources:
+  - name: cover-image
+    src: aides-installation-cabinet-osteopathe.png
+    title: "Un cabinet d’ostéopathie, un dossier et des pièces en euros pour illustrer les aides à l’installation."
 publication_id: OP-15IBX8-0
 aliases:
   - /ref/OP-15IBX8-0
@@ -155,3 +159,5 @@ Règles vérifiées les **31 octobre et 1er novembre 2026**. Les montants et con
 7. <span id="source-7"></span> **Agefiph**, [Aide à la création ou reprise d’entreprise](https://www.agefiph.fr/aides-financieres/aide-la-creation-ou-la-reprise-dune-entreprise).
 8. <span id="source-8"></span> **Caf**, [Droits et démarches des indépendants](https://www.caf.fr/allocataires/caf-d-ille-et-vilaine/offre-de-service/vie-professionnelle/travailleurs-independants-auto-entrepreneurs-et-travailleurs-non-salaries/travailleur-independant-mes-droits-caf-et-mes-demarches) ; **Service Public**, [Prime d’activité des indépendants](https://www.service-public.gouv.fr/particuliers/vosdroits/F34701).
 9. <span id="source-9"></span> **FIF PL**, [Critères 2026 pour les ostéopathes (PDF)](https://fifpl.fr/wp-content/uploads/2025/12/Osteopathes-8690E-8690F-2026.pdf), modifiés en avril et juin 2026, et [conditions d’éligibilité : contribution de l’année précédente](https://fifpl.fr/professions-liberales/suis-je-eligible/) ; **Service Public Entreprendre**, [Démarches de financement des formations](https://entreprendre.service-public.gouv.fr/vosdroits/F31148).
+
+*Illustration d’en-tête : adaptation d’un dessin de [Creattie, via Envato](https://app.envato.com/graphics/4cf8c426-48fa-440e-977b-2086b6cd5bc3), soumise à la [licence Envato](https://help.elements.envato.com/hc/en-us/articles/360000628966-Envato-Elements-License).*
