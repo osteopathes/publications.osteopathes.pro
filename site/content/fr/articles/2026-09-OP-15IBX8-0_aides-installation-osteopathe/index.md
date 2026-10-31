@@ -1,8 +1,8 @@
 ---
-title: "Quelles aides en 2026 pour débuter comme ostéopathe ?"
-description: "ACRE, chômage, exonérations fiscales, aides locales : repérez les aides utiles pour débuter comme ostéopathe en 2026 et les démarches à anticiper."
+title: "Quelles aides pour débuter comme ostéopathe ?"
+description: "Quelles aides pour ouvrir un cabinet d’ostéopathie ? ACRE, chômage, aides locales : conditions, exemples chiffrés et calendrier des démarches."
 date: 2026-09-21T09:00:00+02:00
-lastmod: 2026-09-22T11:40:00+02:00
+lastmod: 2026-10-31T19:57:18+01:00
 draft: true
 slug: aides-installation-osteopathe
 publication_id: OP-15IBX8-0
@@ -14,157 +14,200 @@ auteurs:
 toc: true
 ---
 
-Une table à acheter, un local à trouver, quelques mois à traverser avant que les consultations deviennent régulières : au début, les besoins arrivent souvent avant les recettes. Quelles aides peuvent réellement soutenir cette période ?
+Une table à acheter, un local à trouver, quelques mois à traverser avant que les consultations deviennent régulières : au début, les dépenses arrivent souvent avant les recettes. Quelles aides peuvent vous donner un peu d’air ?
 
-En 2026, plusieurs dispositifs peuvent concerner un ostéopathe qui s’installe : l’ACRE pour certaines cotisations, les aides de France Travail si des droits au chômage sont ouverts, des exonérations fiscales et des financements liés au projet ou à la situation personnelle. Leur utilité dépend autant de leurs conditions que de leur montant. Voici comment faire le tri avant de les inscrire dans votre budget.
+**Un ostéopathe qui s’installe peut, selon sa situation, réduire ses premières cotisations avec l’ACRE, utiliser des droits au chômage, bénéficier d’allégements d’impôts ou demander un financement local.** D’autres soutiens concernent le handicap, les dépenses personnelles ou la formation. Le diplôme ne donne pas automatiquement accès à ces aides : voici comment repérer celles qui peuvent vous être utiles et préparer les demandes.
 
 <!--more-->
 
-## Par quelles aides commencer ?
+## Quelles aides regarder en premier pour s’installer ?
 
-Commencez par votre besoin concret. Une économie d’impôt future ne permet pas de payer aujourd’hui le dépôt de garantie du cabinet. Un prêt apporte de la trésorerie, mais crée aussi des remboursements.
+Partez de ce que vous avez besoin de payer. Le tableau permet de trouver le bon passage de l’article, sans avoir à maîtriser tous les sigles.
 
-| Votre besoin | La piste à examiner | Ce qu’elle apporte |
-| --- | --- | --- |
-| Réduire les premières cotisations | ACRE | Une exonération partielle et temporaire |
-| Garder un revenu avec des droits au chômage | Maintien partiel de l’ARE | Un complément mensuel sous conditions |
-| Financer le lancement avec ces mêmes droits | ARCE | Une partie des droits versée en capital |
-| Réduire les premiers impôts du cabinet | CFE, FRR ou FRR+ | Des allégements fiscaux selon le cas |
-| Financer du matériel ou un projet local | Aides territoriales, prêts d’honneur | Un financement à qualifier précisément |
-| Créer avec une situation de handicap reconnue | Agefiph | Une aide au démarrage sous conditions |
-| Compléter de faibles revenus personnels | Prestations de la Caf | Un soutien calculé selon le foyer |
-| Financer une formation pendant l’exercice | FIF PL | Une prise en charge de frais pédagogiques |
+| Votre besoin | Les pistes à examiner |
+| --- | --- |
+| Payer moins de cotisations au démarrage | **ACRE** : une réduction temporaire des sommes versées pour votre protection sociale |
+| Garder un revenu après un emploi salarié | **France Travail** : une partie du chômage chaque mois, ou une aide en deux versements |
+| Réduire les impôts du cabinet | **CFE** l’année de création ; aides fiscales dans certaines zones rurales |
+| Acheter du matériel ou financer le lancement | **Aides locales et prêts d’honneur** ; **Agefiph** si vous êtes concerné par le handicap |
+| Compléter le budget du foyer ou financer une formation | **Caf** pour les dépenses personnelles ; **FIF PL** pour certaines formations professionnelles |
 
-Ces pistes sont détaillées et sourcées ci-dessous. Elles ne constituent pas un ensemble d’aides que tout jeune diplômé pourrait cumuler. Les règles présentées ont été vérifiées les **21 et 22 septembre 2026** ; les exemples de cotisations concernent la métropole.
+Ces aides répondent à des conditions différentes. Une économie d’impôt ne paie pas le dépôt de garantie du local le jour de la signature ; un prêt apporte de l’argent, mais devra être remboursé.
 
-## L’ACRE : alléger les cotisations au démarrage
+Les règles ci-dessous ont été vérifiées le **31 octobre 2026**. Les calculs utilisent les barèmes 2026 en métropole ; ils ne préjugent pas des barèmes de 2027.
 
-L’aide à la création ou à la reprise d’une entreprise, ou ACRE, concerne les débuts d’activité répondant à des critères précis. Avoir entre **18 et 25 ans révolus** est l’un de ces critères. Être demandeur d’emploi indemnisé, avoir moins de 30 ans sans droits au chômage faute d’une durée d’activité suffisante, ou créer en zone France ruralités revitalisation peut aussi ouvrir l’accès. La liste complète dépend de votre situation ; le diplôme d’ostéopathe ne suffit pas à lui seul.[¹](#source-1)
+## L’ACRE permet-elle de payer moins de cotisations ?
 
-Une ancienne activité indépendante pendant les études peut compter : pour bénéficier de nouveau de l’ACRE, le délai est de **trois ans à partir de la fin de la précédente exonération**.[²](#source-2)
+**Oui, si vous remplissez les conditions : l’ACRE réduit temporairement certaines cotisations sociales.** Ces cotisations financent notamment votre protection en cas de maladie et votre retraite. L’ACRE signifie « aide à la création ou à la reprise d’une entreprise » : elle allège des prélèvements, sans verser une somme sur votre compte.[¹](#source-1)
 
-### En micro : quel montant économise-t-on en 2026 ?
+### Qui peut demander l’ACRE ?
 
-Pour une micro-entreprise créée **depuis le 1er juillet 2026**, l’exonération représente 25 % du taux normal de cotisations, contre 50 % dans le régime précédent. Vous payez donc 75 % du taux normal. Une création antérieure conserve les règles applicables à sa période d’aide.[²](#source-2)
+Avoir **entre 18 et 25 ans inclus** est l’un des critères. Être demandeur d’emploi indemnisé, avoir moins de 30 ans sans droits au chômage faute d’avoir assez travaillé, ou créer dans une zone rurale éligible sont d’autres possibilités. Consultez la liste complète de Service Public pour votre situation.[¹](#source-1)
 
-Pour un ostéopathe au régime micro-social relevant de la Cipav, le taux normal en 2026 est de **23,2 % des recettes encaissées**. Le taux avec ACRE est donc **17,4 %** : 23,2 % × 75 %. La contribution à la formation professionnelle, de **0,2 %**, reste à ajouter séparément.[³](#source-3) [⁴](#source-4)
+**Exemple fictif :** une diplômée de 24 ans remplit le critère d’âge, même sans avoir été salariée. Elle doit toutefois demander l’aide et respecter les autres conditions. Si elle a déjà bénéficié de l’ACRE pour une activité pendant ses études, elle doit attendre **trois ans après la fin de cette précédente aide** pour en bénéficier à nouveau.[²](#source-2)
 
-Prenons un **exemple fictif** : 3 000 € de recettes sur un mois, pendant une période ouvrant droit au nouveau taux ACRE. Pour ces mêmes recettes, au barème 2026 :
+### Combien économise-t-on en micro-entreprise ?
 
-| Cotisations sur ce mois | Avec ACRE | Sans ACRE |
+En micro-entreprise, les cotisations sont calculées en pourcentage des sommes encaissées. Pour un ostéopathe relevant de la **Cipav**, sa caisse de retraite, le taux normal est de **23,2 % en 2026**.[³](#source-3)
+
+Pour une activité créée depuis le **1er juillet 2026**, l’ACRE réduit ce taux d’un quart : vous payez **17,4 %** au lieu de 23,2 %. Il faut ajouter dans les deux cas **0,2 %** pour la formation professionnelle. Une création antérieure conserve les règles applicables à sa période d’aide.[²](#source-2) [⁴](#source-4)
+
+**Exemple fictif :** vous encaissez 50 consultations à 60 €, soit **3 000 € sur un mois**, pendant la période d’ACRE d’une activité créée depuis juillet 2026.
+
+| Sommes à prévoir sur ce mois | Avec ACRE | Sans ACRE |
 | --- | ---: | ---: |
-| Cotisations et contributions sociales | 522 € | 696 € |
-| Contribution à la formation professionnelle | 6 € | 6 € |
-| Total de ces prélèvements | 528 € | 702 € |
+| Cotisations sociales | 522 € | 696 € |
+| Contribution à la formation | 6 € | 6 € |
+| **Total** | **528 €** | **702 €** |
 
-L’écart est de **174 € sur le mois**. C’est une économie de cotisations, pas un revenu net : le loyer, les autres dépenses du cabinet et l’impôt restent à prévoir. Les recettes sont ici une hypothèse de calcul, pas une prévision d’activité. Le taux plein 2026 sert de comparaison ; il ne garantit pas le barème applicable en 2027.
+Vous économisez **174 € ce mois-là**. Le loyer, les autres frais du cabinet et l’impôt restent à payer : ce tableau ne calcule pas ce qu’il vous reste pour vivre. Le nombre de consultations est une hypothèse, pas une prévision de remplissage du cabinet.
 
-L’ACRE en micro possède aussi sa propre limite liée aux recettes après abattement fiscal et au plafond de la Sécurité sociale. Elle ne se confond pas avec le plafond du régime micro ; l’exemple reste sous cette limite.[⁵](#source-5)
+L’ACRE a aussi une limite de recettes propre, différente du plafond permettant de rester en micro-entreprise. Au-delà, l’allègement ne porte plus sur les recettes supplémentaires. Faites vérifier ce plafond par l’Urssaf si votre activité augmente ; l’exemple présenté reste en dessous.[⁵](#source-5)
 
-### Durée et demande : deux dates à noter
+### Combien de temps dure l’ACRE et quand la demander ?
 
-En micro, l’aide s’arrête à la fin du troisième trimestre civil qui suit celui du début d’activité. Ainsi, une création le **22 septembre 2026** conduit à une fin d’ACRE au **30 juin 2027**. Ce ne sont donc pas systématiquement douze mois complets.[⁵](#source-5)
+En micro, l’aide s’arrête à la fin du troisième trimestre civil qui suit celui du début d’activité. Un trimestre civil correspond à trois mois du calendrier : janvier à mars, avril à juin, juillet à septembre, octobre à décembre.[¹](#source-1)
 
-Pour une création en micro depuis juillet 2026, la demande à l’Urssaf doit être déposée **dans les 60 jours suivant la date d’ouverture de l’activité** indiquée sur le justificatif de création. Préparez vos justificatifs dès l’immatriculation ; la première déclaration de recettes n’est pas le point de départ de ce délai.[¹](#source-1) [²](#source-2)
+**Exemple fictif :** pour une ouverture le **1er novembre 2026**, l’ACRE prend fin le **30 septembre 2027**. Vous avez donc onze mois d’aide, et non douze.
 
-### Et si vous débutez hors micro ?
+La demande doit parvenir à l’Urssaf **dans les 60 jours suivant la date d’ouverture de l’activité** inscrite sur le justificatif de création. Préparez-la dès l’immatriculation, c’est-à-dire l’enregistrement officiel de l’entreprise. N’attendez pas votre première déclaration de recettes.[¹](#source-1) [²](#source-2)
 
-L’ACRE existe aussi hors micro, notamment en entreprise individuelle à la déclaration contrôlée. En 2026, elle porte pendant douze mois sur certaines cotisations : l’exonération est de 25 % de celles-ci si le revenu professionnel ne dépasse pas 75 % du plafond annuel de la Sécurité sociale. Elle décroît ensuite et s’annule lorsque le revenu atteint ce plafond. Elle ne réduit donc pas toutes les charges de 25 %. Faites chiffrer ce cas à partir du revenu professionnel estimé, sans lui appliquer le taux de 17,4 % sur les recettes.[¹](#source-1) [²](#source-2)
+### Et si vous exercez hors micro-entreprise ?
 
-## ARE ou ARCE : utiliser des droits au chômage
+L’ACRE existe aussi, mais son calcul change. En 2026, elle réduit de 25 % certaines cotisations pendant douze mois lorsque le revenu professionnel annuel ne dépasse pas **36 045 €**. L’avantage diminue ensuite, puis disparaît à partir de **48 060 €**.[¹](#source-1)
 
-Ces deux possibilités concernent les personnes ayant des droits à l’allocation d’aide au retour à l’emploi, l’ARE. Sortir d’une école d’ostéopathie ne crée pas ces droits. Si vous avez travaillé auparavant, faites examiner votre situation par France Travail **avant de créer l’activité**. Pour l’ARCE, l’inscription doit précéder la création, après la fin du contrat de travail.[⁶](#source-6)
+Demandez un calcul adapté à votre régime : le taux de 17,4 % sur les recettes du tableau précédent concerne uniquement le cas micro présenté.
 
-### L’ARE pour soutenir le revenu mois après mois
+## Peut-on garder le chômage en ouvrant son cabinet ?
 
-Vous pouvez, sous conditions, cumuler des revenus de votre nouvelle activité et une partie de l’ARE. Le montant dépend des rémunérations retenues et peut faire l’objet de régularisations : il ne faut pas budgéter automatiquement l’allocation intégrale.
+**Oui, sous conditions, si vous avez des droits à l’allocation chômage.** Le diplôme d’ostéopathe ne crée pas ces droits. Si vous avez travaillé auparavant, faites examiner votre situation par France Travail avant de créer l’activité. Pour obtenir l’aide en capital, l’inscription doit précéder la création, après la fin du contrat de travail.[⁶](#source-6)
 
-Pour les droits attribués à la suite d’une fin de contrat ou d’une procédure de licenciement engagée à compter du **1er avril 2025**, ce cumul est limité à **60 % des droits restant au démarrage de l’activité**. La poursuite sur les 40 % restants relève d’un examen spécifique sous conditions, pas d’un versement garanti.[⁶](#source-6)
+Vous pouvez choisir entre deux formes de soutien : l’**ARE**, l’allocation d’aide au retour à l’emploi, et l’**ARCE**, l’aide à la reprise ou à la création d’entreprise.
 
-### L’ARCE pour disposer d’un capital
+| Votre question | Maintien partiel de l’ARE | ARCE |
+| --- | --- | --- |
+| Comment l’argent arrive-t-il ? | Un complément mensuel, ajusté aux revenus de l’activité | Deux versements espacés de six mois |
+| Quel besoin regarder en priorité ? | Les dépenses personnelles pendant le démarrage | Les dépenses de lancement nécessitant une somme plus importante |
+| Quel point vérifier ? | Le montant mensuel et les droits utilisables | L’obtention de l’ACRE et les conditions du second versement |
 
-L’aide à la reprise ou à la création d’entreprise, l’ARCE, nécessite notamment de bénéficier de l’ARE **et de l’ACRE**. Pour les droits issus d’une fin de contrat à compter du 1er juillet 2023, hors règles particulières des intermittents, elle représente **60 % des droits ARE restants**, avec une déduction de 3 % au titre des retraites complémentaires ; la CSG et la CRDS peuvent également s’appliquer.[⁷](#source-7)
+**Ces deux options ne s’additionnent pas pour les mêmes droits.** Demandez à France Travail une comparaison des montants et des dates de versement avant de choisir.[⁶](#source-6) [⁷](#source-7)
 
-L’aide arrive en **deux versements égaux**. Le second intervient six mois après le premier si l’activité continue et, pour une création en 2026, si vous n’êtes pas en CDI à temps plein. Il faut donc distinguer le capital annoncé de l’argent disponible le jour de l’installation.[⁷](#source-7)
+### Avec l’ARE, reçoit-on toute son allocation ?
 
-**ARE et ARCE sont deux options entre lesquelles choisir**, pas deux enveloppes à additionner pour les mêmes droits. Demandez une simulation comparant les montants et les dates de versement. Un besoin d’équipement immédiat et un besoin de revenu personnel régulier ne conduisent pas forcément au même choix.
+Pas nécessairement. France Travail tient compte des revenus de l’activité ; des ajustements peuvent intervenir après vos déclarations. Évitez donc de prévoir l’allocation entière chaque mois dans votre budget.
 
-## CFE et zones rurales : quels allégements fiscaux ?
+Pour les droits attribués après une fin de contrat ou une procédure de licenciement engagée depuis le **1er avril 2025**, le cumul avec l’activité indépendante est limité à **60 % des droits restant au démarrage**. L’accès aux 40 % restants nécessite un examen spécifique sous conditions : il n’est pas garanti.[⁶](#source-6)
 
-### La CFE de l’année de création
+### Avec l’ARCE, quelle somme peut-on recevoir ?
 
-La cotisation foncière des entreprises, ou CFE, n’est pas due l’année de création de l’entreprise. Il s’agit de **l’année civile**, jusqu’au 31 décembre, et non de douze mois à partir de l’ouverture. Un début en septembre 2026 n’exonère donc pas automatiquement jusqu’en septembre 2027.[⁸](#source-8)
+L’ARCE nécessite notamment des droits à l’ARE et l’obtention de l’ACRE. Pour les droits issus d’une fin de contrat depuis le 1er juillet 2023, hors règles particulières des intermittents, elle représente **60 % des droits ARE restants**. Une retenue de 3 % finance les retraites complémentaires ; d’autres prélèvements sociaux, appelés CSG et CRDS, peuvent s’appliquer.[⁷](#source-7)
 
-L’année suivante, la base d’imposition bénéficie d’une réduction de 50 %. Cela ne permet pas de prévoir à elle seule une facture divisée par deux : le montant dépend aussi des règles de calcul locales. La déclaration initiale **1447-C-SD** reste à transmettre au service des impôts des entreprises avant la fin de l’année de création.[⁸](#source-8)
+**Exemple fictif :** avec 20 000 € de droits restants, 60 % représentent 12 000 €. Après la retenue de 3 %, il reste **11 640 €**, soit **deux versements de 5 820 €**, avant les éventuels prélèvements de CSG et de CRDS. Ce n’est donc pas 12 000 € disponibles immédiatement.
 
-### FRR et FRR+ : vérifier la commune et le régime fiscal
+Le second versement arrive six mois après le premier si vous poursuivez l’activité et, pour une création en 2026, si vous n’êtes pas en CDI à temps plein. Vérifiez sa disponibilité avant de l’affecter à un achat.[⁷](#source-7)
 
-Une création ou reprise en zone **France ruralités revitalisation (FRR)** ou **FRR+** peut ouvrir une exonération d’impôt sur les bénéfices pendant cinq ans, suivie d’un allégement dégressif pendant trois ans. Une activité libérale peut être concernée, sous réserve de remplir les conditions du dispositif.[⁹](#source-9)
+## Quels impôts peut-on payer en moins au démarrage ?
 
-La différence est importante pour un ostéopathe :
+### Faut-il payer la CFE la première année ?
 
-- **En FRR**, l’exonération des bénéfices exige, pour l’activité libérale, le régime de la déclaration contrôlée. Le micro-BNC est exclu.
-- **En FRR+**, le régime micro-fiscal peut être admis, si les autres conditions sont remplies.[⁹](#source-9)
+**La CFE n’est pas due l’année de création.** Cette cotisation foncière des entreprises est un impôt local lié à l’activité professionnelle. L’exonération couvre l’année civile, jusqu’au 31 décembre.[⁸](#source-8)
 
-Vérifiez le classement exact de la commune, puis présentez au service des impôts votre projet réel : création ou reprise, ancien exercice, lieux de consultation et régime fiscal. La seule adresse du cabinet ne tranche pas l’éligibilité. Des allégements de CFE dépendent en outre d’une décision locale.[⁹](#source-9)
+**Exemple fictif :** vous ouvrez en novembre 2026. Vous ne payez pas de CFE pour 2026 ; l’exonération de création ne s’étend pas jusqu’en novembre 2027.
 
-Cette piste mérite d’être étudiée avant de signer un bail ou de choisir un régime fiscal. Son intérêt dépendra du bénéfice effectivement dégagé et de votre imposition ; elle ne remplace pas l’étude de l’activité possible sur place.
+L’année suivante, le montant servant au calcul de cet impôt, appelé **base d’imposition**, est réduit de moitié. Votre facture ne sera pas forcément divisée par deux, car d’autres éléments du calcul dépendent de votre commune. Envoyez la déclaration initiale **1447-C-SD** au service des impôts des entreprises avant la fin de l’année de création.[⁸](#source-8)
 
-## Financer le lancement : aides locales et prêts d’honneur
+### S’installer en zone rurale donne-t-il droit à une aide fiscale ?
 
-La région, l’intercommunalité ou certains réseaux d’accompagnement peuvent proposer des dispositifs accessibles à votre projet. La [base nationale des aides présentée par Bpifrance Création](https://bpifrance-creation.fr/moment-de-vie/aides-a-creation-ou-reprise-dentreprise-comment-identifier) constitue un point de départ : filtrez selon la commune, l’activité et votre situation. Certains accompagnements régionaux prolongent l’ancien dispositif Nacre.[¹⁰](#source-10)
+Certaines communes relèvent du dispositif **France ruralités revitalisation**, abrégé **FRR**, ou de sa version renforcée **FRR+**. Une création ou reprise éligible peut bénéficier de cinq ans d’exonération d’impôt sur les bénéfices, puis de trois ans d’allègement décroissant. Les bénéfices correspondent au revenu de l’activité retenu pour calculer l’impôt, après prise en compte des charges selon votre régime fiscal.[⁹](#source-9)
 
-Avant de compter une somme dans votre plan de financement, vérifiez sa nature : **subvention, avance remboursable, prêt ou garantie d’emprunt**. Une garantie facilite un financement ; elle ne paie pas directement votre matériel. Vérifiez aussi si la demande doit précéder l’achat ou la signature du contrat.
+Le régime choisi pour votre cabinet change la réponse :
 
-Le **prêt d’honneur** est généralement un prêt personnel à taux zéro, sans garantie, accordé après examen du projet par un réseau comme Initiative France. Il peut renforcer l’apport et faciliter un financement bancaire. L’admission, les montants et les conditions dépendent du réseau et du dossier ; le titre d’ostéopathe ne vaut pas accord automatique.[¹¹](#source-11)
+| Zone du cabinet | Le régime micro peut-il donner accès à cette exonération des bénéfices ? |
+| --- | --- |
+| **FRR** | **Non.** Une activité libérale doit relever de la « déclaration contrôlée », qui tient compte des dépenses professionnelles réellement déductibles. |
+| **FRR+** | **Oui, sous conditions.** Le régime micro-fiscal peut être admis. |
 
-Inscrivez ses remboursements dans le budget des mois suivants. Une table financée à crédit reste une dépense à supporter par l’activité future.
+Avant de signer un bail, faites vérifier **la commune, le régime fiscal et votre projet réel** par le service des impôts : création ou reprise, ancienne activité et lieux de consultation comptent aussi. L’adresse ne suffit pas. Les éventuels allègements de CFE dans ces zones dépendent en outre d’une décision locale.[⁹](#source-9)
 
-## Agefiph : une aide liée à la situation de handicap
+Une réduction d’impôt aura surtout un intérêt si le cabinet dégage un bénéfice imposable. Elle ne remplace pas l’étude des besoins et de l’activité possible sur place.
 
-Si vous relevez des bénéficiaires de l’Agefiph, l’aide à la création ou à la reprise d’entreprise peut atteindre **3 000 €**. La fiche de l’organisme prévoit notamment un projet d’au moins **7 500 €**, un apport personnel d’au moins **1 200 €**, une activité principale et durable, ainsi qu’un plan de financement équilibré validé avec un expert habilité.[¹²](#source-12)
+## Quelles aides peuvent financer la table ou le local ?
 
-Prenez contact en amont de l’immatriculation pour organiser l’accompagnement et vérifier le calendrier de demande. Cette aide ne doit pas être ajoutée par défaut à tous les budgets d’installation : elle répond à une situation et à un projet examinés individuellement.
+**Des aides locales et des prêts peuvent contribuer au lancement**, selon votre commune et votre projet. Commencez par la [base des aides présentée par Bpifrance Création](https://bpifrance-creation.fr/moment-de-vie/aides-a-creation-ou-reprise-dentreprise-comment-identifier), puis renseignez-vous auprès de votre région ou intercommunalité. Il existe aussi des accompagnements régionaux à la création d’entreprise, issus de l’ancien dispositif Nacre.[¹⁰](#source-10)
 
-## Et pour vos dépenses personnelles et vos formations ?
+Pour chaque proposition, demandez ce que le mot « aide » recouvre :
 
-### Examiner les droits auprès de la Caf
+- Une **subvention** est une somme accordée pour un projet, à conserver si vous respectez ses conditions.
+- Un **prêt** ou une **avance remboursable** devront être remboursés, même si les intérêts sont faibles ou nuls.
+- Une **garantie** aide à obtenir un crédit ; elle ne verse pas directement le prix de votre table.[¹⁰](#source-10)
 
-Un travailleur indépendant peut bénéficier, selon sa situation, de prestations comme la **prime d’activité**, le RSA ou une aide au logement. La prime d’activité tient notamment compte des ressources et de la composition du foyer : le seul chiffre d’affaires du cabinet ne permet pas de connaître le droit.[¹³](#source-13)
+Le **prêt d’honneur** est généralement un prêt personnel sans intérêts ni garantie demandée, accordé après examen du projet par un réseau comme Initiative France. Il peut compléter l’argent que vous apportez vous-même et faciliter un prêt bancaire. Ses conditions dépendent du réseau et du dossier.[¹¹](#source-11)
 
-Faites une simulation avec les revenus de l’ensemble du foyer. Ces prestations concernent votre budget personnel ; elles ne sont ni une subvention à l’achat du matériel ni une recette de consultation. Le RSA a également ses propres conditions d’accès, notamment d’âge : un faible chiffre d’affaires ne suffit pas à le rendre automatique.
+Avant d’acheter ou de signer, vérifiez si la demande doit précéder la dépense. Puis inscrivez les remboursements dans votre budget. Les [erreurs d’installation racontées sur ce blog]({{< relref "/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation" >}}) peuvent aussi vous aider à examiner vos engagements de départ.
 
-### Anticiper le financement d’une formation continue
+## Quelle aide en cas de handicap ?
 
-Le **FIF PL**, fonds interprofessionnel de formation des professionnels libéraux, peut prendre en charge des formations sous conditions. Les droits dépendent notamment de la contribution à la formation professionnelle et des critères applicables à la profession ; un plafond affiché ne garantit pas un remboursement personnel.[¹⁴](#source-14)
+L’**Agefiph**, organisme qui soutient l’emploi des personnes handicapées, propose une aide à la création ou reprise d’entreprise pouvant atteindre **3 000 €**. Elle nécessite notamment un projet d’au moins **7 500 €**, dont **1 200 € au minimum apportés par vous-même**, une activité principale et durable, et un financement validé avec un expert habilité.[¹²](#source-12)
 
-Récupérez votre attestation CFP dans l’espace Urssaf et vérifiez la formation, le montant et le délai de demande auprès du fonds avant de vous engager. Ce financement porte sur des frais de formation admissibles : il ne constitue pas une réserve disponible pour payer le loyer ou la table du cabinet.
+**Exemple fictif :** pour un projet de 7 500 €, avec 1 200 € d’apport personnel et une aide accordée de 3 000 €, il reste **3 300 € à financer**. Le plafond de l’aide ne couvre donc pas tout le projet, et son attribution reste soumise à l’examen du dossier.
 
-## Dans quel ordre faire les démarches ?
+Contactez l’Agefiph en amont de la création pour organiser l’accompagnement et vérifier le calendrier de demande.
 
-Pour préparer votre installation, rassemblez les aides dans un calendrier avec, pour chacune, **la condition à vérifier, l’organisme, la date de demande et la date d’effet sur votre budget**.
+## La Caf peut-elle compléter vos revenus ?
 
-1. **Avant la création**, examinez vos droits avec France Travail, les financements locaux et, si vous êtes concerné, l’accompagnement Agefiph. Faites vérifier une éventuelle implantation FRR ou FRR+ avant d’en tirer une conclusion fiscale.
-2. **Dès l’immatriculation**, préparez la demande d’ACRE et notez sa date limite ainsi que sa date de fin.
-3. **Pendant les premiers mois**, actualisez les revenus et situations auprès des organismes concernés. Séparez les aides accordées, celles encore à l’étude et les versements réellement reçus.
-4. **Avant la fin de l’année de création**, adressez la déclaration initiale de CFE ; avant chaque formation, vérifiez la prise en charge.
+**Oui, selon les ressources et la composition de votre foyer.** Un indépendant peut notamment avoir droit à la prime d’activité, au RSA ou à une aide au logement. Le chiffre d’affaires du cabinet — les sommes encaissées avant les dépenses — ne suffit pas pour connaître vos droits.[¹³](#source-13)
 
-Enfin, faites une seconde version du budget avec les cotisations ordinaires et sans les soutiens temporaires. Elle permet de voir quelles dépenses resteront supportables quand les aides s’arrêteront. Les [erreurs d’installation racontées sur ce blog]({{< relref "/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation" >}}) offrent des pistes pour réfléchir à ces engagements, au-delà des seules formalités.
+Pour la prime d’activité, faites une simulation en renseignant aussi les revenus de votre conjoint, si vous vivez en couple. Deux ostéopathes ayant les mêmes recettes peuvent recevoir des réponses différentes selon leur foyer. Le RSA a ses propres conditions, notamment d’âge : un démarrage avec peu de consultations ne le rend pas automatique.
+
+Ces aides soutiennent vos dépenses personnelles. Dans votre budget, séparez-les des recettes du cabinet.
+
+## Peut-on faire financer une formation après l’installation ?
+
+Le **FIF PL**, le fonds de formation des professionnels libéraux, peut prendre en charge certaines formations. Cela dépend notamment de votre contribution à la formation professionnelle, de la formation choisie et des critères applicables à votre profession.[¹⁴](#source-14)
+
+Avant de vous inscrire, récupérez l’**attestation de paiement de cette contribution** dans votre espace Urssaf. Demandez ensuite au fonds quel montant peut être pris en charge et dans quel délai déposer le dossier. Un plafond de financement affiché ne signifie pas que vous recevrez automatiquement cette somme.
+
+## Comment estimer ce qu’il restera pour vivre ?
+
+Pour évaluer votre budget, partez des consultations encaissées, puis prévoyez les frais du cabinet, les cotisations et l’impôt. Faites aussi une version avec moins de consultations et une autre sans les aides temporaires.
+
+{{< cta
+  id="simuler-revenus"
+  title="Quel revenu avec votre rythme de consultations ?"
+  primary_url="https://www.osteopathes.pro/fr/choisir-son-statut-juridique-liberal"
+  primary_label="Simuler les revenus de mon cabinet"
+>}}
+Le simulateur d’Osteopathes.pro permet de faire varier le nombre de consultations, vos honoraires et vos frais pour comparer les revenus estimés selon le régime choisi.
+
+**Pour préparer un démarrage :** testez un mois calme et des frais plus élevés. L’outil suppose des revenus réguliers d’une année à l’autre : il ne reproduit pas précisément les ajustements de cotisations des premières années, ne calcule pas vos droits aux aides et ne tient pas compte des revenus de votre conjoint.
+{{< /cta >}}
+
+## Quand faire les demandes d’aides ?
+
+Pour chaque aide envisagée, notez le contact, la date limite et le moment où elle changera réellement votre budget. Ce calendrier reprend les étapes détaillées plus haut.
+
+| Quand ? | Que préparer ? |
+| --- | --- |
+| **Avant de créer l’activité** | Vérifier les droits avec France Travail ; examiner les aides locales, l’Agefiph si nécessaire et les conditions fiscales d’une installation en zone rurale. |
+| **Dès l’enregistrement de l’entreprise** | Préparer la demande d’ACRE, à déposer dans les **60 jours** suivant la date d’ouverture figurant sur le justificatif. Noter aussi la fin de l’aide. |
+| **Pendant les premiers mois** | Déclarer les revenus aux organismes concernés. Distinguer les aides demandées, celles accordées et les sommes déjà reçues. |
+| **Avant la fin de l’année de création** | Envoyer la déclaration initiale de CFE au service des impôts des entreprises. |
+| **Avant une formation** | Vérifier la prise en charge possible et la date limite de demande auprès du fonds de formation. |
 
 ## Pour continuer
 
-- [Les erreurs d’installation à éviter]({{< relref "/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation" >}}) : un retour publié en 2021 pour interroger les choix de départ ; les règles administratives doivent être vérifiées à leur date d’application.
-- [Est-ce que les ostéopathes vont bien ?]({{< relref "/articles/2026-09-OP-PO9C3R-5_comment-vont-les-osteos" >}}) : notre enquête auprès de 475 répondants volontaires en novembre 2025 met en perspective la vie du cabinet. Ce panel n’est pas représentatif de toute la profession.
+- [Les erreurs d’installation à éviter]({{< relref "/articles/2021-08-OP-6JZ9FL-9_erreurs-d-installation" >}}) : un retour publié en 2021 pour réfléchir au local, aux engagements et aux choix de départ ; les règles administratives sont à vérifier à leur date d’application.
+- [Est-ce que les ostéopathes vont bien ?]({{< relref "/articles/2026-09-OP-PO9C3R-5_comment-vont-les-osteos" >}}) : notre enquête auprès de 475 répondants volontaires en novembre 2025 éclaire la vie du cabinet. Ce panel n’est pas représentatif de toute la profession.
 
 ## Sources et références
 
-Sources consultées les 21 et 22 septembre 2026. Les dispositifs locaux et les droits individuels restent à vérifier auprès des organismes indiqués.
+Sources consultées en septembre et vérifiées à nouveau le 31 octobre 2026. Les dispositifs locaux et les droits individuels restent à vérifier auprès des organismes indiqués.
 
 1. <span id="source-1"></span> **Service Public Entreprendre**, [Aide à la création ou à la reprise d’une entreprise](https://entreprendre.service-public.gouv.fr/vosdroits/F11677) : bénéficiaires, demandes et cas hors micro, fiche 2026.
 2. <span id="source-2"></span> **Légifrance**, [article L131-6-4 du Code de la sécurité sociale](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042683943) et [décret n° 2026-69 du 6 février 2026](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053449085), publié au JO du 8 février : réforme et dates d’application.
 3. <span id="source-3"></span> **Service Public Entreprendre**, [Cotisations sociales d’un micro-entrepreneur](https://entreprendre.service-public.gouv.fr/vosdroits/F36232) : taux et affiliation des ostéopathes à la Cipav.
 4. <span id="source-4"></span> **Direction générale des Entreprises**, [Contribution à la formation professionnelle des micro-entrepreneurs](https://www.entreprises.gouv.fr/espace-entreprises/faq/mon-entreprise-au-quotidien/quel-est-le-taux-de-contribution-la-formation) : taux des professions libérales.
-5. <span id="source-5"></span> **Légifrance**, [article D131-6-3 du Code de la sécurité sociale](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053451326), version applicable depuis le 1er juillet 2026 : durée et limite de l’ACRE en micro.
+5. <span id="source-5"></span> **Légifrance**, [article D131-6-3 du Code de la sécurité sociale](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053451326), version applicable depuis le 1er juillet 2026 : taux et limite de l’ACRE en micro ; durée indiquée dans la fiche Service Public citée en référence 1.
 6. <span id="source-6"></span> **France Travail**, [Je crée, je reprends une entreprise](https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/a-chaque-situation-son-allocatio/quelle-est-ma-situation-professi/je-reprends-une-activite-ou-une/je-cree-je-reprends-une-entrepri.html) : cumul ARE, ouverture des droits et règles depuis avril 2025.
 7. <span id="source-7"></span> **France Travail**, [Aide à la reprise et à la création d’entreprise](https://www.francetravail.fr/candidat/je-creereprends-une-entreprise/les-aides-financieres-creation-d/aide-a-la-reprise-et-a-la-creati.html) : conditions et versements de l’ARCE.
 8. <span id="source-8"></span> **Service Public Entreprendre**, [Cotisation foncière des entreprises](https://entreprendre.service-public.gouv.fr/vosdroits/F23547) : création, base d’imposition et déclaration initiale.
