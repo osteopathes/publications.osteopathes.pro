@@ -1,8 +1,8 @@
 ---
 title: "Quelles aides à l’installation pour un ostéopathe ?"
 description: "ACRE, ARE ou ARCE, aides locales et FIF PL : les aides à l’installation d’un ostéopathe et les démarches à préparer pour en bénéficier."
-date: 2026-09-21T09:00:00+02:00
-lastmod: 2026-11-01T00:35:17+01:00
+date: 2026-11-01T10:36:44+01:00
+lastmod: 2026-11-01T10:36:44+01:00
 draft: true
 slug: aides-installation-osteopathe
 resources:
@@ -13,6 +13,7 @@ publication_id: OP-15IBX8-0
 aliases:
   - /ref/OP-15IBX8-0
   - /fr/articles/2026/09/acre-installation-osteopathe/
+  - /fr/articles/2026/09/aides-installation-osteopathe/
 auteurs:
   - klemen-sever
 toc: true
