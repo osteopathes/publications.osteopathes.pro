@@ -2,13 +2,13 @@
 title: "Quelles aides à l’installation pour un ostéopathe ?"
 description: "ACRE, ARE ou ARCE, aides locales et FIF PL : les aides à l’installation d’un ostéopathe et les démarches à préparer pour en bénéficier."
 date: 2026-11-01T10:36:44+01:00
-lastmod: 2026-11-01T11:09:42+01:00
+lastmod: 2026-11-01T13:25:13+01:00
 draft: false
 slug: aides-installation-osteopathe
 resources:
   - name: cover-image
     src: aides-installation-cabinet-osteopathe.png
-    title: "Un cabinet d’ostéopathie, un dossier et des pièces en euros pour illustrer les aides à l’installation."
+    title: "Un local, des pièces et un dossier illustrant les aides à l’installation d’un ostéopathe."
 publication_id: OP-15IBX8-0
 aliases:
   - /ref/OP-15IBX8-0
@@ -36,7 +36,7 @@ Avoir **entre 18 et 25 ans inclus** est l’un des critères d’accès. Vous po
 
 Pour une micro-entreprise créée depuis juillet 2026, l’aide réduit d’un quart le taux des cotisations sociales. Sa durée dépend de votre date de création : elle peut aller jusqu’à douze mois. L’ACRE existe aussi au régime réel, avec un calcul différent.
 
-**La démarche à ne pas manquer : déposer votre demande à l’Urssaf dans les 60 jours suivant la date d’ouverture de l’activité.** Faites-le dès l’enregistrement de l’entreprise, sans attendre vos premières consultations.
+⏱️ **La démarche à ne pas manquer : déposer votre demande à l’Urssaf dans les 60 jours suivant la date d’ouverture de l’activité.** Faites-le dès l’enregistrement de l’entreprise, sans attendre vos premières consultations.
 
 **Déjà installé en remplacement ou en collaboration ?** L’ouverture de votre propre local ne relance pas automatiquement l’ACRE : repartez de votre date de début d’activité. Si vous avez déjà bénéficié de cette aide, trois ans doivent s’être écoulés depuis sa fin pour y avoir de nouveau droit.[^1]
 
@@ -104,13 +104,13 @@ Faites une simulation avec les revenus de l’ensemble du foyer, notamment ceux 
 
 Le montant dépend aussi de la formation : certaines catégories et les formations à distance ont des plafonds plus bas.[^9]
 
-**Avant de vous inscrire**, récupérez votre attestation de contribution à la formation dans votre espace Urssaf et vérifiez le montant accordable pour la formation choisie. Au démarrage, ne comptez pas sur une enveloppe pleine par défaut.
+🎓 **Avant de vous inscrire**, récupérez votre attestation de contribution à la formation dans votre espace Urssaf et vérifiez le montant accordable pour la formation choisie. Au démarrage, ne comptez pas sur une enveloppe pleine par défaut.
 
 ## Micro-entreprise ou régime réel : comment comparer ses revenus ?
 
 Les aides ne sont qu’une partie du budget. Le loyer, les autres frais du cabinet, les cotisations et l’impôt déterminent aussi ce qu’il vous restera pour vivre.
 
-**Préparez la fin des aides dès le départ.** Notez la date de fin de l’ACRE et testez votre budget sans cette réduction. Si vous le pouvez, gardez une partie des économies en réserve. Distinguez aussi les aides demandées, celles accordées et les sommes déjà reçues.
+💡 **Préparez la fin des aides dès le départ.** Notez la date de fin de l’ACRE et testez votre budget sans cette réduction. Si vous le pouvez, gardez une partie des économies en réserve. Distinguez aussi les aides demandées, celles accordées et les sommes déjà reçues.
 
 Notre [BD « Micro-entreprise ou régime réel ? »](https://www.osteopathes.pro/fr/ressources/bds/osteopathe-liberal-choisir-son-statut-entre-micro-entreprise-et-regime-reel) explique les différences entre les deux régimes. Vous pouvez ensuite tester vos propres hypothèses dans le simulateur.
 
@@ -137,8 +137,6 @@ Le résultat reste une estimation : l’outil suppose une activité régulière,
 | **Avant une formation** | Vérifier vos droits FIF PL et le délai de dépôt du dossier. |
 
 Pour organiser le reste de votre installation, retrouvez notre [BD sur les trois démarches obligatoires](https://www.osteopathes.pro/fr/ressources/bds/demarches-d-installation-en-osteopathie) et la [checklist complète pour exercer en ostéopathie (PDF)](https://cdn.osteopathes.pro/ressources/guide-demarches-installation-osteopathe-f1b170d8.pdf).
-
-*La checklist mentionne encore 45 jours pour les aides : pour l’ACRE, retenez le délai actuel de 60 jours indiqué dans cet article.*
 
 ## Pour continuer
 
