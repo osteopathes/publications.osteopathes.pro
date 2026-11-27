@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi devenir signataire de la Charte de l’Ostéopathe Solidaire et Responsable ?"
 description: "Faire de la solidarité une valeur concrète de notre profession : découvrez la Charte de l’Ostéopathe Solidaire et Responsable et téléchargez-la."
-date: 2026-11-27T00:00:00+01:00
+date: 2026-11-27T15:00:00+01:00
 draft: false
 slug: charte-osteopathe-solidaire-responsable
 publication_id: OP-DW7UFD-2
